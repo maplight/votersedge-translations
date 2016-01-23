@@ -15,3 +15,6 @@ These is a sample of the the text strings in Voter's Edge, organized by page and
 
 - In all cases, the spanish language will be accessed by using the language toggle button at the top right of every screen.
 
+- This translation is written in JSON format. Only the value (the text in the quotes) should be translated, not the key.
+
+    key: "This is the value, and the value is what should be translated."
