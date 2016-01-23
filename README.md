@@ -1,6 +1,8 @@
 # Voter's Edge Interface Translations
 
-These is a sample of the the text strings in Voter's Edge, organized by page and language.
+- This is a sample of the the text strings in Voter's Edge, organized by page and language.
+
+- The full (non-sample) will have about 15-20 translation files, of similar size.
 
 - A translator is given access to this repository & then can use Prose.io to edit the spanish translations, all files from the en are copied into the 'es' folder, and the content of the 'es' folder can be edited directly.
 
