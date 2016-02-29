@@ -2,37 +2,37 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const searchTranslation  = {
 
-  intro: "Get in-depth information about what’s on your ballot",
+  intro: "Obtener información detallada acerca de lo que está en su papeleta",
 
   // path: "/search",
 
-  zipPrompt: "Enter your <strong>zip code</strong>",
+  zipPrompt: "Introduzca su <strong>código postal</strong>",
 
-  streetAddressPrompt: "And your <strong>street address</strong>. <span class=\"muted\">(Optional, needed for your polling place.)</span>",
+  streetAddressPrompt: "Y su <strong> dirección de la calle </strong> <span class=\"\muted"> (Opcional, necesario para su lugar de votación.)</span>",
 
-  addressPromptReason: "Necessary to tell you exactly what will be on your ballot and lookup your polling place.",
+  addressPromptReason: "Necesario para dirá exactamente lo que va a estar en su papeleta y las operaciones de búsqueda de su lugar de votación.",
 
-  searchButtonLabel: "Find my ballot",
+  searchButtonLabel: "Encuentra mi voto",
 
-  confidentialityStatement: "Address information is confidential.",
+  confidentialityStatement: "Información de dirección es confidencial.",
 
-  privacyStatement: "We are non-partisan, non-profit, and will not sell your information.",
+  privacyStatement: "Estamos no partidista, sin fines de lucro, y no venderemos su información.",
 
-  privacyPolicyLinkLabel: "Privacy policy.",
+  privacyPolicyLinkLabel: "Política de privacidad.",
 
   // privacyPolicyLink: "/page/privacy-policy",
 
-  countyLabel: "County",
+  countyLabel: "Condado",
 
   // countySearchPath: "/election_authority",
 
-  countyButtonLabel: "Lookup county",
+  countyButtonLabel: "Búsqueda al condado",
 
   // zipSearchPath: "/search",
 
-  zipLabel: "Zipcode",
+  zipLabel: "Código postal",
 
-  zipButtonLabel: "Lookup zipcode",
+  zipButtonLabel: "Búsqueda al código postal",
 
   zipHelpText: "",
 
@@ -40,7 +40,7 @@ const searchTranslation  = {
 
     "ca": {
 
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>State of California</strong>",
+      stateBallotLinkLabel: "Ver medidas de votación y las carreras para el <strong>Estado de California</strong>",
 
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ca",
 
@@ -48,14 +48,14 @@ const searchTranslation  = {
 
     "il": {
 
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>State of Illinois</strong>",
+      stateBallotLinkLabel: "Ver medidas de votación y las carreras para el <strong>Estado de Illinois</strong>",
 
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:il",
 
     },
 
     "ny": {
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>State of New York</strong>",
+      stateBallotLinkLabel: "Ver medidas de votación y las carreras para el <strong>Estado de New York</strong>",
 
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ny",
 
@@ -63,15 +63,15 @@ const searchTranslation  = {
   },
   // electionArchiveLink: "/page/elections-archive",
 
-  electionArchiveLabel: "<strong>Election archive.</strong> See a list of past elections.",
+  electionArchiveLabel: "<strong>Archivo de Elecciónes.</strong>  Ver una lista de las pasadas elecciones.",
 
   // allStateLink: "/",
 
-  allStateLabel: "Find ballots for <strong>other states</strong>",
+  allStateLabel: "Encuentra papeletas para <strong>otros estados</strong>",
 
   countyZipContent: {
 
-    accordionLabel: "Lookup ballots by <strong>city, county or zipcode.</strong>",
+    accordionLabel: "Buscar a las papeletas por <strong>ciudad, condado o código postal.</strong>",
 
     // accordionType: "simple",
 
