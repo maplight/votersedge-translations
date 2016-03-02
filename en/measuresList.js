@@ -4,12 +4,12 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 
 const measuresListTranslation = {
-  no_measures: 'There were no ballot measures found.',
+  no_measures: 'There were no ballot measures found.', // Translate
   jurisdictionButtonLabel: {
-    prefix: 'Check out',
-    linkLabel: 'news coverage and more',
-    suffix: 'about',
-    terminator: 'ballot measures.'
+    prefix: 'Check out', // Translate
+    linkLabel: 'news coverage and more', // Translate
+    suffix: 'about', // Translate
+    terminator: 'ballot measures.' // Translate
   }
 };
 
