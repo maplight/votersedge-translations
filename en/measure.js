@@ -44,10 +44,10 @@ const measureTranslation = {
     accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.' // Translate
   },
   navigation: {
-    next: 'Next:',
-    back: 'Back:',
-    last: 'Last contest',
-    overview: 'To overview',
+    next: 'Next:', // Translate
+    back: 'Back:', // Translate
+    last: 'Last contest',  // Translate
+    overview: 'To overview', // Translate
   },
 
   accordionLabels: {
