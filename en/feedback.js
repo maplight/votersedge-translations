@@ -1,40 +1,33 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
-// Applies to the national landing page
-// * http://qa.votersedge.org
+// Applies to the feedback form & related labels.
 
 const feedbackTranslation = {
 
-  Feedback
-  Contact Us
-
-  text += "Representing a Candidate or Campaign?: " + (req.body.respresenting_candidate ? "yes" : "no") + "\n";
-  text += "Representing a Media Outlet?: " + (req.body.respresenting_media ? "yes" : "no") + "\n";
-  text += "Accessing the Spanish language version of the site?: " + (req.body.spanish_language ? "yes" : "no") + "\n";
-  text += "Interested in volunteering?: " + (req.body.volunteering ? "yes" : "no") + "\n";
-  text += "Reason: " + req.body.reason + "\n";
-  text += "Feedback: " + req.body.feedback_text + "\n\n";
-
-  Election area is optional
-  Election Authority
-  Representing a Candidate or Campaign?
-  Representing a Media Outlet?
-  Accessing the Spanish language version of the site?
-  Interested in volunteering?
-  Reason
-  Select a reason...
-
-  <option value="">Select a reason...</option>
-  <option value="General Feedback">General Feedback</option>
-  <option value="Technical Problems">Technical Problems</option>
-  <option value="Problems After Entering My Address">Problems After Entering My Address</option>
-  <option value="Data Accuracy">Data Accuracy</option>
-  <option value="Requesting API Access / Widgets">Requesting API Access / Widgets</option>
-  <option value="Interested in Partnership">Interested in Partnership</option>
-  <option value="Other">Other</option>
-
-  Thank you for your feedback.  We will follow up with you if necessary.
-
+  title: 'Contact Us',
+  value_label_yes: 'yes',
+  value_label_no: 'no', 
+  questions: {
+    representing_candidate: 'Representing a Candidate or Campaign?',
+    representing_media_outlet: 'Representing a Media Outlet?',
+    spanish_language_access: 'Accessing the Spanish language version of the site?',
+    volunteer_interest: 'Interested in volunteering?'
+  }
+  form_labels: {
+    reason: 'Reason', // Translate
+    feedback: 'Feedback', // Translate
+    election_area_optional: 'Election area is optional', // Translate
+    election_authority: 'Election Authority', // Translate
+    select_reason: 'Select a reason...', // Translate
+    general_feedback: 'General Feedback', // Translate
+    technical_problems: 'Technical Problems', // Translate
+    address_entry: 'Problems After Entering My Address', // Translate
+    data_accuracy: 'Data Accuracy', // Translate
+    api_access: 'Requesting API Access / Widgets', // Translate
+    partnership: 'Interested in Partnership', // Translate
+    other: 'Other', // Translate
+  },
+  response: 'Thank you for your feedback.  We will follow up with you if necessary.'
 
 };
 

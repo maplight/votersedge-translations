@@ -3,15 +3,15 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the content associated with a candidate.
 
 const candidateCardTranslation = {
-  no_photo_submitted: 'No photo submitted',
-  encourage_candidate_link: 'Candidates can contact us',
-  encourage_candidate_action: 'to submit info.',
+  no_photo_submitted: 'No photo submitted', //Translate
+  encourage_candidate_link: 'Candidates can contact us', //Translate
+  encourage_candidate_action: 'to submit info.', //Translate
   participation: {
-    researched: 'Experience partially researched by Voter‘s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.</div>',
-    candidate_no_info: 'Candidate has provided information',
-    candidate_no_info_encourage: 'Candidate has not provided information.</div><div className={s["description"]}>Contact them to encourage participation.</div>',
+    researched: 'Experience partially researched by Voter‘s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.</div>', //Translate
+    candidate_no_info: 'Candidate has provided information', //Translate
+    candidate_no_info_encourage: 'Candidate has not provided information.</div><div className={s["description"]}>Contact them to encourage participation.</div>', //Translate
   }
-  candidate_website_label: 'Candidate website',
+  candidate_website_label: 'Candidate website', //Translate
   accordionLabels: {
     experience: 'Experience', // Translate
     education: 'Education', // Translate
@@ -46,36 +46,36 @@ const candidateCardTranslation = {
       featured: 'Featured', //Translate
       organization: 'Organization', //Translate
       individual: 'Individual', //Translate
-      elected_official: 'Elected Official',
+      elected_official: 'Elected Official', //Translate
     },
     endorsements_label_plural: {
       featured: 'Featured', //Translate
       organization: 'Organizations', //Translate
       individual: 'Individuals', //Translate
-      elected_official: 'Elected Officials',
+      elected_official: 'Elected Officials', //Translate
     },
   },
 
   fundingTranslation: {
-    contributionsTitle: "Contributions to candidate",
+    contributionsTitle: "Contributions to candidate", //Translate
     contributionsExplanation: {
-      "Federal": 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.',
+      "Federal": 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.', //Translate
       "State": {
-        ca: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.',
-        il: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.',
-        ny: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.',
+        ca: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.', //Translate
+        il: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.', //Translate
+        ny: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.', //Translate
       }
     },
 
-    totalMoneyRaised: "Total money raised",
-    contributionSize: 'Candidates are not required to disclose detailed information for contributions under $100. These unitemized contributions are disclosed as a lump sum with each new filing.',
-    organizationContributionsTitle: 'Who gave contributions?',
+    totalMoneyRaised: "Total money raised", //Translate
+    contributionSize: 'Candidates are not required to disclose detailed information for contributions under $100. These unitemized contributions are disclosed as a lump sum with each new filing.', //Translate
+    organizationContributionsTitle: 'Who gave contributions?', //Translate
     organizationContributionsLabel: {
-      "Federal": 'Contributions can be made by organizations through their political action committees (PACs) or by individuals.',
+      "Federal": 'Contributions can be made by organizations through their political action committees (PACs) or by individuals.', //Translate
       "State": {
-        ca: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.',
-        il: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.',
-        ny: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.',
+        ca: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', //Translate
+        il: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', //Translate
+        ny: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', //Translate
       }
     },
     whoGaveMostMoneyTitle: "Who gave the most money?",
@@ -88,55 +88,55 @@ const candidateCardTranslation = {
       }
     },
 
-    ofTotal: 'of total',
-    topFiveByStateTitle: 'Top contributions by state',
+    ofTotal: 'of total', //Translate
+    topFiveByStateTitle: 'Top contributions by state', //Translate
     topTenByStateLabel: '',
-    piechartTitle: 'Top contributions by state',
+    piechartTitle: 'Top contributions by state', //Translate
     piechartLabel: '',
 
-    contributionSizeTitle: 'How big are the contributions?',
+    contributionSizeTitle: 'How big are the contributions?', //Translate
     contributionSizeLabel: {
-      "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+      "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
       "State": {
-        ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-        il: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-        ny: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+        ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
+        il: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
+        ny: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
       }
     },
 
     contributionOver: {
       "Federal": "Large contributions", // "Contributions over $200",
-      "State": "Large contributions",
+      "State": "Large contributions", //Translate
     },
     contributionUnder: {
-      "Federal": "Small contributions",
-      "State": "Small contributions",
+      "Federal": "Small contributions", //Translate
+      "State": "Small contributions", //Translate
     },
     organizationsOrg: {
-      "label": "From organizations",
-      "tooltip": "Contributions from companies, unions, or other organizations.",
+      "label": "From organizations", //Translate
+      "tooltip": "Contributions from companies, unions, or other organizations.", //Translate
     },
     organizationsEmployees: {
-      "label": "From individuals",
-      "tooltip": "Contributions from individuals, including employees of organizations.",
+      "label": "From individuals", //Translate
+      "tooltip": "Contributions from individuals, including employees of organizations.", //Translate
     },
-    cashHat: 'public/content/svg/icons/Federal-100.png',
-    moneyHand: 'public/content/svg/icons/Federal-100.png',
+    cashHat: 'public/content/svg/icons/Federal-100.png', // No translation
+    moneyHand: 'public/content/svg/icons/Federal-100.png', // No translation
     sourceLabel: {
-      "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.',
+      "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
       "State": {
-        ca: 'Source: MapLight analysis of data from the California Secretary of State.',
-        il: 'Source: MapLight analysis of data from the Illinois Secretary of State.',
-        ny: 'Source: MapLight analysis of data from the New York Secretary of State.',
+        ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
+        il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
+        ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
       }
     }
   },
   pieChartLabels: {
     explanation: "",
-    label_in_state: "In-state contributions",
-    label_other: "Other states",
-    label_out_of_state: "Out-of-state",
-    accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.'
+    label_in_state: "In-state contributions", // Translate
+    label_other: "Other states", // Translate
+    label_out_of_state: "Out-of-state", // Translate
+    accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.' // Translate
   }
 },
 

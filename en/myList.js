@@ -7,7 +7,87 @@ const myListTranslation = {
     bookmark_label: 'Add to my list',
     candidate_choice_label: "",
     list_label: "Here are the candidates, races and measure you have added.",
-    choices_explanation: `
+    toolbar_title: 'Get your list',
+    toolbar_label: 'Grab your ballot choices to take to the polls. ',
+    toolbar: [
+      {
+        label: 'Print your list.', 
+        icon: 'fa-print', 
+        description: "Just print this page with this browser.", 
+        type: 'print'
+      },
+      { label: 'Copy a link.', 
+        icon: 'fa-external-link', 
+        description: "Here is a link you can use to paste into a text message or bookmark.", 
+        type: 'copy'
+      },
+      { label: 'E-mail your list', 
+        icon: 'fa-envelope', 
+        description: "Get this list as well as a link to get back to your list.", 
+        type: 'email'
+      },
+    ],
+
+    contest_toolbar: [
+      { 
+        label: {
+          set: 'Review this contest later', 
+          unset: 'Remove from review'
+        }, 
+        icon: {
+          set: 'fa-bookmark', 
+          unset: 'fa-remove'
+        }, 
+        type: 'review'
+      },
+      {
+        label: 'Share this page', 
+        icon: '', 
+        type: 'share'
+      },
+    ],
+
+    candidate_toolbar: [
+      {
+        label: {
+          set: 'Review this candidate later', 
+          unset: 'Remove from review'}, 
+        icon: {
+          set: 'fa-bookmark', 
+          unset: 'fa-remove'
+        }, 
+        type: 'review'
+      },
+      {
+        label: 'Share this page', 
+        icon: '', 
+        type: 'share'
+      },
+    ],
+
+    measure_toolbar: [
+      {
+        label: {
+          set: 'Review this measure later', 
+          unset: 'Remove from review'
+        }, 
+        icon: {
+          set: 'fa-bookmark', 
+          unset: 'fa-remove'}, 
+          type: 'review'
+        },
+      {
+        label: 'Share this page', 
+        icon: '', 
+        type: 'share'
+      },
+    ],
+  },
+  
+
+  choices_explanation: 
+  
+      `
       <p>Because ballots are often long and complicated, Voter’s Edge
       provides you with a tool to help you keep track of your choices.</p>
 
@@ -28,32 +108,10 @@ const myListTranslation = {
       <h4>Privacy Tips</h4>
       <p>For privacy reasons, we do not save your choices. We do not set cookies with your
       choices. If you are on a public computer, be sure to clear your history.</p>
+     
       `,
-    toolbar_title: 'Get your list',
-    toolbar_label: 'Grab your ballot choices to take to the polls. ',
-    toolbar: [
 
-      {label: 'Print your list.', icon: 'fa-print', description: "Just print this page with this browser.", type: 'print'},
-      {label: 'Copy a link.', icon: 'fa-external-link', description: "Here is a link you can use to paste into a text message or bookmark.", type: 'copy'},
-      {label: 'E-mail your list', icon: 'fa-envelope', description: "Get this list as well as a link to get back to your list.", type: 'email'},
 
-    ],
-
-    contest_toolbar: [
-      {label: {set: 'Review this contest later', unset: 'Remove from review'}, icon: {set: 'fa-bookmark', unset: 'fa-remove'}, type: 'review'},
-      {label: 'Share this page', icon: '', type: 'share'},
-    ],
-
-    candidate_toolbar: [
-      {label: {set: 'Review this candidate later', unset: 'Remove from review'}, icon: {set: 'fa-bookmark', unset: 'fa-remove'}, type: 'review'},
-      {label: 'Share this page', icon: '', type: 'share'},
-    ],
-
-    measure_toolbar: [
-      {label: {set: 'Review this measure later', unset: 'Remove from review'}, icon: {set: 'fa-bookmark', unset: 'fa-remove'}, type: 'review'},
-      {label: 'Share this page', icon: '', type: 'share'},
-    ],
-  }
 
 };
 

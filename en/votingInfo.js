@@ -1,61 +1,16 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
-// Applies to the national landing page
-// * http://qa.votersedge.org
+// Applies to the voting info section
 
 const votingInfoTranslation = {
-      en: {
-        page_title: "Voting Info",
-        page_description: "",
-        website_label: "Website",
-      },
-
-    votingInfo['my-polling-place']['Minor'].push({
-    path: "default",
-    content: "PollingPlace",
-    title: "My polling location and hours",
-    published: true,
-    weight: 1,
-    section: "my-polling-place",
-    priority: "Minor", 
-    accordionOpen: true,
-  });
-  votingInfo['my-polling-place']['Minor'].push({
-    path: "default",
-    content: "CheckPollingPlace",
-    title: "Check My Polling Place",
-    published: true,
-    weight: 4,
-    section: "my-polling-place",
-    priority: "Minor",
-    accordionOpen: true,
-  });
-
-    votingInfo['election-office-contact']['Minor'].push({
-    path: "defaultElectionAuthority",
-    content: "StateElectionOffice",
-    title: "Contact State Election Office",
-    published: true,
-    weight: 1,
-    section: "election-office-contact",
-    priority: "Minor",
-    accordionOpen: true,
-  });
-  votingInfo['election-office-contact']['Minor'].push({
-    path: "default",
-    content: "CountyElectionOffice",
-    title: "Contact County Election Office",
-    published: false,
-    weight: 2,
-    section: "election-office-contact",
-    priority: "Minor",
-    accordionOpen: true,
-  });
-
-
-No information available
-
-
+    page_title: "Voting Info", // Translate
+    page_description: "",
+    website_label: "Website", // Translate
+    no_information_available: 'No information available', // Translate
+    check_my_polling_place: 'Check My Polling Place', // Translate
+    my_polling_place: 'My polling location and hours', // Translate
+    contact_state_election_office: 'Contact State Election Office', // Translate
+    contact_county_election_office: 'Contact County Election Office', // Translate
 };
 
 export default votingInfoTranslation;

@@ -10,6 +10,12 @@ const contestTranslation = {
     skip_label_offices: "Skip this", // Translate
     candidates_label: "Who's running?", // Translate
     candidates_random_label: "Candidates appear in random order.", // Translate
+    navigation: {
+      next: 'Next:',
+      back: 'Back:',
+      last: 'Last contest',
+      overview: 'To overview',
+    },
     accordionLabels: {
       candidates: 'Who’s Running?', // Translate
       news: 'News Coverage', // Translate

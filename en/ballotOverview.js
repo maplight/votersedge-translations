@@ -7,42 +7,43 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Tests: 
 
 const ballotOverviewTranslation = {
-    ballot_address: 'What\'s on the ballot for your address in',
-    ballot_area: 'What\'s on the ballot for ',
-    ballot_error: "Ballot Error",
+    ballot_address: 'What\'s on the ballot for your address in', // Translate
+    ballot_area: 'What\'s on the ballot for ', // Translate
+    ballot_error: "There was a problem finding this ballot.", // Translate
     ballot_extra_result_explanation: {
-      ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a>',
-      il: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/il">For the most specific results available, enter your full address.</a>',
-      ny: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/ny">For the most specific results available, enter your full address.</a>',
+      ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a>', // Translate
+      il: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/il">For the most specific results available, enter your full address.</a>', // Translate
+      ny: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/ny">For the most specific results available, enter your full address.</a>', // Translate
       default: ''
     },
     contest_extra_result_explanation: {
-      ca: 'May not appear on your actual ballot. <a href="/page/ca/how-we-get-our-data">Learn More</a>',
-      il: 'May not appear on your actual ballot. <a href="/page/il/how-we-get-our-data">Learn More</a>',
-      ny: 'May not appear on your actual ballot. <a href="/page/ny/how-we-get-our-data">Learn More</a>',
+      ca: 'May not appear on your actual ballot. <a href="/page/ca/how-we-get-our-data">Learn More</a>', // Translate
+      il: 'May not appear on your actual ballot. <a href="/page/il/how-we-get-our-data">Learn More</a>', // Translate
+      ny: 'May not appear on your actual ballot. <a href="/page/ny/how-we-get-our-data">Learn More</a>', // Translate
       default: ''
     },
-    ballot_no_address: 'Here’s what’s on the ballot.',
-    choose_candidates: 'Candidates',
-    candidates_intro_prefix: 'Get in-depth information about the ',
-    candidates_intro: 'candidates running for',
-    candidates_offices: 'offices',
-    candidates_office: 'office',
-    choose_propositions: 'Ballot Measures',
-    propositions_intro: 'Learn more about the ',
-    propositions: 'measures',
-    proposition: 'measure',
-    choose_voting_info: 'Voting Info',
-    choose_voting_info_label: 'Get info on <strong>when, where and how to vote</strong>',
-    choices: "My List",
-    choices_label: "<p><strong>Keep track of your ballot choices and make a list to take to the polls</p></strong><p>As you review races, candidates and measures, you can add them to your list. When you are finished, go to <strong>My List</strong> to send your list to your email, printer, or copy a link to your phone.</p><p>We are a non-partisan, non-profit voter advocacy project and will not mail you anything or track your choices.</p>",
-    noPollingLocationLabel: 'Polling location & hours',
-    noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>',
-    noPollingLocationLinkLabel: 'Look up my polling place',
-    pollingLocationLabel: 'Your polling location & hours',
+    ballot_no_address: 'Here’s what’s on the ballot.', // Translate
+    choose_candidates: 'Candidates', // Translate
+    candidates_intro_prefix: 'Get in-depth information about the ', // Translate
+    candidates_intro: 'candidates running for', // Translate
+    candidates_offices: 'offices', // Translate
+    candidates_office: 'office', // Translate
+    choose_propositions: 'Ballot Measures', // Translate
+    propositions_intro: 'Learn more about the ', // Translate
+    propositions: 'measures', // Translate
+    proposition: 'measure', // Translate
+    choose_voting_info: 'Voting Info', // Translate
+    choose_voting_info_label: 'Get info on <strong>when, where and how to vote</strong>', // Translate
+    choices: "My List", // Translate
+    choices_label: "<p><strong>Keep track of your ballot choices and make a list to take to the polls</p></strong><p>As you review races, candidates and measures, you can add them to your list. When you are finished, go to <strong>My List</strong> to send your list to your email, printer, or copy a link to your phone.</p><p>We are a non-partisan, non-profit voter advocacy project and will not mail you anything or track your choices.</p>", // Translate
+    noPollingLocationLabel: 'Polling location & hours', // Translate
+    noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
+    noPollingLocationLinkLabel: 'Look up my polling place', // Translate
+    pollingLocationLabel: 'Your polling location & hours', // Translate
+    myPollingLocationLabel: 'My polling location and hours', // Translate
 
-    noHoursLabel: 'Polls are open from',
-    hoursLabel: 'Open from',
+    noHoursLabel: 'Polls are open from', // Translate
+    hoursLabel: 'Open from', // Translate
     hours: {
       ca: '7 a.m. - 8 p.m.',
       il: '6 a.m. - 7 p.m.',
@@ -50,52 +51,52 @@ const ballotOverviewTranslation = {
     },
 
 
-    more_voting_info: 'See more voting info',
-    other_address: 'Look up ballot for',
-    other_address_link: 'another address',
-    other_elections: 'See your ballot for',
-    past_elections_or: 'Or',
-    past_elections_link: 'lookup past elections',
-    past_elections_url: '/ca/en/page/elections-archive',
-    privacy_statement: 'Your information is private unless you choose to share it.',
-    privacy_statement_link: 'Privacy Policy',
-    privacy_statement_url: '/page/privacy-policy',
+    more_voting_info: 'See more voting info', // Translate
+    other_address: 'Look up ballot for', // Translate
+    other_address_link: 'another address', // Translate
+    other_elections: 'See your ballot for', // Translate
+    past_elections_or: 'Or', // Translate
+    past_elections_link: 'lookup past elections', // Translate
+    past_elections_url: '/ca/en/page/elections-archive', // No translation
+    privacy_statement: 'Your information is private unless you choose to share it.', // Translate
+    privacy_statement_link: 'Privacy Policy', // Translate
+    privacy_statement_url: '/page/privacy-policy', // No translation
 
     jurisdictionLabels: {
       Federal: {
-        label: "United States",
-        iconFileName: "Federal",
+        label: "United States",  // Translate
+        iconFileName: "Federal",  // No translation
         description: '',
       },
       State: {
-        label: "State of ",
-        iconFileName: "State",
+        label: "State of ",  // Translate
+        iconFileName: "State",  // No translation
         description: '',
       },
       Judicial: {
-        label: "Judicial",
-        iconFileName: "Judicial",
+        label: "Judicial",  // Translate
+        iconFileName: "Judicial",  // No translation
         description: '',
       },
       School: {
-        label: "School",
-        iconFileName: "School",
+        label: "School",  // Translate
+        iconFileName: "School",  // No translation
         description: '',
       },
       County: {
-        label: "County",
-        iconFileName: "County",
+        label: "County", // Translate
+        iconFileName: "County", // No translation
         description: '',
       },
       Place: {
-        label: "Local",
-        iconFileName: "Place",
+        label: "Local",  // Translate
+        iconFileName: "Place", // No translation
         description: '',
       },
 
       Special: {
-        label: "Special District",
-        iconFileName: "Special",
+        label: "Special District",  // Translate
+        iconFileName: "Special", // No translation
         description: '',
       },
     },
