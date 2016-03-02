@@ -1,83 +1,64 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const searchTranslation  = {
-
-  intro: "Obtener información detallada acerca de lo que está en su papeleta",
-
-  // path: "/search",
-
-  zipPrompt: "Introduzca su <strong>código postal</strong>",
-
-  streetAddressPrompt: "Y su <strong> dirección de la calle </strong> <span class=\"muted\"> (Opcional, necesario para su lugar de votación.)</span>",
-
-  addressPromptReason: "Necesario para dirá exactamente lo que va a estar en su papeleta y las operaciones de búsqueda de su lugar de votación.",
-
-  searchButtonLabel: "Encuentra mi voto",
-
-  confidentialityStatement: "Información de dirección es confidencial.",
-
-  privacyStatement: "Estamos no partidista, sin fines de lucro, y no venderemos su información.",
-
-  privacyPolicyLinkLabel: "Política de privacidad.",
-
-  // privacyPolicyLink: "/page/privacy-policy",
-
-  countyLabel: "Condado",
-
-  // countySearchPath: "/election_authority",
-
-  countyButtonLabel: "Búsqueda al condado",
-
-  // zipSearchPath: "/search",
-
-  zipLabel: "Código postal",
-
-  zipButtonLabel: "Búsqueda al código postal",
-
+  pageTitle: 'Choose a ballot for an election', // Translate // New
+  intro: "Find in-depth information about what's on your ballot", // Translate 
+  path: '/search', // No translation
+  zipPrompt: "Enter your <strong>zip code</strong>", // Translate 
+  streetAddressPrompt: "And your <strong>street address</strong> <span class=\"muted\">(to access your complete ballot.)</span>", // Translate just text, not HTML
+  addressPromptReason: "Necessary to tell you exactly what will be on your ballot and lookup your polling place.", // Translate 
+  searchButtonLabel: "Find my ballot", // Translate 
+  confidentialityStatement: "Address information is confidential.", // Translate 
+  privacyStatement: "We are non-partisan, non-profit, and will not sell your information.", // Translate 
+  privacyPolicyLinkLabel: "Privacy policy.", // Translate 
+  privacyPolicyLink: "/page/privacy-policy", // No translation
+  countyLabel: "County",
+  countySearchPath: '/election_authority', // No translation
+  countyButtonLabel: "Look up county", // Translate 
+  zipSearchPath: '/search', // No translation
+  zipLabel: "Zipcode", // Translate 
+  zipButtonLabel: "Look up zipcode", // Translate 
   zipHelpText: "",
-
   domains: {
-
-    "ca": {
-
-      stateBallotLinkLabel: "Ver medidas de votación y las carreras para el <strong>Estado de California</strong>",
-
+    'ca': {
+      // stateBallotLinkLabel: "Coming soon for 2016. In meantime, here's measures and races for the <strong>state of California</strong> 2014 election.",
+      stateBallotLinkLabel: "",
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ca",
-
+      stateBallotLink: "",
     },
-
-    "il": {
-
-      stateBallotLinkLabel: "Ver medidas de votación y las carreras para el <strong>Estado de Illinois</strong>",
-
-      // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:il",
-
+    'il': {
+      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of Illinois</strong>", // Translate 
+      stateBallotLink: "/ballot/election/area/30?id=ocd-division/country:us/state:il", // No translation
     },
-
-    "ny": {
-      stateBallotLinkLabel: "Ver medidas de votación y las carreras para el <strong>Estado de New York</strong>",
-
+    'ny': {
+      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>", // Translate 
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ny",
-
+      stateBallotLink: "",
     }
   },
-  // electionArchiveLink: "/page/elections-archive",
-
-  electionArchiveLabel: "<strong>Archivo de Elecciónes.</strong>  Ver una lista de las pasadas elecciones.",
-
-  // allStateLink: "/",
-
-  allStateLabel: "Encuentra papeletas para <strong>otros estados</strong>",
-
+  electionArchiveLink: "/page/elections-archive", // No translation
+  electionArchiveLabel: "<strong>Election archive.</strong> See a list of past elections.", // Translate 
+  allStateLink: "http://votersedge.org", // No translation
+  allStateLabel: "Find ballots for <strong>other states</strong>", // Translate 
   countyZipContent: {
-
-    accordionLabel: "Buscar a las papeletas por <strong>ciudad, condado o código postal.</strong>",
-
-    // accordionType: "simple",
-
-    // accordionName: "county-selection",
-
-  }
+    accordionLabel: "Look up ballots by <strong>county or zipcode.</strong>", // Translate 
+    accordionType: "simple", // No translation
+    accordionName: "county-selection", // No translation
+  },
+  multipleElectionsTranslations: {
+      upcoming_message_default: 'We found elections for ', // Translate 
+      upcoming_message_1: 'Looks like there is an upcoming election for ', // Translate 
+      upcoming_message_2: 'Looks like there are a couple of upcoming elections for ', // Translate 
+      upcoming_message_3: 'Looks like there are some upcoming elections for ', // Translate 
+      recent_message_default: 'We also found these past elections:', // Translate 
+      recent_message_1: 'We also found this past election:', // Translate 
+      recent_message_2: 'We also found these past elections:', // Translate 
+      recent_message_no_upcoming_1: 'Here is the most recent election for ', // Translate 
+      recent_message_no_upcoming_2: 'Here are some recent elections for ', // Translate 
+      choose_ballot: 'Please choose which ballot you would like to see.', // Translate 
+      election_archive: 'Looking for an older election? Check the ', // Translate 
+      election_archive_label: 'archives.', // Translate 
+  },
 };
 
 export default searchTranslation;
