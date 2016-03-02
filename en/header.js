@@ -1,11 +1,10 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
-// Applies to the national landing page
-// * http://qa.votersedge.org
+// Applies to the header on all pages except landing page & state landing page.
+// URLS: 
 
 const headerTranslation = {
-¡La traducción viene muy pronto!
-
+  translation_message: '¡La traducción viene muy pronto!',
 };
 
 export default headerTranslation;

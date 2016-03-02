@@ -10,7 +10,7 @@ const votingInfoTranslation = {
         website_label: "Website",
       },
 
-        votingInfo['my-polling-place']['Minor'].push({
+    votingInfo['my-polling-place']['Minor'].push({
     path: "default",
     content: "PollingPlace",
     title: "My polling location and hours",

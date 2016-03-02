@@ -1,7 +1,6 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
-// Applies to the national landing page
-// * http://qa.votersedge.org
+// Applies to the content associated with a candidate.
 
 const candidateCardTranslation = {
  No photo submitted
@@ -36,6 +35,12 @@ const candidateCardTranslation = {
  Answer:
 
  Profession:
+
+  Who funds this candidate?
+
+  Candidate Contact Info
+
+  Accessible Pie Chart label TBD
 
          let experienceLabels = {
           institution: 'Institution',
@@ -142,11 +147,6 @@ let fundingTranslation = {
     }
   }
 
-  Who funds this candidate?
-
-  Candidate Contact Info
-
-
 
   let labels = {
     explanation: "Here are ...",
@@ -168,7 +168,6 @@ let fundingTranslation = {
   }
 
 
-  Accessible Pie Chart label TBD
 
   
 

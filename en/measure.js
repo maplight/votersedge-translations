@@ -6,8 +6,6 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const measureTranslation = {
 Measure
 
-
-
 Yes
 No
 
@@ -307,7 +305,7 @@ More information
             fieldMap: ['source', 'description', 'link',  'video_timestamp'],
             source: 'Secretary of State',
           },
-          ]
+        ]
 
 };
 
