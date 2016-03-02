@@ -31,7 +31,7 @@ const landingPageTranslation = {
     link: "/ca", // No translation
     branding_label: "Produced in partnership with",
     branding_logo: "/content/svg/lwvcef/votersedge_logo_lwvcef-200.png", // No translation
-    branding_logo_alt: "League of Women Voters of California Education Fund", // No translation
+    branding_logo_alt: "League of Women Voters of California Education Fund", // No translation ?
     branding_link: "https://cavotes.org/", // No translation
   },
   {

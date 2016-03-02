@@ -23,7 +23,16 @@ const contestTranslation = {
       links: 'Links', // Translate
       videos: 'Videos', // Translate
       more_info, 'Additional Info', // Translate
-    }
+    },
+    events: {
+      label: 'Events',  // Translate
+      upcoming: 'Upcoming Events', // Translate
+      past: 'Past Events' // Translate
+      host: 'Host', // Translate
+      date: 'Date', // Translate
+      location: 'Location', // Translate
+      time: 'Time', // Translate
+    },
     sourceLabel: 'Source: ', // Translate
     electionType: {
       'single-winner': {
