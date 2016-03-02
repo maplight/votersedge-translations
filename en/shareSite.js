@@ -5,24 +5,24 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const shareSiteTranslation = {
   tooltips: {
-    facebook: 'Share link to this site on Facebook',
-    twitter: 'Share link to this site on Twitter',
-    email: 'Send to email',
-    copy_link: 'Copy a link',
+    facebook: 'Share link to this site on Facebook', // Translate
+    twitter: 'Share link to this site on Twitter', // Translate
+    email: 'Send to email', // Translate
+    copy_link: 'Copy a link', // Translate
   },
   icon_labels: {
     facebook: 'Facebook',
     twitter: 'Twitter',
-    email: 'Email',
-    copy_link: 'Get a link (to share via mobile or chat messages.)',
+    email: 'Email', // Translate
+    copy_link: 'Get a link (to share via mobile or chat messages.)',  // Translate
   },
   share_to_label: 'Please share this site to help other people research their voting choices.', // Translate
-  email_label: 'Email',
-  email_message: 'You might like',
-  copy_link_label: 'Copy Link',
-  copy_link_instructions: 'Get a link to this page',
-  copy_link_clean_instructions: 'Get link without your address',
-  embed_link_label: 'Embed',
+  email_label: 'Email', // Translate
+  email_message: 'You might like', // Translate
+  copy_link_label: 'Copy Link', // Translate
+  copy_link_instructions: 'Get a link to this page', // Translate
+  copy_link_clean_instructions: 'Get link without your address', // Translate
+  embed_link_label: 'Embed', // Translate
 };
 
 export default shareSiteTranslation;
