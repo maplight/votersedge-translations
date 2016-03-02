@@ -8,7 +8,7 @@ const searchTranslation  = {
 
   zipPrompt: "Introduzca su <strong>código postal</strong>",
 
-  streetAddressPrompt: "Y su <strong> dirección de la calle </strong> <span class=\"\muted"> (Opcional, necesario para su lugar de votación.)</span>",
+  streetAddressPrompt: "Y su <strong> dirección de la calle </strong> <span class=\"muted\"> (Opcional, necesario para su lugar de votación.)</span>",
 
   addressPromptReason: "Necesario para dirá exactamente lo que va a estar en su papeleta y las operaciones de búsqueda de su lugar de votación.",
 

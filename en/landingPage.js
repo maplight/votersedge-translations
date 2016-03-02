@@ -2,94 +2,55 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the national landing page
 // * http://qa.votersedge.org
-
+ 
 const landingPageTranslation = {
-
+  sponsors_label: "Brought to you by",
   intro: "Find elections in these states",
-
-  features_label: "What you can do on Voter’s Edge",
-
+  features_label: "What you can do on Voter's Edge",
   features: [
-
-    "Use your address to get a personalized ballot.",
-
-    "Get in-depth info on candidates, measures, and who supports them.",
-
-    "Check where, when, and how to vote.",
-
-    "Keep track of your choices and use them to vote.",
-
-    "Share and start the conversation!"
-
+  'Use your address to get a personalized ballot.',
+  'Get in-depth info on candidates, measures, and who supports them.',
+  'Check where, when, and how to vote.',
+  'Keep track of your choices and use them to vote.',
+  'Share and start the conversation!'
   ],
-
-  benefits_label: "How Voter’s Edge will help you",
-
+  benefits_label: "How Voter's Edge will help you",
   benefits: [
-
-    "Make sense of the election.",
-
-    "Cut through the campaign noise and get the facts.",
-
-    "Vote with confidence.",
-
-    "Impact your democracy."
-
+  'Make sense of the election.',
+  'Cut through the campaign noise and get the facts.',
+  'Vote with confidence.',
+  'Impact your democracy.'
   ],
-
   about_link: "/page/about-voters-edge",
-
-  about_link_label: "Find out more about Voter’s Edge",
-
+  about_link_label: "Find out more about Voter's Edge",
   domains: [
-
   {
-    // name: "california-state",
-
+    name: "california-state",
     label: "California",
-
-    // link: "/ca",
-
+    link: "/ca",
     branding_label: "Produced in partnership with",
-
-    branding_logo: "/content/image/lwvcef/votersedge_logo_lwvc.png",
-
+    branding_logo: "/content/svg/lwvcef/votersedge_logo_lwvcef-200.png",
     branding_logo_alt: "League of Women Voters of California Education Fund",
-
     branding_link: "https://cavotes.org/",
-
   },
   {
-    // name: "illinois-state",
-
+    name: "illinois-state",
     label: "Illinois",
-
-    // link: "/il",
-
-    // branding_label: "",
-
-    // branding_logo: "",
-
-    // branding_logo_alt: "",
-
-    // branding_link: "",
-
+    link: "/il",
+    branding_label: "",
+    branding_logo: "",
+    branding_logo_alt: "",
+    branding_link: "",
   },
   {
     name: "new-york-state",
-
     label: "New York",
-
-    link: "/ny",
-
-    // branding_label: "",
-
-    // branding_logo: "",
-
-    // branding_logo_alt: "",
-
-    // branding_link: "",
-
+    // link: "/ny",
+    link: "",
+    branding_label: "Coming soon!",
+    branding_logo: "",
+    branding_logo_alt: "",
+    branding_link: "",
   },
   ]
 
