@@ -3,71 +3,60 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the content associated with a candidate.
 
 const candidateCardTranslation = {
- No photo submitted
+  no_photo_submitted: 'No photo submitted',
+  encourage_candidate_link: 'Candidates can contact us',
+  encourage_candidate_action: 'to submit info.',
+  participation: {
+    researched: 'Experience partially researched by Voter‘s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.</div>',
+    candidate_no_info: 'Candidate has provided information',
+    candidate_no_info_encourage: 'Candidate has not provided information.</div><div className={s["description"]}>Contact them to encourage participation.</div>',
+  }
+  candidate_website_label: 'Candidate website',
+  accordionLabels: {
+    experience: 'Experience', // Translate
+    education: 'Education', // Translate
+    community_activities: 'Community Activities', // Translate
+    biography: 'Biography', // Translate
+    professional_experience: 'Professional Experience', // Translate
+    top_3_priorities: 'Top 3 priorities', // Translate
+    top_3_priorities_candidate: 'My top 3 priorities', // Translate
+    judicial_ratings: 'Judicial Ratings', // Translate
+    videos: 'Videos', //Translate
+    political_philosophy: 'Political Philosophy', //Translate
+    position_papers: 'Position Papers', //Translate
+    responses_to_questions: 'Responses to questions', //Translate
+    political_beliefs: 'Political Beliefs', //Translate
+    no_question_answer: 'No answer provided.', //Translate
+    question_label: 'Question:', //Translate
+    answer_label: 'Answer:', //Translate
+    profession: 'Profession:', //Translate
+    who_funds_candidate: 'Who funds this candidate?', //Translate
+    who_supports_candidate: 'Who supports this candidate?', //Translate
+    candidate_contact_info: 'Candidate Contact Info', //Translate
+    experienceLabels: {
+      institution: 'Institution', //Translate
+      degree: 'Degree', //Translate
+      subject: 'Subject', //Translate
+      years: 'Years', //Translate
+      last_year: 'Last Year', //Translate
+    },
+    position_appointed: ' — Appointed position', //Translate
+    position_elected: ' — Elected position', //Translate
+    endorsements_label: {
+      featured: 'Featured', //Translate
+      organization: 'Organization', //Translate
+      individual: 'Individual', //Translate
+      elected_official: 'Elected Official',
+    },
+    endorsements_label_plural: {
+      featured: 'Featured', //Translate
+      organization: 'Organizations', //Translate
+      individual: 'Individuals', //Translate
+      elected_official: 'Elected Officials',
+    },
+  },
 
- Candidates can contact us</a> to submit info.
-
- Candidate website
-
- Experience partially researched by Voter‘s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.
-
- Candidate has provided information
-
- Candidate has not provided information.</div><div className={s["description"]}>Contact them to encourage participation.
-
- Experience
- Education
- Community Activities
- Biography
-
- Professional Experience
- Top 3 priorities
- My top 3 priorities
-
- Judicial Ratings
- Videos
- Political Philosophy
- Position Papers
- Responses to questions
- Political Beliefs
- No answer provided.
- Question:
- Answer:
-
- Profession:
-
-  Who funds this candidate?
-
-  Candidate Contact Info
-
-  Accessible Pie Chart label TBD
-
-         let experienceLabels = {
-          institution: 'Institution',
-          degree: 'Degree',
-          subject: 'Subject',
-          years: 'Years',
-          last_year: 'Last Year',
-        }
-
-               ' — Appointed position';
-
-           ' — Elected position';
-
-
-
-           Featured
-           Organization
-           Elected Official
-           Individual
-           Organizations 
-           Elected officials
-           Individuals
-           Who supports this candidate?
-};
-
-
-let fundingTranslation = {
+  fundingTranslation: {
     contributionsTitle: "Contributions to candidate",
     contributionsExplanation: {
       "Federal": 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.',
@@ -78,12 +67,9 @@ let fundingTranslation = {
       }
     },
 
-    // contributionsSource: "Source: MapLight analysis of data from the California Secretary of State.",
     totalMoneyRaised: "Total money raised",
     contributionSize: 'Candidates are not required to disclose detailed information for contributions under $100. These unitemized contributions are disclosed as a lump sum with each new filing.',
-
     organizationContributionsTitle: 'Who gave contributions?',
-    // contrib "types"
     organizationContributionsLabel: {
       "Federal": 'Contributions can be made by organizations through their political action committees (PACs) or by individuals.',
       "State": {
@@ -92,7 +78,6 @@ let fundingTranslation = {
         ny: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.',
       }
     },
-//Here are the top organizations and individuals to give money to support this candidate’s campaign. We have included contributions from an organization as well as from its employees or members so that you can see how active an organization is with respect to a particular candidate.</p><p>When an organization or company gives money to a candidate, they use a Political Action Committee (PAC). The organization is allowed to give up to $10,000 for this contest. We have also included the amount contributed by the employees of this organization, though employees‘ political preferences do not always match that of their employer.</p>
     whoGaveMostMoneyTitle: "Who gave the most money?",
     whoGaveMostMoneyLabel: {
       "Federal": 'Below are the top contributors that gave money to support the candidate(s). We have combined contributions from employees of an organization with contributions directly from the organization‘s PAC.',
@@ -145,30 +130,14 @@ let fundingTranslation = {
         ny: 'Source: MapLight analysis of data from the New York Secretary of State.',
       }
     }
-  }
-
-
-  let labels = {
-    explanation: "Here are ...",
-    label_total: "of total",
-    label_organization_100: "Contribution from a PAC",
-    label_individual_100: "Contribution from an individual",
-    label_organization: "PAC",
-    label_individual: "Individuals",
-    icon_organization: "organization.svg",
-    icon_individual: "individual.svg",
-    source: "Maplight"
-  }
-
-    let labels = {
+  },
+  pieChartLabels: {
     explanation: "",
     label_in_state: "In-state contributions",
     label_other: "Other states",
     label_out_of_state: "Out-of-state",
+    accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.'
   }
-
-
-
-  
+},
 
 export default candidateCardTranslation;
