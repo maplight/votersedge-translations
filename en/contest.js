@@ -44,8 +44,8 @@ const contestTranslation = {
       },
     },
     voteForPrompt: {
-      single: `You can vote for ${office.contestType.vote_for_count} candidate.`,
-      multiple: `You can vote for ${office.contestType.vote_for_count} candidates.`
+      single: `You can vote for ${office.contestType.vote_for_count} candidate.`, // Translate just the text
+      multiple: `You can vote for ${office.contestType.vote_for_count} candidates.` // Translate just the text
     }
 };
 
