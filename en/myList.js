@@ -4,26 +4,26 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // * http://qa.votersedge.org
 
 const myListTranslation = {
-    bookmark_label: 'Add to my list',
+    bookmark_label: 'Add to my list', // Translate
     candidate_choice_label: "",
-    list_label: "Here are the candidates, races and measure you have added.",
-    toolbar_title: 'Get your list',
-    toolbar_label: 'Grab your ballot choices to take to the polls. ',
+    list_label: "Here are the candidates, races and measure you have added.", // Translate
+    toolbar_title: 'Get your list', // Translate
+    toolbar_label: 'Grab your ballot choices to take to the polls.', // Translate
     toolbar: [
       {
-        label: 'Print your list.', 
+        label: 'Print your list.', // Translate
         icon: 'fa-print', 
-        description: "Just print this page with this browser.", 
+        description: "You can print this page by using the 'Print' feature of your browser.", // Translate
         type: 'print'
       },
       { label: 'Copy a link.', 
         icon: 'fa-external-link', 
-        description: "Here is a link you can use to paste into a text message or bookmark.", 
+        description: "Here is a link you can use to paste into a text message or bookmark.",  // Translate
         type: 'copy'
       },
       { label: 'E-mail your list', 
         icon: 'fa-envelope', 
-        description: "Get this list as well as a link to get back to your list.", 
+        description: "Get this list as well as a link to get back to your list.",  // Translate
         type: 'email'
       },
     ],
@@ -31,8 +31,8 @@ const myListTranslation = {
     contest_toolbar: [
       { 
         label: {
-          set: 'Review this contest later', 
-          unset: 'Remove from review'
+          set: 'Review this contest later',  // Translate
+          unset: 'Remove'  // Translate
         }, 
         icon: {
           set: 'fa-bookmark', 
@@ -41,7 +41,7 @@ const myListTranslation = {
         type: 'review'
       },
       {
-        label: 'Share this page', 
+        label: 'Share this page',  // Translate
         icon: '', 
         type: 'share'
       },
@@ -50,8 +50,9 @@ const myListTranslation = {
     candidate_toolbar: [
       {
         label: {
-          set: 'Review this candidate later', 
-          unset: 'Remove from review'}, 
+          set: 'Review this candidate later',  // Translate
+          unset: 'Remove'  // Translate
+        }, 
         icon: {
           set: 'fa-bookmark', 
           unset: 'fa-remove'
@@ -59,7 +60,7 @@ const myListTranslation = {
         type: 'review'
       },
       {
-        label: 'Share this page', 
+        label: 'Share this page', // Translate
         icon: '', 
         type: 'share'
       },
@@ -68,8 +69,8 @@ const myListTranslation = {
     measure_toolbar: [
       {
         label: {
-          set: 'Review this measure later', 
-          unset: 'Remove from review'
+          set: 'Review this measure later',  // Translate
+          unset: 'Remove'
         }, 
         icon: {
           set: 'fa-bookmark', 
@@ -77,14 +78,14 @@ const myListTranslation = {
           type: 'review'
         },
       {
-        label: 'Share this page', 
+        label: 'Share this page',  // Translate
         icon: '', 
         type: 'share'
       },
     ],
   },
   
-
+   // Translate
   choices_explanation: 
   
       `
