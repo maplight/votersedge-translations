@@ -18,9 +18,9 @@ const ballotOverviewTranslation = {
       default: ''
     },
     contest_extra_result_explanation: {
-      ca: 'May not appear on your actual ballot. <a href="/page/ca/how-we-get-our-data">Learn More</a>', // Translate
-      il: 'May not appear on your actual ballot. <a href="/page/il/how-we-get-our-data">Learn More</a>', // Translate
-      ny: 'May not appear on your actual ballot. <a href="/page/ny/how-we-get-our-data">Learn More</a>', // Translate
+      ca: 'May not appear on your actual ballot. <a href="/ca/page/how-we-get-our-data">Learn More</a>', // Translate
+      il: 'May not appear on your actual ballot. <a href="/il/page/how-we-get-our-data">Learn More</a>', // Translate
+      ny: 'May not appear on your actual ballot. <a href="/ny/page/how-we-get-our-data">Learn More</a>', // Translate
       default: ''
     },
     ballot_no_address: 'Here’s what’s on the ballot.', // Translate
