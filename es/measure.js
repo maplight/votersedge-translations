@@ -54,6 +54,8 @@ const measureTranslation = {
     overview: 'To overview', // Translate
   },
 
+  // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
+  // 
   accordionLabels: {
     evg: {   // Translation already provided by LWCV
       label: 'Easy Voter Guide', // If translated, it exists already

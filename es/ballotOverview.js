@@ -4,7 +4,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Includes Candidates, Measures, Voting info, polling place, other elections selections and my list intros.
 // URL samples
 
-// Tests: 
+// Tests: http://votersedge.org/ca/ballot/election/32-70b46e/address/null/zip/90001/section/overview'
 
 const ballotOverviewTranslation = {
     ballot_address: 'What\'s on the ballot for your address in', // Translate
