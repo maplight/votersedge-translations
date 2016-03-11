@@ -12,7 +12,7 @@ const footerTranslation = {
       {
         iconFileName: '',
         tooltip: '',
-        label: 'Candidates', // Translate
+        label: 'Candidatos', // Translate
         link: 'candidates', // No translation
         section: 'candidates', // No translation
         target: 'OverviewCandidates Offices', // No translation
@@ -28,7 +28,7 @@ const footerTranslation = {
       {
         iconFileName: '',
         tooltip: '',
-        label: 'Voting info', // Translate
+        label: "Información de la votación", // Translate
         link: 'voting-info', // No translation
         section: 'votingInfo', // No translation
         target: 'VotingInfoSections', // No translation
@@ -36,33 +36,33 @@ const footerTranslation = {
       {
         iconFileName: 'fa fa-newspaper-o', // No translation
         tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
-        label: 'My List', // Translate
+        label: 'Mi Lista', // Translate
         link: '', // 'choices'  // No translation
         section: 'choices', // No translation
         target: 'Choices', // No translation
       },
       ],
-      current: "(current)", // Translate // Possibly deprecated
+      current: "(actual)", // Translate // Possibly deprecated
     },
 
-    aboutLabel: 'About Us', // Translate
-    contactUsLabel: 'Contact us', // Translate
-    resourcesLabel: 'Resources', // Translate
-    policiesLabel: 'Policies', // Translate
+    aboutLabel: "Sobre nosotros", // Translate
+    contactUsLabel: "Contáctenos", // Translate
+    resourcesLabel: "Recursos", // Translate
+    policiesLabel: "Políticas", // Translate
 
     about : [
     {
-      label: "About this project", // Translate
+      label: "Sobre este proyecto", // Translate
       link: "page/about-voters-edge", // No translation
       status: "published", // No translation
     },
     {
-      label: "How we get our data", // Translate
+      label: "Cómo obtenemos nuestros datos", // Translate
       link: "page/how-we-get-our-data", // No translation
       status: "published", // No translation
     },
     {
-      label: "FAQ", // Translate
+      label: "Preguntas frecuentes", // Translate
       link: "page/faq", // No translation
       status: "published", // No translation
       domain: 'ca' // No translation
@@ -70,24 +70,24 @@ const footerTranslation = {
     ],
     policies: [
     {
-      label: "Privacy policy", // Translate
+      label: "Política de privacidad", // Translate
       link: "page/privacy-policy", // No translation
       status: "published", // No translation
     },
     {
-      label: "Terms of use", // Translate
+      label: "Términos de uso", // Translate
       link: "page/terms-of-use", // No translation
       status: "published", // No translation
     },
     {
-      label: "Icon attribution", // Translate
+      label: "Atribución de íconos", // Translate
       link: "page/icons", // No translation
       status: "published", // No translation
     },
     ],
     contact: [
     {
-      label: "Send us a message", // Translate
+      label: "Envíenos un mensaje", // Translate
       link: "feedback", // No translation
       status: "published", // No translation
     },
@@ -97,7 +97,7 @@ const footerTranslation = {
     //   status: "published",
     // },
     {
-      label: "Donate", // Translate
+      label: "Done", // Translate
       link: "https://donatenow.networkforgood.org/votersedge?code=votersedge", // No translation
       status: "published", // No translation
     },
@@ -119,18 +119,18 @@ const footerTranslation = {
     //   status: "published",
     // },
     {
-      label: "For Candidates: Sign up and add your information", // Translate
+      label: "Para los candidatos: regístrese y agregue su información", // Translate
       link: "http://candidates.votersedge.org", // No translation
       status: "published", // No translation
     },
     {
-      label: "For Voter's Edge Team: Sign in", // Translate
+      label: "Para el equipo de Voter's Edge: inicio de sesión", // Translate
       link: "http://team.votersedge.org", // No translation
       status: "published", // No translation
     },
     ],
-    feedback_button_label: "Contact Us", // Translate 
-    feedback_message: "Message", // Translate 
+    feedback_button_label: "Contáctenos", // Translate 
+    feedback_message: "Mensaje", // Translate 
   };
 
 export default footerTranslation;
