@@ -4,12 +4,13 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 
 const measuresListTranslation = {
-  no_measures: 'There were no ballot measures found.', // Translate
+  no_measures: "No se encontraron iniciativas de ley en la boleta electoral.",
+  "jurisdictionButtonLabel", // Translate
   jurisdictionButtonLabel: {
-    prefix: 'Check out', // Translate
-    linkLabel: 'news coverage and more', // Translate
-    suffix: 'about', // Translate
-    terminator: 'ballot measures.' // Translate
+    prefix: "Consulte", // Translate
+    linkLabel: "la cobertura de noticias y más", // Translate
+    suffix: "sobre", // Translate
+    terminator: "las iniciativas de ley en la boleta electoral." // Translate
   }
 };
 
