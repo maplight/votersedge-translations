@@ -59,17 +59,17 @@ const ballotOverviewTranslation = {
     past_elections_link: 'lookup past elections', // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: 'Your information is private unless you choose to share it.', // Translate
-    privacy_statement_link: 'Privacy Policy', // Translate
+    privacy_statement_link: "Política de privacidad", // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
 
     jurisdictionLabels: {
       Federal: {
-        label: "United States",  // Translate
+        label: "Estados Unidos",  // Translate
         iconFileName: "Federal",  // No translation
         description: '',
       },
       State: {
-        label: "State of ",  // Translate
+        label: "Estado de ",  // Translate
         iconFileName: "State",  // No translation
         description: '',
       },
@@ -79,12 +79,12 @@ const ballotOverviewTranslation = {
         description: '',
       },
       School: {
-        label: "School",  // Translate
+        label: "Escuela",  // Translate
         iconFileName: "School",  // No translation
         description: '',
       },
       County: {
-        label: "County", // Translate
+        label: "Condado", // Translate
         iconFileName: "County", // No translation
         description: '',
       },
@@ -95,7 +95,7 @@ const ballotOverviewTranslation = {
       },
 
       Special: {
-        label: "Special District",  // Translate
+        label: "Distrito especial",  // Translate
         iconFileName: "Special", // No translation
         description: '',
       },
