@@ -3,58 +3,58 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the content on a contest page.
 
 const contestTranslation = {
-    pageTitle: 'Contest', // Translate
-    sectionTitle: "Candidates", // Translate
-    officeDescriptionLabel: "About this office", // Translate
-    my_choices: "How does voting work for this contest?", // Translate
-    skip_label_offices: "Skip this", // Translate
-    candidates_label: "Who's running?", // Translate
-    candidates_random_label: "Candidates appear in random order.", // Translate
+    pageTitle: "Contienda", // Translate
+    sectionTitle: "Candidatos", // Translate
+    officeDescriptionLabel: "Sobre este cargo", // Translate
+    my_choices: "¿Cómo funciona la votación para esta contienda?", // Translate
+    skip_label_offices: "Omitir esto", // Translate
+    candidates_label: "¿Quién se está postulando?", // Translate
+    candidates_random_label: "Los candidatos aparecen en orden aleatorio.", // Translate
     navigation: {
-      next: 'Next:',
-      back: 'Back:',
-      last: 'Last contest',
-      overview: 'To overview',
+      next: "Siguiente:",
+      back: "Atrás:",
+      last: "Última contienda",
+      overview: "Obtener una perspectiva general",
     },
     accordionLabels: {
-      candidates: 'Who’s Running?', // Translate
-      news: 'News Coverage', // Translate
-      events: 'Events', // Translate
-      links: 'Links', // Translate
-      videos: 'Videos', // Translate
-      more_info, 'Additional Info', // Translate
+      candidates: "¿Quién se está postulando?", // Translate
+      news: "Cobertura de noticias", // Translate
+      events: "Eventos", // Translate
+      links: "Enlaces", // Translate
+      videos: "Videos", // Translate
+      more_info, "Información adicional", // Translate
     },
     events: {
-      label: 'Events',  // Translate
-      upcoming: 'Upcoming Events', // Translate
-      past: 'Past Events' // Translate
-      host: 'Host', // Translate
-      date: 'Date', // Translate
-      location: 'Location', // Translate
-      time: 'Time', // Translate
+      label: "Eventos",  // Translate
+      upcoming: "Próximos eventos", // Translate
+      past: "Eventos pasados" // Translate
+      host: "Anfitrión", // Translate
+      date: "Fecha", // Translate
+      location: "Lugar", // Translate
+      time: "Hora", // Translate
     },
-    sourceLabel: 'Source: ', // Translate
+    sourceLabel: "Fuente: ", // Translate
     electionType: {
       'single-winner': {
         label: '',
         supplemental_description: '',
       },
       'ranked-choice': {
-        label: 'Ranked choice', // Translate
+        label: "Elección por rango", // Translate
         supplemental_description: '',
       },
       'top-two': {
-        label: 'This is a "top-two" contest.', // Translate
+        label: "Esta es una contienda de los dos principales.", // Translate
         supplemental_description: '',
       },
       'judicial-retention': {
-        label: 'Judicial retention', // Translate
+        label: "Retención judicial", // Translate
         supplemental_description: '',
       },
     },
     voteForPrompt: {
-      single: `You can vote for ${office.contestType.vote_for_count} candidate.`, // Translate just the text
-      multiple: `You can vote for ${office.contestType.vote_for_count} candidates.` // Translate just the text
+      single: "Puede votar por ${office.contestType.vote_for_count} candidato.", // Translate just the text
+      multiple: "Puede votar por ${office.contestType.vote_for_count} candidatos." // Translate just the text
     }
 };
 
