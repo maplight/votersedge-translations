@@ -6,30 +6,30 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
  
 const landingPageTranslation = {
   sponsors_label: "Brought to you by", // Translate
-  intro: "Find elections in these states", // Translate
-  features_label: "What you can do on Voter's Edge", // Translate
+  intro: "Encuentre elecciones en estos estados", // Translate
+  features_label: "Qué puede hacer en Voter’s Edge", // Translate
   features: [
-    'Use your address to get a personalized ballot.', // Translate
-    'Get in-depth info on candidates, measures, and who supports them.', // Translate
-    'Check where, when, and how to vote.', // Translate
-    'Keep track of your choices and use them to vote.', // Translate
-    'Share and start the conversation!' // Translate
+     "Use su dirección para obtener una boleta electoral personalizada.", // Translate
+     "Obtenga información detallada sobre los candidatos, las iniciativas de ley y quién las apoya.", // Translate
+    "Revise dónde, cuándo y cómo votar.", // Translate
+    "Mantenga un registro de sus opciones y úselas para votar.", // Translate
+    "¡Comparta e inicie la conversación!" // Translate
   ],
-  benefits_label: "How Voter's Edge will help you", // Translate
+  benefits_label: "Cómo lo ayudará Voter’s Edge", // Translate
   benefits: [
-    'Make sense of the election.', // Translate
-    'Cut through the campaign noise and get the facts.', // Translate
-    'Vote with confidence.', // Translate
-    'Impact your democracy.' // Translate
+    "Encuentre sentido a la elección.", // Translate
+    "Elimine el ruido de las campañas y obtenga los hechos.", // Translate
+    "Vote con confianza.", // Translate
+    "Influya en su democracia." // Translate
   ],
   about_link: "/page/about-voters-edge", // No translation
-  about_link_label: "Find out more about Voter's Edge", // Translate
+  about_link_label: "Descubra más sobre Voter’s Edge", // Translate
   domains: [
   {
     name: "california-state", // No translation
     label: "California", // No translation
     link: "/ca", // No translation
-    branding_label: "Produced in partnership with",
+    branding_label: "Producido en asociación con",
     branding_logo: "/content/svg/lwvcef/votersedge_logo_lwvcef-200.png", // No translation
     branding_logo_alt: "League of Women Voters of California Education Fund", // No translation ?
     branding_link: "https://cavotes.org/", // No translation
