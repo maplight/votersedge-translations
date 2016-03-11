@@ -8,24 +8,23 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // @TODO replace Nothing found with no_elections_found
 
 const searchErrorsTranslation = {
-    pageTitle: 'Find a ballot', // Translate
-    try_new_search: 'Try a new search.', // Translate
-    newSearchMessage = 'Please choose on of these other addresses or ', // Translate
-    unable_to_find: 'We were unable to find your specific address.', // Translate
-    enter_new: "We were unable to find your specific address.", // Translate
-    for_zipcode: 'zipcode ', // Translate
-    your_search: 'You searched for:', // Translate
-    search_prompt: 'Try one of these addresses', // Translate
-    no_elections_found: 'No elections found', // Translate
-    critical_error: 'We are very sorry. Something in our system is broken right now. Please try again or check back later. <br />If you keep getting this response, please contact us so that we can repair the problem.' // Translate 
-    no_address_found: 'No address found', // Translate
-    no_page_found: 'Sorry, but the page you were trying to view does not exist.', // Translate
+    pageTitle: "Encontrar una boleta electoral", // Translate
+    try_new_search:  "Intente una nueva búsqueda.", // Translate
+    newSearchMessage = "Elija una de estas otras direcciones o ", // Translate
+    unable_to_find: "No pudimos encontrar su dirección específica.", // Translate
+    enter_new: "No pudimos encontrar su dirección específica.", // Translate
+    for_zipcode: "código postal ", // Translate
+    your_search: "Usted buscó:", // Translate
+    search_prompt: "Intente con una de estas direcciones", // Translate
+    no_elections_found: "No se encontraron elecciones", // Translate
+    critical_error: "Lo sentimos. Algo en nuestro sistema no funciona por el momento. Intente de nuevo o regrese más tarde. <br />Si continúa obteniendo esta respuesta, contáctenos para que podamos solucionar el problema." // Translate 
+    no_address_found: "No se encontró la dirección", // Translate
+    no_page_found: "Lo sentimos, pero la página que intentó consultar no existe.", // Translate
     noElectionsErrorMessage = {
-      ca: '<p>We did not find any upcoming elections based on the information provided.</p><p>Your state and local election offices are the ultimate authority on elections in your area and <a href="/en/ca/ballot/election/area/32/section/voting-info?&id=ocd-division/country:us/state:ca#section-election-office-contact">can be contacted</a> with additional questions.</p><p>You may also <a href="/ca/feedback">contact us</a> if you believe you are receiving this message in error or have questions about our coverage.</p>', // Translate
-      ny: '<p>We did not find any upcoming elections based on the information provided.</p><p>Your state and local election offices are the ultimate authority on elections in your area and <a href="/en/ca/ballot/election/area/30/section/voting-info?&id=ocd-division/country:us/state:ny#section-election-office-contact">can be contacted</a> with additional questions.</p><p>You may also <a href="/ny/feedback">contact us</a> if you believe you are receiving this message in error or have questions about our coverage.</p>', // Translate
-      il: '<p>We did not find any upcoming elections based on the information provided.</p><p>Your state and local election offices are the ultimate authority on elections in your area and <a href="/en/ca/ballot/election/area/18/section/voting-info?&id=ocd-division/country:us/state:il#section-election-office-contact">can be contacted</a> with additional questions.</p><p>You may also <a href="/il/feedback">contact us</a> if you believe you are receiving this message in error or have questions about our coverage.</p>' // Translate
+      ca: "<p>No encontramos ninguna elección próxima con base en la información proporcionada.</p><p>Sus oficinas de elecciones estatales y locales son la autoridad máxima en las elecciones en su área y puede contactarlas</a> si tiene preguntas adicionales.</p><p>También puede comunicarse con nosotros si piensa que recibió este mensaje por error o si tiene preguntas sobre nuestra cobertura.</p>", // Translate
+      ny: "<p>No encontramos ninguna elección próxima con base en la información proporcionada.</p><p>Sus oficinas de elecciones estatales y locales son la autoridad máxima en las elecciones en su área y puede contactarlas</a> si tiene preguntas adicionales.</p><p>También puede comunicarse con nosotros si piensa que recibió este mensaje por error o si tiene preguntas sobre nuestra cobertura.</p>", // Translate
+      il: "<p>No encontramos ninguna elección próxima con base en la información proporcionada.</p><p>Sus oficinas de elecciones estatales y locales son la autoridad máxima en las elecciones en su área y puede contactarlas</a> si tiene preguntas adicionales.</p><p>También puede comunicarse con nosotros si piensa que recibió este mensaje por error o si tiene preguntas sobre nuestra cobertura.</p>" // Translate
     }
 };
 
 export default searchErrorsTranslation;
-
