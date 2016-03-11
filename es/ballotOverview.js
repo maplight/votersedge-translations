@@ -7,43 +7,44 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Tests: http://votersedge.org/ca/ballot/election/32-70b46e/address/null/zip/90001/section/overview'
 
 const ballotOverviewTranslation = {
-    ballot_address: 'What\'s on the ballot for your address in', // Translate
-    ballot_area: 'What\'s on the ballot for ', // Translate
-    ballot_error: "There was a problem finding this ballot.", // Translate
+    ballot_address: "Qué contiene la boleta electoral para su dirección en", // Translate
+    ballot_area: "Qué contiene la boleta electoral para el ", // Translate
+    ballot_error: "Hubo un problema para encontrar esta boleta electoral.", // Translate
     ballot_extra_result_explanation: {
-      ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a>', // Translate
-      il: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/il">For the most specific results available, enter your full address.</a>', // Translate
-      ny: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/ny">For the most specific results available, enter your full address.</a>', // Translate
+      ca: 'Es posible que los resultados que se basan solo en un código postal arrojen más contiendas de las que aparecerán en su boleta electoral real. <a href="/en/ca">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>', // Translate
+      il: 'Es posible que los resultados que se basan solo en un código postal no arrojen todas las contiendas que aparecerán en su boleta electoral real. <a href="/en/il">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>', // Translate
+      ny: 'Es posible que los resultados que se basan solo en un código postal no arrojen todas las contiendas que aparecerán en su boleta electoral real. <a href="/en/ny">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>',
+    "default", // Translate
       default: ''
     },
     contest_extra_result_explanation: {
-      ca: 'May not appear on your actual ballot. <a href="/ca/page/how-we-get-our-data">Learn More</a>', // Translate
-      il: 'May not appear on your actual ballot. <a href="/il/page/how-we-get-our-data">Learn More</a>', // Translate
-      ny: 'May not appear on your actual ballot. <a href="/ny/page/how-we-get-our-data">Learn More</a>', // Translate
+      ca:  'Es posible que no aparezca en su boleta electoral real. <a href="/ca/page/how-we-get-our-data">Obtenga más información</a>', // Translate
+      il: 'Es posible que no aparezca en su boleta electoral real. <a href="/il/page/how-we-get-our-data">Obtenga más información</a>', // Translate
+      ny: 'Es posible que no aparezca en su boleta electoral real. <a href="/ny/page/how-we-get-our-data">Obtenga más información</a>', // Translate
       default: ''
     },
-    ballot_no_address: 'Here’s what’s on the ballot.', // Translate
-    choose_candidates: 'Candidates', // Translate
-    candidates_intro_prefix: 'Get in-depth information about the ', // Translate
-    candidates_intro: 'candidates running for', // Translate
-    candidates_offices: 'offices', // Translate
-    candidates_office: 'office', // Translate
-    choose_propositions: 'Ballot Measures', // Translate
-    propositions_intro: 'Learn more about the ', // Translate
-    propositions: 'measures', // Translate
-    proposition: 'measure', // Translate
-    choose_voting_info: 'Voting Info', // Translate
-    choose_voting_info_label: 'Get info on <strong>when, where and how to vote</strong>', // Translate
-    choices: "My List", // Translate
-    choices_label: "<p><strong>Keep track of your ballot choices and make a list to take to the polls</p></strong><p>As you review races, candidates and measures, you can add them to your list. When you are finished, go to <strong>My List</strong> to send your list to your email, printer, or copy a link to your phone.</p><p>We are a non-partisan, non-profit voter advocacy project and will not mail you anything or track your choices.</p>", // Translate
-    noPollingLocationLabel: 'Polling location & hours', // Translate
-    noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
-    noPollingLocationLinkLabel: 'Look up my polling place', // Translate
-    pollingLocationLabel: 'Your polling location & hours', // Translate
-    myPollingLocationLabel: 'My polling location and hours', // Translate
+    ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
+    choose_candidates: "Candidatos", // Translate
+    candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
+    candidates_intro: "candidatos postulados para", // Translate
+    candidates_offices: "cargos", // Translate
+    candidates_office: "cargo", // Translate
+    choose_propositions: "Iniciativas de ley en la boleta electoral", // Translate
+    propositions_intro: "Obtenga más información sobre las ", // Translate
+    propositions: "iniciativas de ley", // Translate
+    proposition: "iniciativa de ley", // Translate
+    choose_voting_info: "Información de la votación", // Translate
+    choose_voting_info_label: "Obtenga información sobre <strong>cuándo, dónde y cómo votar</strong>", // Translate
+    choices: "Mi lista", // Translate
+    choices_label: "<p><strong>Mantenga un registro de sus opciones de boleta electoral y haga una lista para llevarla a las urnas.</p></strong><p>A medida que revise las competencias, los candidatos y las iniciativas de ley, puede añadirlos a su lista. Cuando termine, vaya a <strong>Mi lista</strong> para enviar la lista a su correo electrónico, impresora o una copia del enlace a su teléfono.</p><p>Somos un proyecto de defensa de los votantes no partidista y sin fines de lucro, y no le enviaremos nada ni haremos un seguimiento de sus opciones.</p>", // Translate
+    noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
+    noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
+    noPollingLocationLinkLabel: "Buscar mi lugar de votación", // Translate
+    pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
+    myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
 
-    noHoursLabel: 'Polls are open from', // Translate
-    hoursLabel: 'Open from', // Translate
+    noHoursLabel: "Las urnas se abren de", // Translate
+    hoursLabel: "Abiertas de", // Translate
     hours: {
       ca: '7 a.m. - 8 p.m.',
       il: '6 a.m. - 7 p.m.',
