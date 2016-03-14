@@ -68,7 +68,7 @@ const measureTranslation = {
       situation: 'The Situation', // Translation exists
       proposal: 'The Proposal', // Translation exists
       fiscal_effect: 'Fiscal effect', // Translation exists
-      supporters_say: 'Supporters Say', // Translation exists
+      supporters_say: 'Supporters say', // Translation exists
       opponents_say: 'Opponents say', // Translation exists
     },
     pros_cons: {  // Translation already provided by LWVC
@@ -82,13 +82,13 @@ const measureTranslation = {
       summary: 'Summary',  // Translation exists
       background: 'Background',  // Translation exists
       financial_effect: 'Financial effect',  // Translation exists
-      impartial_analysis: 'Impartial Analysis',  // Translation exists
+      impartial_analysis: 'Impartial analysis',  // Translation exists
       tax_rate: 'Tax rate'// Translation exists
-      yes_vote_means: 'Yes vote means', // Translation exists
-      no_vote_means: 'A No vote means', // Translation exists
+      yes_vote_means: 'YES vote means', // Translation exists
+      no_vote_means: 'NO vote means', // Translation exists
       rebuttals: 'Rebuttals (Replies)', // Translation exists
-      arguments_for: 'Arguments For', // Translation exists
-      arguments_against: 'Arguments Against', // Translation exists
+      arguments_for: 'Arguments FOR', // Translation exists
+      arguments_against: 'Arguments AGAINST', // Translation exists
       proposed_legislation: 'Proposed legislation', // Translate
       read_proposed_legislation: 'Read the proposed legislation', // Translate
       what_is_proposal: 'What is this proposal?', // Translate

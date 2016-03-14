@@ -44,12 +44,10 @@ const footerTranslation = {
       ],
       current: "(actual)", // Translate // Possibly deprecated
     },
-
     aboutLabel: "Sobre nosotros", // Translate
     contactUsLabel: "Contáctenos", // Translate
     resourcesLabel: "Recursos", // Translate
     policiesLabel: "Políticas", // Translate
-
     about : [
     {
       label: "Sobre este proyecto", // Translate

@@ -15,7 +15,6 @@ const landingPageTranslation = {
     "Mantenga un registro de sus opciones y úselas para votar.", // Translate
     "¡Comparta e inicie la conversación!" // Translate
   ],
-  benefits_label: "Cómo lo ayudará Voter’s Edge", // Translate
   benefits: [
     "Encuentre sentido a la elección.", // Translate
     "Elimine el ruido de las campañas y obtenga los hechos.", // Translate

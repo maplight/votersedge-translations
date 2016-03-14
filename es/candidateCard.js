@@ -7,7 +7,7 @@ const candidateCardTranslation = {
   encourage_candidate_link: 'Candidates can contact us', //Translate
   encourage_candidate_action: 'to submit info.', //Translate
   participation: {
-    researched: 'Experience partially researched by Voter‘s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.</div>', //Translate
+    researched: 'Experience partially researched by Voter’s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.</div>', //Translate
     candidate_no_info: 'Candidate has provided information', //Translate
     candidate_no_info_encourage: 'Candidate has not provided information.</div><div className={s["description"]}>Contact them to encourage participation.</div>', //Translate
   }

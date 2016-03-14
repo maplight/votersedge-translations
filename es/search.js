@@ -6,18 +6,18 @@ const searchTranslation  = {
   path: '/search', // No translation
   zipPrompt: "Enter your <strong>zip code</strong>", // Translate 
   streetAddressPrompt: "And your <strong>street address</strong> <span class=\"muted\">(to access your complete ballot.)</span>", // Translate just text, not HTML
-  addressPromptReason: "Necessary to tell you exactly what will be on your ballot and lookup your polling place.", // Translate 
+  addressPromptReason: "Necessary to tell you exactly what will be on your ballot and look up your polling place.", // Translate 
   searchButtonLabel: "Find my ballot", // Translate 
   confidentialityStatement: "Address information is confidential.", // Translate 
-  privacyStatement: "We are non-partisan, non-profit, and will not sell your information.", // Translate 
+  privacyStatement: "We are nonpartisan, nonprofit, and will not sell your information.", // Translate 
   privacyPolicyLinkLabel: "Privacy policy.", // Translate 
   privacyPolicyLink: "/page/privacy-policy", // No translation
   countyLabel: "County",
   countySearchPath: '/election_authority', // No translation
   countyButtonLabel: "Look up county", // Translate 
   zipSearchPath: '/search', // No translation
-  zipLabel: "Zipcode", // Translate 
-  zipButtonLabel: "Look up zipcode", // Translate 
+  zipLabel: "Zip code", // Translate 
+  zipButtonLabel: "Look up zip code", // Translate 
   zipHelpText: "",
   domains: {
     'ca': {
@@ -27,11 +27,11 @@ const searchTranslation  = {
       stateBallotLink: "",
     },
     'il': {
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of Illinois</strong>", // Translate 
+      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of Illinois</strong>.", // Translate 
       stateBallotLink: "/ballot/election/area/30?id=ocd-division/country:us/state:il", // No translation
     },
     'ny': {
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>", // Translate 
+      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>.", // Translate 
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ny",
       stateBallotLink: "",
     }
@@ -39,9 +39,9 @@ const searchTranslation  = {
   electionArchiveLink: "/page/elections-archive", // No translation
   electionArchiveLabel: "<strong>Election archive.</strong> See a list of past elections.", // Translate 
   allStateLink: "http://votersedge.org", // No translation
-  allStateLabel: "Find ballots for <strong>other states</strong>", // Translate 
+  allStateLabel: "Find ballots for <strong>other states</strong>.", // Translate 
   countyZipContent: {
-    accordionLabel: "Look up ballots by <strong>county or zipcode.</strong>", // Translate 
+    accordionLabel: "Look up ballots by <strong>county or zip code.</strong>.", // Translate 
     accordionType: "simple", // No translation
     accordionName: "county-selection", // No translation
   },

@@ -23,6 +23,7 @@ const ballotOverviewTranslation = {
       ny: 'Es posible que no aparezca en su boleta electoral real. <a href="/ny/page/how-we-get-our-data">Obtenga más información</a>', // Translate
       default: ''
     },
+
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
@@ -42,7 +43,6 @@ const ballotOverviewTranslation = {
     noPollingLocationLinkLabel: "Buscar mi lugar de votación", // Translate
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
     myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
-
     noHoursLabel: "Las urnas se abren de", // Translate
     hoursLabel: "Abiertas de", // Translate
     hours: {
@@ -50,8 +50,6 @@ const ballotOverviewTranslation = {
       il: '6 a.m. - 7 p.m.',
       ny: '6 a.m. - 7 p.m.',
     },
-
-
     more_voting_info: "Consulte más información sobre las votaciones", // Translate
     other_address: "Busque la boleta electoral para", // Translate
     other_address_link: "otra dirección", // Translate
@@ -62,7 +60,6 @@ const ballotOverviewTranslation = {
     privacy_statement: "Su información es privada, a menos que decida compartirla.", // Translate
     privacy_statement_link: "Política de privacidad", // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
-
     jurisdictionLabels: {
       Federal: {
         label: "Estados Unidos",  // Translate
@@ -101,8 +98,6 @@ const ballotOverviewTranslation = {
         description: '',
       },
     },
-
-
   }
 };
 

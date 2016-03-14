@@ -1,7 +1,5 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
-
 // Applies to the voting info section
-
 const votingInfoTranslation = {
     page_title: "Información de la votación", // Translate
     page_description: "",

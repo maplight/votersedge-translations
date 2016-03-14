@@ -1,0 +1,13 @@
+{
+  "name": "votersedge-translations",
+  "version": "0.0.1",
+  "description": "Voter's Edge Translations",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:maplight/votersedge-translations.git"
+  },
+  "gitHead": "035d49d119e1f127b50d27a2112d9db67c13edea",
+  "readme": "Voter's Edge Translations \n",
+  "readmeFilename": "README.md",
+  "_id": "voting-info@0.0.1",
+}

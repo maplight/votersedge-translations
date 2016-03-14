@@ -1,8 +1,6 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the list of measures that appears on the ballot overview, measures tab, and the my list page.
-
-
 const measuresListTranslation = {
   no_measures: "No se encontraron iniciativas de ley en la boleta electoral.",
   "jurisdictionButtonLabel", // Translate
