@@ -16,7 +16,7 @@ const searchTranslation  = {
 
   confidentialityStatement: "Address information is confidential.",
 
-  privacyStatement: "We are non-partisan, non-profit, and will not sell your information.",
+  privacyStatement: "We are nonpartisan, nonprofit, and will not sell your information.",
 
   privacyPolicyLinkLabel: "Privacy policy.",
 

@@ -16,12 +16,12 @@ const shareSiteTranslation = {
     email: 'Email', // Translate
     copy_link: 'Get a link (to share via mobile or chat messages.)',  // Translate
   },
-  share_to_label: 'Please share this site to help other people research their voting choices.', // Translate
+  share_to_label: 'Please share this site to help others research their voting choices.', // Translate
   email_label: 'Email', // Translate
   email_message: 'You might like', // Translate
   copy_link_label: 'Copy Link', // Translate
   copy_link_instructions: 'Get a link to this page', // Translate
-  copy_link_clean_instructions: 'Get link without your address', // Translate
+  copy_link_clean_instructions: 'Get link (without your address)', // Translate
   embed_link_label: 'Embed', // Translate
 };
 

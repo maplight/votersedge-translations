@@ -7,7 +7,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const landingPageTranslation = {
   sponsors_label: "Brought to you by", // Translate
   intro: "Find elections in these states", // Translate
-  features_label: "What you can do on Voter's Edge", // Translate
+  features_label: "What you can do on Voter’s Edge", // Translate
   features: [
     'Use your address to get a personalized ballot.', // Translate
     'Get in-depth info on candidates, measures, and who supports them.', // Translate
@@ -15,7 +15,7 @@ const landingPageTranslation = {
     'Keep track of your choices and use them to vote.', // Translate
     'Share and start the conversation!' // Translate
   ],
-  benefits_label: "How Voter's Edge will help you", // Translate
+  benefits_label: "How Voter’s Edge will help you", // Translate
   benefits: [
     'Make sense of the election.', // Translate
     'Cut through the campaign noise and get the facts.', // Translate
@@ -23,7 +23,7 @@ const landingPageTranslation = {
     'Impact your democracy.' // Translate
   ],
   about_link: "/page/about-voters-edge", // No translation
-  about_link_label: "Find out more about Voter's Edge", // Translate
+  about_link_label: "Find out more about Voter’s Edge", // Translate
   domains: [
   {
     name: "california-state", // No translation

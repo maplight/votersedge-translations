@@ -34,9 +34,9 @@ const ballotOverviewTranslation = {
     propositions: 'measures', // Translate
     proposition: 'measure', // Translate
     choose_voting_info: 'Voting Info', // Translate
-    choose_voting_info_label: 'Get info on <strong>when, where and how to vote</strong>', // Translate
+    choose_voting_info_label: 'Get info on <strong>when, where, and how to vote</strong>', // Translate
     choices: "My List", // Translate
-    choices_label: "<p><strong>Keep track of your ballot choices and make a list to take to the polls</p></strong><p>As you review races, candidates and measures, you can add them to your list. When you are finished, go to <strong>My List</strong> to send your list to your email, printer, or copy a link to your phone.</p><p>We are a non-partisan, non-profit voter advocacy project and will not mail you anything or track your choices.</p>", // Translate
+    choices_label: "<p><strong>Keep track of your ballot choices and make a list to take to the polls</strong></p><p>As you review races, candidates and measures, you can add them to your list. When you are finished, go to <strong>My List</strong> to send your list to your email, printer, or copy a link to your phone.</p><p>We are a nonpartisan, nonprofit voter advocacy project and will not mail you anything or track your choices.</p>", // Translate
     noPollingLocationLabel: 'Polling location & hours', // Translate
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
     noPollingLocationLinkLabel: 'Look up my polling place', // Translate
@@ -57,7 +57,7 @@ const ballotOverviewTranslation = {
     other_address_link: 'another address', // Translate
     other_elections: 'See your ballot for', // Translate
     past_elections_or: 'Or', // Translate
-    past_elections_link: 'lookup past elections', // Translate
+    past_elections_link: 'look up past elections', // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: 'Your information is private unless you choose to share it.', // Translate
     privacy_statement_link: 'Privacy Policy', // Translate

@@ -1,6 +1,6 @@
-# Voter's Edge Interface Translations
+# Voter’s Edge Interface Translations
 
-- This is a sample of the the text strings in Voter's Edge, organized by page and language.
+- This is a sample of the the text strings in Voter’s Edge, organized by page and language.
 
 - The full (non-sample) will have about 15-20 translation files, of similar size.
 
