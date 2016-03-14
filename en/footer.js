@@ -28,7 +28,7 @@ const footerTranslation = {
       {
         iconFileName: '',
         tooltip: '',
-        label: 'Voting info', // Translate
+        label: 'Voting Info', // Translate
         link: 'voting-info', // No translation
         section: 'votingInfo', // No translation
         target: 'VotingInfoSections', // No translation
@@ -46,7 +46,7 @@ const footerTranslation = {
     },
 
     aboutLabel: 'About Us', // Translate
-    contactUsLabel: 'Contact us', // Translate
+    contactUsLabel: 'Contact Us', // Translate
     resourcesLabel: 'Resources', // Translate
     policiesLabel: 'Policies', // Translate
 
@@ -124,7 +124,7 @@ const footerTranslation = {
       status: "published", // No translation
     },
     {
-      label: "For Voter's Edge Team: Sign in", // Translate
+      label: "For Voter’s Edge Team: Sign in", // Translate
       link: "http://team.votersedge.org", // No translation
       status: "published", // No translation
     },

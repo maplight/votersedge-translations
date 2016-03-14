@@ -19,7 +19,7 @@ const domainTranslation = {
         square_120: "/content/svg/votersedge/votersedge-120.png", // No translation
         square_200: "/content/svg/votersedge/votersedge-200.png", // No translation
       }, 
-      votersedge_display_name: "Voter's Edge", // No translation
+      votersedge_display_name: "Voter’s Edge", // No translation
       votersedge_description: {
         en: "Get the facts before you vote.", // Translate
       },
@@ -32,7 +32,7 @@ const domainTranslation = {
 
       },
       disclaimer: {
-        en: "Voter's Edge neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
+        en: "Voter’s Edge neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
 
       },
       branding_intro: { 
@@ -75,7 +75,7 @@ const domainTranslation = {
         square_120: "/content/svg/votersedge/votersedge-california-square-120.png", // No translation
         square_200: "/content/svg/votersedge/votersedge-california-square-200.png", // No translation
       },
-      votersedge_display_name: "Voter's Edge California", // No translation
+      votersedge_display_name: "Voter’s Edge California", // No translation
       votersedge_description: {
         en: "Get the facts before you vote.", // Translate (same as above)
       },
@@ -86,7 +86,7 @@ const domainTranslation = {
         en: "Get the facts before you vote.", // Translate (same as above)
       },
       disclaimer: {
-        en: "Voter's Edge California neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
+        en: "Voter’s Edge California neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
 
       },
       branding_intro: { 
