@@ -5,14 +5,14 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const feedbackTranslation = {
 
   title: 'Contact Us', // Translate
-  value_label_yes: 'yes', // Translate
-  value_label_no: 'no',  // Translate
+  value_label_yes: 'Sí', // Translate
+  value_label_no: 'No',  // Translate
   questions: {
     representing_candidate: 'Representing a Candidate or Campaign?', // Translate
     representing_media_outlet: 'Representing a Media Outlet?', // Translate
     spanish_language_access: 'Accessing the Spanish language version of the site?', // Translate
     volunteer_interest: 'Interested in volunteering?', // Translate
-  }
+  },
   form_labels: {
     reason: 'Reason', // Translate
     feedback: 'Feedback', // Translate

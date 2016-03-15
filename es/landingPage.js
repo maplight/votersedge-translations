@@ -45,9 +45,8 @@ const landingPageTranslation = {
   {
     name: "new-york-state", // No translation
     label: "New York", // No translation
-    // link: "/ny",
-    link: "",
-    branding_label: "Coming soon!",  // Translate
+    link: "/ny",
+    branding_label: "",  // Translate
     branding_logo: "",
     branding_logo_alt: "",
     branding_link: "",

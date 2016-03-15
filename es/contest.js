@@ -22,12 +22,12 @@ const contestTranslation = {
       events: "Eventos", // Translate
       links: "Enlaces", // Translate
       videos: "Videos", // Translate
-      more_info, "Información adicional", // Translate
+      more_info: "Información adicional", // Translate
     },
     events: {
       label: "Eventos",  // Translate
       upcoming: "Próximos eventos", // Translate
-      past: "Eventos pasados" // Translate
+      past: "Eventos pasados", // Translate
       host: "Anfitrión", // Translate
       date: "Fecha", // Translate
       location: "Lugar", // Translate
@@ -52,10 +52,10 @@ const contestTranslation = {
         supplemental_description: '',
       },
     },
-    voteForPrompt: {
-      single: "Puede votar por ${office.contestType.vote_for_count} candidato.", // Translate just the text
-      multiple: "Puede votar por ${office.contestType.vote_for_count} candidatos." // Translate just the text
-    }
+    // voteForPrompt: {
+    //   single: `Puede votar por ${office.contestType.vote_for_count} candidato.`, // Translate just the text
+    //   multiple: `Puede votar por ${office.contestType.vote_for_count} candidatos.` // Translate just the text
+    // }
 };
 
 export default contestTranslation;

@@ -5,8 +5,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // URL samples
 
 // Tests: http://votersedge.org/ca/ballot/election/32-70b46e/address/null/zip/90001/section/overview'
-
 const ballotOverviewTranslation = {
+  ballotOverview: {
     ballot_address: "Qué contiene la boleta electoral para su dirección en", // Translate
     ballot_area: "Qué contiene la boleta electoral para el ", // Translate
     ballot_error: "Hubo un problema para encontrar esta boleta electoral.", // Translate
@@ -14,7 +14,6 @@ const ballotOverviewTranslation = {
       ca: 'Es posible que los resultados que se basan solo en un código postal arrojen más contiendas de las que aparecerán en su boleta electoral real. <a href="/en/ca">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>', // Translate
       il: 'Es posible que los resultados que se basan solo en un código postal no arrojen todas las contiendas que aparecerán en su boleta electoral real. <a href="/en/il">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>', // Translate
       ny: 'Es posible que los resultados que se basan solo en un código postal no arrojen todas las contiendas que aparecerán en su boleta electoral real. <a href="/en/ny">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>',
-    "default", // Translate
       default: ''
     },
     contest_extra_result_explanation: {
@@ -97,8 +96,26 @@ const ballotOverviewTranslation = {
         iconFileName: "Special", // No translation
         description: '',
       },
+    }, 
+    ballot_extra_result_explanation: {
+      ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a><br />',
+      il: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/il">For the most specific results available, enter your full address.</a><br />',
+      ny: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/ny">For the most specific results available, enter your full address.</a><br />',
+      default: ''
     },
-  }
+    ballot_extra_result_explanation_address: {
+      ca: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
+      il: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
+      ny: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
+      default: ''
+    },
+    contest_extra_result_explanation: {
+      ca: 'May not appear on your actual ballot. <a href="/ca/page/how-we-get-our-data">Learn More</a>',
+      il: 'May not appear on your actual ballot. <a href="/il/page/how-we-get-our-data">Learn More</a>',
+      ny: 'May not appear on your actual ballot. <a href="/ny/page/how-we-get-our-data">Learn More</a>',
+      default: ''
+    },
+  },
 };
 
 export default ballotOverviewTranslation;

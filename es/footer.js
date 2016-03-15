@@ -1,49 +1,47 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the footer region, all pages.
-
 const footerTranslation = {
   links: [
-      {
-        label: 'Overview',  // Translate
-        link: 'overview',  // No translation
-        section: 'overview', // No translation
-      },
-      {
-        iconFileName: '',
-        tooltip: '',
-        label: 'Candidatos', // Translate
-        link: 'candidates', // No translation
-        section: 'candidates', // No translation
-        target: 'OverviewCandidates Offices', // No translation
-      },
-      {
-        iconFileName: '',
-        tooltip: '',
-        label: 'Measures', // Translate
-        link: 'measures',
-        section: 'measures', // No translation
-        target: 'OverviewMeasures Measures', // No translation
-      },
-      {
-        iconFileName: '',
-        tooltip: '',
-        label: "Información de la votación", // Translate
-        link: 'voting-info', // No translation
-        section: 'votingInfo', // No translation
-        target: 'VotingInfoSections', // No translation
-      },
-      {
-        iconFileName: 'fa fa-newspaper-o', // No translation
-        tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
-        label: 'Mi Lista', // Translate
-        link: '', // 'choices'  // No translation
-        section: 'choices', // No translation
-        target: 'Choices', // No translation
-      },
+        {
+          label: 'Overview',  // Translate
+          link: 'overview',  // No translation
+          section: 'overview', // No translation
+        },
+        {
+          iconFileName: '',
+          tooltip: '',
+          label: 'Candidatos', // Translate
+          link: 'candidates', // No translation
+          section: 'candidates', // No translation
+          target: 'OverviewCandidates Offices', // No translation
+        },
+        {
+          iconFileName: '',
+          tooltip: '',
+          label: 'Measures', // Translate
+          link: 'measures',
+          section: 'measures', // No translation
+          target: 'OverviewMeasures Measures', // No translation
+        },
+        {
+          iconFileName: '',
+          tooltip: '',
+          label: "Información de la votación", // Translate
+          link: 'voting-info', // No translation
+          section: 'votingInfo', // No translation
+          target: 'VotingInfoSections', // No translation
+        },
+        {
+          iconFileName: 'fa fa-newspaper-o', // No translation
+          tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
+          label: 'Mi Lista', // Translate
+          link: '', // 'choices'  // No translation
+          section: 'choices', // No translation
+          target: 'Choices', // No translation
+        },
       ],
-      current: "(actual)", // Translate // Possibly deprecated
-    },
+    current: "(actual)", // Translate // Possibly deprecated
     aboutLabel: "Sobre nosotros", // Translate
     contactUsLabel: "Contáctenos", // Translate
     resourcesLabel: "Recursos", // Translate

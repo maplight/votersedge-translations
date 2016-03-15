@@ -83,8 +83,7 @@ const myListTranslation = {
         type: 'share'
       },
     ],
-  },
-  
+
    // Translate
   choices_explanation: 
   
