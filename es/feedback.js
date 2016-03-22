@@ -4,32 +4,31 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const feedbackTranslation = {
 
-  title: 'Contact Us', // Translate
+  title: 'Contáctenos', // Translate
   value_label_yes: 'Sí', // Translate
   value_label_no: 'No',  // Translate
   questions: {
-    representing_candidate: 'Representing a Candidate or Campaign?', // Translate
-    representing_media_outlet: 'Representing a Media Outlet?', // Translate
-    spanish_language_access: 'Accessing the Spanish language version of the site?', // Translate
-    volunteer_interest: 'Interested in volunteering?', // Translate
+    representing_candidate: '¿Representa a algún candidato o campaña?', // Translate
+    representing_media_outlet: '¿Representa a algún medio de comunicación?', // Translate
+    spanish_language_access: '¿Está visualizando la versión en español del sitio?', // Translate
+    volunteer_interest: '¿Le interesa participar como voluntario?', // Translate
   },
   form_labels: {
-    reason: 'Reason', // Translate
-    feedback: 'Feedback', // Translate
-    election_area_optional: 'Election area is optional', // Translate
-    election_authority: 'Election Authority', // Translate
-    select_reason: 'Select a reason...', // Translate
-    general_feedback: 'General Feedback', // Translate
-    technical_problems: 'Technical Problems', // Translate
-    address_entry: 'Problems After Entering My Address', // Translate
-    data_accuracy: 'Data Accuracy', // Translate
-    api_access: 'Requesting API Access / Widgets', // Translate
-    partnership: 'Interested in Partnership', // Translate
-    other: 'Other', // Translate
+    reason: 'Motivo', // Translate
+    feedback: 'Comentario', // Translate
+    election_area_optional: 'El área electoral es opcional', // Translate
+    election_authority: 'Autoridad electoral', // Translate
+    select_reason: 'Elija un motivo...', // Translate
+    general_feedback: 'Comentario general', // Translate
+    technical_problems: 'Problemas técnicos', // Translate
+    address_entry: 'Problemas al ingresar mi domicilio', // Translate
+    data_accuracy: 'Precisión de los datos', // Translate
+    api_access: 'Solicitud de acceso a interfaz de programación de aplicaciones (Application Programming Interface, API)/widgets', // Translate
+    partnership: 'Interesado en una alianza', // Translate
+    other: 'Otro', // Translate
   },
-  response: 'Thank you for your feedback.  We will follow up with you if necessary.'
+  response: 'Gracias por sus comentarios.  Nos pondremos en contacto con usted para dar seguimiento en caso de ser necesario.'
 
 };
 
 export default feedbackTranslation;
-
