@@ -3,18 +3,18 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the content associated with a candidate.
 
 const candidateCardTranslation = {
-  no_photo_submitted: 'No photo submitted', //Translate
-  encourage_candidate_link: 'Candidates can contact us', //Translate
-  encourage_candidate_action: 'to submit info.', //Translate
+  no_photo_submitted: 'No se proporcionó fotografía', //Translate
+  encourage_candidate_link: 'Los candidatos pueden ponerse en contacto con nosotros', //Translate
+  encourage_candidate_action: 'para proporcionar información.', //Translate
   participation: {
-    researched: 'Experience partially researched by Voter’s Edge</div><div className={s["description"]}>Contact and ask the candidate to submit more information.</div>', //Translate
-    candidate_no_info: 'Candidate has provided information', //Translate
-    candidate_no_info_encourage: 'Candidate has not provided information.</div><div className={s["description"]}>Contact them to encourage participation.</div>', //Translate
+    researched: 'La experiencia se investigó parcialmente por Voter's Edge.</div><div className={s["description"]}>Contactar y solicitar al candidato que presente más información.</div>', //Translate
+    candidate_no_info: 'El candidato proporcionó información', //Translate
+    candidate_no_info_encourage: 'El candidato no proporcionó información.</div><div className={s["description"]}>Ponerse en contacto con ellos para fomentar la participación.</div>', //Translate
   }
-  candidate_website_label: 'Candidate website', //Translate
+  candidate_website_label: 'Sitio web del candidato', //Translate
   accordionLabels: {
-    experience: 'Experience', // Translate
-    education: 'Education', // Translate
+    experience: 'Experiencia', // Translate
+    education: 'Educación', // Translate
     community_activities: 'Community Activities', // Translate
     biography: 'Biography', // Translate
     professional_experience: 'Professional Experience', // Translate
@@ -96,47 +96,47 @@ const candidateCardTranslation = {
 
     contributionSizeTitle: 'How big are the contributions?', //Translate
     contributionSizeLabel: {
-      "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
+      "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $200. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro."', //Translate
       "State": {
-        ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
-        il: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
-        ny: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', //Translate
+        ca: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', //Translate
+        il: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', //Translate
+        ny: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', //Translate
       }
     },
 
     contributionOver: {
-      "Federal": "Large contributions", // "Contributions over $200",
-      "State": "Large contributions", //Translate
+      "Federal": "Contribuciones grandes", // "Contributions over $200",
+      "State": "Contribuciones grandes", //Translate
     },
     contributionUnder: {
-      "Federal": "Small contributions", //Translate
-      "State": "Small contributions", //Translate
+      "Federal": "Contribuciones pequeñas", //Translate
+      "State": "Contribuciones pequeñas", //Translate
     },
     organizationsOrg: {
-      "label": "From organizations", //Translate
-      "tooltip": "Contributions from companies, unions, or other organizations.", //Translate
+      "label": "De organizaciones", //Translate
+      "tooltip": "Contribuciones de empresas, sindicatos u otras organizaciones.", //Translate
     },
     organizationsEmployees: {
-      "label": "From individuals", //Translate
-      "tooltip": "Contributions from individuals, including employees of organizations.", //Translate
+      "label": "De individuos", //Translate
+      "tooltip": "Contribuciones de individuos, incluidos los empleados de organizaciones.", //Translate
     },
     cashHat: 'public/content/svg/icons/Federal-100.png', // No translation
     moneyHand: 'public/content/svg/icons/Federal-100.png', // No translation
     sourceLabel: {
-      "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
+      "Federal": 'Fuente: Análisis de datos de la Comisión Federal Electoral de MapLight.', // Translate
       "State": {
-        ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
-        il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
-        ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
+        ca: 'Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight.', // Translate text but not names
+        il: 'Fuente: Análisis de datos de la Secretaría del Estado de Illinois de MapLight.', // Translate text but not names
+        ny: 'Fuente: Análisis de datos de la Secretaría del Estado de New York de MapLight.', // Translate text but not names
       }
     }
   },
   pieChartLabels: {
     explanation: "",
-    label_in_state: "In-state contributions", // Translate
-    label_other: "Other states", // Translate
-    label_out_of_state: "Out-of-state", // Translate
-    accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.' // Translate
+    label_in_state: "Contribuciones de residentes del estado", // Translate
+    label_other: "Otros estados", // Translate
+    label_out_of_state: "Fuera del estado", // Translate
+    accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a residentes del estado, fuera del estado y de otros estados.' // Translate
   }
 },
 
