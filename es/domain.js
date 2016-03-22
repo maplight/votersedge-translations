@@ -25,7 +25,7 @@ const domainTranslation = {
       },
       votersedge_twitter_account: "@VotersEdge",
       
-      metatags: "voting,election", // Translate
+      metatags: "voting,eleccion", // Translate
       domain: "http://votersedge.org", // No translation
       tagline: {
         es: "Conozca la información antes de votar.", // Translate
