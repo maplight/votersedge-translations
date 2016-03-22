@@ -21,18 +21,18 @@ const domainTranslation = {
       }, 
       votersedge_display_name: "Voter’s Edge", // No translation
       votersedge_description: {
-        es: "Get the facts before you vote.", // Translate
+        es: "Conozca la información antes de votar.", // Translate
       },
       votersedge_twitter_account: "@VotersEdge",
       
       metatags: "voting,election", // Translate
       domain: "http://votersedge.org", // No translation
       tagline: {
-        es: "Get the facts before you vote.", // Translate
+        es: "Conozca la información antes de votar.", // Translate
 
       },
       disclaimer: {
-        es: "Voter’s Edge neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
+        es: "Voter's Edge no apoya ni se opone a ningún partido político, iniciativa de ley en la boleta electoral o candidato para algún cargo público.", // Translate
 
       },
       branding_intro: { 
@@ -77,16 +77,16 @@ const domainTranslation = {
       },
       votersedge_display_name: "Voter’s Edge California", // No translation
       votersedge_description: {
-        es: "Get the facts before you vote.", // Translate (same as above)
+        es: "Conozca la información antes de votar.", // Translate (same as above)
       },
       votersedge_twitter_account: "@VotersEdge",
-      metatags: "california elections",  // Translate
+      metatags: "elecciones de california",  // Translate
       domain: "http://ca.votersedge.org", // No translation
       tagline: {
-        es: "Get the facts before you vote.", // Translate (same as above)
+        es: "Conozca la información antes de votar.", // Translate (same as above)
       },
       disclaimer: {
-        es: "Voter’s Edge California neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
+        es: "Voter's Edge no apoya ni se opone a ningún partido político, iniciativa de ley en la boleta electoral o candidato para algún cargo público", // Translate
 
       },
       branding_intro: { 
@@ -94,7 +94,7 @@ const domainTranslation = {
 
       },
       licensing_message: {
-        es: "The content on this site is licensed with a Creative Commons license.", // Translate
+        es: "El contenido de este sitio está sujeto a una licencia de Creative Commons.", // Translate
 
       },
       licensing_name: {
