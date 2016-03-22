@@ -15,88 +15,88 @@ const candidateCardTranslation = {
   accordionLabels: {
     experience: 'Experiencia', // Translate
     education: 'Educación', // Translate
-    community_activities: 'Community Activities', // Translate
-    biography: 'Biography', // Translate
-    professional_experience: 'Professional Experience', // Translate
-    top_3_priorities: 'Top 3 priorities', // Translate
-    top_3_priorities_candidate: 'My top 3 priorities', // Translate
-    judicial_ratings: 'Judicial Ratings', // Translate
+    community_activities: 'Actividades comunitarias', // Translate
+    biography: 'Biografía', // Translate
+    professional_experience: 'Experiencia profesional', // Translate
+    top_3_priorities: 'Las 3 prioridades principales', // Translate
+    top_3_priorities_candidate: 'Mis 3 prioridades principales', // Translate
+    judicial_ratings: 'Designaciones judiciales', // Translate
     videos: 'Videos', //Translate
-    political_philosophy: 'Political Philosophy', //Translate
-    position_papers: 'Position Papers', //Translate
-    responses_to_questions: 'Responses to questions', //Translate
-    political_beliefs: 'Political Beliefs', //Translate
-    no_question_answer: 'No answer provided.', //Translate
-    question_label: 'Question:', //Translate
-    answer_label: 'Answer:', //Translate
-    profession: 'Profession:', //Translate
-    who_funds_candidate: 'Who funds this candidate?', //Translate
-    who_supports_candidate: 'Who supports this candidate?', //Translate
-    candidate_contact_info: 'Candidate Contact Info', //Translate
+    political_philosophy: 'Filosofía política', //Translate
+    position_papers: 'Documentos sobre determinadas posturas', //Translate
+    responses_to_questions: 'Respuestas a preguntas', //Translate
+    political_beliefs: 'Creencias políticas', //Translate
+    no_question_answer: 'No se proporcionó respuesta.', //Translate
+    question_label: 'Pregunta:', //Translate
+    answer_label: 'Respuesta:', //Translate
+    profession: 'Profesión:', //Translate
+    who_funds_candidate: '¿Quién financia a este candidato?', //Translate
+    who_supports_candidate: '¿Quién apoya a este candidato?', //Translate
+    candidate_contact_info: 'Información de contacto del candidato', //Translate
     experienceLabels: {
-      institution: 'Institution', //Translate
-      degree: 'Degree', //Translate
-      subject: 'Subject', //Translate
-      years: 'Years', //Translate
-      last_year: 'Last Year', //Translate
+      institution: 'Institución', //Translate
+      degree: 'Título', //Translate
+      subject: 'Materia', //Translate
+      years: 'Años', //Translate
+      last_year: 'Último año', //Translate
     },
-    position_appointed: ' — Appointed position', //Translate
-    position_elected: ' — Elected position', //Translate
+    position_appointed: ' — Cargo designado', //Translate
+    position_elected: ' — Cargo elegido', //Translate
     endorsements_label: {
-      featured: 'Featured', //Translate
-      organization: 'Organization', //Translate
-      individual: 'Individual', //Translate
-      elected_official: 'Elected Official', //Translate
+      featured: 'Destacado', //Translate
+      organization: 'Organización', //Translate
+      individual: 'Individuo', //Translate
+      elected_official: 'Funcionario electo', //Translate
     },
     endorsements_label_plural: {
-      featured: 'Featured', //Translate
-      organization: 'Organizations', //Translate
-      individual: 'Individuals', //Translate
-      elected_official: 'Elected Officials', //Translate
+      featured: 'Destacado', //Translate
+      organization: 'Organizaciónes', //Translate
+      individual: 'Individuos', //Translate
+      elected_official: 'Funcionarios electos', //Translate
     },
   },
 
   fundingTranslation: {
-    contributionsTitle: "Contributions to candidate", //Translate
+    contributionsTitle: "Contribuciones al candidato", //Translate
     contributionsExplanation: {
-      "Federal": 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.', //Translate
+      "Federal": 'Estas cantidades reflejan el dinero proporcionado a, y reportado por, los comités principales de campaña de los candidatos para el puesto específico. Esto no incluye el dinero proporcionado a otros tipos de comité, como los Supercomités de Acción Política (Political Action Committee, PAC) que apoyan al candidato o se oponen él.', //Translate
       "State": {
-        ca: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.', //Translate
-        il: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.', //Translate
-        ny: 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as independent expenditure committees that support or oppose the candidate.', //Translate
+        ca: 'Estas cantidades reflejan el dinero proporcionado a, y reportado por, los comités principales de campaña de los candidatos para el puesto específico. Esto no incluye el dinero proporcionado a otros tipos de comité, como los comités de gastos independientes que apoyan al candidato o se oponen él.', //Translate
+        il: 'Estas cantidades reflejan el dinero proporcionado a, y reportado por, los comités principales de campaña de los candidatos para el puesto específico. Esto no incluye el dinero proporcionado a otros tipos de comité, como los comités de gastos independientes que apoyan al candidato o se oponen él.', //Translate
+        ny: 'Estas cantidades reflejan el dinero proporcionado a, y reportado por, los comités principales de campaña de los candidatos para el puesto específico. Esto no incluye el dinero proporcionado a otros tipos de comité, como los comités de gastos independientes que apoyan al candidato o se oponen él.', //Translate
       }
     },
 
-    totalMoneyRaised: "Total money raised", //Translate
-    contributionSize: 'Candidates are not required to disclose detailed information for contributions under $100. These unitemized contributions are disclosed as a lump sum with each new filing.', //Translate
-    organizationContributionsTitle: 'Who gave contributions?', //Translate
+    totalMoneyRaised: "Dinero total recaudado", //Translate
+    contributionSize: 'Los candidatos no están obligados a divulgar información detallada de contribuciones menores de $100. Estas contribuciones no detalladas se divulgan como cantidad global con cada nuevo registro.', //Translate
+    organizationContributionsTitle: '¿Quién hizo contribuciones?', //Translate
     organizationContributionsLabel: {
-      "Federal": 'Contributions can be made by organizations through their political action committees (PACs) or by individuals.', //Translate
+      "Federal": 'Las contribuciones pueden hacerse directamente por organizaciones, mediante sus comités de acción política (PAC) o por individuos.', //Translate
       "State": {
-        ca: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', //Translate
-        il: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', //Translate
-        ny: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', //Translate
+        ca: 'Las contribuciones pueden hacerse directamente por organizaciones, mediante sus comités de acción política (PAC) afiliados o por individuos.', //Translate
+        il: 'Las contribuciones pueden hacerse directamente por organizaciones, mediante sus comités de acción política (PAC) afiliados o por individuos.', //Translate
+        ny: 'Las contribuciones pueden hacerse directamente por organizaciones, mediante sus comités de acción política (PAC) afiliados o por individuos.', //Translate
       }
     },
-    whoGaveMostMoneyTitle: "Who gave the most money?",
+    whoGaveMostMoneyTitle: "¿Quién dio más dinero?",
     whoGaveMostMoneyLabel: {
-      "Federal": 'Below are the top contributors that gave money to support the candidate(s). We have combined contributions from employees of an organization with contributions directly from the organization‘s PAC.',
+      "Federal": 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s). Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por la organización o el PAC de la misma.',
       "State": {
-        ca: 'Below are the top contributors that gave money to support the candidate(s). We have combined contributions from employees of an organization with contributions directly from the organization and/or its PAC.',
-        il: 'Below are the top contributors that gave money to support the candidate(s). We have combined contributions from employees of an organization with contributions directly from the organization and/or its PAC.',
-        ny: 'Below are the top contributors that gave money to support the candidate(s). We have combined contributions from employees of an organization with contributions directly from the organization and/or its PAC.',
+        ca: 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s). Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por la organización o el PAC de la misma.',
+        il: 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s). Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por la organización o el PAC de la misma.',
+        ny: 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s). Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por la organización o el PAC de la misma.',
       }
     },
 
     ofTotal: 'of total', //Translate
-    topFiveByStateTitle: 'Top contributions by state', //Translate
+    topFiveByStateTitle: 'Mayores contribuciones por estado', //Translate
     topTenByStateLabel: '',
-    piechartTitle: 'Top contributions by state', //Translate
+    piechartTitle: 'Mayores contribuciones por estado', //Translate
     piechartLabel: '',
 
-    contributionSizeTitle: 'How big are the contributions?', //Translate
+    contributionSizeTitle: '¿Qué tan grandes son las contribuciones?', //Translate
     contributionSizeLabel: {
-      "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $200. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro."', //Translate
+      "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $200. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', //Translate
       "State": {
         ca: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', //Translate
         il: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', //Translate
