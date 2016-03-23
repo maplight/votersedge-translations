@@ -1,23 +1,23 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const searchTranslation  = {
-  pageTitle: 'Choose a ballot for an election', // Translate // New
-  intro: "Find in-depth information about what's on your ballot", // Translate 
+  pageTitle: 'Elija una boleta electoral para una elección', // Translate // New
+  intro: "Encuentre información detallada sobre lo que incluye su boleta electoral.", // Translate 
   path: '/search', // No translation
-  zipPrompt: "Enter your <strong>zip code</strong>", // Translate 
-  streetAddressPrompt: "And your <strong>street address</strong> <span class=\"muted\">(to access your complete ballot.)</span>", // Translate just text, not HTML
-  addressPromptReason: "Necessary to tell you exactly what will be on your ballot and look up your polling place.", // Translate 
-  searchButtonLabel: "Find my ballot", // Translate 
-  confidentialityStatement: "Address information is confidential.", // Translate 
-  privacyStatement: "We are nonpartisan, nonprofit, and will not sell your information.", // Translate 
-  privacyPolicyLinkLabel: "Privacy policy.", // Translate 
+  zipPrompt: "Ingrese su <strong>código postal</strong>.", // Translate 
+  streetAddressPrompt: "Y su <strong>dirección</strong> <span class=\"muted\"> (para tener acceso a su boleta electoral completa)</span>.", // Translate just text, not HTML
+  addressPromptReason: "Es necesario para decirle exactamente qué habrá en su boleta electoral y para ubicar su lugar de votación.", // Translate 
+  searchButtonLabel: "Encontrar mi boleta electoral", // Translate 
+  confidentialityStatement: "La información de su dirección es confidencial.", // Translate 
+  privacyStatement: "Somos no partidistas, sin fines de lucro y no venderemos su información.", // Translate 
+  privacyPolicyLinkLabel: "Política de privacidad.", // Translate 
   privacyPolicyLink: "/page/privacy-policy", // No translation
-  countyLabel: "County",
+  countyLabel: "Condado",
   countySearchPath: '/election_authority', // No translation
-  countyButtonLabel: "Look up county", // Translate 
+  countyButtonLabel: "Buscar condado", // Translate 
   zipSearchPath: '/search', // No translation
-  zipLabel: "Zip code", // Translate 
-  zipButtonLabel: "Look up zip code", // Translate 
+  zipLabel: "Código postal", // Translate 
+  zipButtonLabel: "Buscar el código postal", // Translate 
   zipHelpText: "",
   domains: {
     'ca': {
@@ -27,37 +27,37 @@ const searchTranslation  = {
       stateBallotLink: "",
     },
     'il': {
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of Illinois</strong>.", // Translate 
+      stateBallotLinkLabel: "Consulte las iniciativas de ley en la boleta electoral y la contienda electoral para el <strong>estado de Illinois</strong>.", // Translate 
       stateBallotLink: "/ballot/election/area/30?id=ocd-division/country:us/state:il", // No translation
     },
     'ny': {
-      stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>.", // Translate 
+      stateBallotLinkLabel: "Consulte las iniciativas de ley en la boleta electoral y la contienda electoral para el <strong>estado de Nueva York</strong>.", // Translate 
       // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ny",
       stateBallotLink: "",
     }
   },
   electionArchiveLink: "/page/elections-archive", // No translation
-  electionArchiveLabel: "<strong>Election archive.</strong> See a list of past elections.", // Translate 
+  electionArchiveLabel: "<strong>Archivo de las elecciones</strong> Consulte una lista de las elecciones pasadas.", // Translate 
   allStateLink: "http://votersedge.org", // No translation
-  allStateLabel: "Find ballots for <strong>other states</strong>.", // Translate 
+  allStateLabel: "Encuentre las boletas electorales de <strong>otros estados</strong>.", // Translate 
   countyZipContent: {
-    accordionLabel: "Look up ballots by <strong>county or zip code.</strong>.", // Translate 
+    accordionLabel: "Busque boletas electorales por <strong>condado o por código postal.</strong>", // Translate 
     accordionType: "simple", // No translation
     accordionName: "county-selection", // No translation
   },
   multipleElectionsTranslations: {
-      upcoming_message_default: 'We found elections for ', // Translate 
-      upcoming_message_1: 'Looks like there is an upcoming election for ', // Translate 
-      upcoming_message_2: 'Looks like there are a couple of upcoming elections for ', // Translate 
-      upcoming_message_3: 'Looks like there are some upcoming elections for ', // Translate 
-      recent_message_default: 'We also found these past elections:', // Translate 
-      recent_message_1: 'We also found this past election:', // Translate 
-      recent_message_2: 'We also found these past elections:', // Translate 
-      recent_message_no_upcoming_1: 'Here is the most recent election for ', // Translate 
-      recent_message_no_upcoming_2: 'Here are some recent elections for ', // Translate 
-      choose_ballot: 'Please choose which ballot you would like to see.', // Translate 
-      election_archive: 'Looking for an older election? Check the ', // Translate 
-      election_archive_label: 'archives.', // Translate 
+      upcoming_message_default: 'Encontramos elecciones para ', // Translate 
+      upcoming_message_1: 'Parece ser que hay una elección próxima para ', // Translate 
+      upcoming_message_2: 'Parece ser que hay un par de elecciones próximas para ', // Translate 
+      upcoming_message_3: 'Parece ser que hay elecciones próximas para ', // Translate 
+      recent_message_default: 'También encontramos estas elecciones pasadas:', // Translate 
+      recent_message_1: 'También encontramos esta elección pasada:', // Translate 
+      recent_message_2: 'También encontramos estas elecciones pasadas:', // Translate 
+      recent_message_no_upcoming_1: 'Aquí está la elección más reciente para ', // Translate 
+      recent_message_no_upcoming_2: 'Aquí están algunas elecciones recientes para ', // Translate 
+      choose_ballot: 'Elija qué boleta electoral desea consultar.', // Translate 
+      election_archive: '¿Busca una elección anterior? Consulte los ', // Translate 
+      election_archive_label: 'archivos.', // Translate 
   },
 };
 
