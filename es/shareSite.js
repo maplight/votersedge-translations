@@ -5,24 +5,24 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const shareSiteTranslation = {
   tooltips: {
-    facebook: 'Share link to this site on Facebook', // Translate
-    twitter: 'Share link to this site on Twitter', // Translate
-    email: 'Send to email', // Translate
-    copy_link: 'Copy a link', // Translate
+    facebook: 'Compartir el enlace de este sitio en Facebook', // Translate
+    twitter: 'Compartir el enlace de este sitio en Twitter', // Translate
+    email: 'Enviar por correo electrónico', // Translate
+    copy_link: 'Copiar un enlace', // Translate
   },
   icon_labels: {
     facebook: 'Facebook',
     twitter: 'Twitter',
-    email: 'Email', // Translate
-    copy_link: 'Get a link (to share via mobile or chat messages.)',  // Translate
+    email: 'Correo electrónico', // Translate
+    copy_link: 'Obtener un enlace (para compartir a través del celular o de mensajes de chat).',  // Translate
   },
-  share_to_label: 'Please share this site to help others research their voting choices.', // Translate
-  email_label: 'Email', // Translate
-  email_message: 'You might like', // Translate
-  copy_link_label: 'Copy Link', // Translate
-  copy_link_instructions: 'Get a link to this page', // Translate
-  copy_link_clean_instructions: 'Get link (without your address)', // Translate
-  embed_link_label: 'Embed', // Translate
+  share_to_label: 'Comparta este sitio para ayudar a otras personas a investigar sus opciones para las votaciones.', // Translate
+  email_label: 'Correo electrónico', // Translate
+  email_message: 'Le podría gustar', // Translate
+  copy_link_label: 'Copiar un enlace', // Translate
+  copy_link_instructions: 'Obtener un enlace para esta página', // Translate
+  copy_link_clean_instructions: 'Obtener el vínculo sin su dirección', // Translate
+  embed_link_label: 'Incorporado', // Translate
 };
 
 export default shareSiteTranslation;
