@@ -11,7 +11,7 @@ const candidateCardTranslation = {
     candidate_no_info: 'El candidato proporcionó información', //Translate
     candidate_no_info_encourage: 'El candidato no proporcionó información.</div><div className={s["description"]}>Ponerse en contacto con ellos para fomentar la participación.</div>', //Translate
   }
-  candidate_website_label: 'Sitio web del candidato', //Translate
+  candidate_website_label: 'Visite el sitio web del candidato', //Translate
   accordionLabels: {
     experience: 'Experiencia', // Translate
     education: 'Educación', // Translate
@@ -25,7 +25,7 @@ const candidateCardTranslation = {
     political_philosophy: 'Filosofía política', //Translate
     position_papers: 'Documentos sobre determinadas posturas', //Translate
     responses_to_questions: 'Respuestas a preguntas', //Translate
-    political_beliefs: 'Creencias políticas', //Translate
+    political_beliefs: 'Creencias poliza', //Translate
     no_question_answer: 'No se proporcionó respuesta.', //Translate
     question_label: 'Pregunta:', //Translate
     answer_label: 'Respuesta:', //Translate
