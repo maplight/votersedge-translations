@@ -77,16 +77,16 @@ const domainTranslation = {
       },
       votersedge_display_name: "Voter’s Edge California", // No translation
       votersedge_description: {
-        es: "Conozca la información antes de votar.", // Translate (same as above)
+        es: "Infórmese antes de votar.", // Translate (same as above)
       },
       votersedge_twitter_account: "@VotersEdge",
       metatags: "elecciones de california",  // Translate
       domain: "http://ca.votersedge.org", // No translation
       tagline: {
-        es: "Conozca la información antes de votar.", // Translate (same as above)
+        es: "Infórmese antes de votar.", // Translate (same as above)
       },
       disclaimer: {
-        es: "Voter's Edge no apoya ni se opone a ningún partido político, iniciativa de ley en la boleta electoral o candidato para algún cargo público", // Translate
+        es: "Voter's Edge no apoya ni se opone a ningún partido político, iniciativas de ley en boletas electorales, o candidatos a cargos públicos.", // Translate
 
       },
       branding_intro: { 
