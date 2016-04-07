@@ -16,7 +16,7 @@ const shareSiteTranslation = {
     email: 'Correo electrónico', // Translate
     copy_link: 'Obtener un enlace (para compartir a través del celular o de mensajes de chat).',  // Translate
   },
-  share_to_label: 'Comparta este sitio para ayudar a otras personas a investigar sus opciones para las votaciones.', // Translate
+  share_to_label: 'Por favor comparta esta página web para ayudar a otros a aprender sobre sus opciones electorales.', // Translate
   email_label: 'Correo electrónico', // Translate
   email_message: 'Le podría gustar', // Translate
   copy_link_label: 'Copiar un enlace', // Translate
