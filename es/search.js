@@ -37,11 +37,11 @@ const searchTranslation  = {
     }
   },
   electionArchiveLink: "/page/elections-archive", // No translation
-  electionArchiveLabel: "<strong>Archivo de las elecciones</strong> Consulte una lista de las elecciones pasadas.", // Translate 
+  electionArchiveLabel: "<strong>Archivo electoral</strong> Consulte una lista de las elecciones pasadas.", // Translate 
   allStateLink: "http://votersedge.org", // No translation
   allStateLabel: "Encuentre las boletas electorales de <strong>otros estados</strong>.", // Translate 
   countyZipContent: {
-    accordionLabel: "Busque boletas electorales por <strong>condado o por código postal.</strong>", // Translate 
+    accordionLabel: "Busqueda de boletas electorales por <strong>condado o por código postal.</strong>", // Translate 
     accordionType: "simple", // No translation
     accordionName: "county-selection", // No translation
   },
