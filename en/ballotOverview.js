@@ -73,7 +73,6 @@ const ballotOverviewTranslation = {
         'Putnam County': '6 a.m. - 9 p.m.',
       }
     },
-
     more_voting_info: 'See more voting info', // Translate
     other_address: 'Look up ballot for', // Translate
     other_address_link: 'another address', // Translate

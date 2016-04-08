@@ -3,12 +3,50 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the footer region, all pages.
 
 const footerTranslation = {
+  links: [
+      {
+        label: 'Overview',  // Translate
+        link: 'overview',  // No translation
+        section: 'overview', // No translation
+      },
+      {
+        iconFileName: '',
+        tooltip: '',
+        label: 'Candidates', // Translate
+        link: 'candidates', // No translation
+        section: 'candidates', // No translation
+        target: 'OverviewCandidates Offices', // No translation
+      },
+      {
+        iconFileName: '',
+        tooltip: '',
+        label: 'Measures', // Translate
+        link: 'measures',
+        section: 'measures', // No translation
+        target: 'OverviewMeasures Measures', // No translation
+      },
+      {
+        iconFileName: '',
+        tooltip: '',
+        label: 'Voting Info', // Translate
+        link: 'voting-info', // No translation
+        section: 'votingInfo', // No translation
+        target: 'VotingInfoSections', // No translation
+      },
+      {
+        iconFileName: 'fa fa-newspaper-o', // No translation
+        tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
+        label: 'My List', // Translate
+        link: '', // 'choices'  // No translation
+        section: 'choices', // No translation
+        target: 'Choices', // No translation
+      },
+      ],
     current: "(current)", // Translate // Possibly deprecated
     aboutLabel: 'About Us', // Translate
     contactUsLabel: 'Contact Us', // Translate
     resourcesLabel: 'Resources', // Translate
     policiesLabel: 'Policies', // Translate
-
     about : [
     {
       label: "About this project", // Translate
@@ -25,7 +63,7 @@ const footerTranslation = {
       link: "page/faq", // No translation
       status: "published", // No translation
       domain: 'ca' // No translation
-    }
+    },
     ],
     policies: [
     {
@@ -42,7 +80,7 @@ const footerTranslation = {
       label: "Icon attribution", // Translate
       link: "page/icons", // No translation
       status: "published", // No translation
-    }
+    },
     ],
     contact: [
     {
@@ -59,7 +97,7 @@ const footerTranslation = {
       label: "Donate", // Translate
       link: "https://donatenow.networkforgood.org/votersedge?code=votersedge", // No translation
       status: "published", // No translation
-    }
+    },
     ],
     resources: [
     // {
@@ -86,10 +124,10 @@ const footerTranslation = {
       label: "For Voter’s Edge Team: Sign in", // Translate
       link: "http://team.votersedge.org", // No translation
       status: "published", // No translation
-    }
+    },
     ],
-    feedback_button_label: "Contact Us", // Translate 
-    feedback_message: "Message", // Translate 
+    feedback_button_label: "Contact Us", // Translate
+    feedback_message: "Message", // Translate
   };
 
 export default footerTranslation;

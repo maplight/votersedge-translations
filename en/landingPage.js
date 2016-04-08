@@ -3,7 +3,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the national landing page
 // http://votersedge.org
 // QA: http://qa.votersedge.org
- 
+
 const landingPageTranslation = {
   sponsors_label: "Brought to you by", // Translate
   intro: "Find elections in these states", // Translate

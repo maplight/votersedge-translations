@@ -11,5 +11,4 @@ const measuresListTranslation = {
   }
 };
 
-  
 export default measuresListTranslation;

@@ -17,7 +17,7 @@ const searchErrorsTranslation = {
     your_search: 'You searched for:', // Translate
     search_prompt: 'Try one of these addresses', // Translate
     no_elections_found: 'No elections found', // Translate
-    critical_error: 'We are very sorry. Something in our system is broken right now. Please try again or check back later. <br />If you keep getting this response, please contact us so that we can repair the problem.', // Translate 
+    critical_error: 'We are very sorry. Something in our system is broken right now. Please try again or check back later. <br />If you keep getting this response, please contact us so that we can repair the problem.', // Translate
     no_address_found: 'No address found', // Translate
     no_page_found: 'Sorry, but the page you were trying to view does not exist.', // Translate
     noElectionsErrorMessage: {

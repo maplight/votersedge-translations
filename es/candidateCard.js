@@ -1,7 +1,6 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the content associated with a candidate.
-
 const candidateCardTranslation = {
   no_photo_submitted: 'No se proporcionó fotografía', //Translate
   encourage_candidate: 'Los candidatos pueden', //Translate
@@ -16,7 +15,7 @@ const candidateCardTranslation = {
     candidate_no_info_encourage: 'Ponerse en contacto con ellos para fomentar la participación.', //Translate
     researched_data: 'Investigó por Voter’s Edge.',
   },
-  candidate_website_label: 'Sitio web del candidato', //Translate
+  candidate_website_label: 'Visite el sitio web del candidato', //Translate
   accordionLabels: {
     experience: 'Experiencia', // Translate
     education: 'Educación', // Translate
@@ -30,7 +29,7 @@ const candidateCardTranslation = {
     political_philosophy: 'Filosofía política', //Translate
     position_papers: 'Documentos sobre determinadas posturas', //Translate
     responses_to_questions: 'Respuestas a preguntas', //Translate
-    political_beliefs: 'Creencias políticas', //Translate
+    political_beliefs: 'Creencias poliza', //Translate
     no_question_answer: 'No se proporcionó respuesta.', //Translate
     question_label: 'Pregunta:', //Translate
     answer_label: 'Respuesta:', //Translate

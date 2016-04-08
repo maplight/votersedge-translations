@@ -12,37 +12,37 @@ const myListTranslation = {
     toolbar: [
       {
         label: 'Print your list.', // Translate
-        icon: 'fa-print', 
+        icon: 'fa-print',
         description: "You can print this page by using the 'Print' feature of your browser.", // Translate
         type: 'print'
       },
-      { label: 'Copy a link.', 
-        icon: 'fa-external-link', 
+      { label: 'Copy a link.',
+        icon: 'fa-external-link',
         description: "Here is a link you can use to paste into a text message or bookmark.",  // Translate
         type: 'copy'
       },
-      { label: 'E-mail your list', 
-        icon: 'fa-envelope', 
+      { label: 'E-mail your list',
+        icon: 'fa-envelope',
         description: "Get this list as well as a link to get back to your list.",  // Translate
         type: 'email'
       },
     ],
 
     contest_toolbar: [
-      { 
+      {
         label: {
           set: 'Review this contest later',  // Translate
           unset: 'Remove'  // Translate
-        }, 
+        },
         icon: {
-          set: 'fa-bookmark', 
+          set: 'fa-bookmark',
           unset: 'fa-remove'
-        }, 
+        },
         type: 'review'
       },
       {
         label: 'Share this page',  // Translate
-        icon: '', 
+        icon: '',
         type: 'share'
       },
     ],
@@ -52,16 +52,16 @@ const myListTranslation = {
         label: {
           set: 'Review this candidate later',  // Translate
           unset: 'Remove'  // Translate
-        }, 
+        },
         icon: {
-          set: 'fa-bookmark', 
+          set: 'fa-bookmark',
           unset: 'fa-remove'
-        }, 
+        },
         type: 'review'
       },
       {
         label: 'Share this page', // Translate
-        icon: '', 
+        icon: '',
         type: 'share'
       },
     ],
@@ -71,22 +71,21 @@ const myListTranslation = {
         label: {
           set: 'Review this measure later',  // Translate
           unset: 'Remove'
-        }, 
+        },
         icon: {
-          set: 'fa-bookmark', 
-          unset: 'fa-remove'}, 
+          set: 'fa-bookmark',
+          unset: 'fa-remove'},
           type: 'review'
         },
       {
         label: 'Share this page',  // Translate
-        icon: '', 
+        icon: '',
         type: 'share'
       },
     ],
-
    // Translate
-  choices_explanation: 
-  
+  choices_explanation:
+
       `
       <p>Because ballots are often long and complicated, Voter’s Edge
       provides you with a tool to help you keep track of your choices.</p>
@@ -108,7 +107,7 @@ const myListTranslation = {
       <h4>Privacy Tips</h4>
       <p>For privacy reasons, we do not save your choices. We do not set cookies with your
       choices. If you are on a public computer, be sure to clear your history.</p>
-     
+
       `,
 
 

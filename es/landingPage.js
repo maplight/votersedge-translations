@@ -3,7 +3,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the national landing page
 // http://votersedge.org
 // QA: http://qa.votersedge.org
- 
+
 const landingPageTranslation = {
   sponsors_label: "Brought to you by", // Translate
   intro: "Encuentre elecciones en estos estados", // Translate
@@ -11,9 +11,9 @@ const landingPageTranslation = {
   features: [
      "Use su dirección para obtener una boleta electoral personalizada.", // Translate
      "Obtenga información detallada sobre los candidatos, las iniciativas de ley y quién las apoya.", // Translate
-    "Revise dónde, cuándo y cómo votar.", // Translate
-    "Mantenga un registro de sus opciones y úselas para votar.", // Translate
-    "¡Comparta e inicie la conversación!" // Translate
+     "Infórmese dónde, cuándo y cómo votar.", // Translate
+     "Mantenga un registro de sus preferencias y úselas para votar.", // Translate
+     "¡Comparta e inicie la conversación!" // Translate
   ],
   benefits: [
     "Encuentre sentido a la elección.", // Translate
@@ -22,7 +22,7 @@ const landingPageTranslation = {
     "Influya en su democracia." // Translate
   ],
   about_link: "/page/about-voters-edge", // No translation
-  about_link_label: "Descubra más sobre Voter’s Edge", // Translate
+  about_link_label: "Aprenda más sobre Voter’s Edge", // Translate
   domains: [
   {
     name: "california-state", // No translation

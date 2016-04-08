@@ -4,6 +4,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const candidateCardTranslation = {
   no_photo_submitted: 'No photo submitted', //Translate
+
   encourage_candidate: 'Candidates can', //Translate
   encourage_candidate_link: 'contact us', //Translate
   encourage_candidate_action: 'to submit info.', //Translate

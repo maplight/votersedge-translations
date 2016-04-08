@@ -55,7 +55,7 @@ const measureTranslation = {
     },
 
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
-    // 
+    //
     accordionLabels: {
       evg: {   // Translation already provided by LWCV
         label: 'Easy Voter Guide', // If translated, it exists already
@@ -76,7 +76,7 @@ const measureTranslation = {
         summary: 'Summary',  // Translation exists
         background: 'Background',  // Translation exists
         financial_effect: 'Financial effect',  // Translation exists
-      }, 
+      },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Measure Basics',
         summary: 'Summary',  // Translation exists
@@ -145,7 +145,8 @@ const measureTranslation = {
     argumentsLabel: 'Arguments for and against this proposition', // Translate
     supportLabel: 'Who supports this and why?', // Translate
     costLabel: 'How much does it cost?', // Translate
-    infoLabel: 'How can I learn more?', // Translate
+    infoLabel: 'How can I learn more?' // Translate
+
 };
 
 export default measureTranslation;

@@ -2,19 +2,58 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the footer region, all pages.
 const footerTranslation = {
+  links: [
+        {
+          label: 'Overview',  // Translate
+          link: 'overview',  // No translation
+          section: 'overview', // No translation
+        },
+        {
+          iconFileName: '',
+          tooltip: '',
+          label: 'Candidatos', // Translate
+          link: 'candidates', // No translation
+          section: 'candidates', // No translation
+          target: 'OverviewCandidates Offices', // No translation
+        },
+        {
+          iconFileName: '',
+          tooltip: '',
+          label: 'Measures', // Translate
+          link: 'measures',
+          section: 'measures', // No translation
+          target: 'OverviewMeasures Measures', // No translation
+        },
+        {
+          iconFileName: '',
+          tooltip: '',
+          label: "Información de la votación", // Translate
+          link: 'voting-info', // No translation
+          section: 'votingInfo', // No translation
+          target: 'VotingInfoSections', // No translation
+        },
+        {
+          iconFileName: 'fa fa-newspaper-o', // No translation
+          tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
+          label: 'Mi Lista', // Translate
+          link: '', // 'choices'  // No translation
+          section: 'choices', // No translation
+          target: 'Choices', // No translation
+        },
+      ],
     current: "(actual)", // Translate // Possibly deprecated
-    aboutLabel: "Sobre nosotros", // Translate
+    aboutLabel: "Acerca de nosotros", // Translate
     contactUsLabel: "Contáctenos", // Translate
     resourcesLabel: "Recursos", // Translate
     policiesLabel: "Políticas", // Translate
     about : [
     {
-      label: "Sobre este proyecto", // Translate
+      label: "Acerca de este proyecto", // Translate
       link: "page/about-voters-edge", // No translation
       status: "published", // No translation
     },
     {
-      label: "Cómo obtenemos nuestros datos", // Translate
+      label: "Fuente de información", // Translate
       link: "page/how-we-get-our-data", // No translation
       status: "published", // No translation
     },
@@ -54,7 +93,7 @@ const footerTranslation = {
     //   status: "published",
     // },
     {
-      label: "Done", // Translate
+      label: "Contribuya", // Translate
       link: "https://donatenow.networkforgood.org/votersedge?code=votersedge", // No translation
       status: "published", // No translation
     },
@@ -86,8 +125,8 @@ const footerTranslation = {
       status: "published", // No translation
     },
     ],
-    feedback_button_label: "Contáctenos", // Translate 
-    feedback_message: "Mensaje", // Translate 
+    feedback_button_label: "Contáctenos", // Translate
+    feedback_message: "Mensaje", // Translate
   };
 
 export default footerTranslation;

@@ -33,7 +33,6 @@ const feedbackTranslation = {
     other: 'Other', // Translate
   },
   response: 'Thank you for your feedback.  We will follow up with you if necessary.'
-
 };
 
 export default feedbackTranslation;

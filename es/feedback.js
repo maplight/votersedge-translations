@@ -7,7 +7,6 @@ const feedbackTranslation = {
   title: 'Contáctenos', // Translate
   value_label_yes: 'Sí', // Translate
   value_label_no: 'No',  // Translate
-
   questions: {
     representing_candidate: '¿Representa a algún candidato o campaña?', // Translate
     representing_media_outlet: '¿Representa a algún medio de comunicación?', // Translate
