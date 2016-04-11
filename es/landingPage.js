@@ -27,7 +27,7 @@ const landingPageTranslation = {
   {
     name: "california-state", // No translation
     label: "California", // No translation
-    link: "/ca", // No translation
+    link: "/ca/es", // No translation
     branding_label: "Producido en asociación con",
     branding_logo: "/content/svg/lwvcef/votersedge_logo_lwvcef-200.png", // No translation
     branding_logo_alt: "League of Women Voters of California Education Fund", // No translation ?
@@ -36,7 +36,7 @@ const landingPageTranslation = {
   {
     name: "illinois-state", // No translation
     label: "Illinois", // No translation
-    link: "/il", // No translation
+    link: "/il/es", // No translation
     branding_label: "",
     branding_logo: "",
     branding_logo_alt: "",
@@ -45,7 +45,7 @@ const landingPageTranslation = {
   {
     name: "new-york-state", // No translation
     label: "New York", // No translation
-    link: "/ny",
+    link: "/ny/es",
     branding_label: "",  // Translate
     branding_logo: "",
     branding_logo_alt: "",

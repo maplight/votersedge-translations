@@ -31,9 +31,8 @@ const searchTranslation  = {
   domains: {
     'ca': {
       // stateBallotLinkLabel: "Coming soon for 2016. In meantime, here's measures and races for the <strong>state of California</strong> 2014 election.",
-      stateBallotLinkLabel: "",
-      // stateBallotLink: "/ballot/election/area/18?id=ocd-division/country:us/state:ca",
-      stateBallotLink: "",
+      stateBallotLinkLabel: "Consulte las iniciativas de ley en la boleta electoral y la contienda electoral para el <strong>estado de California</strong>.", // Translate
+      stateBallotLink: "/ballot/election/area/39?id=ocd-division/country:us/state:ca",
     },
     'il': {
       stateBallotLinkLabel: "Consulte las iniciativas de ley en la boleta electoral y la contienda electoral para el <strong>estado de Illinois</strong>.", // Translate

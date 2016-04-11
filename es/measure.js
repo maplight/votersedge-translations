@@ -2,6 +2,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 
 const measureTranslation = {
+  measure: {
     pageTitle: 'Measure', // Translate
     positions: {
       yes: {
@@ -28,18 +29,6 @@ const measureTranslation = {
       individual: 'Individuals', // Translate
       elected_official: 'Elected Officials', // Translate
     },
-    accordionLabels: {
-      opinions: 'Opinions & Analysis', // Translate
-      events: {
-        label: 'Events',  // Translate
-        upcoming: 'Upcoming Events', // Translate
-        past: 'Past Events', // Translate
-        host: 'Host', // Translate
-        date: 'Date', // Translate
-        location: 'Location', // Translate
-        time: 'Time', // Translate
-      }
-    },
     pieChartLabels: {
       explanation: "",
       label_in_state: "In-state contributions", // Translate
@@ -57,6 +46,16 @@ const measureTranslation = {
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     //
     accordionLabels: {
+      opinions: 'Opinions & Analysis', // Translate
+      events: {
+        label: 'Events',  // Translate
+        upcoming: 'Upcoming Events', // Translate
+        past: 'Past Events', // Translate
+        host: 'Host', // Translate
+        date: 'Date', // Translate
+        location: 'Location', // Translate
+        time: 'Time', // Translate
+      },
       evg: {   // Translation already provided by LWCV
         label: 'Easy Voter Guide', // If translated, it exists already
         way_it_is_now: 'The way it is now', // Translation exists
@@ -133,7 +132,6 @@ const measureTranslation = {
       },
       cashHat: 'public/content/svg/icons/Federal-100.png', // No translation
       moneyHand: 'public/content/svg/icons/Federal-100.png', // No translation
-
     },
     sectionTitle: "Measures", // Translate
     measureDescriptionLabel: "About this measure", // Translate
@@ -146,7 +144,7 @@ const measureTranslation = {
     supportLabel: 'Who supports this and why?', // Translate
     costLabel: 'How much does it cost?', // Translate
     infoLabel: 'How can I learn more?' // Translate
-
+  }
 };
 
 export default measureTranslation;
