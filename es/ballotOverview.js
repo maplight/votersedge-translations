@@ -122,7 +122,11 @@ const ballotOverviewTranslation = {
         iconFileName: "Place", // No translation
         description: '',
       },
-
+      'party committee': {
+        label: "Party Committee",  // Translate
+        iconFileName: "PartyCommittee", // No translation
+        description: '',
+      },
       Special: {
         label: "Distrito especial",  // Translate
         iconFileName: "Special", // No translation
