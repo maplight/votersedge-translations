@@ -2,8 +2,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const stateLandingPageTranslation = {
   about_link: "/page/about-voters-edge", // No translation
-  about_link_label: "Descubra más sobre Voter’s Edge", // Translate
-  features_label: "Qué puede hacer en Voter’s Edge", // Translate
+  about_link_label: "Descubra más sobre", // Translate
+  features_label: "Qué puede hacer en", // Translate
   features: [
      "Use su dirección para obtener una boleta electoral personalizada.", // Translate
      "Obtenga información detallada sobre los candidatos, las iniciativas de ley y quién las apoya.", // Translate

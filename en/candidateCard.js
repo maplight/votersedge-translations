@@ -24,8 +24,8 @@ const candidateCardTranslation = {
     community_activities: 'Community Activities', // Translate
     biography: 'Biography', // Translate
     professional_experience: 'Professional Experience', // Translate
-    top_3_priorities: 'Top 3 priorities', // Translate
-    top_3_priorities_candidate: 'My top 3 priorities', // Translate
+    top_3_priorities: 'Top 3 Priorities', // Translate
+    top_3_priorities_candidate: 'My Top 3 Priorities', // Translate
     judicial_ratings: 'Judicial Ratings', // Translate
     videos: 'Videos', //Translate
     political_philosophy: 'Political Philosophy', //Translate

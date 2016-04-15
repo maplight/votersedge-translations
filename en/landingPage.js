@@ -6,7 +6,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const landingPageTranslation = {
   sponsors_label: "Brought to you by", // Translate
-  intro: "Find elections in these states", // Translate
+  intro: "Find elections in these states.", // Translate
   features_label: "What you can do on Voter’s Edge", // Translate
   features: [
     'Use your address to get a personalized ballot.', // Translate
@@ -23,7 +23,7 @@ const landingPageTranslation = {
     'Impact your democracy.' // Translate
   ],
   about_link: "/page/about-voters-edge", // No translation
-  about_link_label: "Find out more about Voter’s Edge", // Translate
+  about_link_label: "Find out more about Voter’s Edge.", // Translate
   domains: [
   {
     name: "california-state", // No translation

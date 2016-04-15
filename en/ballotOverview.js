@@ -75,10 +75,10 @@ const ballotOverviewTranslation = {
     },
     more_voting_info: 'See more voting info', // Translate
     other_address: 'Look up ballot for', // Translate
-    other_address_link: 'another address', // Translate
+    other_address_link: 'another address.', // Translate
     other_elections: 'See your ballot for', // Translate
     past_elections_or: 'Or', // Translate
-    past_elections_link: 'look up past elections', // Translate
+    past_elections_link: 'look up past elections.', // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: 'Your information is private unless you choose to share it.', // Translate
     privacy_statement_link: 'Privacy Policy', // Translate
