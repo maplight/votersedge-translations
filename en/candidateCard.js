@@ -30,13 +30,13 @@ const candidateCardTranslation = {
     videos: 'Videos', //Translate
     political_philosophy: 'Political Philosophy', //Translate
     position_papers: 'Position Papers', //Translate
-    responses_to_questions: 'Responses to questions', //Translate
+    responses_to_questions: 'Responses to Questions', //Translate
     political_beliefs: 'Political Beliefs', //Translate
     no_question_answer: 'No answer provided.', //Translate
     question_label: 'Question:', //Translate
     answer_label: 'Answer:', //Translate
     profession: 'Profession:', //Translate
-    official_statement: 'Official statement',
+    official_statement: 'Official Statement',
     who_funds_candidate: 'Who funds this candidate?', //Translate
     who_supports_candidate: 'Who supports this candidate?', //Translate
     candidate_contact_info: 'Candidate Contact Info', //Translate
@@ -64,7 +64,7 @@ const candidateCardTranslation = {
   },
 
   fundingTranslation: {
-    contributionsTitle: "Contributions to candidate", //Translate
+    contributionsTitle: "Contributions to Candidate", //Translate
     contributionsExplanation: {
       "Federal": 'These amounts reflect the money given to, and reported by, candidates‘ principal campaign committees for the given office. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.', //Translate
       "State": {
@@ -96,9 +96,9 @@ const candidateCardTranslation = {
     },
 
     ofTotal: 'of total', //Translate
-    topFiveByStateTitle: 'Top contributions by state', //Translate
+    topFiveByStateTitle: 'Top Contributions by State', //Translate
     topTenByStateLabel: '',
-    piechartTitle: 'Top contributions by state', //Translate
+    piechartTitle: 'Top Contributions by State', //Translate
     piechartLabel: '',
 
     contributionSizeTitle: 'How big are the contributions?', //Translate
