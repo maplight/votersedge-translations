@@ -37,24 +37,24 @@ const measureTranslation = {
       accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a residentes del estado, fuera del estado y de otros estados.' // Translate
     },
     navigation: {
-      next: 'Sgg', // Translate
-      back: 'Back:', // Translate
-      last: 'Last contest',  // Translate
-      overview: 'To overview', // Translate
+      next: 'Siguiente:', // Translate
+      back: 'Atrás:', // Translate
+      last: 'Última contienda',  // Translate
+      overview: 'Obtener una perspectiva general', // Translate
     },
 
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     //
     accordionLabels: {
-      opinions: 'Opinions & Analysis', // Translate
+      opinions: 'Opiniones y análisis', // Translate
       events: {
-        label: 'Events',  // Translate
-        upcoming: 'Upcoming Events', // Translate
-        past: 'Past Events', // Translate
-        host: 'Host', // Translate
-        date: 'Date', // Translate
-        location: 'Location', // Translate
-        time: 'Time', // Translate
+        label: 'Eventos',  // Translate
+        upcoming: 'Próximos eventos', // Translate
+        past: 'Eventos pasados', // Translate
+        host: 'Anfitrión', // Translate
+        date: 'Fecha', // Translate
+        location: 'Lugar', // Translate
+        time: 'Hora', // Translate
       },
       evg: {   // Translation already provided by LWCV
         label: 'Easy Voter Guide', // If translated, it exists already
@@ -77,7 +77,7 @@ const measureTranslation = {
         financial_effect: 'Financial effect',  // Translation exists
       },
       basics: { // Translation already provided by Secretary of State except where noted
-        label: 'Measure Basics',
+        label: 'Información básica sobre la iniciativa de ley',
         summary: 'Summary',  // Translation exists
         background: 'Background',  // Translation exists
         financial_effect: 'Financial effect',  // Translation exists
@@ -88,62 +88,62 @@ const measureTranslation = {
         rebuttals: 'Rebuttals (Replies)', // Translation exists
         arguments_for: 'Arguments FOR', // Translation exists
         arguments_against: 'Arguments AGAINST', // Translation exists
-        proposed_legislation: 'Proposed legislation', // Translate
-        read_proposed_legislation: 'Read the proposed legislation', // Translate
-        what_is_proposal: 'What is this proposal?', // Translate
-        endorsements: 'Who endorses the ballot measure campaigns?', // Translate
-        funding: 'Who contributes money?', // Translate
-        more_info: 'More information', // Translate
+        proposed_legislation: 'Legislación propuesta', // Translate
+        read_proposed_legislation: 'Leer la legislación propuesta', // Translate
+        what_is_proposal: '¿Qué es esta propuesta?', // Translate
+        endorsements: '¿Quién respalda las campañas de iniciativas de ley en las boletas?', // Translate
+        funding: '¿Quién contribuye con el dinero?', // Translate
+        more_info: 'Más información', // Translate
       }
     },
     fundingTranslation: {
-      contributionsTitle: "Contributions to campaigns",  // Translate
-      contributionsExplanation: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure.', // Translate
-      contributionsSource: "Source: MapLight analysis of data from the California Secretary of State. Last updated: [placeholder]", // Translate
-      totalMoneyRaised: "Total money raised", // Translate
-      contributionSize: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', // Translate
-      organizationContributionsTitle: 'Organization Contributions', // Translate
-      organizationContributionsLabel: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', // Translate
-      whoGaveMostMoneyTitle: "Who gave the most money?", // Translate
-      whoGaveMostMoneyLabel: 'Below are the top 10 contributors that gave money to committees supporting or opposing the given ballot measure(s).', // Translate
-      ofTotal: 'of total', // Translate
-      topTenByStateTitle: 'Top 5 contributions by state', // Translate
+      contributionsTitle: "Contribuciones a las campañas",  // Translate
+      contributionsExplanation: 'Estos montos reflejan el dinero proporcionado a, e informado por, los comités formados principalmente para apoyar u oponerse a la iniciativa de ley en la boleta dada.', // Translate
+      contributionsSource: "Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight. Última actualización: [placeholder]", // Translate
+      totalMoneyRaised: "Dinero total recaudado", // Translate
+      contributionSize: 'Los comités no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como una cantidad global con cada nuevo registro.', // Translate
+      organizationContributionsTitle: 'Contribuciones de organizaciones', // Translate
+      organizationContributionsLabel: 'Las contribuciones pueden hacerse directamente por organizaciones, mediante sus comités de acción política (PAC) afiliados o por individuos.', // Translate
+      whoGaveMostMoneyTitle: "¿Quién dio más dinero?", // Translate
+      whoGaveMostMoneyLabel: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley dada(s).', // Translate
+      ofTotal: 'del total', // Translate
+      topTenByStateTitle: 'Primeras 5 contribuciones por estado', // Translate
       topTenByStateLabel: '',
       piechartTitle: '',
       piechartLabel: '',
 
-      contributionSizeTitle: 'How big are the contributions?', // Translate
-      contributionSizeLabel: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', // Translate
+      contributionSizeTitle: '¿Qué tan grandes son las contribuciones?', // Translate
+      contributionSizeLabel: 'Los comités no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como una cantidad global con cada nuevo registro.', // Translate
       contributionOver: {
-        "Federal": "Contributions over $200", // Translate
-        "State": "Contributions over $100", // Translate
+        "Federal": "Contribuciones arriba de $200", // Translate
+        "State": "Contribuciones arriba de $100", // Translate
       },
       contributionUnder: {
-        "Federal": "Contributions under $200", // Translate
-        "State": "Contributions under $100", // Translate
+        "Federal": "Contribuciones abajo de $200", // Translate
+        "State": "Contribuciones abajo de $100", // Translate
       },
       organizationsOrg: {
-        "label": "From organizations", // Translate
-        "tooltip": "Contributions from companies, unions, or other organizations.", // Translate
+        "label": "De organizaciones", // Translate
+        "tooltip": "Contribuciones de empresas, sindicatos u otras organizaciones.", // Translate
       },
       organizationsEmployees: {
-        "label": "From employees", // Translate
-        "tooltip": "Contributions from individuals, including employees of organizations.", // Translate
+        "label": "De empleados", // Translate
+        "tooltip": "Contribuciones de individuos, incluidos los empleados de organizaciones.", // Translate
       },
       cashHat: 'public/content/svg/icons/Federal-100.png', // No translation
       moneyHand: 'public/content/svg/icons/Federal-100.png', // No translation
     },
-    sectionTitle: "Measures", // Translate
-    measureDescriptionLabel: "About this measure", // Translate
-    my_choices: "Do you support this proposition?", // Translate
-    SoS: "Secretary of State", // Translate
-    EVG: "Easy Voter Guide — League of Women Voters of California",  // Translate?
-    LWVC: "Pros/Cons — League of Women Voters of California",  // Translate?
+    sectionTitle: "Iniciativas de ley", // Translate
+    measureDescriptionLabel: "Acerca de esta iniciativa de ley", // Translate
+    my_choices: "¿Apoya esta propuesta?", // Translate
+    SoS: "Secretario de Estado", // Translate
+    EVG: "Guía Fácil para el Votante: League of Women Voters of California",  // Translate?
+    LWVC: "Pros y contras: League of Women Voters of California",  // Translate?
     aboutLabel: 'What is this proposition?', // Translate
-    argumentsLabel: 'Arguments for and against this proposition', // Translate
-    supportLabel: 'Who supports this and why?', // Translate
-    costLabel: 'How much does it cost?', // Translate
-    infoLabel: 'How can I learn more?' // Translate
+    argumentsLabel: 'Argumentos a favor y en contra de esta propuesta', // Translate
+    supportLabel: '¿Quién apoya esta propuesta y por qué?', // Translate
+    costLabel: '¿Cuánto cuesta?', // Translate
+    infoLabel: '¿Cómo puedo obtener más información?' // Translate
   }
 };
 
