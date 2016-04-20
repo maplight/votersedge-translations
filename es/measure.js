@@ -3,41 +3,41 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const measureTranslation = {
   measure: {
-    pageTitle: 'Measure', // Translate
+    pageTitle: 'Iniciativa de ley', // Translate
     positions: {
       yes: {
-        label: 'Yes', // Translate
-        campaign: "Campaign for Yes Contact Info", // Translate
+        label: 'Sí', // Translate
+        campaign: "Información del contacto de la campaña por el sí", // Translate
       },
       no: {
         label: 'No', // Translate
-        campaign: "Campaign for No Contact Info", // Translate
+        campaign: "Información del contacto de la campaña por el no", // Translate
       },
       neutral: {
         label: 'Neutral', // Translate
-        campaign: "Contact Info", // Translate
+        campaign: "Información del contacto", // Translate
       },
     },
-    sourceLabel: 'Source: ', // Translate
+    sourceLabel: 'Fuente: ', // Translate
     endorsements_label: {
       organization: 'Organization', // Translate
       individual: 'Individual', // Translate
       elected_official: 'Elected Official', // Translate
     },
     endorsements_label_plural: {
-      organization: 'Organizations', // Translate
-      individual: 'Individuals', // Translate
-      elected_official: 'Elected Officials', // Translate
+      organization: 'Organizaciones', // Translate
+      individual: 'Individuos', // Translate
+      elected_official: 'Funcionarios electos', // Translate
     },
     pieChartLabels: {
       explanation: "",
-      label_in_state: "In-state contributions", // Translate
-      label_other: "Other states", // Translate
-      label_out_of_state: "Out-of-state", // Translate
-      accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.' // Translate
+      label_in_state: "", // Translate
+      label_other: "Otros estados", // Translate
+      label_out_of_state: "Fuera del estado", // Translate
+      accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a residentes del estado, fuera del estado y de otros estados.' // Translate
     },
     navigation: {
-      next: 'Next:', // Translate
+      next: 'Sgg', // Translate
       back: 'Back:', // Translate
       last: 'Last contest',  // Translate
       overview: 'To overview', // Translate
