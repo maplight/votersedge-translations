@@ -22,7 +22,6 @@ const ballotOverviewTranslation = {
       ny: 'Es posible que no aparezca en su boleta electoral real. <a href="/ny/page/how-we-get-our-data">Obtenga más información</a>', // Translate
       default: ''
     },
-
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
@@ -43,7 +42,6 @@ const ballotOverviewTranslation = {
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
     myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
     noHoursLabel: "Las urnas se abren de", // Translate
-    hoursLabel: "Abiertas de", // Translate
     hours: {
       ca: '7 a.m. - 8 p.m.',
       il: '6 a.m. - 7 p.m.',
@@ -133,23 +131,10 @@ const ballotOverviewTranslation = {
         description: '',
       },
     },
-
-    ballot_extra_result_explanation: {
-      ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a><br />',
-      il: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/il">For the most specific results available, enter your full address.</a><br />',
-      ny: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/ny">For the most specific results available, enter your full address.</a><br />',
-      default: ''
-    },
     ballot_extra_result_explanation_address: {
       ca: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
       il: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
       ny: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
-      default: ''
-    },
-    contest_extra_result_explanation: {
-      ca: 'May not appear on your actual ballot. <a href="/ca/page/how-we-get-our-data">Learn More</a>',
-      il: 'May not appear on your actual ballot. <a href="/il/page/how-we-get-our-data">Learn More</a>',
-      ny: 'May not appear on your actual ballot. <a href="/ny/page/how-we-get-our-data">Learn More</a>',
       default: ''
     },
   },

@@ -18,34 +18,34 @@ const domainTranslation = {
         apple_touch_144: "/content/svg/votersedge/votersedge-144.png", // No translation
         square_120: "/content/svg/votersedge/votersedge-120.png", // No translation
         square_200: "/content/svg/votersedge/votersedge-200.png", // No translation
-      }, 
+      },
       votersedge_display_name: "Voter’s Edge", // No translation
       votersedge_description: {
-        en: "Get the facts before you vote.", // Translate
+        en: "Knowledge is Power", // Translate
       },
       votersedge_twitter_account: "@VotersEdge",
-      
+
       metatags: "voting,election", // Translate
       domain: "http://votersedge.org", // No translation
       tagline: {
-        en: "Get the facts before you vote.", // Translate
+        en: "Knowledge is Power", // Translate
 
       },
       disclaimer: {
         en: "Voter’s Edge neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
 
       },
-      branding_intro: { 
+      branding_intro: {
         en: "From",  // Translate
-        
+
       },
       licensing_message: {
         en: "The content on this site is licensed with a Creative Commons license.", // Translate
-        
+
       },
       licensing_name: {
         en: "Attribution-NonCommercial CC BY-NC", // Translate?
-        
+
       },
       analytics: {
         type: 'google_analytics', // No translation
@@ -77,19 +77,19 @@ const domainTranslation = {
       },
       votersedge_display_name: "Voter’s Edge California", // No translation
       votersedge_description: {
-        en: "Get the facts before you vote.", // Translate (same as above)
+        en: "Knowledge is Power", // Translate (same as above)
       },
       votersedge_twitter_account: "@VotersEdge",
       metatags: "california elections",  // Translate
       domain: "http://ca.votersedge.org", // No translation
       tagline: {
-        en: "Get the facts before you vote.", // Translate (same as above)
+        en: "Knowledge is Power", // Translate (same as above)
       },
       disclaimer: {
         en: "Voter’s Edge California neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
 
       },
-      branding_intro: { 
+      branding_intro: {
         en: "From", // Translate
 
       },

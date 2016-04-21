@@ -21,14 +21,14 @@ const domainTranslation = {
       },
       votersedge_display_name: "Voter’s Edge", // No translation
       votersedge_description: {
-        es: "Conozca la información antes de votar.", // Translate
+        es: "el Conocimiento es Poder", // Translate
       },
       votersedge_twitter_account: "@VotersEdge",
 
       metatags: "voting,eleccion", // Translate
       domain: "http://votersedge.org", // No translation
       tagline: {
-        es: "Conozca la información antes de votar.", // Translate
+        es: "el Conocimiento es Poder", // Translate
 
       },
       disclaimer: {

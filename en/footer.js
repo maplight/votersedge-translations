@@ -125,6 +125,11 @@ const footerTranslation = {
       link: "http://team.votersedge.org", // No translation
       status: "published", // No translation
     },
+    // {
+    //   label: "Get a Voter's Edge Widget for Your Site", // Translate
+    //   link: "get-widgets", // No translation
+    //   status: "published", // No translation
+    // },
     ],
     feedback_button_label: "Contact Us", // Translate
     feedback_message: "Message", // Translate

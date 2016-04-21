@@ -55,7 +55,8 @@ const ballotOverviewTranslation = {
       ny: {
         'default': 'Open from',
         'State of New York': 'All polls close at 9 p.m., but opening hours vary by county. Look up your ballot by area for more information.',
-      }
+      },
+
     },
     hours: {
       ca: '7 a.m. - 8 p.m.',
@@ -126,22 +127,10 @@ const ballotOverviewTranslation = {
         description: '',
       },
     },
-    ballot_extra_result_explanation: {
-      ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a><br />',
-      il: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/il">For the most specific results available, enter your full address.</a><br />',
-      ny: 'Results based on only a zip code may not return all of the contests that will appear on your actual ballot. <a href="/en/ny">For the most specific results available, enter your full address.</a><br />',
-      default: ''
-    },
     ballot_extra_result_explanation_address: {
       ca: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
       il: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
       ny: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data">Learn More</a>',
-      default: ''
-    },
-    contest_extra_result_explanation: {
-      ca: 'May not appear on your actual ballot. <a href="/ca/page/how-we-get-our-data">Learn More</a>',
-      il: 'May not appear on your actual ballot. <a href="/il/page/how-we-get-our-data">Learn More</a>',
-      ny: 'May not appear on your actual ballot. <a href="/ny/page/how-we-get-our-data">Learn More</a>',
       default: ''
     },
   },

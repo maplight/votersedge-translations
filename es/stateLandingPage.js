@@ -11,6 +11,7 @@ const stateLandingPageTranslation = {
     "Mantenga un registro de sus opciones y úselas para votar.", // Translate
     "¡Comparta e inicie la conversación!" // Translate
   ],
+  election_archive_label: 'Past and current elections',
 };
 
 export default stateLandingPageTranslation;

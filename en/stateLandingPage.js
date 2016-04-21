@@ -11,6 +11,7 @@ const stateLandingPageTranslation = {
     'Keep track of your choices and use them to vote.', // Translate
     'Share and start the conversation!' // Translate
   ],
+  election_archive_label: 'Past and current elections',
 };
 
 export default stateLandingPageTranslation;

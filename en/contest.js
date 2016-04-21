@@ -18,7 +18,7 @@ const contestTranslation = {
     },
     accordionLabels: {
       candidates: 'Who’s Running?', // Translate
-      news: 'News coverage', // Translate
+      news: 'News Coverage', // Translate
       events: 'Events', // Translate
       links: 'Links', // Translate
       videos: 'Videos', // Translate

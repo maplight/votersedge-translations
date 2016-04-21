@@ -14,7 +14,12 @@ const feedbackTranslation = {
     volunteer_interest: '¿Le interesa participar como voluntario?', // Translate
   },
   form_labels: {
+    submit: 'Enviar',
+    name: 'Nombre',
+    email: 'Email',
+    state: 'Estado',
     reason: 'Motivo', // Translate
+    reason_select: 'Select a reason...',
     feedback: 'Comentario', // Translate
     election_area_optional: 'El área electoral es opcional', // Translate
     election_authority: 'Autoridad electoral', // Translate
