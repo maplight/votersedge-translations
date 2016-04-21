@@ -44,7 +44,14 @@ const measureTranslation = {
     },
 
     accordionLabels: {
+      learn_more: 'Learn more about this measure', // Translate
       opinions: 'Opinions & Analysis', // Translate
+      news: {
+        label: 'News Coverage'
+      },
+      video: {
+        label: 'Videos'
+      },
       events: {
         label: 'Events',  // Translate
         upcoming: 'Upcoming Events', // Translate
@@ -141,7 +148,8 @@ const measureTranslation = {
       argumentsLabel: 'Arguments for and against this proposition', // Translate
       supportLabel: 'Who supports this and why?', // Translate
       costLabel: 'How much does it cost?', // Translate
-      infoLabel: 'How can I learn more?' // Translate
+      infoLabel: 'How can I learn more?', // Translate
+
 
   }
 };

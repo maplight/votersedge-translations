@@ -1,6 +1,5 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
-
 const measureTranslation = {
   measure: {
     pageTitle: 'Iniciativa de ley', // Translate
@@ -46,6 +45,7 @@ const measureTranslation = {
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     //
     accordionLabels: {
+      learn_more: 'Learn more about this measure', // Translate
       opinions: 'Opiniones y análisis', // Translate
       events: {
         label: 'Eventos',  // Translate
@@ -56,8 +56,14 @@ const measureTranslation = {
         location: 'Lugar', // Translate
         time: 'Hora', // Translate
       },
+      news: {
+        label: 'News Coverage'
+      },
+      video: {
+        label: 'Videos'
+      },
       evg: {   // Translation already provided by LWCV
-        label: 'Easy Voter Guide', // If translated, it exists already
+        label: 'Guía Fácil para el Votante', // If translated, it exists already
         way_it_is_now: 'The way it is now', // Translation exists
         what_if_passes: 'What if it passes?', // Translation exists
         budget_effect: 'Budget effect', // Translation exists
@@ -143,7 +149,8 @@ const measureTranslation = {
     argumentsLabel: 'Argumentos a favor y en contra de esta propuesta', // Translate
     supportLabel: '¿Quién apoya esta propuesta y por qué?', // Translate
     costLabel: '¿Cuánto cuesta?', // Translate
-    infoLabel: '¿Cómo puedo obtener más información?' // Translate
+    infoLabel: '¿Cómo puedo obtener más información?', // Translate
+
   }
 };
 

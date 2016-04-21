@@ -156,7 +156,7 @@ const ballotOverviewTranslation = {
         {
           iconFileName: '',
           tooltip: '',
-          label: 'Measures', // Translate
+          label: 'Iniciativas de ley', // Translate
           link: 'measures',
           section: 'measures', // No translation
           target: 'OverviewMeasures Measures', // No translation
