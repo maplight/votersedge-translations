@@ -99,25 +99,30 @@ const footerTranslation = {
     },
     ],
     resources: [
-    // {
-    //   label: "Embeddable Content & Widgets",
-    //   link: "page/embeddable-content-widgets",
-    //   status: "published",
-    // },
-    // {
-    //   label: "For Media: Create a voting guide",
-    //   link: "page/media",
-    //   status: "unpublished",
-    // },
-    // {
-    //   label: "For Developers: API resources",
-    //   link: "page/api-resources",
-    //   status: "published",
-    // },
     {
-      label: "Para los candidatos: regístrese y agregue su información", // Translate
+      label: "Create Your Own Guide", // Translate
+      link: "create-guide", // No translation
+      status: "published", // No translation
+      description: "Set up a version of Voter’s Edge for your organization"
+    },
+
+    {
+      label: "Para los candidatos", // Translate
       link: "http://candidates.votersedge.org", // No translation
       status: "published", // No translation
+      description: "Regístrese y agregue su información"
+    },
+    {
+      label: "Engage Voters", // Translate
+      link: "get-widgets", // No translation
+      status: "published", // No translation
+      description: "Share, promote, or embed",
+    },
+    {
+      label: "For Developers",
+      link: "page/api-resources",
+      status: "published",
+      description: "Access our API"
     },
     {
       label: "Para el equipo de Voter's Edge: inicio de sesión", // Translate
@@ -126,7 +131,16 @@ const footerTranslation = {
     },
     ],
     feedback_button_label: "Contáctenos", // Translate
-    feedback_message: "Mensaje", // Translate
+    survey_button: {
+      label: "Take our survey",
+      icon: "fa-edit"
+      link: "survey"
+    },
+    subscribe_button: {
+      label: 'Subscribe for updates on upcoming elections',
+      icon: 'fa-megaphone',
+      link: "subscribe"
+    }
   };
 
 export default footerTranslation;

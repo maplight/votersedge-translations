@@ -1,10 +1,15 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the header on all pages except landing page & state landing page.
-// URLS: 
+// URLS:
 
 const headerTranslation = {
   translation_message: '¡La traducción viene muy pronto!',
+  donate_button: {
+    label: 'Donate',
+    icon: 'fa-gift',
+    link: "https://donatenow.networkforgood.org/votersedge?code=votersedge"
+  }
 };
 
 export default headerTranslation;
