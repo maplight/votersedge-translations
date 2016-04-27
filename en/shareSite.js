@@ -17,7 +17,7 @@ const shareSiteTranslation = {
     copy_link: 'Get a link (to share via mobile or chat messages.)',  // Translate
   },
   share_to_label: 'Please share this site to help others research their voting choices.', // Translate
-  email_label: 'Email', // Translate
+  email_label: 'Send to Email', // Translate
   email_message: 'You might like', // Translate
   copy_link_label: 'Copy Link', // Translate
   copy_link_instructions: 'Get a link to this page', // Translate

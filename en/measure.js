@@ -6,11 +6,11 @@ const measureTranslation = {
     positions: {
       yes: {
         label: 'Yes', // Translate
-        campaign: "Campaign for Yes Contact Info", // Translate
+        campaign: "Yes on", // Translate
       },
       no: {
         label: 'No', // Translate
-        campaign: "Campaign for No Contact Info", // Translate
+        campaign: "No on", // Translate
       },
       neutral: {
         label: 'Neutral', // Translate

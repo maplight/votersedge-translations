@@ -64,8 +64,8 @@ const searchTranslation  = {
       recent_message_default: 'We also found these past elections:', // Translate
       recent_message_1: 'We also found this past election:', // Translate
       recent_message_2: 'We also found these past elections:', // Translate
-      recent_message_no_upcoming_1: 'Here is the most recent election for ', // Translate
-      recent_message_no_upcoming_2: 'Here are some recent elections for ', // Translate
+      recent_message_no_upcoming_1: 'Based on your search, we were able to find information on this past election. Check back soon for upcoming election information or select the ballot you would like to see.', // Translate
+      recent_message_no_upcoming_2: 'Based on your search, we were able to find information on only past elections. Check back soon for upcoming election information or select the ballot you would like to see.', // Translate
       choose_ballot: 'Please choose which ballot you would like to see.', // Translate
       election_archive: 'Looking for an older election? Check the ', // Translate
       election_archive_label: 'archives.', // Translate

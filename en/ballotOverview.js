@@ -90,41 +90,49 @@ const ballotOverviewTranslation = {
         label: "United States",  // Translate
         iconFileName: "Federal",  // No translation
         description: '',
+        altText: 'Icon of Capitol building'
       },
       State: {
         label: "State of ",  // Translate
         iconFileName: "State",  // No translation
         description: '',
+        altText: 'Icon of the State'
       },
       Judicial: {
         label: "Judicial",  // Translate
         iconFileName: "Judicial",  // No translation
         description: '',
+        altText: 'Icon of a Judge'
       },
       School: {
         label: "School",  // Translate
         iconFileName: "School",  // No translation
         description: '',
+        altText: 'Icon of a school'
       },
       County: {
         label: "County", // Translate
         iconFileName: "County", // No translation
         description: '',
+        altText: 'Icon of buildings and a farm for County'
       },
       Place: {
         label: "Local",  // Translate
         iconFileName: "Place", // No translation
         description: '',
+        altText: 'Icon of buildings'
       },
       'party committee': {
         label: "Party Committee",  // Translate
         iconFileName: "PartyCommittee", // No translation
         description: '',
+        altText: 'Icon of a group of people'
       },
       Special: {
         label: "Special District",  // Translate
         iconFileName: "Special", // No translation
         description: '',
+        altText: 'Icon of a bridge and a road'
       },
     },
     ballot_extra_result_explanation_address: {

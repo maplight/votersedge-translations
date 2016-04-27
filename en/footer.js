@@ -134,7 +134,7 @@ const footerTranslation = {
     feedback_button_label: "Contact Us", // Translate
     survey_button: {
       label: "Take our survey",
-      icon: "fa-edit"
+      icon: "fa-edit",
       link: "survey"
     },
     subscribe_button: {
