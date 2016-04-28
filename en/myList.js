@@ -92,16 +92,16 @@ const myListTranslation = {
 
       <p><strong>As you review your ballot, you can</strong></p>
       <ul>
-      <li><i class="fa fa-check-square"></i>Choose the candidates you would like to remember to vote for on your ballot.</li>
-      <li><i class="fa fa-thumbs-up"></i>Add your Yes or No vote for ballot measures.</li>
-      <li><i class="fa fa-bookmark"></i>Bookmark contests or measure to review later.</li>
+      <li><i aria-hidden="true" class="fa fa-check-square"></i>Choose the candidates you would like to remember to vote for on your ballot.</li>
+      <li><i aria-hidden="true" class="fa fa-thumbs-up"></i>Add your Yes or No vote for ballot measures.</li>
+      <li><i aria-hidden="true" class="fa fa-bookmark"></i>Bookmark contests or measure to review later.</li>
       </ul>
 
       <p><strong>When you are finished (or need a break), you can</strong></p>
       <ul>
-      <li><i class="fa fa-print"></i>Print your list.</li>
-      <li><i class="fa fa-external-link"></i>Copy a link to send to your phone to retrieve your list later.</li>
-      <li><i class="fa fa-envelope"></i>E-mail your ballot to yourself.</li>
+      <li><i aria-hidden="true" class="fa fa-print"></i>Print your list.</li>
+      <li><i aria-hidden="true" class="fa fa-external-link"></i>Copy a link to send to your phone to retrieve your list later.</li>
+      <li><i aria-hidden="true" class="fa fa-envelope"></i>E-mail your ballot to yourself.</li>
       </ul>
 
       <h4>Privacy Tips</h4>

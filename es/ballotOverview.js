@@ -41,12 +41,12 @@ const ballotOverviewTranslation = {
     noPollingLocationLinkLabel: "Buscar mi lugar de votación", // Translate
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
     myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
-    noHoursLabel: "Las urnas se abren de", // Translate
-    hours: {
-      ca: '7 a.m. - 8 p.m.',
-      il: '6 a.m. - 7 p.m.',
-      ny: '6 a.m. - 7 p.m.',
-    },
+    // noHoursLabel: "Las urnas se abren de", // Translate
+    // hours: {
+    //   ca: '7 a.m. - 8 p.m.',
+    //   il: '6 a.m. - 7 p.m.',
+    //   ny: '6 a.m. - 7 p.m.',
+    // },
     noHoursLabel: {
       ca: 'Las urnas se abren de',
       il: 'Las urnas se abren de',
