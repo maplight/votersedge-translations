@@ -6,7 +6,7 @@ const candidateCardTranslation = {
   encourage_candidate: 'Los candidatos pueden', //Translate
   encourage_candidate_link: 'ponerse en contacto con nosotros', //Translate
   encourage_candidate_action: 'para proporcionar información.', //Translate
-  photo_label: "Photo de",
+  photo_label: "Photo de ",
   participation: {
     researched: 'La experiencia se investigó parcialmente por Voter’s Edge.', //Translate
     researched_encourage: 'Contactar y solicitar al candidato que presente más información.', //Translate
