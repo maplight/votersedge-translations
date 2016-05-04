@@ -12,7 +12,7 @@ const candidateCardTranslation = {
   participation: {
     researched: 'Experience partially researched by Voter’s Edge.', //Translate
     researched_encourage: 'Contact and ask the candidate to submit more information.',
-    candidate_provided_info: 'Candidate has provided information', //Translate
+    candidate_provided_info: 'Candidate has provided information.', //Translate
     candidate_no_info: 'Candidate has not provided information.', //Translate
     candidate_no_info_encourage: 'Contact them to encourage participation.',
     researched_data: 'Researched by Voter’s Edge',

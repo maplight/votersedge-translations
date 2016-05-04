@@ -22,11 +22,13 @@ const measureTranslation = {
       organization: 'Organization', // Translate
       individual: 'Individual', // Translate
       elected_official: 'Elected Official', // Translate
+      elected_appointed_official: 'Elected or Appointed Official', // Translate
     },
     endorsements_label_plural: {
       organization: 'Organizations', // Translate
       individual: 'Individuals', // Translate
       elected_official: 'Elected Officials', // Translate
+      elected_appointed_official: 'Elected & Appointed Officials', // Translate
     },
 
     pieChartLabels: {

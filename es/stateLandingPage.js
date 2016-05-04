@@ -11,6 +11,35 @@ const stateLandingPageTranslation = {
     "Mantenga un registro de sus opciones y úselas para votar.", // Translate
     "¡Comparta e inicie la conversación!" // Translate
   ],
+  features_special: {
+    ca: {
+      find_ballot: {
+        message: 'Use your address to get a personalized ballot.',
+        icon: 'fa-star'
+      },
+      get_info: {
+        message: 'Get info on candidates, measures, and who supports them.',
+        icon: 'fa-star'
+      },
+      my_list: {
+        message: 'Keep track of your choices and use them vote.',
+        icon: 'fa-star'
+      },
+      special_label: 'The California primary is on June 7:',
+      register: {
+        message: 'Make sure you can <a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">vote for president in the primary!</a>',
+        icon: 'fa-star'
+      },
+      deadline: {
+        message: 'Deadline: <a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote; register by May 23.</a>',
+        icon: 'fa-star'
+      },
+      voting_info: {
+        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">Get more Voting Info on where, when, and how to vote.</a>',
+        icon: 'fa-chevron-circle-right'
+      },
+    },
+  },
   election_archive_label: 'Past and current elections',
 };
 
