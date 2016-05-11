@@ -100,6 +100,7 @@ const measureTranslation = {
         endorsements: '¿Quién respalda las campañas de iniciativas de ley en las boletas?', // Translate
         funding: '¿Quién contribuye con el dinero?', // Translate
         more_info: 'Más información', // Translate
+        message_content: 'Más información'
       }
     },
     fundingTranslation: {

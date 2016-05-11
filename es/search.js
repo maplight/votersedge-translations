@@ -4,7 +4,7 @@ const searchTranslation  = {
   pageTitle: 'Elija una boleta electoral para una elección', // Translate // New
   intro: "Encuentre información detallada sobre lo que incluye su boleta electoral.", // Translate
   path: '/search', // No translation
-  zipPrompt: "Ingrese su <strong>código postal</strong>.", // Translate
+  zipPrompt: "Ingrese su <strong>código postal</strong>.*", // Translate
   streetAddressPrompt: "Y su <strong>dirección</strong> <span class=\"muted\"> (para tener acceso a su boleta electoral completa)</span>.", // Translate just text, not HTML
   addressPromptReason: "Es necesario para decirle exactamente qué habrá en su boleta electoral y para ubicar su lugar de votación.", // Translate
   searchButtonLabel: "Encontrar mi boleta electoral", // Translate

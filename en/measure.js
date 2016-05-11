@@ -101,6 +101,7 @@ const measureTranslation = {
         endorsements: 'Who endorses the ballot measure campaigns?', // Translate
         funding: 'Who contributes money?', // Translate
         more_info: 'More information', // Translate
+        message_content: 'Additional Information'
       }
     },
       fundingTranslation: {

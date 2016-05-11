@@ -58,7 +58,7 @@ const stateLandingPageTranslation = {
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">Get more Voting Info on where, when, and how to vote.</a>',
+        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Get more Voting Info on where, when, and how to vote.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },

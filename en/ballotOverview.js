@@ -35,7 +35,7 @@ const ballotOverviewTranslation = {
     choose_voting_info: 'Voting Info', // Translate
     choose_voting_info_label: 'Get info on <strong>when, where, and how to vote</strong>', // Translate
     choices: "My List", // Translate
-    choices_label: "<p><strong>Keep track of your ballot choices and make a list to take to the polls</strong></p><p>As you review races, candidates and measures, you can add them to your list. When you are finished, go to <strong>My List</strong> to send your list to your email, printer, or copy a link to your phone.</p><p>We are a nonpartisan, nonprofit voter advocacy project and will not mail you anything or track your choices.</p>", // Translate
+    choices_label: "<p>Coming soon! 'My List' will let you review the candidates and measures on your ballot, mark your choices, and then send the list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: 'Polling location & hours', // Translate
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
     noPollingLocationLinkLabel: 'Look up my polling place', // Translate

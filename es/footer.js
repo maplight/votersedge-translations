@@ -99,31 +99,30 @@ const footerTranslation = {
     },
     ],
     resources: [
-    // {
-    //   label: "Create Your Own Guide", // Translate
-    //   link: "create-guide", // No translation
-    //   status: "published", // No translation
-    //   description: "Set up a version of Voter’s Edge for your organization"
-    // },
-
+{
+      label: "Create Your Own Guide", // Translate
+      link: "page/resources#create-guide", // No translation
+      status: "published", // No translation
+      description: "Set up a version of Voter’s Edge for your organization"
+    },
+    {
+      label: "Engage Voters", // Translate
+      link: "page/resources#engage-voters", // No translation
+      status: "published", // No translation
+      description: "Share, promote, or embed",
+    },
+    {
+      label: "For Developers",
+      link: "page/resources#developers",
+      status: "published",
+      description: "Access our API"
+    },
     {
       label: "Para los candidatos", // Translate
       link: "http://candidates.votersedge.org", // No translation
       status: "published", // No translation
       description: "Regístrese y agregue su información"
     },
-    // {
-    //   label: "Engage Voters", // Translate
-    //   link: "get-widgets", // No translation
-    //   status: "published", // No translation
-    //   description: "Share, promote, or embed",
-    // },
-    // {
-    //   label: "For Developers",
-    //   link: "page/api-resources",
-    //   status: "published",
-    //   description: "Access our API"
-    // },
     {
       label: "Para el equipo de Voter's Edge: inicio de sesión", // Translate
       link: "http://team.votersedge.org", // No translation
