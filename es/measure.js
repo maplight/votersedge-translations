@@ -45,7 +45,7 @@ const measureTranslation = {
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     //
     accordionLabels: {
-      learn_more: 'Learn more about this measure', // Translate
+      learn_more: 'Additional resources', // Translate
       opinions: 'Opiniones y análisis', // Translate
       events: {
         label: 'Eventos',  // Translate
@@ -100,7 +100,7 @@ const measureTranslation = {
         endorsements: '¿Quién respalda las campañas de iniciativas de ley en las boletas?', // Translate
         funding: '¿Quién contribuye con el dinero?', // Translate
         more_info: 'Más información', // Translate
-        message_content: 'Más información'
+        message_content: 'Learn more about this measure'
       }
     },
     fundingTranslation: {

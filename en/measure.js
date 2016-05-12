@@ -46,7 +46,7 @@ const measureTranslation = {
     },
 
     accordionLabels: {
-      learn_more: 'Learn more about this measure', // Translate
+      learn_more: 'Additional resources', // Translate
       opinions: 'Opinions & Analysis', // Translate
       news: {
         label: 'News Coverage'
@@ -101,7 +101,7 @@ const measureTranslation = {
         endorsements: 'Who endorses the ballot measure campaigns?', // Translate
         funding: 'Who contributes money?', // Translate
         more_info: 'More information', // Translate
-        message_content: 'Additional Information'
+        message_content: 'Learn more about this measure'
       }
     },
       fundingTranslation: {
