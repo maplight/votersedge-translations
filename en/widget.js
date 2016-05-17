@@ -4,7 +4,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // This appears on all pages near the footer area and also on candidate, contest and measure pages.
 
 const widgetTranslation = {
-  find_ballot: 'Find your<br/><span style={{"fontWeight":"bold"}}>ballot</span>',
+  find_ballot: 'Find your<br/><strong>ballot</strong>',
   street_address: 'Address',
   zipcode: 'Zip*',
   submit: 'Go',

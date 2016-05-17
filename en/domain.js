@@ -21,14 +21,14 @@ const domainTranslation = {
       },
       votersedge_display_name: "Voter’s Edge", // No translation
       votersedge_description: {
-        en: "Knowledge is Power", // Translate
+        en: "Get the facts before you vote.", // Translate
       },
       votersedge_twitter_account: "@VotersEdge",
 
       metatags: "voting,election", // Translate
       domain: "http://votersedge.org", // No translation
       tagline: {
-        en: "Knowledge is Power", // Translate
+        en: "Get the facts before you vote.", // Translate
 
       },
       disclaimer: {
@@ -77,13 +77,13 @@ const domainTranslation = {
       },
       votersedge_display_name: "Voter’s Edge California", // No translation
       votersedge_description: {
-        en: "Knowledge is Power", // Translate (same as above)
+        en: "Get the facts before you vote.", // Translate (same as above)
       },
       votersedge_twitter_account: "@VotersEdge",
       metatags: "california elections",  // Translate
       domain: "http://ca.votersedge.org", // No translation
       tagline: {
-        en: "Knowledge is Power", // Translate (same as above)
+        en: "Get the facts before you vote.", // Translate (same as above)
       },
       disclaimer: {
         en: "Voter’s Edge California neither supports nor opposes political parties, ballot measures, or candidates for public office.", // Translate
