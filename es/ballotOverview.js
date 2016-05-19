@@ -149,6 +149,8 @@ const ballotOverviewTranslation = {
   ballotNavigation: {
      links: [
         {
+          iconFileName: '',
+          tooltip: '',
           label: 'Overview',  // Translate
           link: 'overview',  // No translation
           section: 'overview', // No translation
