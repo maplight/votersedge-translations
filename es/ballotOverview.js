@@ -151,7 +151,7 @@ const ballotOverviewTranslation = {
         {
           iconFileName: '',
           tooltip: '',
-          label: 'Overview',  // Translate
+          label: 'Resumen',  // Translate
           link: 'overview',  // No translation
           section: 'overview', // No translation
         },
