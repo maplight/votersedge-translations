@@ -14,28 +14,28 @@ const stateLandingPageTranslation = {
   features_special: {
     ca: {
       find_ballot: {
-        message: 'Use your address to get a personalized ballot.',
+        message: 'Use su dirección para obtener una boleta electoral personalizada.',
         icon: 'fa-star'
       },
       get_info: {
-        message: 'Get info on candidates, measures, and who supports them.',
+        message: 'Obtenga información sobre los candidatos, las iniciativas de ley y quién las apoya.',
         icon: 'fa-star'
       },
       my_list: {
-        message: 'Keep track of your choices and use them vote.',
+        message: 'Mantenga un registro de sus opciones y úselas para votar.',
         icon: 'fa-star'
       },
-      special_label: 'The California primary is on June 7:',
+      special_label: 'Las elecciones primarias en California son el 7 de junio:',
       register: {
-        message: 'Make sure you can <a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">vote for president in the primary!</a>',
+        message: '¡Obtenga información sobre como <a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">votar para presidente en las elecciones primarias!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: 'Deadline: <a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote; register by May 23.</a>',
+        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Mira las maneras en que puede votar.</a>',
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Get more Voting Info on where, when, and how to vote.</a>',
+        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },
