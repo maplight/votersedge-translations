@@ -50,11 +50,11 @@ const stateLandingPageTranslation = {
       },
       special_label: 'The California primary is on June 7:',
       register: {
-        message: 'Make sure you can <a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">vote for president in the primary!</a>',
+        message: 'Find out how to <a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">vote for president in the primary!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: 'Deadline: <a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote; register by May 23.</a>',
+        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Check all the ways you can vote.</a>',
         icon: 'fa-star'
       },
       voting_info: {
