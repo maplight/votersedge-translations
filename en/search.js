@@ -5,6 +5,7 @@ const searchTranslation  = {
   intro: "Find in-depth information about what's on your ballot.", // Translate
   path: '/search', // No translation
   zipPrompt: "Enter your <strong>zip code*</strong> <i>(Required.)</i>", // Translate
+  zipErrorMessage: "Please enter a valid zipcode. Example: 94103 or 12002-1432.",
   streetAddressPrompt: "And your <strong>street address</strong> <span class=\"muted\">(to access your complete ballot.)</span>", // Translate just text, not HTML
   addressPromptReason: "Necessary to tell you exactly what will be on your ballot and look up your polling place.", // Translate
   searchButtonLabel: "Find my ballot", // Translate

@@ -27,15 +27,15 @@ const stateLandingPageTranslation = {
       },
       special_label: 'Las elecciones primarias en California son el 7 de junio:',
       register: {
-        message: '¡Obtenga información sobre como <a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">votar para presidente en las elecciones primarias!</a>',
+        message: '¡Obtenga información sobre como <a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">votar para presidente en las elecciones primarias!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Mira las maneras en que puede votar.</a>',
+        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Mira las maneras en que puede votar.</a>',
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
+        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },

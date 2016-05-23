@@ -13,6 +13,7 @@ const searchErrorsTranslation = {
     newSearchMessage: 'Please choose on of these other addresses or ', // Translate
     unable_to_find: 'We were unable to find your specific address.', // Translate
     enter_new: "We were unable to find your specific address.", // Translate
+    no_zipcode_entered: "We were unable to find your specific address because a <strong>zip code</strong> is required. Please try again with a zip code.", // Translate
     for_zipcode: 'zip code ', // Translate
     your_search: 'You searched for:', // Translate
     search_prompt: 'Try one of these addresses', // Translate

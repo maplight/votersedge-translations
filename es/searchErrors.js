@@ -13,11 +13,12 @@ const searchErrorsTranslation = {
     newSearchMessage: "Elija una de estas otras direcciones o ", // Translate
     unable_to_find: "No pudimos encontrar su dirección específica.", // Translate
     enter_new: "No pudimos encontrar su dirección específica.", // Translate
+    no_zipcode_entered: "We were unable to find your specific address because a <strong>zip code</strong> is required. Please try again with a zip code.", // Translate
     for_zipcode: "código postal ", // Translate
     your_search: "Usted buscó:", // Translate
     search_prompt: "Intente con una de estas direcciones", // Translate
     no_elections_found: "No se encontraron elecciones", // Translate
-    critical_error: "Lo sentimos. Algo en nuestro sistema no funciona por el momento. Intente de nuevo o regrese más tarde. <br />Si continúa obteniendo esta respuesta, contáctenos para que podamos solucionar el problema.", // Translate 
+    critical_error: "Lo sentimos. Algo en nuestro sistema no funciona por el momento. Intente de nuevo o regrese más tarde. <br />Si continúa obteniendo esta respuesta, contáctenos para que podamos solucionar el problema.", // Translate
     no_address_found: "No se encontró la dirección", // Translate
     no_page_found: "Lo sentimos, pero la página que intentó consultar no existe.", // Translate
     noElectionsErrorMessage: {
