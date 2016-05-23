@@ -4,7 +4,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const footerTranslation = {
   links: [
         {
-          label: 'Overview',  // Translate
+          label: 'Resumen',  // Translate
           link: 'overview',  // No translation
           section: 'overview', // No translation
         },
@@ -19,7 +19,7 @@ const footerTranslation = {
         {
           iconFileName: '',
           tooltip: '',
-          label: 'Measures', // Translate
+          label: 'Iniciativas de ley', // Translate
           link: 'measures',
           section: 'measures', // No translation
           target: 'OverviewMeasures Measures', // No translation
@@ -131,7 +131,7 @@ const footerTranslation = {
     ],
     feedback_button_label: "Contáctenos", // Translate
     survey_button: {
-      label: "Take our survey",
+      label: "Rellenar nuestra encuesta",
       icon: "fa-edit",
       link: "survey"
     },
