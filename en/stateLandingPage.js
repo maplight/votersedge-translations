@@ -45,7 +45,7 @@ const stateLandingPageTranslation = {
         icon: 'fa-star'
       },
       my_list: {
-        message: 'Keep track of your choices and use them vote.',
+        message: 'Keep track of your choices and use them to vote.',
         icon: 'fa-star'
       },
       special_label: 'The California primary is on June 7:',
