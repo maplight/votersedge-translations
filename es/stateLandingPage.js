@@ -31,7 +31,7 @@ const stateLandingPageTranslation = {
         icon: 'fa-star'
       },
       deadline: {
-        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Mira las maneras en que puede votar.</a>',
+        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Mire las maneras en que puede votar.</a>',
         icon: 'fa-star'
       },
       voting_info: {

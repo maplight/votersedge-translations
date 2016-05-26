@@ -9,7 +9,7 @@ const stateLandingPageTranslation = {
       'Use your address to get a personalized ballot.', // Translate
       'Get info on candidates, measures, and who supports them.', // Translate
       'Check where, when, and how to vote.', // Translate
-      'Keep track of your choices and use them vote.', // Translate
+      'Keep track of your choices and use them to vote.', // Translate
       'Share and start the conversation!' // Translate
     ],
     ny: [
