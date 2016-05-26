@@ -19,12 +19,12 @@ const measureTranslation = {
     },
     sourceLabel: 'Fuente: ', // Translate
     endorsements_label: {
-      organization: 'Organization', // Translate
-      individual: 'Individual', // Translate
-      elected_official: 'Elected Official', // Translate
+      organization: 'Organización', // Translate
+      individual: 'Individuo', // Translate
+      elected_official: 'Funcionario electo', // Translate
     },
     endorsements_label_plural: {
-      organization: 'Organizaciones', // Translate
+      organization: 'Organizaciónes', // Translate
       individual: 'Individuos', // Translate
       elected_official: 'Funcionarios electos', // Translate
     },

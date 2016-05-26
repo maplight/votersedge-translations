@@ -100,22 +100,22 @@ const footerTranslation = {
     ],
     resources: [
 {
-      label: "Create Your Own Guide", // Translate
+      label: "Cree su propia guía", // Translate
       link: "page/resources#create-guide", // No translation
       status: "published", // No translation
-      description: "Set up a version of Voter’s Edge for your organization"
+      description: "Configure una versión de Voter’s Edge para su organización"
     },
     {
-      label: "Engage Voters", // Translate
+      label: "Haga que los electores participen", // Translate
       link: "page/resources#engage-voters", // No translation
       status: "published", // No translation
-      description: "Share, promote, or embed",
+      description: "Comparta, promueva o integre",
     },
     {
-      label: "For Developers",
+      label: "Para los desarrolladores",
       link: "page/resources#developers",
       status: "published",
-      description: "Access our API"
+      description: "Acceso a nuestra API"
     },
     {
       label: "Para los candidatos", // Translate
