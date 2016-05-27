@@ -17,6 +17,9 @@ const candidateCardTranslation = {
     candidate_no_info_encourage: 'Contact them to encourage participation.',
     researched_data: 'Researched by Voter’s Edge',
   },
+  screenreader: {
+    accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
+  },
   candidate_website_label: 'Candidate website', //Translate
   accordionLabels: {
     experience: 'Experience', // Translate

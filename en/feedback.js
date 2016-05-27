@@ -34,6 +34,7 @@ const feedbackTranslation = {
     api_access: 'Requesting API Access / Widgets', // Translate
     partnership: 'Interested in Partnership', // Translate
     other: 'Other', // Translate
+    message_label: 'Message',
   },
   response: 'Thank you for your feedback.  We will follow up with you if necessary.'
 };

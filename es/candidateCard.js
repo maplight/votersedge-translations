@@ -15,6 +15,9 @@ const candidateCardTranslation = {
     candidate_no_info_encourage: 'Ponerse en contacto con ellos para fomentar la participación.', //Translate
     researched_data: 'Investigó por Voter’s Edge.',
   },
+  screenreader: {
+    accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
+  },
   candidate_website_label: 'Visite el sitio web del candidato', //Translate
   accordionLabels: {
     experience: 'Experiencia', // Translate

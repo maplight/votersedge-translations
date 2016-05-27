@@ -38,7 +38,7 @@ const ballotOverviewTranslation = {
     choices_label: "<p>Coming soon! 'My List' will let you review the candidates and measures on your ballot, mark your choices, and then send the list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: 'Polling location & hours', // Translate
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
-    noPollingLocationLinkLabel: 'Look up my polling place', // Translate
+    noPollingLocationLinkLabel: 'Check your polling location with your local elections office.', // Translate
     pollingLocationLabel: 'Your polling location & hours', // Translate
     myPollingLocationLabel: 'My polling location and hours', // Translate
     noHoursLabel: {

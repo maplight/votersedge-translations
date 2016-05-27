@@ -34,6 +34,7 @@ const feedbackTranslation = {
     api_access: 'Solicitud de acceso a interfaz de programación de aplicaciones (Application Programming Interface, API)/widgets', // Translate
     partnership: 'Interesado en una alianza', // Translate
     other: 'Otro', // Translate
+    message_label: 'Mensaje',
   },
   response: 'Gracias por sus comentarios.  Nos pondremos en contacto con usted para dar seguimiento en caso de ser necesario.'
 

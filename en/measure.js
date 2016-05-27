@@ -17,6 +17,9 @@ const measureTranslation = {
         campaign: "Contact Info", // Translate
       },
     },
+    screenreader: {
+      accordion: 'To learn more about measures, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
+    },
     sourceLabel: 'Source: ', // Translate
     endorsements_label: {
       organization: 'Organization', // Translate
