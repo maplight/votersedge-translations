@@ -87,7 +87,7 @@ const ballotOverviewTranslation = {
     past_elections_link: "busque las elecciones pasadas.", // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: "Su información es privada, a menos que decida compartirla.", // Translate
-    privacy_statement_link: "Política de privacidad.", // Translate
+    privacy_statement_link: "Política de privacidad", // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
     jurisdictionLabels: {
       Federal: {

@@ -82,7 +82,7 @@ const ballotOverviewTranslation = {
     past_elections_link: 'look up past elections.', // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: 'Your information is private unless you choose to share it.', // Translate
-    privacy_statement_link: 'Privacy policy.', // Translate
+    privacy_statement_link: 'Privacy Policy', // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
 
     jurisdictionLabels: {
@@ -177,9 +177,9 @@ const ballotOverviewTranslation = {
         },
         {
           iconFileName: 'fa fa-newspaper-o', // No translation
-          tooltip: 'Beta! We are testing this new feature over the coming weeks.', // Translate
+          tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
           label: 'My List', // Translate
-          link: 'choices', // 'choices'  // No translation
+          link: '', // 'choices'  // No translation
           section: 'choices', // No translation
           target: 'Choices', // No translation
         },
