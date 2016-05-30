@@ -35,7 +35,7 @@ const ballotOverviewTranslation = {
     choose_voting_info: 'Voting Info', // Translate
     choose_voting_info_label: 'Get info on <strong>when, where, and how to vote</strong>', // Translate
     choices: "My List", // Translate
-    choices_label: "<p>Coming soon! 'My List' will let you review the candidates and measures on your ballot, mark your choices, and then send the list to your email or printer, or copy the link to your phone.</p>", // Translate
+    choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: 'Polling location & hours', // Translate
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
     noPollingLocationLinkLabel: 'Check your polling location with your local elections office.', // Translate
@@ -82,7 +82,7 @@ const ballotOverviewTranslation = {
     past_elections_link: 'look up past elections.', // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: 'Your information is private unless you choose to share it.', // Translate
-    privacy_statement_link: 'Privacy Policy', // Translate
+    privacy_statement_link: 'Privacy policy.', // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
 
     jurisdictionLabels: {
@@ -177,9 +177,9 @@ const ballotOverviewTranslation = {
         },
         {
           iconFileName: 'fa fa-newspaper-o', // No translation
-          tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
+          tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
           label: 'My List', // Translate
-          link: '', // 'choices'  // No translation
+          link: 'choices', // 'choices'  // No translation
           section: 'choices', // No translation
           target: 'Choices', // No translation
         },

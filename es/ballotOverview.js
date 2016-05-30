@@ -35,7 +35,7 @@ const ballotOverviewTranslation = {
     choose_voting_info: "Información de la votación", // Translate
     choose_voting_info_label: "Obtenga información sobre <strong>cuándo, dónde y cómo votar</strong>", // Translate
     choices: "Mi lista", // Translate
-    choices_label: "<p>Coming soon! 'My List' will let you review the candidates and measures on your ballot, mark your choices, and then send the list to your email or printer, or copy the link to your phone.</p>", // Translate
+    choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
     noPollingLocationLinkLabel: "Buscar mi lugar de votación", // Translate
@@ -87,7 +87,7 @@ const ballotOverviewTranslation = {
     past_elections_link: "busque las elecciones pasadas.", // Translate
     past_elections_url: '/ca/en/page/elections-archive', // No translation
     privacy_statement: "Su información es privada, a menos que decida compartirla.", // Translate
-    privacy_statement_link: "Política de privacidad", // Translate
+    privacy_statement_link: "Política de privacidad.", // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
     jurisdictionLabels: {
       Federal: {
@@ -181,9 +181,9 @@ const ballotOverviewTranslation = {
         },
         {
           iconFileName: 'fa fa-newspaper-o', // No translation
-          tooltip: 'Coming soon. Save your choices and see them all on a list.', // Translate
+          tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
           label: 'Mi Lista', // Translate
-          link: '', // 'choices'  // No translation
+          link: 'choices', // 'choices'  // No translation
           section: 'choices', // No translation
           target: 'Choices', // No translation
         },
