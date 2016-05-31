@@ -30,7 +30,7 @@ const measureTranslation = {
     endorsements_label_plural: {
       organization: 'Organizaciónes', // Translate
       individual: 'Individuos', // Translate
-      elected_official: 'Funcionarios electos', // Translate
+      elected_official: 'Funcionarios electos y designados', // Translate
       elected_appointed_official: 'Funcionarios electos y designados',
     },
     pieChartLabels: {
