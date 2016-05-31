@@ -5,7 +5,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const feedbackTranslation = {
 
   title: 'Contáctenos', // Translate
-  surveyLinkLabel: 'Tome nuestra encuesta',
+  surveyLinkLabel: 'Tome Nuestra Encuesta',
   feedback_button_label: "Contáctenos", // Translate
   feedbackFormLabel: 'If you’re reporting an issue with the Voter’s Edge site, please include as much detail as possible. (Ex. links, address or zip code used)',
   value_label_yes: 'Sí', // Translate

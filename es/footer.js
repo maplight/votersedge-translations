@@ -139,7 +139,8 @@ const footerTranslation = {
       label: 'Subscribe for updates on upcoming elections',
       icon: 'fa-megaphone',
       link: "subscribe"
-    }
+    },
+    search_votersedge: 'Search Voter’s Edge',
   };
 
 export default footerTranslation;

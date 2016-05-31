@@ -10,6 +10,8 @@ const contestTranslation = {
     skip_label_offices: "Skip this", // Translate
     candidates_label: "Who's running?", // Translate
     candidates_random_label: "Candidates appear in random order.", // Translate
+    party_label: 'Party', // Translate
+    candidate_for: 'Candidate for',
     screenreader: {
       accordion: 'Access additional information about this contest in the tabs in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
