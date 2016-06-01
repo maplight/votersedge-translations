@@ -11,7 +11,7 @@ const footerTranslation = {
         {
           iconFileName: '',
           tooltip: '',
-          label: 'Candidatos', // Translate
+          label: 'Candidato(a)s', // Translate
           link: 'candidates', // No translation
           section: 'candidates', // No translation
           target: 'OverviewCandidates Offices', // No translation
@@ -136,11 +136,11 @@ const footerTranslation = {
       link: "survey"
     },
     subscribe_button: {
-      label: 'Subscribe for updates on upcoming elections',
+      label: 'Subscribase para recibir actualizaciones sobre las próximas elecciones',
       icon: 'fa-megaphone',
       link: "subscribe"
     },
-    search_votersedge: 'Search Voter’s Edge',
+    search_votersedge: "Buscar en Voter's Edge",
   };
 
 export default footerTranslation;
