@@ -40,7 +40,7 @@ const ballotOverviewTranslation = {
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
     noPollingLocationLinkLabel: "Buscar mi lugar de votación", // Translate
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
-    noPollingLocationMessage: 'No hay información disponible sobre la ubicación del lugar de votación',
+    noPollingLocationMessage: 'No hay información disponible sobre la ubicación del lugar de votación.',
     myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
     // noHoursLabel: "Las urnas se abren de", // Translate
     // hours: {
