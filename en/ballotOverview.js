@@ -39,6 +39,7 @@ const ballotOverviewTranslation = {
     noPollingLocationLabel: 'Polling location & hours', // Translate
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
     noPollingLocationLinkLabel: 'Check your polling location with your local elections office.', // Translate
+    noPollingLocationMessage: 'No polling location information is available.',
     pollingLocationLabel: 'Your polling location & hours', // Translate
     myPollingLocationLabel: 'My polling location and hours', // Translate
     election_results_intro_label: 'Election results',
