@@ -41,6 +41,23 @@ const ballotOverviewTranslation = {
     noPollingLocationLinkLabel: 'Check your polling location with your local elections office.', // Translate
     pollingLocationLabel: 'Your polling location & hours', // Translate
     myPollingLocationLabel: 'My polling location and hours', // Translate
+    election_results_intro_label: 'Election results',
+    election_results_intro_description: 'See which candidates and measures won. Find out how many people voted.',
+    election_results_analysis: {
+      votes_status_complete: 'All of the votes were reported.',
+      votes_status_in_progress: 'Votes are still being counted.',
+      reported_percentage: 'reported.',
+      precincts_count: 'of',
+      precincts_total: 'total precincts reported.',
+      updated: 'Updated',
+      voter_turnout_complete: 'Voter turnout for',
+      voter_turnout_in_progress: 'So far, voter turnout for',
+      voter_turnout_percentage_complete: 'was',
+      voter_turnout_percentage_in_progress: 'is',
+      voter_turnout_explanation: 'This means',
+      voter_turnout_reported: 'of',
+      voter_turnout_voters: 'registered voters cast ballots.',
+    },
     noHoursLabel: {
       ca: 'Polls are open from',
       il: 'Polls are open from',
