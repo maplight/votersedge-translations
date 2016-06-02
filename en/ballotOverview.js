@@ -22,6 +22,8 @@ const ballotOverviewTranslation = {
       ny: 'May not appear on your actual ballot. <a href="/ny/page/how-we-get-our-data">Learn More</a>', // Translate
       default: ''
     },
+    read_more: 'Read more',
+    read_less: 'Read less',
     ballot_no_address: 'Here’s what’s on the ballot.', // Translate
     choose_candidates: 'Candidates', // Translate
     candidates_intro_prefix: 'Get in-depth information about the ', // Translate

@@ -22,6 +22,8 @@ const ballotOverviewTranslation = {
       ny: 'Es posible que no aparezca en su boleta electoral real. <a href="/ny/page/how-we-get-our-data">Obtenga más información</a>', // Translate
       default: ''
     },
+    read_more: 'Leer más',
+    read_less: 'Leer menos',
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate

@@ -50,7 +50,14 @@ const measureTranslation = {
       last: 'Última contienda',  // Translate
       overview: 'Obtener una perspectiva general', // Translate
     },
-
+    get_evg: 'Descargar copias de esta guía en',
+    get_evg_languages: {
+      English: 'inglés',
+      Spanish: 'español',
+      Chinese: 'chino',
+      Vietnamese: 'vietnamita',
+      Korean: 'coreano',
+    },
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     //
     accordionLabels: {

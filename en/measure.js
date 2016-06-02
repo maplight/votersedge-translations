@@ -49,7 +49,14 @@ const measureTranslation = {
       last: 'Last contest',  // Translate
       overview: 'To overview', // Translate
     },
-
+    get_evg: 'Get the Easy Voter Guide for this measure in these languages',
+    get_evg_languages: {
+      English: 'English',
+      Spanish: 'Spanish',
+      Chinese: 'Chinese',
+      Vietnamese: 'Vietnamese',
+      Korean: 'Korean',
+    },
     accordionLabels: {
       learn_more: 'Additional resources', // Translate
       opinions: 'Opinions & Analysis', // Translate
