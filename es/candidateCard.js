@@ -10,8 +10,8 @@ const candidateCardTranslation = {
   participation: {
     researched: 'La experiencia se investigó parcialmente por Voter’s Edge.', //Translate
     researched_encourage: 'Contactar y solicitar al candidato que presente más información.', //Translate
-    candidate_provided_info: 'El candidato proporcionó información.', //Translate
-    candidate_no_info: 'El candidato no proporcionó información.', //Translate
+    candidate_provided_info: 'El candidato(a) proporcionó información.', //Translate
+    candidate_no_info: 'El candidato(a) no proporcionó información.', //Translate
     candidate_no_info_encourage: 'Ponerse en contacto con ellos para fomentar la participación.', //Translate
     researched_data: 'Investigó por Voter’s Edge.',
   },
