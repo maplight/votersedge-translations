@@ -155,7 +155,7 @@ const measureTranslation = {
     SoS: "Secretario de Estado", // Translate
     EVG: "Guía Fácil para el Votante: League of Women Voters of California",  // Translate?
     LWVC: "Pros y contras: League of Women Voters of California",  // Translate?
-    aboutLabel: 'What is this proposition?', // Translate
+    aboutLabel: '¿Que es este propuesta?', // Translate
     argumentsLabel: 'Argumentos a favor y en contra de esta propuesta', // Translate
     supportLabel: '¿Quién apoya esta propuesta y por qué?', // Translate
     costLabel: '¿Cuánto cuesta?', // Translate
