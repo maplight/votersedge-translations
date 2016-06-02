@@ -10,6 +10,7 @@ const feedbackTranslation = {
   feedbackFormLabel: 'If you’re reporting an issue with the Voter’s Edge site, please include as much detail as possible. (Ex. links, address or zip code used)',
   value_label_yes: 'yes', // Translate
   value_label_no: 'no',  // Translate
+  required: '(* Required)',
   questions: {
     representing_candidate: 'Representing a Candidate or Campaign?', // Translate
     representing_media_outlet: 'Representing a Media Outlet?', // Translate
