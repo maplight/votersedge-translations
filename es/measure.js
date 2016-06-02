@@ -86,10 +86,10 @@ const measureTranslation = {
         opponents_say: 'Sus oponentes dicen', // Translation exists
       },
       pros_cons: {  // Translation already provided by LWVC
-        label: 'Pros & Cons', // If translated, it exists already
-        summary: 'Summary',  // Translation exists
-        background: 'Background',  // Translation exists
-        financial_effect: 'Financial effect',  // Translation exists
+        label: 'Pros y Contras', // If translated, it exists already
+        summary: 'Resumen',  // Translation exists
+        background: 'Antecedentes',  // Translation exists
+        financial_effect: 'Efectos fiscales',  // Translation exists
       },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Información básica sobre la iniciativa de ley',
@@ -98,10 +98,10 @@ const measureTranslation = {
         financial_effect: 'Efectos fiscales',  // Translation exists
         impartial_analysis: 'Análisis del analista legislativo',  // Translation exists
         tax_rate: 'Tax rate', // Translation exists
-        yes_vote_means: 'YES vote means', // Translation exists
-        no_vote_means: 'NO vote means', // Translation exists
+        yes_vote_means: 'Un voto por el SÍ significa', // Translation exists
+        no_vote_means: 'Un voto por el NO significa', // Translation exists
         rebuttals: 'Refutaciónes', // Translation exists
-        arguments_for: 'Argumento A FOR', // Translation exists
+        arguments_for: 'Argumento A FAVOR', // Translation exists
         arguments_against: 'Argumento EN CONTRA', // Translation exists
         proposed_legislation: 'Legislación propuesta', // Translate
         read_proposed_legislation: 'Leer la legislación propuesta', // Translate
@@ -109,7 +109,7 @@ const measureTranslation = {
         endorsements: '¿Quién respalda las campañas de iniciativas de ley en las boletas?', // Translate
         funding: '¿Quién contribuye con el dinero?', // Translate
         more_info: 'Más información', // Translate
-        message_content: 'Learn more about this measure'
+        message_content: 'Aprender más acerca de este propuesta'
       }
     },
     fundingTranslation: {
