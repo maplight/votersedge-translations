@@ -19,7 +19,7 @@ const contestTranslation = {
       next: "Siguiente:",
       back: "Atrás:",
       last: "Última contienda",
-      overview: "Obtener una perspectiva general",
+      overview: "Resumen",
     },
     accordionLabels: {
       candidates: "¿Quién se está postulando?", // Translate
