@@ -2,8 +2,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const measureTranslation = {
   measure: {
-    information_provided_by: 'Information provided by',
-    from: 'De',
+    information_provided_by: 'Fuente:',
+    from: 'Fuente:',
     pageTitle: 'Iniciativa de ley', // Translate
     positions: {
       yes: {
@@ -54,7 +54,7 @@ const measureTranslation = {
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     //
     accordionLabels: {
-      learn_more: 'Additional resources', // Translate
+      learn_more: 'Otros recursos', // Translate
       opinions: 'Opiniones y análisis', // Translate
       events: {
         label: 'Eventos',  // Translate
@@ -66,24 +66,24 @@ const measureTranslation = {
         time: 'Hora', // Translate
       },
       news: {
-        label: 'News Coverage'
+        label: 'Noticias'
       },
       video: {
         label: 'Videos'
       },
       evg: {   // Translation already provided by LWCV
         label: 'Guía Fácil para el Votante', // If translated, it exists already
-        way_it_is_now: 'The way it is now', // Translation exists
-        what_if_passes: 'What if it passes?', // Translation exists
-        budget_effect: 'Budget effect', // Translation exists
-        people_for_say: 'People FOR say', // Translation exists
-        people_against_say: 'People AGAINST say', // Translation exists
-        question: 'The Question', // Translation exists
-        situation: 'The Situation', // Translation exists
-        proposal: 'The Proposal', // Translation exists
-        fiscal_effect: 'Fiscal effect', // Translation exists
-        supporters_say: 'Supporters say', // Translation exists
-        opponents_say: 'Opponents say', // Translation exists
+        way_it_is_now: 'Cómo está ahora', // Translation exists
+        what_if_passes: 'Lo que haría la Prop. 50 si se aprueba', // Translation exists
+        budget_effect: 'Efectos en el presupuesto estatal', // Translation exists
+        people_for_say: 'Quienes apoyan la Prop 50 dicen', // Translation exists
+        people_against_say: 'Quienes están contra la Prop 50 dicen', // Translation exists
+        question: 'La pregunta', // Translation exists
+        situation: 'La situación', // Translation exists
+        proposal: 'La propuesta', // Translation exists
+        fiscal_effect: 'Efectos fiscales', // Translation exists
+        supporters_say: 'Sus partidarios dicen', // Translation exists
+        opponents_say: 'Sus oponentes dicen', // Translation exists
       },
       pros_cons: {  // Translation already provided by LWVC
         label: 'Pros & Cons', // If translated, it exists already
@@ -93,16 +93,16 @@ const measureTranslation = {
       },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Información básica sobre la iniciativa de ley',
-        summary: 'Summary',  // Translation exists
-        background: 'Background',  // Translation exists
-        financial_effect: 'Financial effect',  // Translation exists
-        impartial_analysis: 'Impartial analysis',  // Translation exists
+        summary: 'Resumen oficial',  // Translation exists
+        background: 'Antecedentes',  // Translation exists
+        financial_effect: 'Efectos fiscales',  // Translation exists
+        impartial_analysis: 'Análisis del analista legislativo',  // Translation exists
         tax_rate: 'Tax rate', // Translation exists
         yes_vote_means: 'YES vote means', // Translation exists
         no_vote_means: 'NO vote means', // Translation exists
-        rebuttals: 'Rebuttals (Replies)', // Translation exists
-        arguments_for: 'Arguments FOR', // Translation exists
-        arguments_against: 'Arguments AGAINST', // Translation exists
+        rebuttals: 'Refutaciónes', // Translation exists
+        arguments_for: 'Argumento A FOR', // Translation exists
+        arguments_against: 'Argumento EN CONTRA', // Translation exists
         proposed_legislation: 'Legislación propuesta', // Translate
         read_proposed_legislation: 'Leer la legislación propuesta', // Translate
         what_is_proposal: '¿Qué es esta propuesta?', // Translate
