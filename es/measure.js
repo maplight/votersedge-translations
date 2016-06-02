@@ -2,15 +2,19 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const measureTranslation = {
   measure: {
+    information_provided_by: 'Information provided by',
+    from: 'De',
     pageTitle: 'Iniciativa de ley', // Translate
     positions: {
       yes: {
         label: 'Sí', // Translate
         campaign: "Información del contacto de la campaña por el sí", // Translate
+        for: 'Sí por',
       },
       no: {
         label: 'No', // Translate
         campaign: "Información del contacto de la campaña por el no", // Translate
+        for: 'No por',
       },
       neutral: {
         label: 'Neutral', // Translate

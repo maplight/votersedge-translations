@@ -2,6 +2,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const measureTranslation = {
   measure: {
+    information_provided_by: 'Information provided by',
+    from: 'From',
     pageTitle: 'Measure', // Translate
     positions: {
       yes: {
