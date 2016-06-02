@@ -88,7 +88,7 @@ const myListTranslation = {
         type: 'review'
       },
       {
-        label: 'Share this page',  // Translate
+        label: 'Comparte esta página',  // Translate
         icon: '',
         type: 'share'
       },
@@ -107,7 +107,7 @@ const myListTranslation = {
         type: 'review'
       },
       {
-        label: 'Share this page', // Translate
+        label: 'Comparte esta página', // Translate
         icon: '',
         type: 'share'
       },
@@ -125,7 +125,7 @@ const myListTranslation = {
           type: 'review'
         },
       {
-        label: 'Share this page',  // Translate
+        label: 'Comparte esta página',  // Translate
         icon: '',
         type: 'share'
       },
