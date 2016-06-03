@@ -9,10 +9,12 @@ const measureTranslation = {
       yes: {
         label: 'Yes', // Translate
         campaign: "Yes on", // Translate
+        for: 'Yes on',
       },
       no: {
         label: 'No', // Translate
         campaign: "No on", // Translate
+        for: 'No on',
       },
       neutral: {
         label: 'Neutral', // Translate
