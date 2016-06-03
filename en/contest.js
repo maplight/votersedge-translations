@@ -8,8 +8,17 @@ const contestTranslation = {
     officeDescriptionLabel: "About this office", // Translate
     my_choices: "How does voting work for this contest?", // Translate
     skip_label_offices: "Skip this", // Translate
-    candidates_label: "Who's running?", // Translate
-    candidates_random_label: "Candidates appear in random order.", // Translate
+    candidates_label: {
+      active: "Who's running?", // Translate
+      in_progress: "Who's winning?", // Translate
+      complete: "Who won?", // Translate
+    },
+    candidates_random_label: "Candidates appear in random order.",
+    candidates_random_label_results: {
+      active: "Candidates appear in random order.", // Translate
+      in_progress: 'Candidates are sorted in order of election results.',
+      complete: 'Candidates are sorted in order of election results.',
+    },
     party_label: 'Party', // Translate
     candidate_for: 'Candidate for',
     screenreader: {
@@ -58,6 +67,58 @@ const contestTranslation = {
       },
     },
 
+    election_results_analysis: {
+      election_status_complete: {
+        label: 'Election Results',
+        icon: 'fa-star',
+      },
+      election_status_in_progress: {
+        label: 'Election Results',
+        icon: 'fa-star', // 'fa-refresh',
+      },
+      contest: {
+        complete: {
+          icon: 'fa-star',
+          message_result: ' of precincts reporting',
+          ballots_counted: ' ballots counted.',
+          tooltip_result: {
+            message: '',
+            label: 'precincts reporting.',
+            separator: '/'
+          },
+          tooltip_message: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          },
+          candidate: {
+            votes: 'votes',
+            status: 'Elected',
+          },
+        },
+        in_progress: {
+          icon: 'fa-star', // 'fa-refresh',
+          message_result: ' of precincts reporting',
+          ballots_counted: ' ballots counted.',
+          tooltip_result: {
+            message: '',
+            label: 'precincts reporting.',
+            separator: '/',
+          },
+          tooltip_message: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          },
+          candidate: {
+            votes: 'votes',
+            status: 'Elected',
+          },
+        },
+      },
+    },
     // voteForPrompt: {
     //   single: `You can vote for ${office.contestType.vote_for_count} candidate.`, // Translate just the text
     //   multiple: `You can vote for ${office.contestType.vote_for_count} candidates.` // Translate just the text

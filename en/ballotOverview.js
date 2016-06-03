@@ -42,25 +42,108 @@ const ballotOverviewTranslation = {
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
     noPollingLocationLinkLabel: 'Check your polling location with your local elections office.', // Translate
     noPollingLocationMessage: 'No polling location information is available.',
+    noPollingLocationMessageResults: {
+      active: 'No polling location information is available.',
+      complete: 'No polling location information is available. Election has already passed.'
+    },
     pollingLocationLabel: 'Your polling location & hours', // Translate
     myPollingLocationLabel: 'My polling location and hours', // Translate
-    election_results_intro_label: 'Election results',
-    election_results_intro_description: 'See which candidates and measures won. Find out how many people voted.',
+
     election_results_analysis: {
-      votes_status_complete: 'All of the votes were reported.',
-      votes_status_in_progress: 'Votes are still being counted.',
-      reported_percentage: 'reported.',
-      precincts_count: 'of',
-      precincts_total: 'total precincts reported.',
-      updated: 'Updated',
-      voter_turnout_complete: 'Voter turnout for',
-      voter_turnout_in_progress: 'So far, voter turnout for',
-      voter_turnout_percentage_complete: 'was',
-      voter_turnout_percentage_in_progress: 'is',
-      voter_turnout_explanation: 'This means',
-      voter_turnout_reported: 'of',
-      voter_turnout_voters: 'registered voters cast ballots.',
+      intro_label: 'Election results',
+      state_results_label: 'Statewide Results',
+      county_results_label: 'Results',
+      intro_description: {
+        complete: '',
+        in_progress: 'Results are still being reported.'
+        // complete: 'All results are in. <br />View candidates and measures to see who won.',
+        // in_progress: 'Results are still being reported.<br /> View candidates and measures to see who’s winning.'
+      },
+      election_status_complete: {
+        label: 'Election results',
+        icon: 'fa-star',
+      },
+      election_status_in_progress: {
+        label: 'Election results', // Election results are still being reported.',
+        icon: 'fa-star', // icon: 'fa-refresh',
+      },
+      updated: 'Updated:',
+      votes: 'votes',
+      state: {
+        complete: {
+          icon: 'fa-star',
+          message_result: 'of precincts reporting',
+          message_turnout: 'Voter Turnout:',
+          tooltip_result: {
+            message: '',
+            label: 'total precincts reporting.',
+            separator: 'of'
+          },
+          tooltip_turnout: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          }
+        },
+        in_progress: {
+          icon: 'fa-star', // icon: 'fa-refresh',
+          message_result: 'of precincts reporting',
+          message_turnout: 'Voter Turnout:',
+          tooltip_result: {
+            message: '',
+            label: 'total precincts reporting.',
+            separator: 'of'
+          },
+          tooltip_turnout: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots have been counted.',
+          }
+        }
+      },
+      precincts: {
+        complete: {
+          icon: 'fa-star',
+          message_result: 'of precincts reporting',
+          message_turnout: 'Voter Turnout:',
+          message_turnout_tense: 'was',
+          message_turnout_suffix: '.',
+          tooltip_result: {
+            message: '',
+            label: 'total precincts reporting.',
+            separator: 'of'
+          },
+          tooltip_turnout: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          }
+        },
+        in_progress: {
+          icon: 'fa-star', // icon: 'fa-refresh',
+          message_result: 'of the results were reported for',
+          message_turnout: 'Voter Turnout:',
+          message_turnout_tense: 'is',
+          message_turnout_suffix: '.',
+          tooltip_result: {
+            message: '',
+            label: 'total precincts reporting.',
+            separator: 'of'
+          },
+          tooltip_turnout: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots have been counted.',
+          }
+        }
+      }
     },
+
+
     noHoursLabel: {
       ca: 'Polls are open from',
       il: 'Polls are open from',

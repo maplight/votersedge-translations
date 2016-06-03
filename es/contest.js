@@ -57,6 +57,58 @@ const contestTranslation = {
         supplemental_description: '',
       },
     },
+    election_results_analysis: {
+      election_status_complete: {
+        label: 'Election Results',
+        icon: 'fa-star',
+      },
+      election_status_in_progress: {
+        label: 'Election Results',
+        icon: 'fa-star', // 'fa-refresh',
+      },
+      contest: {
+        complete: {
+          icon: 'fa-star',
+          message_result: ' of precincts reporting',
+          ballots_counted: ' ballots counted.',
+          tooltip_result: {
+            message: '',
+            label: 'precincts reporting.',
+            separator: '/'
+          },
+          tooltip_message: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          },
+          candidate: {
+            votes: 'votes',
+            status: 'Elected',
+          },
+        },
+        in_progress: {
+          icon: 'fa-star', // 'fa-refresh',
+          message_result: ' of precincts reporting',
+          ballots_counted: ' ballots counted.',
+          tooltip_result: {
+            message: '',
+            label: 'precincts reporting.',
+            separator: '/',
+          },
+          tooltip_message: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          },
+          candidate: {
+            votes: 'votes',
+            status: 'Elected',
+          },
+        },
+      },
+    },
     // voteForPrompt: {
     //   single: `Puede votar por ${office.contestType.vote_for_count} candidato.`, // Translate just the text
     //   multiple: `Puede votar por ${office.contestType.vote_for_count} candidatos.` // Translate just the text

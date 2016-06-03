@@ -24,6 +24,68 @@ const measureTranslation = {
     screenreader: {
       accordion: 'To learn more about measures, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
+
+   election_results_analysis: {
+      election_status_complete: {
+        label: 'Election Results.',
+        icon: 'fa-star',
+      },
+      election_status_in_progress: {
+        label: 'Election Results.',
+        icon: 'fa-star', // 'fa-refresh',
+      },
+      election_status_no_results: {
+        label: 'No election results available.',
+        icon: 'fa-circle',
+      },
+      contest: {
+        complete: {
+          icon: 'fa-star',
+          message_result: ' of precincts reporting',
+          ballots_counted: ' ballots counted.',
+          yes_votes: 'votes yes',
+          no_votes: 'votes no',
+          pass: 'Passed',
+          fail: 'Failed',
+          tooltip_result: {
+            message: '',
+            label: 'precincts reporting.',
+            separator: '/'
+          },
+          tooltip_message: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          },
+        },
+        in_progress: {
+          icon: 'fa-star', //'fa-refresh',
+          message_result: ' of precincts reporting',
+          ballots_counted: ' ballots counted',
+          yes_votes: 'votes yes',
+          no_votes: 'votes no',
+          pass: 'Passing',
+          fail: 'Failing',
+          tooltip_result: {
+            message: '',
+            label: 'precincts reporting.',
+            separator: '/'
+          },
+          tooltip_message: {
+            message: '',
+            prefix: 'This means',
+            separator: 'of',
+            label: 'registered voters cast ballots.',
+          },
+          measure: {
+            passed: 'Passed',
+            failed: 'Failed',
+          },
+        },
+      },
+    },
+
     sourceLabel: 'Source: ', // Translate
     endorsements_label: {
       organization: 'Organization', // Translate
