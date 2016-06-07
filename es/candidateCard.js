@@ -37,7 +37,7 @@ const candidateCardTranslation = {
     question_label: 'Pregunta:', //Translate
     answer_label: 'Respuesta:', //Translate
     profession: 'Profesión:', //Translate
-    official_statement: 'Official statement',
+    official_statement: 'Declaración oficial',
     who_funds_candidate: '¿Quién financia a este candidato?', //Translate
     who_supports_candidate: '¿Quién apoya a este candidato?', //Translate
     candidate_contact_info: 'Información de contacto del candidato', //Translate
