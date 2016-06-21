@@ -32,15 +32,15 @@ const searchTranslation  = {
     'ca': {
       // stateBallotLinkLabel: "Coming soon for 2016. In meantime, here's measures and races for the <strong>state of California</strong> 2014 election.",
       stateBallotLinkLabel: "See ballot measures and races for the <strong>state of California</strong>.", // Translate
-      stateBallotLink: "/ballot/election/area/39?id=ocd-division/country:us/state:ca",
+      stateBallotLink: "/ballot/election/area/39?id=statewide-39-ca",
     },
     'il': {
       stateBallotLinkLabel: "See ballot measures and races for the <strong>state of Illinois</strong>.", // Translate
-      stateBallotLink: "/ballot/election/area/30?id=ocd-division/country:us/state:il", // No translation
+      stateBallotLink: "/ballot/election/area/30?id?id=statewide-30-il", // No translation
     },
     'ny': {
       stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>.", // Translate
-      stateBallotLink: "/ballot/election/area/38?id=ocd-division/country:us/state:ny",
+      stateBallotLink: "/ballot/election/area/40?id=statewide-40-ny",
     }
   },
   electionArchiveLink: "/page/elections-archive", // No translation
