@@ -124,7 +124,7 @@ const ballotOverviewTranslation = {
         },
         in_progress: {
           icon: 'fa-star', // icon: 'fa-refresh',
-          message_result: 'of the results were reported for',
+          message_result: 'of the results were reported.',
           message_turnout: 'Voter Turnout:',
           message_turnout_tense: 'is',
           message_turnout_suffix: '.',

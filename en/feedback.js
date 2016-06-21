@@ -23,7 +23,6 @@ const feedbackTranslation = {
     email: 'Email',
     state: 'State',
     reason: 'Reason', // Translate
-    reason_select: 'Select a reason...',
     feedback: 'Feedback', // Translate
     election_area_optional: 'Election area is optional', // Translate
     election_authority: 'Election Authority', // Translate
@@ -37,6 +36,8 @@ const feedbackTranslation = {
     other: 'Other', // Translate
     message_label: 'Message',
   },
+  select_state: 'Select a state...',
+  select_election_area: 'Select an election area...',
   response: 'Thank you for your feedback.  We will follow up with you if necessary.'
 };
 
