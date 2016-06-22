@@ -36,7 +36,7 @@ const searchTranslation  = {
     },
     'il': {
       stateBallotLinkLabel: "See ballot measures and races for the <strong>state of Illinois</strong>.", // Translate
-      stateBallotLink: "/ballot/election/area/30?id?id=statewide-30-il", // No translation
+      stateBallotLink: "/ballot/election/area/30?id=statewide-30-il", // No translation
     },
     'ny': {
       stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>.", // Translate
