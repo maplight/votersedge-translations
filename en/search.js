@@ -1,7 +1,8 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const searchTranslation  = {
-  pageTitle: 'Choose a ballot for an election', // Translate // New
+  // pageTitle: 'Choose a ballot for an election', // Translate // New
+  pageTitle: 'Voter Guide - Candidate & Ballot Information',
   intro: "Find in-depth information about what's on your ballot.", // Translate
   path: '/search', // No translation
   zipPrompt: "Enter your <strong>zip code*</strong> <i>(Required.)</i>", // Translate

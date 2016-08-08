@@ -5,6 +5,7 @@ const measureTranslation = {
     information_provided_by: 'Information provided by',
     from: 'From',
     pageTitle: 'Measure', // Translate
+    proposition_abbreviation: "Prop.",
     positions: {
       yes: {
         label: 'Yes', // Translate
@@ -193,7 +194,7 @@ const measureTranslation = {
         ofTotal: 'of total', // Translate
         topTenByStateTitle: 'Top 5 contributions by state', // Translate
         topTenByStateLabel: '',
-        piechartTitle: '',
+        piechartTitle: 'Top 5 contributions by state (Graph)',
         piechartLabel: '',
 
         contributionSizeTitle: 'How big are the contributions?', // Translate

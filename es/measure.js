@@ -5,6 +5,7 @@ const measureTranslation = {
     information_provided_by: 'Fuente:',
     from: 'Fuente:',
     pageTitle: 'Iniciativa de ley', // Translate
+    proposition_abbreviation: "Iniciativa de ley",
     positions: {
       yes: {
         label: 'Sí', // Translate
@@ -193,7 +194,7 @@ const measureTranslation = {
       ofTotal: 'del total', // Translate
       topTenByStateTitle: 'Primeras 5 contribuciones por estado', // Translate
       topTenByStateLabel: '',
-      piechartTitle: '',
+      piechartTitle: 'Top 5 contributions by state (Graph)',
       piechartLabel: '',
 
       contributionSizeTitle: '¿Qué tan grandes son las contribuciones?', // Translate

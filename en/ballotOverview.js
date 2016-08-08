@@ -9,6 +9,92 @@ const ballotOverviewTranslation = {
   ballotOverview: {
     ballot_address: 'What\'s on the ballot for your address in', // Translate
     ballot_area: 'What\'s on the ballot for ', // Translate
+    meta: {
+      overview: {
+        page_title: 'Ballot',
+        page_title_description: 'Candidate & Ballot Measure Voter Guide',
+        card_title: '',
+        card_title_description: 'Get the facts before you vote.',
+        twitter_templates: {
+          default: {
+            landingPage: 'Get the facts before you vote. ',
+            ballotOverview: 'Get the facts before you vote. ',
+            ballotOverviewAlt: 'Get the facts before you vote. ',
+            votingInfo: 'Get the facts before you vote. ',
+          },
+          il: {
+            landingPage: 'Get the facts before you vote. Access your personalized ballot here ',
+            ballotOverview: 'Ready for the Illinois Primary Election on March 15th? I accessed my ballot with ',
+            ballotOverviewAlt: 'The Illinois Primary Election is March 15th. Get the facts before you vote ',
+            votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
+          },
+          ca: {
+            landingPage: 'Get the facts before you vote. Access your personalized ballot here ',
+            ballotOverview: 'Ready for California Elections? I accessed my ballot with ',
+            ballotOverviewAlt: 'Get the facts before you vote ',
+            votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
+          },
+          ny: {
+            landingPage: 'Get the facts before you vote. Access your personalized ballot here ',
+            ballotOverview: 'Ready for New York Elections? I accessed my ballot with ',
+            ballotOverviewAlt: 'Get the facts before you vote ',
+            votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
+          }
+        },
+        facebook: '',
+        email: '',
+      },
+      contest: {
+        page_title: 'Ballot',
+        page_title_description: 'Voter Guide',
+        card_title: '',
+        card_title_description: '',
+        twitter: '',
+        facebook: '',
+        email: '',
+      },
+      candidate: {
+        page_title: 'Ballot',
+        page_title_description: 'Voter Guide',
+        card_title: '',
+        card_title_description: '',
+        card_title_label: 'Learn more about',
+        card_title_separator: 'for',
+        candidate_label: 'Candidate'
+      },
+      measure: {
+        page_title: 'Ballot',
+        page_title_description: 'Measures & Voter Guide',
+        card_title: '',
+        card_title_description: '',
+        card_title_label: 'Learn more about',
+        card_title_separator: '',
+      },
+      'ballot-candidates': {
+        page_title: 'Ballot',
+        page_title_description: 'Candidates',
+        card_title: '',
+        card_title_description: '',
+      },
+      'ballot-measures': {
+        page_title: 'Ballot',
+        page_title_description: 'Measures',
+        card_title: '',
+        card_title_description: '',
+      },
+      'ballot-voting-info': {
+        page_title: 'Voting Info',
+        page_title_description: 'Registration, Polling Places & How to Vote',
+        card_title: '',
+        card_title_description: '',
+      },
+      'ballot-choices': {
+        page_title: 'Election',
+        page_title_description: 'My List',
+        card_title: '',
+        card_title_description: '',
+      }
+    },
     ballot_error: "There was a problem finding this ballot.", // Translate
     ballot_extra_result_explanation: {
       ca: 'Results based on only a zip code may return more contests than will appear on your actual ballot. <a href="/en/ca">For the most specific results available, enter your full address.</a>', // Translate

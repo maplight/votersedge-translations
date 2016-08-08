@@ -85,7 +85,7 @@ const footerTranslation = {
     contact: [
     {
       label: "Send us a message", // Translate
-      link: "feedback", // No translation
+      link: "contact-us", // No translation
       status: "published", // No translation
     },
     // {

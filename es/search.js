@@ -1,7 +1,8 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const searchTranslation  = {
-  pageTitle: 'Elija una boleta electoral para una elección', // Translate // New
+  // pageTitle: 'Elija una boleta electoral para una elección', // Translate // New
+  pageTitle: 'Voter Guide - Candidate & Ballot Information',
   intro: "Encuentre información detallada sobre lo que incluye su boleta electoral.", // Translate
   path: '/search', // No translation
   zipPrompt: "Ingrese su <strong>código postal</strong>.*", // Translate
