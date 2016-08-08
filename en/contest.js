@@ -119,6 +119,19 @@ const contestTranslation = {
         },
       },
     },
+    scrollPrompt: 'Please scroll down to see all candidates.',
+    voteForPrompt: {
+      'singular': {
+        'prefix': 'You can vote for',
+        'separator': 'candidate of',
+        'suffix': 'total candidates.'
+      },
+      'plural': {
+        'prefix': 'You can vote for',
+        'separator': 'candidates of',
+        'suffix': 'total candidates.'
+      }
+    },
     // voteForPrompt: {
     //   single: `You can vote for ${office.contestType.vote_for_count} candidate.`, // Translate just the text
     //   multiple: `You can vote for ${office.contestType.vote_for_count} candidates.` // Translate just the text

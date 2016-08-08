@@ -109,6 +109,19 @@ const contestTranslation = {
         },
       },
     },
+    scrollPrompt: 'Por favor, desplácese hacia abajo para ver todos los candidatos.',
+    voteForPrompt: {
+      'singular': {
+        'prefix': 'Puede votar por',
+        'separator': 'candidato de',
+        'suffix': 'candidatos totales.'
+      },
+      'plural': {
+        'prefix': 'Puede votar por ',
+        'separator': 'candidatos de',
+        'suffix': 'candidatos totales.'
+      }
+    },
     // voteForPrompt: {
     //   single: `Puede votar por ${office.contestType.vote_for_count} candidato.`, // Translate just the text
     //   multiple: `Puede votar por ${office.contestType.vote_for_count} candidatos.` // Translate just the text
