@@ -10,6 +10,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const searchErrorsTranslation = {
     pageTitle: 'Find a ballot', // Translate
     try_new_search: 'Try a new search.', // Translate
+    zip_code_entered: 'The zip code you entered',
+    multiple_counties: 'is in more than one county. Please select a county from the list below.',
     newSearchMessage: 'Please choose on of these other addresses or ', // Translate
     unable_to_find: 'We were unable to find your specific address.', // Translate
     enter_new: "We were unable to find your specific address.", // Translate

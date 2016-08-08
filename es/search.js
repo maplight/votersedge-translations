@@ -14,7 +14,6 @@ const searchTranslation  = {
   privacyStatement: "Somos no partidistas, sin fines de lucro y no venderemos su información.", // Translate
   privacyPolicyLinkLabel: "Política de privacidad.", // Translate
   privacyPolicyLink: "/page/privacy-policy", // No translation
-
   countyLabel: {
     'ca': 'Condado',
     'il': 'Condado',
