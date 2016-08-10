@@ -31,7 +31,7 @@ const candidateCardTranslation = {
     videos: 'Videos', //Translate
     political_philosophy: 'Filosofía política', //Translate
     position_papers: 'Documentos sobre determinadas posturas', //Translate
-    responses_to_questions: 'Respuestas a preguntas', //Translate
+    responses_to_questions: 'Preguntas y Respuestas', //Translate
     political_beliefs: 'Creencias poliza', //Translate
     no_question_answer: 'No se proporcionó respuesta.', //Translate
     question_label: 'Pregunta:', //Translate
