@@ -20,6 +20,7 @@ const candidateCardTranslation = {
   screenreader: {
     accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
   },
+  question_source_label: 'From',
   candidate_website_label: 'Candidate website', //Translate
   accordionLabels: {
     experience: 'Experience', // Translate
