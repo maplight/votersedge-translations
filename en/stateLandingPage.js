@@ -48,17 +48,17 @@ const stateLandingPageTranslation = {
         message: 'Keep track of your choices and use them to vote.',
         icon: 'fa-star'
       },
-      special_label: 'The California primary is on June 7:',
+      special_label: 'The 2016 General Election is on November 8:',
       register: {
-        message: 'Find out how to <a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">vote for president in the primary!</a>',
+        message: 'Know your <a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-my-rights-as-a-voter">rights as a voter!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Check all the ways you can vote.</a>',
+        message: '<a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote, register by October 24.</a>',
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/en/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Get more Voting Info on where, when, and how to vote.</a>',
+        message: '<a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca">Get more Voting Info on where, when and how to vote.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },

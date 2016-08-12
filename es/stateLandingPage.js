@@ -25,17 +25,17 @@ const stateLandingPageTranslation = {
         message: 'Mantenga un registro de sus opciones y úselas para votar.',
         icon: 'fa-star'
       },
-      special_label: 'Las elecciones primarias en California son el 7 de junio:',
+      special_label: 'Las elecciones generales en California son el 8 de noviembre:',
       register: {
-        message: '¡Obtenga información sobre como <a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#menu-item-how-to-vote-in-the-presidential-primary">votar para presidente en las elecciones primarias!</a>',
+        message: 'Know your <a href="/es/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-my-rights-as-a-voter">rights as a voter!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca#section-ways-to-vote">Mire las maneras en que puede votar.</a>',
+        message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote, register by October 24.</a>',
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/es/ca/ballot/election/area/39/section/voting-info?id=ocd-division/country:us/state:ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
+        message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },
