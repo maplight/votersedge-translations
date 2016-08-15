@@ -54,7 +54,7 @@ const stateLandingPageTranslation = {
         icon: 'fa-star'
       },
       deadline: {
-        message: '<a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote, register by October 24.</a>',
+        message: 'Deadline: <a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote, register by October 24.</a>',
         icon: 'fa-star'
       },
       voting_info: {
