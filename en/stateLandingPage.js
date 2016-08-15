@@ -48,7 +48,7 @@ const stateLandingPageTranslation = {
         message: 'Keep track of your choices and use them to vote.',
         icon: 'fa-star'
       },
-      special_label: 'The 2016 General Election is on November 8:',
+      special_label: 'The General Election is on November 8:',
       register: {
         message: 'Know your <a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-my-rights-as-a-voter">rights as a voter!</a>',
         icon: 'fa-star'
