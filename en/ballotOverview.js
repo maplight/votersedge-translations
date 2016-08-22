@@ -7,8 +7,18 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Tests: http://votersedge.org/ca/ballot/election/32-70b46e/address/null/zip/90001/section/overview'
 const ballotOverviewTranslation = {
   ballotOverview: {
-    ballot_address: 'What\'s on the ballot for your address in', // Translate
-    ballot_area: 'What\'s on the ballot for ', // Translate
+    ballot_address: 'Ballot and voting information for your address in', // Translate
+    ballot_area: 'Ballot and voting information for ', // Translate
+    votingInfoSections: {
+     'section-my-polling-place': 'My polling place',
+     'section-register-to-vote': 'Register to vote',
+     'section-ways-to-vote': 'Ways to vote',
+     'section-voting-basics': 'Voting basics',
+     'section-important-dates-deadlines': 'Important dates and deadlines',
+     'section-my-rights-as-a-voter': 'My rights as a voter',
+     'section-more-voting-info': 'More voting info',
+     'section-election-office-contact': 'Contact election office',
+    },
     meta: {
       overview: {
         page_title: 'Ballot',
@@ -112,6 +122,10 @@ const ballotOverviewTranslation = {
     read_less: 'Read less',
     ballot_no_address: 'Here’s what’s on the ballot.', // Translate
     choose_candidates: 'Candidates', // Translate
+    list_of_candidates: 'See a list',
+    start_with_candidates: 'Start with candidates',
+    list_of_measures: 'See a list',
+    start_with_measures: 'Start with measures',
     candidates_intro_prefix: 'Get in-depth information about the ', // Translate
     candidates_intro: 'candidates running for', // Translate
     candidates_offices: 'offices', // Translate
@@ -123,6 +137,12 @@ const ballotOverviewTranslation = {
     choose_voting_info: 'Voting Info', // Translate
     choose_voting_info_label: 'Get info on <strong>when, where, and how to vote</strong>', // Translate
     choices: "My List", // Translate
+    choices_get_ballot: 'Want to keep track of you ballot choices and make a list to take to the polls?',
+    choices_learn_more: 'Learn more',
+    other_elections_label: 'Other Elections',
+    choices_get_started: 'get started',
+    choices_progress_percentage_prefix: 'You are',
+    choices_progress_percentage_suffix: 'of the way through your ballot.',
     choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: 'Polling location & hours', // Translate
     noPollingLocationLookup: '<p><strong>Want to look up your polling place?</strong></p> <p></p>', // Translate
@@ -334,9 +354,10 @@ const ballotOverviewTranslation = {
   ballotNavigation: {
      links: [
         {
-          iconFileName: '',
-          tooltip: '',
-          label: 'Overview',  // Translate
+          iconFileName: 'fa fa-chevron-circle-left',
+          activeIconFileName: 'fa fa-chevron-circle-down',
+          tooltip: 'Back to Overview',
+          label: '',  // Translate
           link: 'overview',  // No translation
           section: 'overview', // No translation
         },
@@ -347,6 +368,8 @@ const ballotOverviewTranslation = {
           link: 'candidates', // No translation
           section: 'candidates', // No translation
           target: 'OverviewCandidates Offices', // No translation
+          dropdownLimit: 50,
+          dropdownComponent: 'ContestsList',
         },
         {
           iconFileName: '',
@@ -355,6 +378,8 @@ const ballotOverviewTranslation = {
           link: 'measures',
           section: 'measures', // No translation
           target: 'OverviewMeasures Measures', // No translation
+          dropdownLimit: 50,
+          dropdownComponent: 'MeasuresList',
         },
         {
           iconFileName: '',
@@ -365,7 +390,7 @@ const ballotOverviewTranslation = {
           target: 'VotingInfoSections', // No translation
         },
         {
-          iconFileName: 'fa fa-newspaper-o', // No translation
+          iconFileName: '', // No translation
           tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
           label: 'My List', // Translate
           link: 'choices', // 'choices'  // No translation
