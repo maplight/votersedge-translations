@@ -25,12 +25,10 @@ const contestTranslation = {
       accordion: 'Access additional information about this contest in the tabs in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
     navigation: {
-      next: 'Next',
-      back: 'Back',
+      next: 'Next:',
+      back: 'Back:',
       last: 'Last contest',
-      overview: 'To overview',
-      choices: 'Go to My List',
-      measure: 'Next: Go to Measures'
+      overview: 'Overview',
     },
     accordionLabels: {
       candidates: 'Who’s Running?', // Translate

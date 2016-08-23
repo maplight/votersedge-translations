@@ -222,7 +222,7 @@ const measureTranslation = {
       measureDescriptionLabel: "About this measure", // Translate
       my_choices: "Do you support this proposition?", // Translate
       SoS: "Secretary of State", // Translate
-      EVG: "Easy Voter Guide — League of Women Voters of California",  // Translate?
+      EVG: "Easy Voter Guide — League of Women Voters of California Education Fund",  // Translate?
       LWVC: "Pros/Cons — League of Women Voters of California",  // Translate?
       aboutLabel: 'What is this proposition?', // Translate
       argumentsLabel: 'Arguments for and against this proposition', // Translate

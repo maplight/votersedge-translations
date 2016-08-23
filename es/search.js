@@ -41,7 +41,7 @@ const searchTranslation  = {
     },
     'ny': {
       stateBallotLinkLabel: "Consulte las iniciativas de ley en la boleta electoral y la contienda electoral para el <strong>estado de Nueva York</strong>.", // Translate
-      stateBallotLink: "/ballot/election/area/44?id=statewide-44-ny",
+      stateBallotLink: "/ballot/election/area/45?id=statewide-45-ny",
     }
   },
   electionArchiveLink: "/page/elections-archive", // No translation

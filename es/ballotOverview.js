@@ -7,20 +7,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Tests: http://votersedge.org/ca/ballot/election/32-70b46e/address/null/zip/90001/section/overview'
 const ballotOverviewTranslation = {
   ballotOverview: {
-    ballot_address: "Boleta y información de la votación para su dirección en", // Translate
-    ballot_area: "Boleta y información de la votación para el ", // Translate
-    // ballot_address: 'Ballot and voting information for your address in', // Translate
-    // ballot_area: 'Ballot and voting information for ', // Translate
-    votingInfoSections: {
-     'section-my-polling-place': 'My polling place',
-     'section-register-to-vote': 'Register to vote',
-     'section-ways-to-vote': 'Ways to vote',
-     'section-voting-basics': 'Voting basics',
-     'section-important-dates-deadlines': 'Important dates and deadlines',
-     'section-my-rights-as-a-voter': 'My rights as a voter',
-     'section-more-voting-info': 'More voting info',
-     'section-election-office-contact': 'Contact election office',
-    },
+    ballot_address: "Qué contiene la boleta electoral para su dirección en", // Translate
     meta: {
       overview: {
         page_title: 'Ballot',
@@ -107,7 +94,7 @@ const ballotOverviewTranslation = {
         card_title_description: '',
       }
     },
-
+    ballot_area: "Qué contiene la boleta electoral para el ", // Translate
     ballot_error: "Hubo un problema para encontrar esta boleta electoral.", // Translate
     ballot_extra_result_explanation: {
       ca: 'Es posible que los resultados que se basan solo en un código postal arrojen más contiendas de las que aparecerán en su boleta electoral real. <a href="/en/ca">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>', // Translate
@@ -125,10 +112,6 @@ const ballotOverviewTranslation = {
     read_less: 'Leer menos',
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
-    list_of_candidates: 'See a list',
-    start_with_candidates: 'Start with candidates',
-    list_of_measures: 'See a list',
-    start_with_measures: 'Start with measures',
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
     candidates_intro: "candidatos postulados para", // Translate
     candidates_offices: "cargos", // Translate
@@ -140,12 +123,6 @@ const ballotOverviewTranslation = {
     choose_voting_info: "Información de la votación", // Translate
     choose_voting_info_label: "Obtenga información sobre <strong>cuándo, dónde y cómo votar</strong>", // Translate
     choices: "Mi lista", // Translate
-    choices_get_ballot: 'Want to keep track of you ballot choices and make a list to take to the polls?',
-    choices_learn_more: 'Learn more',
-    other_elections_label: 'Other Elections',
-    choices_get_started: 'get started',
-    choices_progress_percentage_prefix: 'You are',
-    choices_progress_percentage_suffix: 'of the way through your ballot.',
     choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
@@ -360,10 +337,9 @@ const ballotOverviewTranslation = {
   ballotNavigation: {
      links: [
         {
-          iconFileName: 'fa fa-chevron-circle-left',
-          activeIconFileName: 'fa fa-chevron-circle-down',
-          tooltip: 'Resumen',
-          label: '',  // Translate
+          iconFileName: '',
+          tooltip: '',
+          label: 'Resumen',  // Translate
           link: 'overview',  // No translation
           section: 'overview', // No translation
         },
@@ -374,8 +350,6 @@ const ballotOverviewTranslation = {
           link: 'candidates', // No translation
           section: 'candidates', // No translation
           target: 'OverviewCandidates Offices', // No translation
-          dropdownLimit: 50,
-          dropdownComponent: 'ContestsList',
         },
         {
           iconFileName: '',
@@ -384,8 +358,6 @@ const ballotOverviewTranslation = {
           link: 'measures',
           section: 'measures', // No translation
           target: 'OverviewMeasures Measures', // No translation
-          dropdownLimit: 50,
-          dropdownComponent: 'MeasuresList',
         },
         {
           iconFileName: '',
@@ -396,7 +368,7 @@ const ballotOverviewTranslation = {
           target: 'VotingInfoSections', // No translation
         },
         {
-          iconFileName: '', // No translation
+          iconFileName: 'fa fa-newspaper-o', // No translation
           tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
           label: 'Mi Lista', // Translate
           link: 'choices', // 'choices'  // No translation
