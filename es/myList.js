@@ -57,6 +57,16 @@ const myListTranslation = {
         description: "Get this list as well as a link to get back to your list.",  // Translate
         type: 'email'
       },
+      { label: 'Tweet your list.',
+        icon: 'fa-twitter-square',
+        description: "Get this list as well as a link to get back to your list.",  // Translate
+        type: 'twitter'
+      },
+      { label: 'Post your list to Facebook.',
+        icon: 'fa-facebook-square',
+        description: "Get this list as well as a link to get back to your list.",  // Translate
+        type: 'facebook'
+      },
     ],
     email_link_my_list: {
       button_label: 'Email a link',
