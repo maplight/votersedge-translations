@@ -4,6 +4,7 @@ const measureTranslation = {
   measure: {
     information_provided_by: 'Information provided by',
     from: 'From',
+    measureContestTitle: 'Ballot Measures',
     pageTitle: 'Measure', // Translate
     proposition_abbreviation: "Prop.",
     positions: {
@@ -25,8 +26,15 @@ const measureTranslation = {
     screenreader: {
       accordion: 'To learn more about measures, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
-
-   election_results_analysis: {
+  toolbar: [
+      {
+        label: '',  // Translate
+        icon: '',
+        type: 'share'
+      },
+    ],
+  measure_not_found: 'Could not find that measure.',
+  election_results_analysis: {
       election_status_complete: {
         label: 'Election Results.',
         icon: 'fa-star',
@@ -109,10 +117,12 @@ const measureTranslation = {
       accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.' // Translate
     },
     navigation: {
-      next: 'Next:', // Translate
-      back: 'Back:', // Translate
-      last: 'Last contest',  // Translate
-      overview: 'To overview', // Translate
+      next: 'Next',
+      back: 'Back',
+      last: 'Last measure',
+      overview: 'To overview',
+      choices: 'Go to My List',
+      contest: 'Next: Go to Candidates'
     },
     get_evg: 'Get the Easy Voter Guide for this measure in these languages',
     get_evg_languages: {
@@ -122,11 +132,25 @@ const measureTranslation = {
       Vietnamese: 'Vietnamese',
       Korean: 'Korean',
     },
+    contestLabels: {
+      contest_links: {
+        label: 'Additional resources',
+      },
+      news: {
+        label: 'News'
+      },
+      video: {
+        label: 'Videos'
+      },
+      events: {
+        label: 'Events',
+      },
+    },
     accordionLabels: {
       learn_more: 'Additional resources', // Translate
       opinions: 'Opinions & Analysis', // Translate
       news: {
-        label: 'News Coverage'
+        label: 'News'
       },
       video: {
         label: 'Videos'
@@ -161,7 +185,7 @@ const measureTranslation = {
         financial_effect: 'Financial effect',  // Translation exists
       },
       basics: { // Translation already provided by Secretary of State except where noted
-        label: 'Measure Basics',
+        label: 'Measure Details',
         summary: 'Summary',  // Translation exists
         background: 'Background',  // Translation exists
         financial_effect: 'Financial effect',  // Translation exists
@@ -222,7 +246,7 @@ const measureTranslation = {
       measureDescriptionLabel: "About this measure", // Translate
       my_choices: "Do you support this proposition?", // Translate
       SoS: "Secretary of State", // Translate
-      EVG: "Easy Voter Guide — League of Women Voters of California Education Fund",  // Translate?
+      EVG: "The League of Women Voters of California Education Fund",  // Translate?
       LWVC: "Pros/Cons — League of Women Voters of California",  // Translate?
       aboutLabel: 'What is this proposition?', // Translate
       argumentsLabel: 'Arguments for and against this proposition', // Translate

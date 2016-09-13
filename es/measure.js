@@ -4,6 +4,7 @@ const measureTranslation = {
   measure: {
     information_provided_by: 'Fuente:',
     from: 'Fuente:',
+    measureContestTitle: 'Ballot Measures',
     pageTitle: 'Iniciativa de ley', // Translate
     proposition_abbreviation: "Iniciativa de ley",
     positions: {
@@ -22,9 +23,17 @@ const measureTranslation = {
         campaign: "Información del contacto", // Translate
       },
     },
+    toolbar: [
+      {
+        label: '',  // Translate
+        icon: '',
+        type: 'share'
+      },
+    ],
     screenreader: {
       accordion: 'To learn more about measures, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
+    measure_not_found: 'Could not find that measure.',
     sourceLabel: 'Fuente: ', // Translate
     endorsements_label: {
       organization: 'Organización', // Translate
@@ -46,10 +55,12 @@ const measureTranslation = {
       accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a residentes del estado, fuera del estado y de otros estados.' // Translate
     },
     navigation: {
-      next: 'Siguiente:', // Translate
-      back: 'Atrás:', // Translate
-      last: 'Última contienda',  // Translate
-      overview: 'Obtener una perspectiva general', // Translate
+      next: "Siguiente",
+      back: "Atrás",
+      last: "Última contienda",
+      overview: "Resumen",
+      choices: 'Go to My List',
+      contest: 'Next: Go to Candidates'
     },
      election_results_analysis: {
       election_status_complete: {
@@ -121,7 +132,20 @@ const measureTranslation = {
       Korean: 'coreano',
     },
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
-    //
+    contestLabels: {
+      contest_links: {
+        label: 'Additional resources',
+      },
+      news: {
+        label: 'News'
+      },
+      video: {
+        label: 'Videos'
+      },
+      events: {
+        label: 'Events',
+      },
+    },
     accordionLabels: {
       learn_more: 'Otros recursos', // Translate
       opinions: 'Opiniones y análisis', // Translate
@@ -222,7 +246,7 @@ const measureTranslation = {
     measureDescriptionLabel: "Acerca de esta iniciativa de ley", // Translate
     my_choices: "¿Apoya esta propuesta?", // Translate
     SoS: "Secretario de Estado", // Translate
-    EVG: "Guía Fácil para el Votante: League of Women Voters of California Education Fund",  // Translate?
+    EVG: "The League of Women Voters of California Education Fund",  // Translate?
     LWVC: "Pros y contras: League of Women Voters of California",  // Translate?
     aboutLabel: '¿Que es este propuesta?', // Translate
     argumentsLabel: 'Argumentos a favor y en contra de esta propuesta', // Translate

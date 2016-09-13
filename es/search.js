@@ -6,7 +6,7 @@ const searchTranslation  = {
   intro: "Encuentre información detallada sobre lo que incluye su boleta electoral.", // Translate
   path: '/search', // No translation
   zipPrompt: "Ingrese su <strong>código postal</strong>.*", // Translate
-  zipErrorMessage: "Please enter a valid zipcode. Example: 94103 or 12002-1432.",
+  zipErrorMessage: "Please enter a valid zip code. Example: 94103 or 12002-1432.",
   streetAddressPrompt: "Y su <strong>dirección</strong> <span class=\"muted\"> (para tener acceso a su boleta electoral completa)</span>.", // Translate just text, not HTML
   addressPromptReason: "Es necesario para decirle exactamente qué habrá en su boleta electoral y para ubicar su lugar de votación.", // Translate
   searchButtonLabel: "Encontrar mi boleta electoral", // Translate

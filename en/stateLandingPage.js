@@ -64,6 +64,7 @@ const stateLandingPageTranslation = {
     },
   },
   election_archive_label: 'Past and current elections',
+  other_ways_to_find_ballots: 'More Ways to find Ballots',
 };
 
 export default stateLandingPageTranslation;

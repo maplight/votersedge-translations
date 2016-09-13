@@ -7,41 +7,54 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Tests: http://votersedge.org/ca/ballot/election/32-70b46e/address/null/zip/90001/section/overview'
 const ballotOverviewTranslation = {
   ballotOverview: {
-    ballot_address: "Qué contiene la boleta electoral para su dirección en", // Translate
+    ballot_address: "Boleta y información de la votación para su dirección en", // Translate
+    ballot_area: "Boleta y información de la votación para el", // Translate
+    ballot_zip: 'Boleta y información de la votación para zip code', // Translate
+    ballot_area_state: 'Boleta y información de la votación para el', // Translate
+    votingInfoSections: {
+     'section-my-polling-place': 'My polling place',
+     'section-register-to-vote': 'Register to vote',
+     'section-ways-to-vote': 'Ways to vote',
+     'section-voting-basics': 'Voting basics',
+     'section-important-dates-deadlines': 'Important dates and deadlines',
+     'section-my-rights-as-a-voter': 'My rights as a voter',
+     'section-more-voting-info': 'More voting info',
+     'section-election-office-contact': 'Contact election office',
+    },
     meta: {
       overview: {
         page_title: 'Ballot',
         page_title_description: 'Candidate & Ballot Measure Voter Guide',
         card_title: '',
         card_title_description: 'Get the facts before you vote.',
-        twitter_templates: {
-          default: {
-            landingPage: 'Get the facts before you vote. ',
-            ballotOverview: 'Get the facts before you vote. ',
-            ballotOverviewAlt: 'Get the facts before you vote. ',
-            votingInfo: 'Get the facts before you vote. ',
-          },
-          il: {
-            landingPage: 'Get the facts before you vote. Access your personalized ballot here ',
-            ballotOverview: 'Ready for the Illinois Primary Election on March 15th? I accessed my ballot with ',
-            ballotOverviewAlt: 'The Illinois Primary Election is March 15th. Get the facts before you vote ',
-            votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
-          },
-          ca: {
-            landingPage: 'Get the facts before you vote. Access your personalized ballot here ',
-            ballotOverview: 'Ready for California Elections? I accessed my ballot with ',
-            ballotOverviewAlt: 'Get the facts before you vote ',
-            votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
-          },
-          ny: {
-            landingPage: 'Get the facts before you vote. Access your personalized ballot here ',
-            ballotOverview: 'Ready for New York Elections? I accessed my ballot with ',
-            ballotOverviewAlt: 'Get the facts before you vote ',
-            votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
-          }
-        },
-        facebook: '',
-        email: '',
+        // twitter_templates: {
+        //   default: {
+        //     landingPage: 'Get the facts before you vote. ',
+        //     ballotOverview: 'Get the facts before you vote. ',
+        //     ballotOverviewAlt: 'Get the facts before you vote. ',
+        //     votingInfo: 'Get the facts before you vote. ',
+        //   },
+        //   il: {
+        //     landingPage: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
+        //     ballotOverview: 'Ready for the Illinois Primary Election on March 15th? I accessed my ballot with ',
+        //     ballotOverviewAlt: 'The Illinois Primary Election is March 15th. Get the facts before you vote ',
+        //     votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
+        //   },
+        //   ca: {
+        //     landingPage: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
+        //     ballotOverview: 'Ready for California Elections? I accessed my ballot with ',
+        //     ballotOverviewAlt: 'Get the facts before you vote ',
+        //     votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
+        //   },
+        //   ny: {
+        //     landingPage: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
+        //     ballotOverview: 'Ready for New York Elections? I accessed my ballot with ',
+        //     ballotOverviewAlt: 'Get the facts before you vote ',
+        //     votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
+        //   }
+        // },
+        // facebook: '',
+        // email: '',
       },
       contest: {
         page_title: 'Ballot',
@@ -94,7 +107,7 @@ const ballotOverviewTranslation = {
         card_title_description: '',
       }
     },
-    ballot_area: "Qué contiene la boleta electoral para el ", // Translate
+
     ballot_error: "Hubo un problema para encontrar esta boleta electoral.", // Translate
     ballot_extra_result_explanation: {
       ca: 'Es posible que los resultados que se basan solo en un código postal arrojen más contiendas de las que aparecerán en su boleta electoral real. <a href="/en/ca">Para obtener los resultados más específicos disponibles, ingrese su dirección completa.</a>', // Translate
@@ -112,6 +125,10 @@ const ballotOverviewTranslation = {
     read_less: 'Leer menos',
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
+    list_of_candidates: 'See a list',
+    list_of_measures: 'See a list',
+    start_with_candidates: 'Go to the first race',
+    start_with_measures: 'Go to the first measure',
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
     candidates_intro: "candidatos postulados para", // Translate
     candidates_offices: "cargos", // Translate
@@ -123,12 +140,34 @@ const ballotOverviewTranslation = {
     choose_voting_info: "Información de la votación", // Translate
     choose_voting_info_label: "Obtenga información sobre <strong>cuándo, dónde y cómo votar</strong>", // Translate
     choices: "Mi lista", // Translate
+    choices_get_ballot: 'Want to keep track of you ballot choices and make a list to take to the polls?',
+    choices_learn_more: 'Learn more',
+    choices_get_started: 'get started',
+    choices_get_started_separator: 'or',
+    other_elections_search_label: 'Other Elections',
+    other_elections_search_link_labels: {
+      address: 'Find other elections for this address.',
+      area: 'Find other elections for this area.',
+      zip:'Find other elections for this zip code.',
+    },
+    choices_progress_percentage_prefix: 'You are',
+    choices_progress_percentage_suffix: 'of the way through your ballot.',
+    choices_completed_label: 'Completed',
     choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
-    noPollingLocationLinkLabel: "Buscar mi lugar de votación", // Translate
+    pollingLocationLookupToolLink: "Check your polling location with your county elections office.", // Translate
+    noPollingLocationLookupToolLink: "There is no polling location look up available from your county elections office.", // Translate
+    contactCountyElectionsOffice: 'Contact county elections office',
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
     noPollingLocationMessage: 'No hay información disponible sobre la ubicación del lugar de votación.',
+    noPollingLocationMessageZipMessage: 'No polling location information is available on a zip code search.',
+    noPollingLocationMessageZipSearch: 'Try searching for your street address.',
+    noPollingLocationMessageCountyMessage: 'No polling location information is available on a county search.',
+    noPollingLocationMessageCountySearch: 'Try searching for your street address.',
+    noPollingLocationMessageStateMessage: 'No polling location information is available.',
+    noPollingLocationMessageStateSearch: 'Try searching for your street address.',
+    noPollingLocationMessageVotingInfo: 'Voter’s Edge could not match your address to a polling location. Check below to search for your polling location through your county elections office.',
     noPollingLocationMessageResults: {
       active: 'No hay información disponible sobre la ubicación del lugar de votación.',
       complete: 'No hay información disponible sobre la ubicación del lugar de votación. Election has already passed.'
@@ -136,7 +175,7 @@ const ballotOverviewTranslation = {
     myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
 
     election_results_analysis: {
-      intro_label: 'Election results',
+      intro_label: 'Election Results',
       state_results_label: 'Statewide Results',
       county_results_label: 'Results',
       intro_description: {
@@ -146,11 +185,11 @@ const ballotOverviewTranslation = {
         // in_progress: 'Results are still being reported.<br /> View candidates and measures to see who’s winning.'
       },
       election_status_complete: {
-        label: 'Election results',
+        label: 'Election Results',
         icon: 'fa-star',
       },
       election_status_in_progress: {
-        label: 'Election results', // Election results are still being reported.',
+        label: 'Election Results', // Election results are still being reported.',
         icon: 'fa-star', // icon: 'fa-refresh',
       },
       updated: 'Updated:',
@@ -267,13 +306,21 @@ const ballotOverviewTranslation = {
         'Putnam County': '6 a.m. - 9 p.m.',
       }
     },
+    toolbar: [
+      {
+        label: '',  // Translate
+        icon: '',
+        type: 'share'
+      },
+    ],
+    share_ballot_label: 'Share This Page',
     more_voting_info: "Consulte más información sobre la votacion", // Translate
     other_address: "Busque la boleta electoral para", // Translate
     other_address_link: "otra dirección.", // Translate
     other_elections: "Consulte su boleta electoral para", // Translate
     past_elections_or: "O", // Translate
-    past_elections_link: "busque las elecciones pasadas.", // Translate
-    past_elections_url: '/ca/en/page/elections-archive', // No translation
+    past_elections_link: "Busque las elecciones pasadas.", // Translate
+    past_elections_url: '/page/elections-archive', // No translation
     privacy_statement: "Su información es privada, a menos que decida compartirla.", // Translate
     privacy_statement_link: "Política de privacidad.", // Translate
     privacy_statement_url: '/page/privacy-policy', // No translation
@@ -337,9 +384,10 @@ const ballotOverviewTranslation = {
   ballotNavigation: {
      links: [
         {
-          iconFileName: '',
-          tooltip: '',
-          label: 'Resumen',  // Translate
+          iconFileName: 'fa fa-chevron-circle-left',
+          activeIconFileName: 'fa fa-chevron-circle-down',
+          tooltip: 'Resumen',
+          label: '',  // Translate
           link: 'overview',  // No translation
           section: 'overview', // No translation
         },
@@ -350,6 +398,8 @@ const ballotOverviewTranslation = {
           link: 'candidates', // No translation
           section: 'candidates', // No translation
           target: 'OverviewCandidates Offices', // No translation
+          dropdownLimit: 50,
+          dropdownComponent: 'ContestsList',
         },
         {
           iconFileName: '',
@@ -358,6 +408,8 @@ const ballotOverviewTranslation = {
           link: 'measures',
           section: 'measures', // No translation
           target: 'OverviewMeasures Measures', // No translation
+          dropdownLimit: 50,
+          dropdownComponent: 'MeasuresList',
         },
         {
           iconFileName: '',
@@ -368,7 +420,7 @@ const ballotOverviewTranslation = {
           target: 'VotingInfoSections', // No translation
         },
         {
-          iconFileName: 'fa fa-newspaper-o', // No translation
+          iconFileName: '', // No translation
           tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
           label: 'Mi Lista', // Translate
           link: 'choices', // 'choices'  // No translation

@@ -15,11 +15,20 @@ const contestTranslation = {
     screenreader: {
       accordion: 'Access additional information about this contest in the tabs in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
+    toolbar: [
+      {
+        label: '',  // Translate
+        icon: '',
+        type: 'share'
+      },
+    ],
     navigation: {
-      next: "Siguiente:",
-      back: "Atrás:",
+      next: "Siguiente",
+      back: "Atrás",
       last: "Última contienda",
       overview: "Resumen",
+      choices: 'Go to My List',
+      measure: 'Next: Go to Measures'
     },
     accordionLabels: {
       candidates: "¿Quién se está postulando?", // Translate

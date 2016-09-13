@@ -19,6 +19,7 @@ const votingInfoTranslation = {
       il: null,
       ny: null
     },
+    share_ballot_label: 'Share This Page',
 };
 
 export default votingInfoTranslation;
