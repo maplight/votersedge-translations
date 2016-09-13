@@ -23,13 +23,14 @@ const shareSiteTranslation = {
     il: 'Using @VotersEdge to get ready to vote! #Illinois [!SPECIALHASHTAG]',
     // contest, candidate and measure will probably get templates, but communication breakdown in the google sheet. They go here if they get set.
     votingInfo: 'Need info on when, where, and how to vote?[!MEDIAPARTNER] & @VotersEdge have you covered. [!STATEHASHTAG] [!SPECIALHASHTAG]',
-    choices: 'I researched my ballot and marked my choices using ‘My List’ on @VotersEdge & [!MEDIAPARTNER]. Check it out! [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    choices: 'I researched my ballot and marked my choices using ‘My List’ on @VotersEdge. Check it out! [!STATEHASHTAG] [!SPECIALHASHTAG]',
   },
   twitterMessagesMediaPartner: {
     ca: 'Using [!MEDIAPARTNER] & @VotersEdge to get ready to vote! [!STATEHASHTAG] [!SPECIALHASHTAG]',
     ny: 'Using [!MEDIAPARTNER] & @VotersEdge to get ready to vote! [!STATEHASHTAG] [!SPECIALHASHTAG]',
     il: 'Using [!MEDIAPARTNER] & @VotersEdge to get ready to vote! [!STATEHASHTAG] [!SPECIALHASHTAG]',
     votingInfo: 'Need info on when, where, and how to vote?[!MEDIAPARTNER] & @VotersEdge have you covered. [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    choices: 'I researched my ballot and marked my choices using ‘My List’ on @VotersEdge & [!MEDIAPARTNER]. Check it out! [!STATEHASHTAG] [!SPECIALHASHTAG]',
   },
   twitterCardTitle: {
     root: '[!SITENAME] | Get the facts before you vote.',
