@@ -15,9 +15,11 @@ const notificationsTranslation = {
     },
     'beginContest': {
       title: 'Keep track of candidates by adding them to your list.',
+      message: '',
     },
     'beginMeasure': {
-      title: 'Select \'yes\' or \'no\' to keep track of your measure choices.'
+      title: 'Select \'yes\' or \'no\' to keep track of your measure choices.',
+      message: '',
     },
     'getStartedVotingInfo':{
       title: 'Go to \'Voting Info\' to find out when, where, and how to vote.',
@@ -101,7 +103,12 @@ const notificationsTranslation = {
     },
     updatingChoices: {
       title: 'Updating your choices.',
-    }
+      message: 'Last updated',
+    },
+    ballotAlreadyExists: {
+      title: 'You already have ballot choices stored',
+      message: 'Last updated',
+    },
   }
 };
 

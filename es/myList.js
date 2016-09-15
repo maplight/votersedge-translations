@@ -70,7 +70,7 @@ const myListTranslation = {
     ],
     email_link_my_list: {
       button_label: 'Email a link',
-      label: 'Email a link to your choices:',
+      label: 'Email a link to your choices',
       with_address: '<strong>With</strong> your address.',
       without_address: '<strong>Without</strong> your address.',
       privacy_notice: 'We provide the option to remove your address in case you want to share your choices, but maintain the privacy of your address. Only the link with your address will include your polling location.',

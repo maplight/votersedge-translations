@@ -378,12 +378,17 @@ const ballotOverviewTranslation = {
     },
   },
   ballotNavigation: {
-     links: [
+      menu_label: 'Menu',
+      menu_label_hide: 'Hide Menu',
+      toggle_navigation: 'Toggle navigation',
+      open_dropdown_label: 'Open drop down menu',
+      links: [
         {
           iconFileName: 'fa fa-chevron-circle-left',
           activeIconFileName: 'fa fa-chevron-circle-down',
           tooltip: 'Back to Overview',
-          label: '',  // Translate
+          label: 'Overview',  // Translate
+          target: 'OverviewBallot', // No translation
           link: 'overview',  // No translation
           section: 'overview', // No translation
         },
