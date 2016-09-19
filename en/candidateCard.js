@@ -20,7 +20,7 @@ const candidateCardTranslation = {
   screenreader: {
     accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
   },
-  question_source_label: 'From',
+  question_source_label: 'Questions from',
   candidate_website_label: 'Candidate website', //Translate
   accordionLabels: {
     experience: 'Experience', // Translate
@@ -38,7 +38,7 @@ const candidateCardTranslation = {
     political_beliefs: 'Political Beliefs', //Translate
     no_question_answer: 'No answer provided.', //Translate
     question_label: 'Question:', //Translate
-    answer_label: 'Answer:', //Translate
+    answer_label: 'Answer from:', //Translate
     profession: 'Profession:', //Translate
     official_statement: 'Official Statement',
     who_funds_candidate: 'Who funds this candidate?', //Translate

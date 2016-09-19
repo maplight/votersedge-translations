@@ -189,11 +189,12 @@ const measureTranslation = {
         summary: 'Summary',  // Translation exists
         background: 'Background',  // Translation exists
         financial_effect: 'Financial effect',  // Translation exists
-        impartial_analysis: 'Impartial analysis',  // Translation exists
+        impartial_analysis: 'Impartial analysis / Proposal',  // Translation exists
         tax_rate: 'Tax rate',// Translation exists
         yes_vote_means: 'YES vote means', // Translation exists
         no_vote_means: 'NO vote means', // Translation exists
-        rebuttals: 'Rebuttals (Replies)', // Translation exists
+        rebuttals_for: 'Replies to Arguments FOR', // Translation exists
+        rebuttals_against: 'Replies to Arguments AGAINST', // Translation existsts
         arguments_for: 'Arguments FOR', // Translation exists
         arguments_against: 'Arguments AGAINST', // Translation exists
         proposed_legislation: 'Proposed legislation', // Translate

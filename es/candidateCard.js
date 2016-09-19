@@ -15,7 +15,7 @@ const candidateCardTranslation = {
     candidate_no_info_encourage: 'Ponerse en contacto con ellos para fomentar la participación.', //Translate
     researched_data: 'Investigó por Voter’s Edge.',
   },
-  question_source_label: 'De',
+  question_source_label: 'Questions from',
   screenreader: {
     accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
   },
@@ -36,7 +36,7 @@ const candidateCardTranslation = {
     political_beliefs: 'Creencias poliza', //Translate
     no_question_answer: 'No se proporcionó respuesta.', //Translate
     question_label: 'Pregunta:', //Translate
-    answer_label: 'Respuesta:', //Translate
+    answer_label: 'Respuesta de:', //Translate
     profession: 'Profesión:', //Translate
     official_statement: 'Declaración oficial',
     who_funds_candidate: '¿Quién financia a este candidato?', //Translate

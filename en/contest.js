@@ -13,10 +13,8 @@ const contestTranslation = {
       in_progress: "Who's winning?", // Translate
       complete: "Who won?", // Translate
     },
-    candidates_random_label: "Candidates appear in random order.",
     candidates_random_label_results: {
-      active: "Candidates appear in random order.", // Translate
-      in_progress: 'Candidates are sorted in order of election results.',
+      active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"#\">Learn more.</a>", // Translate
       complete: 'Candidates are sorted in order of election results.',
     },
     party_label: 'Party', // Translate
@@ -27,10 +25,11 @@ const contestTranslation = {
     navigation: {
       next: 'Next',
       back: 'Back',
-      last: 'Last contest',
+      last: 'Last race',
       overview: 'To overview',
-      choices: 'Go to My List',
-      measure: 'Next: Go to Measures'
+      choices: 'To My List',
+      measure: 'Go to Measures',
+      contest: 'Go to Races',
     },
     toolbar: [
       {

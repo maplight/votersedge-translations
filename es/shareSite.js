@@ -26,7 +26,7 @@ const shareSiteTranslation = {
     ny: '[!BRANDEDSITENAME] | Get the facts before you vote.',
     il: '[!BRANDEDSITENAME] | Get the facts before you vote.',
     overview: 'What’s on the ballot in [!COUNTYNAME] | [!BRANDEDSITENAME]',
-    contestPage: 'Candidates for: [!CONTESTNAME] | [!BRANDEDSITENAME]',
+    contestPage: 'Candidates for: [!CONTESTNAME]',
     candidatePage: '[!CANDIDATENAME] | [!BRANDEDSITENAME]',
     measurePage: '[!MEASUREIDENTIFIER] [!MEASURENAME] | [!BRANDEDSITENAME]',
     votingInfo: 'When, where, and how to vote: [!COUNTYNAME] | [!BRANDEDSITENAME]',

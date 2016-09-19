@@ -106,7 +106,7 @@ const notificationsTranslation = {
       message: 'Last updated',
     },
     ballotAlreadyExists: {
-      title: 'You already have ballot choices stored',
+      title: 'Loading your ballot',
       message: 'Last updated',
     },
   }

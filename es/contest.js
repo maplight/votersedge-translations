@@ -9,7 +9,10 @@ const contestTranslation = {
     my_choices: "¿Cómo funciona la votación para esta contienda?", // Translate
     skip_label_offices: "Omitir esto", // Translate
     candidates_label: "¿Quién se está postulando?", // Translate
-    candidates_random_label: "Los candidatos aparecen en orden aleatorio.", // Translate
+    candidates_random_label_results: {
+      active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"#\">Learn more.</a>", // Translate
+      complete: 'Candidates are sorted in order of election results.',
+    },
     party_label: 'Partido', // Translate
     candidate_for: 'Candidato(a) para',
     screenreader: {
@@ -27,8 +30,9 @@ const contestTranslation = {
       back: "Atrás",
       last: "Última contienda",
       overview: "Resumen",
-      choices: 'Go to My List',
-      measure: 'Next: Go to Measures'
+      choices: 'To My List',
+      measure: 'Go to Measures',
+      contest: 'Go to Races',
     },
     accordionLabels: {
       candidates: "¿Quién se está postulando?", // Translate
