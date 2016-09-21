@@ -74,6 +74,8 @@ const candidateCardTranslation = {
   embedCard: {
     endorsementsLabel: 'Endorsements',
     top3PrioritiesLabel: 'Top 3 Priorities',
+    fundingLabel: 'Top 3 Donors',
+    noEndorsements: 'No endorsement information available',
   },
   fundingTranslation: {
     accordionLabels: {
@@ -87,11 +89,6 @@ const candidateCardTranslation = {
         il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
         ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
       }
-    },
-    embedCard: {
-      top3Donors: 'Top 3 Donors',
-      totalRaised: 'Total raised',
-      learnMore: 'Learn more',
     },
     totalMoneyRaisedLabel: "Total money raised", //Translate
     totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, candidates’ principal campaign committees for the given office within this election cycle. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.',

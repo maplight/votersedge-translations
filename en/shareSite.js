@@ -10,7 +10,7 @@ const shareSiteTranslation = {
     ny: 'Using @VotersEdge to get ready to vote! #NewYork [!SPECIALHASHTAG]',
     il: 'Using @VotersEdge to get ready to vote! #Illinois [!SPECIALHASHTAG]',
     // contest, candidate and measure will probably get templates, but communication breakdown in the google sheet. They go here if they get set.
-    votingInfo: 'Need info on when, where, and how to vote?[!MEDIAPARTNER] & @VotersEdge have you covered. [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    votingInfo: 'Need info on when, where, and how to vote? @VotersEdge has you covered. [!STATEHASHTAG] [!SPECIALHASHTAG]',
     choices: 'I researched my ballot and marked my choices using ‘My List’ on @VotersEdge. Check it out! [!STATEHASHTAG] [!SPECIALHASHTAG]',
   },
   twitterMessagesMediaPartner: {
@@ -38,7 +38,7 @@ const shareSiteTranslation = {
     ny: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
     il: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
     overview: 'Get nonpartisan information on candidates and measures, including local information on when, where, and how to vote.',
-    contestPage: '[!SITENAME] | Nonpartisan information on the [!ELECTIONDATE] election.',
+    contestPage: '[!BRANDEDSITENAME] | Nonpartisan information on the [!ELECTIONDATE] election.',
     candidatePage: 'Candidate for [!CONTESTNAME] - [!ELECTIONDATE]',
     measurePage: 'Guide to measures in the [!JURISDICTIONNAME] on the [!ELECTIONDATE] ballot.',
     votingInfo: 'Nonpartisan voter guide for the [!ELECTIONDATE] election. Registration, polling places, important dates and deadlines, and more!',
@@ -55,26 +55,26 @@ const shareSiteTranslation = {
     default: '',
   },
   email: {
-    footer: '[!BR][!BR]Get the facts before you vote | [!SITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
-    mediaPartnerFooter: '[!BR][!BR]Get the facts before you vote | [!MEDIAPARTNER] - [!SITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
+    footer: '[!BR][!BR]Get the facts before you vote | [!BRANDEDSITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
+    mediaPartnerFooter: '[!BR][!BR]Get the facts before you vote | [!MEDIAPARTNER] - [!BRANDEDSITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
     root: {
-      subject: 'Check out [!SITENAME]',
+      subject: 'Check out [!BRANDEDSITENAME]',
       emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
     },
     ca: {
-      subject: 'Check out [!SITENAME]',
+      subject: 'Check out [!BRANDEDSITENAME]',
       emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
     },
     ny: {
-      subject: 'Check out [!SITENAME]',
+      subject: 'Check out [!BRANDEDSITENAME]',
       emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
     },
     il: {
-      subject: 'Check out [!SITENAME]',
+      subject: 'Check out [!BRANDEDSITENAME]',
       emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
     },
     ballot: {
-      subject: 'Check out [!SITENAME]',
+      subject: 'Check out [!BRANDEDSITENAME]',
       emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.[!BR][!BR]I used it to look up my ballot in [!COUNTYNAME]: [!SHARECONTENTURL]',
     },
     contestPage: {
