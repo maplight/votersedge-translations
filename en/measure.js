@@ -114,7 +114,7 @@ const measureTranslation = {
       label_in_state: "In-state contributions", // Translate
       label_other: "Other states", // Translate
       label_out_of_state: "Out-of-state", // Translate
-      accessible_label: 'A pie chart containing color-coded sections corresponding to in-state, out-of-state and other states.' // Translate
+      accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
     },
     navigation: {
       next: 'Next',
