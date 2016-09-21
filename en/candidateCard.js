@@ -65,6 +65,11 @@ const candidateCardTranslation = {
       individual: 'Individuals', //Translate
       elected_official: 'Elected Officials', //Translate
     },
+    sourceLabels: {
+      officialStatement: 'Researched by Voter’s Edge',
+      funding: 'Analysis by Maplight',
+      judicial: 'Researched by Voter’s Edge',
+    },
   },
   embedCard: {
     endorsementsLabel: 'Endorsements',
@@ -76,7 +81,6 @@ const candidateCardTranslation = {
       moreInfoAboutContributions: 'More information about contributions',
     },
     sourceLabel: {
-      header: 'Analysis by Maplight',
       "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
       "State": {
         ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
