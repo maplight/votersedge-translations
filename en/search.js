@@ -41,7 +41,7 @@ const searchTranslation  = {
     },
     'ny': {
       stateBallotLinkLabel: "See ballot measures and races for the <strong>state of New York</strong>.", // Translate
-      stateBallotLink: "/ballot/election/area/45?id=statewide-45-ny",
+      stateBallotLink: "/ballot/election/area/44?id=statewide-44-ny",
     }
   },
   electionArchiveLink: "/page/elections-archive", // No translation

@@ -27,15 +27,15 @@ const stateLandingPageTranslation = {
       },
       special_label: 'Las elecciones generales en California son el 8 de noviembre:',
       register: {
-        message: 'Conozca <a href="/es/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-my-rights-as-a-voter">sus derechos como votante!</a>',
+        message: 'Conozca <a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-my-rights-as-a-voter">sus derechos como votante!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Inscribase para votar! La fecha límite para inscribirse es el 24 de Octubre.</a>',
+        message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-register-to-vote">Inscribase para votar! La fecha límite para inscribirse es el 24 de Octubre.</a>',
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
+        message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca">Obtenga más información sobre dónde, cuándo y cómo votar.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },

@@ -177,12 +177,14 @@ const measureTranslation = {
         fiscal_effect: 'Efectos fiscales', // Translation exists
         supporters_say: 'Sus partidarios dicen', // Translation exists
         opponents_say: 'Sus oponentes dicen', // Translation exists
+        sourceLabel: 'Summary for new and busy voters',
       },
       pros_cons: {  // Translation already provided by LWVC
         label: 'Pros y Contras', // If translated, it exists already
         summary: 'Resumen',  // Translation exists
         background: 'Antecedentes',  // Translation exists
         financial_effect: 'Efectos fiscales',  // Translation exists
+        sourceLabel: 'Unbiased explanation with arguments for and against',
       },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Información básica sobre la iniciativa de ley',
@@ -203,45 +205,104 @@ const measureTranslation = {
         endorsements: '¿Quién respalda las campañas de iniciativas de ley en las boletas?', // Translate
         funding: '¿Quién contribuye con el dinero?', // Translate
         more_info: 'Más información', // Translate
-        message_content: 'Aprender más acerca de este propuesta'
+        message_content: 'Aprender más acerca de este propuesta',
+        sourceLabel: 'Official information about this measure',
+      },
+      intro: {
+        details: 'Here is some helpful information about this ballot measure from trusted sources.',
+      },
+    },
+    embedCard: {
+      topContributors: {
+        label:  'Top Contributors',
+        yes: 'FOR',
+        no: 'AGAINST',
+        total_raised: 'total raised',
+        total_raised_short: 'raised',
+        multiple_contributors: 'Multiple contributors',
+      },
+      vote_means: {
+        label: 'vote means',
+        yes: 'YES',
+        no: 'NO',
       }
     },
     fundingTranslation: {
-      contributionsTitle: "Contribuciones a las campañas",  // Translate
-      contributionsExplanation: 'Estos montos reflejan el dinero proporcionado a, e informado por, los comités formados principalmente para apoyar u oponerse a la iniciativa de ley en la boleta dada.', // Translate
-      contributionsSource: "Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight. Última actualización: [placeholder]", // Translate
-      totalMoneyRaised: "Dinero total recaudado", // Translate
-      contributionSize: 'Los comités no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como una cantidad global con cada nuevo registro.', // Translate
-      organizationContributionsTitle: 'Contribuciones de organizaciones', // Translate
-      organizationContributionsLabel: 'Las contribuciones pueden hacerse directamente por organizaciones, mediante sus comités de acción política (PAC) afiliados o por individuos.', // Translate
-      whoGaveMostMoneyTitle: "¿Quién dio más dinero?", // Translate
-      whoGaveMostMoneyLabel: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley dada(s).', // Translate
-      ofTotal: 'del total', // Translate
-      topTenByStateTitle: 'Primeras 5 contribuciones por estado', // Translate
-      topTenByStateLabel: '',
-      piechartTitle: 'Top 5 contributions by state (Graph)',
-      piechartLabel: '',
-
-      contributionSizeTitle: '¿Qué tan grandes son las contribuciones?', // Translate
-      contributionSizeLabel: 'Los comités no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como una cantidad global con cada nuevo registro.', // Translate
-      contributionOver: {
-        "Federal": "Contribuciones arriba de $200", // Translate
-        "State": "Contribuciones arriba de $100", // Translate
+      accordionLabels: {
+        contributions: 'Contributions',
+        moreInfoAboutContributions: 'More information about contributions',
       },
-      contributionUnder: {
-        "Federal": "Contribuciones abajo de $200", // Translate
-        "State": "Contribuciones abajo de $100", // Translate
+      sourceLabel: {
+        "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
+        "State": {
+          ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
+          il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
+          ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
+        }
       },
-      organizationsOrg: {
-        "label": "De organizaciones", // Translate
-        "tooltip": "Contribuciones de empresas, sindicatos u otras organizaciones.", // Translate
+      totalMoneyRaisedLabel: "Total money raised", //Translate
+      totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
+      whoGaveMostMoneyTitle: "Who gave the most money?",
+      whoGaveMostMoneyLabel: {
+        "Federal": 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+        "State": {
+          ca: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+          il: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+          ny: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+        }
       },
-      organizationsEmployees: {
-        "label": "De empleados", // Translate
-        "tooltip": "Contribuciones de individuos, incluidos los empleados de organizaciones.", // Translate
+      whoGaveMostMoneyTooltip: {
+        "Federal": 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+        "State": {
+          ca: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+          il: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+          ny: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+        }
       },
-      cashHat: 'public/content/svg/icons/Federal-100.png', // No translation
-      moneyHand: 'public/content/svg/icons/Federal-100.png', // No translation
+      whoGaveMostMoneyOrganizations: 'Organizations',
+      whoGaveMostMoneyIndividuals: 'Individuals',
+      pieCharts: {
+        byState: {
+          label: 'By State:',
+          tooltip: {
+            "Federal": 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+            "State": {
+              ca: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              ny: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              il: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+            }
+          },
+          accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
+        },
+        bySize: {
+          label: 'By Size:',
+          largeContributionsLabel: 'Large contributions',
+          smallContributionsLabel: 'Small contributions',
+          tooltip: {
+            "Federal": 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+            "State": {
+              ca: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+              ny: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+              il: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+            },
+            accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.' // Translate
+          }
+        },
+        byType: {
+          label: 'By Type:',
+          organizationsLabel: 'From organizations',
+          individualsLabel: 'From individuals',
+          tooltip: {
+            "Federal": 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+            "State": {
+              ca: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+              ny: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+              il: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+            }
+          },
+          accessible_label: 'A pie chart containing color-coded sections corresponding to contributions from organizations and individuals.' // Translate
+        },
+      }
     },
     sectionTitle: "Iniciativas de ley", // Translate
     measureDescriptionLabel: "Acerca de esta iniciativa de ley", // Translate

@@ -3,11 +3,26 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // Applies to the content associated with a candidate.
 
 const candidateCardTranslation = {
-  no_photo_submitted: 'No photo submitted', //Translate
-
-  encourage_candidate: 'Candidates can', //Translate
-  encourage_candidate_link: 'contact us', //Translate
-  encourage_candidate_action: 'to submit info.', //Translate
+  no_photo_submitted: 'No photo provided.', //Translate
+  no_info_submitted: 'No information provided.', //Translate
+  encourage_candidate: 'Are you this candidate?', //Translate
+  encourage_candidate_link: 'http://join.votersedge.org', //Translate
+  encourage_candidate_action: 'Add more info.', //Translate
+  message_candidate: {
+    label: 'Encourage candidate to share their information on Voter’s Edge.',
+    label_thank_you: 'Thank candidate for sharing their information on Voter’s Edge.',
+    tweet: {
+      label: 'Tweet @ this candidate',
+      participatingTweet: '.[!CANDIDATEHANDLE] Your @VotersEdge profile helped me learn about your candidacy. Thank you!',
+      notParticipatingTweet: '.[!CANDIDATEHANDLE] I’m preparing to vote and would like to see more info on your @VotersEdge profile!'
+    },
+    email: {
+      nonParticipatingSubject: 'Questions about your campaign',
+      participatingSubject: 'Thank you!',
+      notParticipatingEmail: 'Dear [!CANDIDATENAME],[!BR][!BR]I am using [!BRANDEDSITENAME] to research the candidates running for [!CONTESTNAME] in the upcoming primary election, and I don’t see any information from you on your profile ([!SHARECONTENTURL]).[!BR][!BR]**Start adding to your [!BRANDEDSITENAME] profile! http://join.votersedge.org** [!BR][!BR]I’m using [!BRANDEDSITENAME] to prepare to vote because it has all of my candidate, measure, and general voting info in one place. Please help me make an informed decision by completing your [!BRANDEDSITENAME] profile![!BR][!BR]{Personalize this message.}[!BR][!BR]Thank you and I look forward to learning more about your campaign.[!BR][!BR]Sincerely,[!BR]{Add your name here}[!BR][!BR]**Start adding to your [!BRANDEDSITENAME]] profile! http://join.votersedge.org**',
+      participatingEmail: 'Dear [!CANDIDATENAME],[!BR][!BR]I am using [!BRANDEDSITENAME] to research the candidates running for [!CONTESTNAME] in the upcoming primary election. Thank you for providing your information![!BR][!BR]Start adding to your [!BRANDEDSITENAME]] profile! http://join.votersedge.org[!BR][!BR]I’m using [!BRANDEDSITENAME] to prepare to vote because it has all of my candidate, measure, and general voting info in one place. Please help me make an informed decision by completing your [!BRANDEDSITENAME] profile![!BR][!BR]{Personalize this message.}[!BR][!BR]Thank you and I look forward to learning more about your campaign.[!BR][!BR]Sincerely,[!BR]{Add your name here}',
+    }
+  },
   photo_label: "Photo of ",
   participation: {
     researched: 'Experience partially researched by Voter’s Edge.', //Translate

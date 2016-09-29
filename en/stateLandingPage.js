@@ -50,15 +50,15 @@ const stateLandingPageTranslation = {
       },
       special_label: 'The General Election is on November 8:',
       register: {
-        message: 'Know your <a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-my-rights-as-a-voter">rights as a voter!</a>',
+        message: 'Know your <a href="/en/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-my-rights-as-a-voter">rights as a voter!</a>',
         icon: 'fa-star'
       },
       deadline: {
-        message: 'Deadline: <a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca#section-register-to-vote">Sign up to vote, register by October 24.</a>',
+        message: 'Deadline: <a href="/en/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-register-to-vote">Sign up to vote, register by October 24.</a>',
         icon: 'fa-star'
       },
       voting_info: {
-        message: '<a href="/en/ca/ballot/election/area/42/section/voting-info?id=ocd-division/country:us/state:ca">Get more Voting Info on where, when and how to vote.</a>',
+        message: '<a href="/en/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca">Get more Voting Info on where, when and how to vote.</a>',
         icon: 'fa-chevron-circle-right'
       },
     },

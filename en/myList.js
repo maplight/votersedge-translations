@@ -160,7 +160,7 @@ const myListTranslation = {
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myListInstructionsLabel">My List Instructions</h4>
+              <h2 class="modal-title" id="myListInstructionsLabel">My List Instructions</h2>
             </div>
             <div class="modal-body">
 
@@ -178,7 +178,7 @@ const myListTranslation = {
                 <li><i aria-hidden="true" class="fa fa-envelope"></i>Email your choices to yourself.</li>
               </ul>
 
-              <h4>Privacy Tips</h4>
+              <h3>Privacy Tips</h3>
               <p>Your choices are stored in your browser application data. If you are on a public computer, you can clear your choices by selecting 'Clear your list' on the 'My List' page, or <a href="http://www.wikihow.com/Clear-Your-Browser's-Cache" target="_blank">clear</a> your application data.
               </p>
               <p>

@@ -10,8 +10,18 @@ const contestTranslation = {
     skip_label_offices: "Omitir esto", // Translate
     candidates_label: "¿Quién se está postulando?", // Translate
     candidates_random_label_results: {
-      active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"#\">Learn more.</a>", // Translate
-      complete: 'Candidates are sorted in order of election results.',
+      ca: {
+        active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"/ca/page/how-we-get-our-data#candidate-data\" target=\"blank\">Learn more.</a>", // Translate
+        complete: 'Candidates are sorted in order of election results.',
+      },
+      il: {
+        active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"/il/page/how-we-get-our-data#candidate-data\" target=\"blank\">Learn more.</a>", // Translate
+        complete: 'Candidates are sorted in order of election results.',
+      },
+      ny: {
+        active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"/ny/page/how-we-get-our-data#candidate-data\" target=\"blank\">Learn more.</a>", // Translate
+        complete: 'Candidates are sorted in order of election results.',
+      },
     },
     party_label: 'Partido', // Translate
     candidate_for: 'Candidato(a) para',

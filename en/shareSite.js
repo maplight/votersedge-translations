@@ -90,7 +90,7 @@ const shareSiteTranslation = {
       emailBody: '[!MEASUREIDENTIFIER] is on the ballot for [!COUNTYNAME][!BR][!BR]Learn more: [!SHARECONTENTURL][!BR][!BR][!SITENAME] is a nonpartisan, nonprofit guide where can you learn about the candidates and measures that will be on your ballot.',
     },
     votingInfo: {
-      subject: 'Info on when, where, and how to vote in [!COUNTYNAME]',
+      subject: 'Info on when, where, and how to vote from [!BRANDEDSITENAME]]',
       emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. The site has information on registration, polling places, important dates and deadlines, and more![!BR]See when, where, and how to vote in [!COUNTYNAME]: [!SHARECONTENTURL]',
     },
     choices: {

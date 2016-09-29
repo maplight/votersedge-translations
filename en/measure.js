@@ -5,6 +5,7 @@ const measureTranslation = {
     information_provided_by: 'Information provided by',
     from: 'From',
     measureContestTitle: 'Ballot Measures',
+
     pageTitle: 'Measure', // Translate
     proposition_abbreviation: "Prop.",
     positions: {
@@ -177,12 +178,14 @@ const measureTranslation = {
         fiscal_effect: 'Fiscal effect', // Translation exists
         supporters_say: 'Supporters say', // Translation exists
         opponents_say: 'Opponents say', // Translation exists
+        sourceLabel: 'Summary for new and busy voters',
       },
       pros_cons: {  // Translation already provided by LWVC
         label: 'Pros & Cons', // If translated, it exists already
         summary: 'Summary',  // Translation exists
         background: 'Background',  // Translation exists
         financial_effect: 'Financial effect',  // Translation exists
+        sourceLabel: 'Unbiased explanation with arguments for and against',
       },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Measure Details',
@@ -201,59 +204,118 @@ const measureTranslation = {
         read_proposed_legislation: 'Read the proposed legislation', // Translate
         what_is_proposal: 'What is this proposal?', // Translate
         endorsements: 'Who endorses the ballot measure campaigns?', // Translate
-        funding: 'Who contributes money?', // Translate
+        funding: 'Who gave money to the ballot measure campaigns?', // Translate
         more_info: 'More information', // Translate
-        message_content: 'Learn more about this measure'
+        message_content: 'Learn more about this measure',
+        sourceLabel: 'Official information about this measure',
+      },
+      intro: {
+        details: 'Here is some helpful information about this ballot measure from trusted sources.',
+      },
+    },
+    embedCard: {
+      topContributors: {
+        label:  'Top Contributors',
+        yes: 'FOR',
+        no: 'AGAINST',
+        total_raised: 'total raised',
+        total_raised_short: 'raised',
+        multiple_contributors: 'Multiple contributors',
+      },
+      vote_means: {
+        label: 'vote means',
+        yes: 'YES',
+        no: 'NO',
       }
     },
-      fundingTranslation: {
-        contributionsTitle: "Contributions to campaigns",  // Translate
-        contributionsExplanation: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure.', // Translate
-        contributionsSource: "Source: MapLight analysis of data from the California Secretary of State. Last updated: [placeholder]", // Translate
-        totalMoneyRaised: "Total money raised", // Translate
-        contributionSize: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', // Translate
-        organizationContributionsTitle: 'Organization Contributions', // Translate
-        organizationContributionsLabel: 'Contributions can be made directly by organizations, through their affiliated political action committees (PACs), or by individuals.', // Translate
-        whoGaveMostMoneyTitle: "Who gave the most money?", // Translate
-        whoGaveMostMoneyLabel: 'Below are the top 10 contributors that gave money to committees supporting or opposing the given ballot measure(s).', // Translate
-        ofTotal: 'of total', // Translate
-        topTenByStateTitle: 'Top 5 contributions by state', // Translate
-        topTenByStateLabel: '',
-        piechartTitle: 'Top 5 contributions by state (Graph)',
-        piechartLabel: '',
-
-        contributionSizeTitle: 'How big are the contributions?', // Translate
-        contributionSizeLabel: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', // Translate
-        contributionOver: {
-          "Federal": "Contributions over $200", // Translate
-          "State": "Contributions over $100", // Translate
+    fundingTranslation: {
+        accordionLabels: {
+          contributions: 'Contributions',
+          moreInfoAboutContributions: 'More information about contributions',
         },
-        contributionUnder: {
-          "Federal": "Contributions under $200", // Translate
-          "State": "Contributions under $100", // Translate
+        sourceLabel: {
+          "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
+          "State": {
+            ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
+            il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
+            ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
+          }
         },
-        organizationsOrg: {
-          "label": "From organizations", // Translate
-          "tooltip": "Contributions from companies, unions, or other organizations.", // Translate
+        totalMoneyRaisedLabel: "Total money raised", //Translate
+        totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
+        whoGaveMostMoneyTitle: "Who gave the most money?",
+        whoGaveMostMoneyLabel: {
+          "Federal": 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+          "State": {
+            ca: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+            il: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+            ny: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+          }
         },
-        organizationsEmployees: {
-          "label": "From employees", // Translate
-          "tooltip": "Contributions from individuals, including employees of organizations.", // Translate
+        whoGaveMostMoneyTooltip: {
+          "Federal": 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+          "State": {
+            ca: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+            il: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+            ny: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+          }
         },
-        cashHat: 'public/content/svg/icons/Federal-100.png', // No translation
-        moneyHand: 'public/content/svg/icons/Federal-100.png', // No translation
-      },
-      sectionTitle: "Measures", // Translate
-      measureDescriptionLabel: "About this measure", // Translate
-      my_choices: "Do you support this proposition?", // Translate
-      SoS: "Secretary of State", // Translate
-      EVG: "The League of Women Voters of California Education Fund",  // Translate?
-      LWVC: "Pros/Cons — League of Women Voters of California",  // Translate?
-      aboutLabel: 'What is this proposition?', // Translate
-      argumentsLabel: 'Arguments for and against this proposition', // Translate
-      supportLabel: 'Who supports this and why?', // Translate
-      costLabel: 'How much does it cost?', // Translate
-      infoLabel: 'How can I learn more?', // Translate
+        whoGaveMostMoneyOrganizations: 'Organizations',
+        whoGaveMostMoneyIndividuals: 'Individuals',
+        pieCharts: {
+          byState: {
+            label: 'By State:',
+            tooltip: {
+              "Federal": 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              "State": {
+                ca: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                ny: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                il: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              }
+            },
+            accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
+          },
+          bySize: {
+            label: 'By Size:',
+            largeContributionsLabel: 'Large contributions',
+            smallContributionsLabel: 'Small contributions',
+            tooltip: {
+              "Federal": 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+              "State": {
+                ca: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+                ny: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+                il: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+              },
+              accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.' // Translate
+            }
+          },
+          byType: {
+            label: 'By Type:',
+            organizationsLabel: 'From organizations',
+            individualsLabel: 'From individuals',
+            tooltip: {
+              "Federal": 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+              "State": {
+                ca: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+                ny: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+                il: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+              }
+            },
+            accessible_label: 'A pie chart containing color-coded sections corresponding to contributions from organizations and individuals.' // Translate
+          },
+        }
+    },
+    sectionTitle: "Measures", // Translate
+    measureDescriptionLabel: "About this measure", // Translate
+    my_choices: "Do you support this proposition?", // Translate
+    SoS: "Secretary of State", // Translate
+    EVG: "The League of Women Voters of California Education Fund",  // Translate?
+    LWVC: "Pros/Cons — League of Women Voters of California",  // Translate?
+    aboutLabel: 'What is this proposition?', // Translate
+    argumentsLabel: 'Arguments for and against this proposition', // Translate
+    supportLabel: 'Who supports this and why?', // Translate
+    costLabel: 'How much does it cost?', // Translate
+    infoLabel: 'How can I learn more?', // Translate
 
 
   }
