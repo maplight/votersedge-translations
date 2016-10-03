@@ -175,94 +175,94 @@ const ballotOverviewTranslation = {
     myPollingLocationLabel: "Ubicación de mi lugar de votación y horario", // Translate
 
     election_results_analysis: {
-      intro_label: 'Election Results',
-      state_results_label: 'Statewide Results',
-      county_results_label: 'Results',
+      intro_label: 'Resultados electorales',
+      state_results_label: 'Resultados de todo el estado',
+      county_results_label: 'Resultados',
       intro_description: {
         complete: '',
-        in_progress: 'Results are still being reported.'
+        in_progress: 'Todavía se están reportando los resultados.'
         // complete: 'All results are in. <br />View candidates and measures to see who won.',
         // in_progress: 'Results are still being reported.<br /> View candidates and measures to see who’s winning.'
       },
       election_status_complete: {
-        label: 'Election Results',
+        label: 'Resultados electorales',
         icon: 'fa-star',
       },
       election_status_in_progress: {
-        label: 'Election Results', // Election results are still being reported.',
+        label: 'Resultados electorales', // Election results are still being reported.',
         icon: 'fa-star', // icon: 'fa-refresh',
       },
-      updated: 'Updated:',
-      votes: 'votes',
+      updated: 'Actualizado:',
+      votes: 'votos',
       state: {
         complete: {
           icon: 'fa-star',
-          message_result: 'of precincts reporting',
-          message_turnout: 'Voter Turnout:',
+          message_result: 'de distritos activos',
+          message_turnout: 'Participación de los votantes:',
           tooltip_result: {
             message: '',
-            label: 'total precincts reporting.',
-            separator: 'of'
+            label: 'distritos activos.',
+            separator: 'de'
           },
           tooltip_turnout: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'electores registrados votaron.',
           }
         },
         in_progress: {
           icon: 'fa-star', // icon: 'fa-refresh',
-          message_result: 'of precincts reporting',
-          message_turnout: 'Voter Turnout:',
+          message_result: 'de distritos activos',
+          message_turnout: 'Participación de los votantes:',
           tooltip_result: {
             message: '',
-            label: 'total precincts reporting.',
-            separator: 'of'
+            label: 'distritos activos',
+            separator: 'de'
           },
           tooltip_turnout: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots have been counted.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'se contaron las boletas de votación de los electores registrados.',
           }
         }
       },
       precincts: {
         complete: {
           icon: 'fa-star',
-          message_result: 'of precincts reporting',
-          message_turnout: 'Voter Turnout:',
-          message_turnout_tense: 'was',
+          message_result: 'de distritos activos',
+          message_turnout: 'Participación de los votantes:',
+          message_turnout_tense: 'estuvo',
           message_turnout_suffix: '.',
           tooltip_result: {
             message: '',
-            label: 'total precincts reporting.',
-            separator: 'of'
+            label: 'distritos activos',
+            separator: 'de'
           },
           tooltip_turnout: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'electores registrados votaron.',
           }
         },
         in_progress: {
           icon: 'fa-star', // icon: 'fa-refresh',
-          message_result: 'of precincts reporting',
-          message_turnout: 'Voter Turnout:',
-          message_turnout_tense: 'is',
+          message_result: 'de distritos activos',
+          message_turnout: 'Participación de los votantes:',
+          message_turnout_tense: 'esta',
           message_turnout_suffix: '.',
           tooltip_result: {
             message: '',
-            label: 'total precincts reporting.',
-            separator: 'of'
+            label: 'distritos activos',
+            separator: 'de'
           },
           tooltip_turnout: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots have been counted.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'se contaron las boletas de votación de los electores registrados.',
           }
         }
       }
@@ -426,7 +426,7 @@ const ballotOverviewTranslation = {
         },
         {
           iconFileName: '', // No translation
-          tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
+          tooltip: '¡Nueva función! Seguimos probando esta función; háganos saber su opinión.', // Translate
           label: 'Mi Lista', // Translate
           link: 'choices', // 'choices'  // No translation
           section: 'choices', // No translation
