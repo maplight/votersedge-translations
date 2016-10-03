@@ -52,7 +52,7 @@ const candidateCardTranslation = {
     political_beliefs: 'Creencias poliza', //Translate
     no_question_answer: 'No se proporcionó respuesta.', //Translate
     question_label: 'Pregunta:', //Translate
-    answer_label: 'Respuesta de:', //Translate
+    answer_label: 'Respuesta de', //Translate
     profession: 'Profesión:', //Translate
     official_statement: 'Declaración oficial',
     who_funds_candidate: 'Who gave money to this candidate?', //Translate

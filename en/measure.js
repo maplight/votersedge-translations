@@ -135,7 +135,7 @@ const measureTranslation = {
     },
     contestLabels: {
       contest_links: {
-        label: 'Additional resources',
+        label: 'Additional Resources',
       },
       news: {
         label: 'News'
@@ -146,9 +146,12 @@ const measureTranslation = {
       events: {
         label: 'Events',
       },
+      additional_info: {
+        label: 'Additional Info',
+      }
     },
     accordionLabels: {
-      learn_more: 'Additional resources', // Translate
+      learn_more: 'Additional Resources', // Translate
       opinions: 'Opinions & Analysis', // Translate
       news: {
         label: 'News'
@@ -206,7 +209,7 @@ const measureTranslation = {
         endorsements: 'Who endorses the ballot measure campaigns?', // Translate
         funding: 'Who gave money to the ballot measure campaigns?', // Translate
         more_info: 'More information', // Translate
-        message_content: 'Learn more about this measure',
+        message_content: 'Additional Info',
         sourceLabel: 'Official information about this measure',
       },
       intro: {
