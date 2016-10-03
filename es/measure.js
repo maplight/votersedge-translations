@@ -64,56 +64,56 @@ const measureTranslation = {
     },
      election_results_analysis: {
       election_status_complete: {
-        label: 'Election Results.',
+        label: 'Resultados electorales',
         icon: 'fa-star',
       },
       election_status_in_progress: {
-        label: 'Election Results.',
+        label: 'Resultados electorales',
         icon: 'fa-star', // 'fa-refresh',
       },
       election_status_no_results: {
-        label: 'No election results available.',
+        label: 'Resultados electorales no están disponible',
         icon: 'fa-circle',
       },
       contest: {
         complete: {
           icon: 'fa-star',
-          message_result: ' of precincts reporting',
-          ballots_counted: ' ballots counted.',
-          yes_votes: 'votes yes',
-          no_votes: 'votes no',
+          message_result: ' de distritos activos',
+          ballots_counted: ' boletas electorales serán contadas.',
+          yes_votes: 'votos si',
+          no_votes: 'votos no',
           pass: 'Passed',
           fail: 'Failed',
           tooltip_result: {
             message: '',
-            label: 'precincts reporting.',
+            label: 'distritos activos.',
             separator: '/'
           },
           tooltip_message: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'electores registrados votaron.',
           },
         },
         in_progress: {
           icon: 'fa-star', //'fa-refresh',
-          message_result: ' of precincts reporting',
-          ballots_counted: ' ballots counted',
-          yes_votes: 'votes yes',
-          no_votes: 'votes no',
+          message_result: ' de distritos activos',
+          ballots_counted: ' boletas electorales serán contadas.',
+          yes_votes: 'votos si',
+          no_votes: 'votos no',
           pass: 'Passing',
           fail: 'Failing',
           tooltip_result: {
             message: '',
-            label: 'precincts reporting.',
+            label: 'distritos activos.',
             separator: '/'
           },
           tooltip_message: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'electores registrados votaron.',
           },
           measure: {
             passed: 'Passed',
