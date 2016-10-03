@@ -82,52 +82,52 @@ const contestTranslation = {
     },
     election_results_analysis: {
       election_status_complete: {
-        label: 'Election Results',
+        label: 'Resultados electorales',
         icon: 'fa-star',
       },
       election_status_in_progress: {
-        label: 'Election Results',
+        label: 'Resultados electorales',
         icon: 'fa-star', // 'fa-refresh',
       },
       contest: {
         complete: {
           icon: 'fa-star',
-          message_result: ' of precincts reporting',
-          ballots_counted: ' ballots counted.',
+          message_result: ' de distritos activos',
+          ballots_counted: ' boletas electorales serán contadas.',
           tooltip_result: {
             message: '',
-            label: 'precincts reporting.',
+            label: 'distritos activos.',
             separator: '/'
           },
           tooltip_message: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'electores registrados votaron.',
           },
           candidate: {
-            votes: 'votes',
-            status: 'Elected',
+            votes: 'votos',
+            status: 'Elegido',
           },
         },
         in_progress: {
           icon: 'fa-star', // 'fa-refresh',
-          message_result: ' of precincts reporting',
-          ballots_counted: ' ballots counted.',
+          message_result: ' de distritos activos',
+          ballots_counted: ' boletas electorales serán contadas.',
           tooltip_result: {
             message: '',
-            label: 'precincts reporting.',
+            label: 'distritos activos.',
             separator: '/',
           },
           tooltip_message: {
             message: '',
-            prefix: 'This means',
-            separator: 'of',
-            label: 'registered voters cast ballots.',
+            prefix: 'Esto significa',
+            separator: 'de',
+            label: 'electores registrados votaron.',
           },
           candidate: {
-            votes: 'votes',
-            status: 'Elected',
+            votes: 'votos',
+            status: 'Elegido',
           },
         },
       },
