@@ -4,92 +4,92 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // * http://qa.votersedge.org
 
 const myListTranslation = {
-    bookmark_label: 'Add to my list', // Translate
-    clear_list: '<i class="fa fa-remove"></i><strong>Clear</strong> your list.',
+    bookmark_label: 'Agregar a mi lista', // Translate
+    clear_list: '<i class="fa fa-remove"></i><strong>Borrar</strong> la lista.',
     candidate_choice_label: "",
-    list_label: "Candidates, races, and measures on my list", // Translate
-    noCandidatesSaved: "No Candidate Selected",
-    candidateChoicesExceeded: "More candidates added for this office than you will be able to vote for.",
-    toolbar_title: 'Get my list', // Translate
-    toolbar_label: 'Grab your ballot choices to take to the polls.', // Translate
-    updating_choices: 'Updating your choices. ',
-    last_updated: 'Last updated',
+    list_label: "Candidatos, contiendas e iniciativas de ley en mi lista", // Translate
+    noCandidatesSaved: "No se han seleccionado candidatos",
+    candidateChoicesExceeded: "Más candidatos añadidos para este cargo por los que podrá votar.",
+    toolbar_title: 'Obtener mi lista', // Translate
+    toolbar_label: 'Elija sus opciones en la boleta electoral a las urnas.', // Translate
+    updating_choices: 'Actualice sus opciones. ',
+    last_updated: 'Última actualización',
     notifications: {
       candidate_saved: {
-        title: 'Candidate added to your list.',
+        title: 'Candidato añadido a su lista.',
         message: ''
       },
       candidate_exceeded: {
-        title: 'Candidate added to your list.',
-        message: 'Note: More candidates added for this office than you will be able to vote for.'
+        title: 'Candidato añadido a su lista.',
+        message: 'Nota: Más candidatos añadidos para este cargo por los que podrá votar.'
       },
       measured_saved: {
-        title: 'Choice added to your list.',
+        title: 'Opción añadida a su lista.',
         message: ''
       },
       ballot_choices_removed: {
-        title: 'Your ballot choices have been removed.',
+        title: 'Se han eliminado sus opciones para la boleta electoral.',
         message: ''
       }
     },
     mail_my_list: {
-      subject: 'My List from Voter’s Edge',
+      subject: 'Mi lista de Voter’s Edge',
     },
     delete_ballot_choices: {
-      label: 'Delete all your ballot choices?',
-      yes: 'Yes',
+      label: '¿Borrar todas sus opciones?',
+      yes: 'Sí',
       no: 'No'
     },
     toolbar: [
       {
-        label: 'Print your list.', // Translate
+        label: 'Imprima su lista.', // Translate
         icon: 'fa-print',
-        description: "You can print this page by using the 'Print' feature of your browser.", // Translate
+        description: "Puede imprimir esta página usando la función \"imprimir\" en su navegador.", // Translate
         type: 'print'
       },
-      { label: 'Copy a link to your list.',
+      { label: 'Copie un enlace a su lista.',
         icon: 'fa-external-link',
-        description: "Here is a link you can use to paste into a text message or bookmark.",  // Translate
+        description: "Puede usar este enlace para pegar un mensaje de texto o agregar como marcador.",  // Translate
         type: 'copy'
       },
-      { label: 'Email a link to your list.',
+      { label: 'Enviar un enlace a su lista por correo electrónico.',
         icon: 'fa-envelope',
-        description: "Get this list as well as a link to get back to your list.",  // Translate
+        description: "Obtenga esta lista y un enlace para regresar a su lista.",  // Translate
         type: 'email'
       },
-      { label: 'Tweet your list.',
+      { label: 'Tuitee su lista.',
         icon: 'fa-twitter-square',
-        description: "Get this list as well as a link to get back to your list.",  // Translate
+        description: "Obtenga esta lista y un enlace para regresar a su lista.",  // Translate
         type: 'twitter'
       },
-      { label: 'Post your list to Facebook.',
+      { label: 'Publique su lista en Facebook.',
         icon: 'fa-facebook-square',
-        description: "Get this list as well as a link to get back to your list.",  // Translate
+        description: "Obtenga esta lista y un enlace para regresar a su lista.",  // Translate
         type: 'facebook'
       },
     ],
     email_link_my_list: {
-      button_label: 'Email a link',
-      label: 'Email a link to your choices',
-      with_address: '<strong>With</strong> your address.',
-      without_address: '<strong>Without</strong> your address.',
-      privacy_notice: 'We provide the option to remove your address in case you want to share your choices, but maintain the privacy of your address. Only the link with your address will include your polling location.',
+      button_label: 'Envíe un enlace por correo electrónico.',
+      label: 'Envíe un enlace de sus opciones por correo electrónico.',
+      with_address: '<strong>Con</strong> su dirección.',
+      without_address: '<strong>Sin</strong> su dirección.',
+      privacy_notice: 'Brindamos la opción de eliminar su dirección en caso de que desee compartir sus opciones y conservar la privacidad de su dirección. Solo el enlace con su dirección incluirá su lugar de votación.',
     },
     copy_link_my_list: {
-      button_label: 'Copy a link',
-      label: 'Copy a link to your choices:',
-      with_address: '<strong>With</strong> your address.',
-      without_address: '<strong>Without</strong> your address.',
-      privacy_notice: 'We provide the option to remove your address in case you want to share your choices, but maintain the privacy of your address. Only the link with your address will include your polling location.',
-      include_address_button_label: 'Include my address',
-      copy_label: 'Copy'
+      button_label: 'Copie un enlace.',
+      label: 'Copie un enlace a sus opciones:',
+      with_address: '<strong>Con</strong> su dirección.',
+      without_address: '<strong>Sin</strong> su dirección.',
+      privacy_notice: 'Brindamos la opción de eliminar su dirección en caso de que desee compartir sus opciones y conservar la privacidad de su dirección. Solo el enlace con su dirección incluirá su lugar de votación.',
+      include_address_button_label: 'Incluir mi dirección',
+      copy_label: 'Copiar'
     },
-    close_label: 'Close',
+    close_label: 'Cerrar',
     contest_toolbar: [
       {
         label: {
-          set: 'Review this contest later',  // Translate
-          unset: 'Remove'  // Translate
+          set: 'Revisar esta contienda más tarde.',  // Translate
+          unset: 'Eliminar'  // Translate
         },
         icon: {
           set: 'fa-bookmark',
@@ -107,8 +107,8 @@ const myListTranslation = {
     candidate_toolbar: [
       {
         label: {
-          set: 'Review this candidate later',  // Translate
-          unset: 'Remove'  // Translate
+           set: 'Revisar esta contienda más tarde.',  // Translate
+          unset: 'Eliminar'  // Translate
         },
         icon: {
           set: 'fa-bookmark',
@@ -126,8 +126,8 @@ const myListTranslation = {
     measure_toolbar: [
       {
         label: {
-          set: 'Review this measure later',  // Translate
-          unset: 'Remove'
+          set: 'Revisar esta contienda más tarde.',  // Translate
+          unset: 'Eliminar'  // Translate
         },
         icon: {
           set: 'fa-bookmark',
