@@ -144,45 +144,28 @@ const myListTranslation = {
   choices_explanation:
 
       `
-      <p>
-        Because ballots are often long and complicated, Voter’s Edge
-        provides you with a tool to help you keep track of your choices.
-
-        <a href="#" data-toggle="modal" data-target="#myListInstructions">
-          Learn more.
-        </a>
-      </p>
-
-
+      <p>         Debido a que frecuentemente las boletas electorales son largas y complicadas, Voter's Edge le brinda una herramienta para ayudarle a dar seguimiento a sus opciones.         <a href="#" data-toggle="modal" data-target="#myListInstructions"> Obtenga más información.         </a>       </p>
       <div class="modal fade" id="myListInstructions" tabIndex="-1" role="dialog" aria-labelledby="myListInstructionsLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h2 class="modal-title" id="myListInstructionsLabel">My List Instructions</h2>
+            <div class="modal-header">               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>               <h4 class="modal-title" id="myListInstructionsLabel">Instrucciones de Mi lista</h4>
             </div>
             <div class="modal-body">
-
-              <p><strong>As you review your ballot, you can:</strong></p>
+              <p><strong>Cuando revise su boleta electoral, podrá:</strong></p>
               <ul>
-                <li><i aria-hidden="true" class="fa fa-check-square"></i>Choose the candidates you would like to remember to vote for.</li>
-                <li><i aria-hidden="true" class="fa fa-thumbs-up"></i>Add your 'yes' or 'no' vote for ballot measures.</li>
-                <li><i aria-hidden="true" class="fa fa-bookmark"></i>Bookmark contests or measure to review later. (Coming soon.)</li>
+                <li><i aria-hidden="true" class="fa fa-check-square"></i>Elegir a los candidatos que quisiera recordar para votar por ellos.</li>
+                <li><i aria-hidden="true" class="fa fa-thumbs-up"></i>Añadir su voto &quot;sí&quot; o &quot;no&quot; para la iniciativa de ley en la boleta electoral.</li>
+                <li><i aria-hidden="true" class="fa fa-bookmark"></i>Añadir contiendas o iniciativas de ley a favoritos para revisar más tarde. (Muy pronto).</li>
               </ul>
-
-              <p><strong>When you are finished (or need a break), you can:</strong></p>
+              <p><strong>Cuando haya terminado (o necesite descansar), puede:</strong></p>
               <ul>
-                <li><i aria-hidden="true" class="fa fa-print"></i>Print your list.</li>
-                <li><i aria-hidden="true" class="fa fa-external-link"></i>Copy a link to return to your list later.</li>
-                <li><i aria-hidden="true" class="fa fa-envelope"></i>Email your choices to yourself.</li>
+                <li><i aria-hidden="true" class="fa fa-print"></i>Imprimir su lista.</li>
+                <li><i aria-hidden="true" class="fa fa-external-link"></i>Copiar un enlace para regresar a su lista más tarde.</li>
+                <li><i aria-hidden="true" class="fa fa-envelope"></i>Enviar sus opciones a su correo electrónico.</li>
               </ul>
-
-              <h3>Privacy Tips</h3>
-              <p>Your choices are stored in your browser application data. If you are on a public computer, you can clear your choices by selecting 'Clear your list' on the 'My List' page, or <a href="http://www.wikihow.com/Clear-Your-Browser's-Cache" target="_blank">clear</a> your application data.
-              </p>
-              <p>
-                We store your data in your own browser using <a href="https://www.techopedia.com/definition/27674/html5-local-storage" target="_blank">‘local storage‘</a> which is similar to a cookie, but does not transmit your data over the web. <a href="/page/privacy-policy" target="_blank">Privacy policy.</a>
-              </p>
+              <h4>Consejos de privacidad</h4>
+              <p>Sus opciones están guardadas en los datos de aplicación de su navegador. Si está en una computadora pública, puede borrar sus opciones al seleccionar &quot;Clear your list&quot; (Borrar su lista) en la página &quot;Mi lista&quot; o <a href="http://www.wikihow.com/Clear-Your-Browser's-Cache" target="_blank">borre</a> los datos de su aplicación. </p>
+              <p>                 Guardamos sus datos en nuestro propio navegador usando <a href="https://www.techopedia.com/definition/27674/html5-local-storage" target="_blank">&quot;almacenamiento local&quot;</a>, que es similar a una cookie pero no transmite sus datos en la red. <a href="/page/privacy-policy" target="_blank">Política de privacidad.</a>               </p>
 
             </div>
           </div>
