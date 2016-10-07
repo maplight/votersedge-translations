@@ -6,43 +6,43 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const shareSiteTranslation = {
   twitterMessages: {
     root: '¡Use @VotersEdge para prepararse para votar! [!SPECIALHASHTAG]',
-    ca: 'Using @VotersEdge to get ready to vote! #California [!SPECIALHASHTAG]',
-    ny: 'Using @VotersEdge to get ready to vote! #NewYork [!SPECIALHASHTAG]',
-    il: 'Using @VotersEdge to get ready to vote! #Illinois [!SPECIALHASHTAG]',
+    ca: '¡Use @VotersEdge para prepararse para votar! #California [!SPECIALHASHTAG]',
+    ny: '¡Use @VotersEdge para prepararse para votar! #NewYork [!SPECIALHASHTAG]',
+    il: '¡Use @VotersEdge para prepararse para votar! #Illinois [!SPECIALHASHTAG]',
     // contest, candidate and measure will probably get templates, but communication breakdown in the google sheet. They go here if they get set.
-    votingInfo: 'Need info on when, where, and how to vote? @VotersEdge has you covered. [!STATEHASHTAG] [!SPECIALHASHTAG]',
-    choices: 'I researched my ballot and marked my choices using ‘My List’ on @VotersEdge. Check it out! [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    votingInfo: '¿Necesita información sobre cuándo, dónde y cómo votar? @VotersEdge lo tiene cubierto. [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    choices: 'Busqué información de mi boleta electoral y marqué mis elecciones con la herramienta ‘Mi lista’ en @VotersEdge. ¡Compruébelo! [!STATEHASHTAG] [!SPECIALHASHTAG]',
   },
   twitterMessagesMediaPartner: {
-    ca: 'Using [!MEDIAPARTNER] & @VotersEdge to get ready to vote! [!STATEHASHTAG] [!SPECIALHASHTAG]',
-    ny: 'Using [!MEDIAPARTNER] & @VotersEdge to get ready to vote! [!STATEHASHTAG] [!SPECIALHASHTAG]',
-    il: 'Using [!MEDIAPARTNER] & @VotersEdge to get ready to vote! [!STATEHASHTAG] [!SPECIALHASHTAG]',
-    votingInfo: 'Need info on when, where, and how to vote?[!MEDIAPARTNER] & @VotersEdge have you covered. [!STATEHASHTAG] [!SPECIALHASHTAG]',
-    choices: 'I researched my ballot and marked my choices using ‘My List’ on @VotersEdge & [!MEDIAPARTNER]. Check it out! [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    ca: '¡Use [!MEDIAPARTNER] y @VotersEdge para prepararse para votar! [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    ny: '¡Use [!MEDIAPARTNER] y @VotersEdge para prepararse para votar! [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    il: '¡Use [!MEDIAPARTNER] y @VotersEdge para prepararse para votar! [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    votingInfo: '¿Necesita información sobre cuándo, dónde y cómo votar? [!MEDIAPARTNER] & @VotersEdge lo tiene cubierto. [!STATEHASHTAG] [!SPECIALHASHTAG]',
+    choices: 'Busqué información de mi boleta electoral y marqué mis elecciones con la herramienta ‘Mi lista’ en @VotersEdge y [!MEDIAPARTNER]. ¡Compruébelo! [!STATEHASHTAG] [!SPECIALHASHTAG]',
   },
   twitterCardTitle: {
-    root: '[!SITENAME] | Get the facts before you vote.',
-    ca: '[!BRANDEDSITENAME] | Get the facts before you vote.',
-    ny: '[!BRANDEDSITENAME] | Get the facts before you vote.',
-    il: '[!BRANDEDSITENAME] | Get the facts before you vote.',
-    overview: 'What’s on the ballot in [!COUNTYNAME] | [!BRANDEDSITENAME]',
-    contestPage: 'Candidates for: [!CONTESTNAME]',
+    root: '[!SITENAME] | Conozca la información antes de votar.',
+    ca: '[!BRANDEDSITENAME] | Conozca la información antes de votar.',
+    ny: '[!BRANDEDSITENAME] | Conozca la información antes de votar.',
+    il: '[!BRANDEDSITENAME] | Conozca la información antes de votar.',
+    overview: 'Qué se encuentra en la boleta electoral de [!COUNTYNAME] | [!BRANDEDSITENAME]',
+    contestPage: 'Candidatos \"para\": [!CONTESTNAME]',
     candidatePage: '[!CANDIDATENAME] | [!BRANDEDSITENAME]',
     measurePage: '[!MEASUREIDENTIFIER] [!MEASURENAME] | [!BRANDEDSITENAME]',
-    votingInfo: 'When, where, and how to vote: [!COUNTYNAME] | [!BRANDEDSITENAME]',
-    choices: 'My List for the [!ELECTIONDATE] election | [!BRANDEDSITENAME]',
+    votingInfo: 'Cuándo, dónde y cómo \"votar\": [!COUNTYNAME] | [!BRANDEDSITENAME]',
+    choices: 'Mi Lista para las elecciones de [!ELECTIONDATE] | [!BRANDEDSITENAME]',
   },
   twitterCardDescription: {
-    root: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-    ca: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-    ny: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-    il: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-    overview: 'Get nonpartisan information on candidates and measures, including local information on when, where, and how to vote.',
-    contestPage: '[!BRANDEDSITENAME] | Nonpartisan information on the [!ELECTIONDATE] election.',
-    candidatePage: 'Candidate for [!CONTESTNAME] - [!ELECTIONDATE]',
-    measurePage: 'Guide to measures in the [!JURISDICTIONNAME] on the [!ELECTIONDATE] ballot.',
-    votingInfo: 'Nonpartisan voter guide for the [!ELECTIONDATE] election. Registration, polling places, important dates and deadlines, and more!',
-    choices: 'Find your ballot, review the candidates and measures, and mark your choices before Election Day!'
+    root: 'Guía electoral no partidista. Encuentre su boleta electoral con la información clave de los candidatos y las iniciativas de ley.',
+    ca: 'Guía electoral no partidista. Encuentre su boleta electoral con la información clave de los candidatos y las iniciativas de ley.',
+    ny: 'Guía electoral no partidista. Encuentre su boleta electoral con la información clave de los candidatos y las iniciativas de ley.',
+    il: 'Guía electoral no partidista. Encuentre su boleta electoral con la información clave de los candidatos y las iniciativas de ley.',
+    overview: 'Obtenga información no partidista sobre los candidatos y las iniciativas de ley, incluida información local sobre cuándo, dónde y cómo votar.',
+    contestPage: '[!BRANDEDSITENAME] | Información no partidista sobre las elecciones de [!ELECTIONDATE].',
+    candidatePage: 'Candidato para [!CONTESTNAME] - [!ELECTIONDATE]',
+    measurePage: 'Guía para las iniciativas de ley en [!JURISDICTIONNAME] en la boleta electoral de [!ELECTIONDATE].',
+    votingInfo: 'Guía electoral no partidista para las elecciones de [!ELECTIONDATE]. Registro, lugares de votación, fechas importantes y plazos, ¡y más!',
+    choices: '¡Encuentre su boleta electoral, revise los candidatos y las iniciativas de ley, y marque sus opciones antes del día de las elecciones!'
   },
   twitterHashtagsSpecial: {
     current: '#Election2016',
@@ -55,92 +55,92 @@ const shareSiteTranslation = {
     default: '',
   },
   email: {
-    footer: '[!BR][!BR]Get the facts before you vote | [!BRANDEDSITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
-    mediaPartnerFooter: '[!BR][!BR]Get the facts before you vote | [!MEDIAPARTNER] - [!BRANDEDSITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
+    footer: '[!BR][!BR]Conozca la información antes de votar | [!BRANDEDSITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
+    mediaPartnerFooter: '[!BR][!BR]Conozca la información antes de votar | [!MEDIAPARTNER] - [!BRANDEDSITENAME][!BR]@Votersedge [!MEDIAPARTNERTWITTER] | [!SHAREURL]',
     root: {
-      subject: 'Check out [!BRANDEDSITENAME]',
-      emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
+      subject: 'Conozca [!BRANDEDSITENAME]',
+      emailBody: '[!SITENAME] es una guía integral para las elecciones, no partidista y disponible en línea para las elecciones federales, estatales y locales. Solo ingrese su domicilio y obtenga acceso a una boleta electoral personalizada con información a fondo sobre los candidatos, las medidas y quién los apoya.',
     },
     ca: {
-      subject: 'Check out [!BRANDEDSITENAME]',
-      emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
+      subject: 'Conozca [!BRANDEDSITENAME]',
+      emailBody: '[!SITENAME] es una guía integral para las elecciones, no partidista y disponible en línea para las elecciones federales, estatales y locales. Solo ingrese su domicilio y obtenga acceso a una boleta electoral personalizada con información a fondo sobre los candidatos, las medidas y quién los apoya.',
     },
     ny: {
-      subject: 'Check out [!BRANDEDSITENAME]',
-      emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
+      subject: 'Conozca [!BRANDEDSITENAME]',
+      emailBody: '[!SITENAME] es una guía integral para las elecciones, no partidista y disponible en línea para las elecciones federales, estatales y locales. Solo ingrese su domicilio y obtenga acceso a una boleta electoral personalizada con información a fondo sobre los candidatos, las medidas y quién los apoya.',
     },
     il: {
-      subject: 'Check out [!BRANDEDSITENAME]',
-      emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.',
+      subject: 'Conozca [!BRANDEDSITENAME]',
+      emailBody: '[!SITENAME] es una guía integral para las elecciones, no partidista y disponible en línea para las elecciones federales, estatales y locales. Solo ingrese su domicilio y obtenga acceso a una boleta electoral personalizada con información a fondo sobre los candidatos, las medidas y quién los apoya.',
     },
     ballot: {
-      subject: 'Check out [!BRANDEDSITENAME]',
-      emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. Just enter your address and access a personalized ballot with in-depth information on candidates, measures, and who supports them.[!BR][!BR]I used it to look up my ballot in [!COUNTYNAME]: [!SHARECONTENTURL]',
+      subject: 'Conozca [!BRANDEDSITENAME]',
+      emailBody: '[!SITENAME] es una guía integral para las elecciones, no partidista y disponible en línea para las elecciones federales, estatales y locales. Solo ingrese su domicilio y obtenga acceso a una boleta electoral personalizada con información a fondo sobre los candidatos, las medidas y quién los apoya.[!BR][!BR]Yo la usé para buscar mi boleta electoral en [!\"COUNTYNAME\"]: [!SHARECONTENTURL]',
     },
     contestPage: {
-      subject: 'Learn more about the candidates running for [!CONTESTNAME]',
-      emailBody: 'I used [!SITENAME] to learn about the candidates running for [!CONTESTNAME], in the [!ELECTIONDATE] election. [!BR][!BR]Learn more: [!SHARECONTENTURL][!BR][!BR][!SITENAME] is a nonpartisan, nonprofit guide where can you learn about the candidates and measures that will be on your ballot.',
+      subject: 'Conozca más sobre los candidatos que se postulan para [!CONTESTNAME]',
+      emailBody: 'Yo usé [!SITENAME] para conocer más sobre los candidatos que se postulaban para [!CONTESTNAME] en las elecciones de [!ELECTIONDATE]. [!BR][!BR]Conozca \"más\": [!SHARECONTENTURL][!BR][!BR][!SITENAME] es una guía no partidista y sin fines de lucro en la que puede conocer más sobre los candidatos y las medidas que se encontrarán en su boleta electoral.',
     },
     candidatePage: {
-      subject: 'Learn about [!CANDIDATENAME], Candidate for [!CONTESTNAME]',
-      emailBody: '[!CANDIDATENAME] is a candidate for [!CONTESTNAME] in the [!ELECTIONDATE] election.[!BR][!BR]Learn more about [!CANDIDATENAME] and the other candidates: [!SHARECONTENTURL][!BR][!BR][!SITENAME] is a nonpartisan, nonprofit guide where can you learn about the candidates and measures that will be on your ballot.',
+      subject: 'Conozca más sobre [!CANDIDATENAME], candidato para [!CONTESTNAME]',
+      emailBody: '[!CANDIDATENAME] es candidato para [!CONTESTNAME] en las elecciones de [!ELECTIONDATE].[!BR][!BR]Conozca más sobre [!CANDIDATENAME] y los demás \"candidatos\": [!SHARECONTENTURL][!BR][!BR][!SITENAME] es una guía no partidista y sin fines de lucro en la que puede conocer más sobre los candidatos y las iniciativas de ley que se encontrarán en su boleta electoral.',
     },
     measurePage: {
-      subject: 'Learn about ballot measures for [!COUNTYNAME]',
-      emailBody: '[!MEASUREIDENTIFIER] is on the ballot for [!COUNTYNAME][!BR][!BR]Learn more: [!SHARECONTENTURL][!BR][!BR][!SITENAME] is a nonpartisan, nonprofit guide where can you learn about the candidates and measures that will be on your ballot.',
+      subject: 'Conozca sobre las iniciativas de ley en la boleta electoral de [!COUNTYNAME]',
+      emailBody: 'La [!MEASUREIDENTIFIER] se encuentra en la boleta electoral de [!COUNTYNAME][!BR][!BR] Conozca \"más\": [!SHARECONTENTURL][!BR][!BR][!SITENAME] es una guía no partidista y sin fines de lucro en la que puede conocer más sobre los candidatos y las iniciativas de ley que se encontrarán en su boleta electoral.',
     },
     votingInfo: {
-      subject: 'Info on when, where, and how to vote from [!BRANDEDSITENAME]]',
-      emailBody: '[!SITENAME] is a comprehensive, nonpartisan online guide to federal, state, and local elections. The site has information on registration, polling places, important dates and deadlines, and more![!BR]See when, where, and how to vote in [!COUNTYNAME]: [!SHARECONTENTURL]',
+      subject: 'Información sobre cuándo, dónde y cómo votar desde [!BRANDEDSITENAME]]',
+      emailBody: '[!SITENAME] es una guía integral para las elecciones, no partidista y disponible en línea para las elecciones federales, estatales y locales. El sitio contiene información sobre registro, lugares de votación, fechas importantes y plazos ¡y más![!BR]Vea cuándo, dónde y cómo votar en [!\"COUNTYNAME\"]: [!SHARECONTENTURL]',
     },
     choices: {
-      subject: 'My List for the [!ELECTIONDATE] election',
-      emailBody: 'I used [!SITENAME] to learn about the candidates and measures on the [!ELECTIONDATE] ballot, and marked my choices using their ‘My List’ feature. Now I can take my choices with me to the polls on Election Day and share them with you![!BR][!BR]My List: [!SHARELISTCHOICESPLACEHOLDER][!BR][!BR][!SITENAME] is a nonpartisan, nonprofit guide where you can learn about the candidates and measures that will be on your ballot.',
+      subject: 'Mi Lista para las elecciones de [!ELECTIONDATE]',
+      emailBody: 'Yo usé [!SITENAME] para conocer sobre los candidatos y las iniciativas de ley en la boleta electoral de [!ELECTIONDATE] y marqué mis opciones con su herramienta ‘Mi Lista’.  ¡Ahora puedo llevar mis decisiones conmigo a las urnas el día de las elecciones y compartirlas con usted![!BR][!BR]Mi \"Lista\": [!SHARELISTCHOICESPLACEHOLDER][!BR][!BR][!SITENAME] es una guía no partidista y sin fines de lucro en la que puede conocer más sobre los candidatos y las iniciativas de ley que se encontrarán en su boleta electoral.',
     },
   },
-  share_to_label: 'Please share this site to help others research their voting choices.', // Translate
-  email_label: 'Send to Email', // Translate
-  // email_message: 'You might like', // Translate
-  copy_link_label: 'Copy a link', // Translate
-  copy_link_instructions: 'Get a link to this page', // Translate
-  copy_link_clean_instructions: 'Get a link', // Translate
-  share_facebook: 'Share link to this page on Facebook',
-  share_twitter: 'Share link to this page on Twitter',
-  embeddable_content_label: "Embeddable content",
-  embed_link_label: 'Embed', // Translate
+  share_to_label: 'Comparta este sitio para ayudar a otros a investigar sus opciones para las votaciones.', // Translate
+  email_label: 'Enviar por correo electrónico', // Translate
+  // email_message: 'Le podría gustar', // Translate
+  copy_link_label: 'Copiar un enlace', // Translate
+  copy_link_instructions: 'Obtener un enlace para esta página', // Translate
+  copy_link_clean_instructions: 'Obtener un enlace', // Translate
+  share_facebook: 'Compartir el enlace de esta página en Facebook',
+  share_twitter: 'Compartir el enlace de esta página en Twitter',
+  embeddable_content_label: "Contenido incorporable",
+  embed_link_label: 'Incorporado', // Translate
   email_link_content: {
-    button_label: 'Email a link',
-    label: 'Email a link to this page',
-    with_address: 'Email a link <strong>with</strong> your address.',
-    without_address: 'Email a link <strong>without</strong> your address.',
-    include_address_button_label: 'Include my address',
-    privacy_notice: 'We provide the option to remove your address in case you want to share your choices, but maintain the privacy of your address. Only the link with your address will include your polling location.',
+    button_label: 'Envíe un enlace por correo electrónico.',
+    label: 'Envíe un enlace para esta página por correo electrónico.',
+    with_address: 'Envíe un enlace <strong>con</strong> su dirección por correo electrónico.',
+    without_address: 'Envíe un enlace <strong>sin</strong> su dirección por correo electrónico.',
+    include_address_button_label: 'Incluir mi dirección',
+    privacy_notice: 'Brindamos la opción de eliminar su dirección en caso de que desee compartir sus opciones y conservar la privacidad de su dirección. Solo el enlace con su dirección incluirá su lugar de votación.',
   },
   copy_link_content: {
-    button_label: 'Copy a link',
-    label: 'Copy a link to this page',
-    with_address: 'Copy a link <strong>with</strong> your address.',
-    without_address: 'Copy a link <strong>without</strong> your address.',
-    privacy_notice: 'We provide the option to remove your address in case you want to share your choices, but maintain the privacy of your address. Only the link with your address will include your polling location.',
-    include_address_button_label: 'Include my address',
-    copy_label: 'Copy'
+    button_label: 'Copiar un enlace',
+    label: 'Copiar un enlace para esta página',
+    with_address: 'Copie un enlace <strong>con</strong> su dirección por correo electrónico.',
+    without_address: 'Copie un enlace <strong>sin</strong> su dirección por correo electrónico.',
+    privacy_notice: 'Brindamos la opción de eliminar su dirección en caso de que desee compartir sus opciones y conservar la privacidad de su dirección. Solo el enlace con su dirección incluirá su lugar de votación.',
+    include_address_button_label: 'Incluir mi dirección',
+    copy_label: 'Copiar'
   },
-  with_address: '<strong>With</strong> your address.',
-  without_address: '<strong>Without</strong> your address.',
-  privacy_notice: 'We provide the option to remove your address in case you want to share your choices, but maintain the privacy of your address. Only the link with your address will include your polling location.',
-  privacy_notice_content: 'We provide the option to remove your address in case you want to share this page, but maintain the privacy of your address. Only the link with your address will include your polling location.',
-  include_address_button_label: 'Include my address',
+  with_address: '<strong>Con</strong> su dirección.',
+  without_address: '<strong>Sin</strong> su dirección.',
+  privacy_notice: 'Brindamos la opción de eliminar su dirección en caso de que desee compartir sus opciones y conservar la privacidad de su dirección. Solo el enlace con su dirección incluirá su lugar de votación.',
+  privacy_notice_content: 'Brindamos la opción de eliminar su dirección en caso de que desee compartir esta página y conservar la privacidad de su dirección. Solo el enlace con su dirección incluirá su lugar de votación.',
+  include_address_button_label: 'Incluir mi dirección',
   tooltips: {
-    facebook: 'Share link to this site on Facebook', // Translate
-    twitter: 'Share link to this site on Twitter', // Translate
-    email: 'Send to email', // Translate
-    copy_link: 'Copy a link', // Translate
+    facebook: 'Compartir el enlace de este sitio en Facebook', // Translate
+    twitter: 'Compartir el enlace de este sitio en Twitter', // Translate
+    email: 'Enviar por correo electrónico', // Translate
+    copy_link: 'Copiar un enlace', // Translate
   },
   icon_labels: {
     facebook: 'Facebook',
     twitter: 'Twitter',
-    email: 'Email', // Translate
-    copy_link: 'Get a link (to share via mobile or chat messages.)',  // Translate
+    email: 'Correo electrónico', // Translate
+    copy_link: 'Obtener un enlace (para compartir a través del celular o de mensajes de chat).',  // Translate
   },
 };
 
