@@ -12,14 +12,14 @@ const ballotOverviewTranslation = {
     ballot_zip: 'Boleta y información de la votación para zip code', // Translate
     ballot_area_state: 'Boleta y información de la votación para el', // Translate
     votingInfoSections: {
-     'section-my-polling-place': 'My polling place',
-     'section-register-to-vote': 'Register to vote',
-     'section-ways-to-vote': 'Ways to vote',
-     'section-voting-basics': 'Voting basics',
-     'section-important-dates-deadlines': 'Important dates and deadlines',
-     'section-my-rights-as-a-voter': 'My rights as a voter',
-     'section-more-voting-info': 'More voting info',
-     'section-election-office-contact': 'Contact election office',
+     'section-my-polling-place': 'Mi lugar de votación',
+     'section-register-to-vote': 'Inscríbase para votar',
+     'section-ways-to-vote': 'Formas de Votar',
+     'section-voting-basics': 'Fundamentos de Voto',
+     'section-important-dates-deadlines': 'Fechas y Plazos Importantes',
+     'section-my-rights-as-a-voter': 'Mis derechos como votante',
+     'section-more-voting-info': 'Mas información de la votación',
+     'section-election-office-contact': 'Póngase en contacto con la oficina electoral',
     },
     meta: {
       overview: {
