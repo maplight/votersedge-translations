@@ -5,7 +5,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const shareSiteTranslation = {
   twitterMessages: {
-    root: 'Using @VotersEdge to get ready to vote! [!SPECIALHASHTAG]',
+    root: '¡Use @VotersEdge para prepararse para votar! [!SPECIALHASHTAG]',
     ca: 'Using @VotersEdge to get ready to vote! #California [!SPECIALHASHTAG]',
     ny: 'Using @VotersEdge to get ready to vote! #NewYork [!SPECIALHASHTAG]',
     il: 'Using @VotersEdge to get ready to vote! #Illinois [!SPECIALHASHTAG]',
