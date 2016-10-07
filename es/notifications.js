@@ -8,8 +8,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const notificationsTranslation = {
   notifications: {
     'getStartedActiveUser': {
-      title: 'Want to keep track of your ballot choices?',
-      message: ' Use \'My List.\'',
+      title: '¿Quiere mantener un registro de sus opciones para la boleta electoral?',
+      message: 'Use \'Mi lista\'.',
       delay: 1000,
       length: 7000
     },
@@ -22,11 +22,11 @@ const notificationsTranslation = {
       message: '',
     },
     'getStartedVotingInfo':{
-      title: 'Go to \'Voting Info\' to find out when, where, and how to vote.',
+      title: 'Vaya a \'Información para votar\' para conocer cuándo, cómo y dónde votar.',
       message: ''
     },
     'createList': {
-      title: 'Select a contest to start adding choices to your list.',
+      title: 'Seleccione una contienda para empezar a añadir opciones a la lista.',
       message: '',
     },
     'firstChoiceMade': {
@@ -42,23 +42,23 @@ const notificationsTranslation = {
       message: 'Ahora puede avanzar y tomar decisiones para las iniciativas de ley en la boleta electoral.'
     },
     'contestsCompletedDone': {
-      title: 'You\'ve made a choice for every candidate race on your list.',
+      title: 'Tomó una decisión para todas las contiendas de candidatos en su lista.',
       message: 'Now you can move on to \'My List.\'',
     },
     'contestViewsCompleted': {
-      title: 'You\'ve viewed all of the races on your ballot.',
-      message: 'It looks like you didn\'t make choices for all of them. Go to \'My List\' to see which ones don\'t have choices.',
+      title: 'Ya consultó todas las contiendas en su boleta electoral.',
+      message: 'Parece que no tomó decisiones para todas las contiendas. Ir a \'Mi lista\' para ver en cuáles no ha tomado decisiones.',
     },
     'measuresChoicesCompleted':{
       title: 'Tomó una decisión para todas las iniciativas de ley en su lista. ',
       message: 'Ahora puede terminar de tomar decisiones para las contiendas de candidatos.'
     },
     'measureViewsCompleted': {
-      title: 'You\'ve viewed all of the measures on your ballot.',
-      message: 'It looks like you didn\'t make choices for all of them. Go to \'My List\' to see which ones don\'t have choices.',
+      title: 'Ya consultó todas las iniciativas de ley en su boleta electoral.',
+      message: 'Parece que no tomó decisiones para todas las iniciativas de ley. Ir a \'Mi lista\' para ver en cuáles no ha tomado decisiones.',
     },
     'measuresCompletedDone':{
-      title: 'You\'ve made a choice for every measure on your list.',
+      title: 'Tomó una decisión para todas las iniciativas de ley en su lista.',
       message: 'Now you can move on to \'My List.\'',
     },
     'choicesHalfwayCompleted':{
