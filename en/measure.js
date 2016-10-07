@@ -109,7 +109,7 @@ const measureTranslation = {
       elected_official: 'Elected Officials', // Translate
       elected_appointed_official: 'Elected & Appointed Officials', // Translate
     },
-
+    contest_message_additional_info: 'Please see Additional Info to learn more.',
     pieChartLabels: {
       explanation: "",
       label_in_state: "In-state contributions", // Translate

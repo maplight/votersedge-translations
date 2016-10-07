@@ -50,7 +50,7 @@ const contestTranslation = {
     ],
     accordionLabels: {
       candidates: 'Who’s Running?', // Translate
-      news: 'News Coverage', // Translate
+      news: 'News', // Translate
       events: 'Events', // Translate
       links: 'Links', // Translate
       videos: 'Videos', // Translate
@@ -137,6 +137,7 @@ const contestTranslation = {
         },
       },
     },
+    contest_message_additional_info: 'Please see Additional Info to learn more.',
     scrollPrompt: 'Please scroll down to see all candidates.',
     voteForPrompt: {
       'singular': {

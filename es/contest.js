@@ -132,6 +132,7 @@ const contestTranslation = {
         },
       },
     },
+    contest_message_additional_info: 'Please see Additional Info to learn more.',
     scrollPrompt: 'Por favor, desplácese hacia abajo para ver todos los candidatos.',
     voteForPrompt: {
       'singular': {

@@ -307,6 +307,7 @@ const measureTranslation = {
         },
       }
     },
+    contest_message_additional_info: 'Please see Additional Info to learn more.',
     sectionTitle: "Iniciativas de ley", // Translate
     measureDescriptionLabel: "Acerca de esta iniciativa de ley", // Translate
     my_choices: "¿Apoya esta propuesta?", // Translate

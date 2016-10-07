@@ -10,6 +10,7 @@ const candidateCardTranslation = {
   encourage_candidate_action: 'Add more info.', //Translate
   message_candidate: {
     label: 'Encourage candidate to share their information on Voter’s Edge.',
+    label_no_social: 'Know this candidate? Tell them about Voter’s Edge.',
     label_thank_you: 'Thank candidate for sharing their information on Voter’s Edge.',
     tweet: {
       label: 'Tweet @ this candidate',
