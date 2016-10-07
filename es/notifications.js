@@ -87,7 +87,7 @@ const notificationsTranslation = {
     },
     moreCandidatesAdded: {
       'title': 'El candidato se añadió a su lista.',
-      'message': 'Note: More candidates added than you will be able to vote for.'
+      'message': 'Nota: Más candidatos añadidos para este cargo por los que podrá votar.'
     },
     candidateAdded: {
       'title': 'El candidato se añadió a su lista.',
