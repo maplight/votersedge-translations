@@ -127,8 +127,8 @@ const ballotOverviewTranslation = {
     choose_candidates: "Candidatos", // Translate
     list_of_candidates: 'See a list',
     list_of_measures: 'See a list',
-    start_with_candidates: 'Go to the first race',
-    start_with_measures: 'Go to the first measure',
+    start_with_candidates: 'Ir a la primera contienda',
+    start_with_measures: 'Ir a la primera iniciativa de ley',
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
     candidates_intro: "candidatos postulados para", // Translate
     candidates_offices: "cargos", // Translate
