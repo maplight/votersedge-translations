@@ -14,11 +14,11 @@ const notificationsTranslation = {
       length: 7000
     },
     'beginContest': {
-      title: 'Keep track of candidates by adding them to your list.',
+      title: 'Dé seguimiento a los candidatos al agregarlos a su lista.',
       message: '',
     },
     'beginMeasure': {
-      title: 'Select \'yes\' or \'no\' to keep track of your measure choices.',
+      title: 'Seleccione \'sí\' o \'no\' para mantener un registro de sus opciones para las iniciativas de ley.',
       message: '',
     },
     'getStartedVotingInfo':{
@@ -30,16 +30,16 @@ const notificationsTranslation = {
       message: '',
     },
     'firstChoiceMade': {
-      title: 'First choice added to your list! Select \'Next\' to continue.',
+      title: '¡Se añadió la primera opción a su lista! Seleccione \'Siguiente\' para continuar.',
       message: '',
     },
     'returningAfterWeeks': {
-      title: 'Welcome back!',
-      message: 'Continue editing your current list or clear it to start a new list.',
+      title: '¡Bienvenido de nuevo!',
+      message: 'Siga editando su lista actual o bórrela para empezar una nueva.',
     },
     'contestsCompleted': {
-      title: 'You\'ve made a choice for every candidate race on your list.',
-      message: 'Now you can move on to make choices on ballot measures.'
+      title: 'Tomó una decisión para todas las contiendas de candidatos en su lista. ',
+      message: 'Ahora puede avanzar y tomar decisiones para las iniciativas de ley en la boleta electoral.'
     },
     'contestsCompletedDone': {
       title: 'You\'ve made a choice for every candidate race on your list.',
@@ -50,8 +50,8 @@ const notificationsTranslation = {
       message: 'It looks like you didn\'t make choices for all of them. Go to \'My List\' to see which ones don\'t have choices.',
     },
     'measuresChoicesCompleted':{
-      title: 'You\'ve made a choice for every measure on your list. ',
-      message: 'Now you can finish making choices for candidate races.'
+      title: 'Tomó una decisión para todas las iniciativas de ley en su lista. ',
+      message: 'Ahora puede terminar de tomar decisiones para las contiendas de candidatos.'
     },
     'measureViewsCompleted': {
       title: 'You\'ve viewed all of the measures on your ballot.',

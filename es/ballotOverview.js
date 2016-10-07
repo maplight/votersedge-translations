@@ -12,14 +12,14 @@ const ballotOverviewTranslation = {
     ballot_zip: 'Boleta y información de la votación para zip code', // Translate
     ballot_area_state: 'Boleta y información de la votación para el', // Translate
     votingInfoSections: {
-     'section-my-polling-place': 'My polling place',
-     'section-register-to-vote': 'Register to vote',
-     'section-ways-to-vote': 'Ways to vote',
-     'section-voting-basics': 'Voting basics',
-     'section-important-dates-deadlines': 'Important dates and deadlines',
-     'section-my-rights-as-a-voter': 'My rights as a voter',
-     'section-more-voting-info': 'More voting info',
-     'section-election-office-contact': 'Contact election office',
+     'section-my-polling-place': 'Mi lugar de votación',
+     'section-register-to-vote': 'Inscríbase para votar',
+     'section-ways-to-vote': 'Formas de Votar',
+     'section-voting-basics': 'Fundamentos de Voto',
+     'section-important-dates-deadlines': 'Fechas y Plazos Importantes',
+     'section-my-rights-as-a-voter': 'Mis derechos como votante',
+     'section-more-voting-info': 'Mas información de la votación',
+     'section-election-office-contact': 'Póngase en contacto con la oficina electoral',
     },
     meta: {
       overview: {
@@ -125,10 +125,10 @@ const ballotOverviewTranslation = {
     read_less: 'Leer menos',
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
-    list_of_candidates: 'See a list',
-    list_of_measures: 'See a list',
-    start_with_candidates: 'Go to the first race',
-    start_with_measures: 'Go to the first measure',
+    list_of_candidates: 'Ver una lista',
+    list_of_measures: 'Ver una lista',
+    start_with_candidates: 'Ir a la primera contienda',
+    start_with_measures: 'Ir a la primera iniciativa de ley',
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
     candidates_intro: "candidatos postulados para", // Translate
     candidates_offices: "cargos", // Translate
@@ -140,19 +140,19 @@ const ballotOverviewTranslation = {
     choose_voting_info: "Información de la votación", // Translate
     choose_voting_info_label: "Obtenga información sobre <strong>cuándo, dónde y cómo votar</strong>", // Translate
     choices: "Mi lista", // Translate
-    choices_get_ballot: 'Want to keep track of you ballot choices and make a list to take to the polls?',
-    choices_learn_more: 'Learn more',
-    choices_get_started: 'get started',
-    choices_get_started_separator: 'or',
-    other_elections_search_label: 'Other Elections',
+    choices_get_ballot: '¿Desea mantener un registro de sus opciones de boleta electoral y hacer una lista para llevarla a las urnas?',
+    choices_learn_more: 'Obtenga más información',
+    choices_get_started: 'comience',
+    choices_get_started_separator: 'o',
+    other_elections_search_label: 'Otras elecciones',
     other_elections_search_link_labels: {
-      address: 'Find other elections for this address.',
+      address: 'Encuentre otras elecciones para esta dirección.',
       area: 'Find other elections for this area.',
       zip:'Find other elections for this zip code.',
     },
-    choices_progress_percentage_prefix: 'You are',
-    choices_progress_percentage_suffix: 'of the way through your ballot.',
-    choices_completed_label: 'Completed',
+    choices_progress_percentage_prefix: 'Lleva el',
+    choices_progress_percentage_suffix: 'de su boleta electoral.',
+    choices_completed_label: 'completado',
     choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
@@ -313,7 +313,7 @@ const ballotOverviewTranslation = {
         type: 'share'
       },
     ],
-    share_ballot_label: 'Share This Page',
+    share_ballot_label: 'Comparta Esta Página',
     more_voting_info: "Consulte más información sobre la votacion", // Translate
     other_address: "Busque la boleta electoral para", // Translate
     other_address_link: "otra dirección.", // Translate
