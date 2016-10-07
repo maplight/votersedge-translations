@@ -144,9 +144,9 @@ const ballotOverviewTranslation = {
     choices_learn_more: 'Obtenga más información',
     choices_get_started: 'comience',
     choices_get_started_separator: 'o',
-    other_elections_search_label: 'Other Elections',
+    other_elections_search_label: 'Otras elecciones',
     other_elections_search_link_labels: {
-      address: 'Find other elections for this address.',
+      address: 'Encuentre otras elecciones para esta dirección.',
       area: 'Find other elections for this area.',
       zip:'Find other elections for this zip code.',
     },
@@ -313,7 +313,7 @@ const ballotOverviewTranslation = {
         type: 'share'
       },
     ],
-    share_ballot_label: 'Share This Page',
+    share_ballot_label: 'Comparta Esta Página',
     more_voting_info: "Consulte más información sobre la votacion", // Translate
     other_address: "Busque la boleta electoral para", // Translate
     other_address_link: "otra dirección.", // Translate
