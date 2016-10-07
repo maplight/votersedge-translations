@@ -62,43 +62,43 @@ const notificationsTranslation = {
       message: 'Now you can move on to \'My List.\'',
     },
     'choicesHalfwayCompleted':{
-      title: 'You\'re halfway through your list.',
-      message: 'Keep going, or copy a link to save your list and finish later.',
+      title: 'Está a la mitad de su lista.',
+      message: 'Continúe o copie un enlace para guardar su lista y terminar después.',
     },
     'allContestsCompleted':{
-      title: 'Congratulations!',
-      message: 'Your list is complete. To look at it later, print it or send yourself a link.'
+      title: '¡Felicidades!',
+      message: 'Su lista está completa. Para consultarla después, imprímala o envíese un enlace.'
     },
     'shareFacebookOverlay':{
-      title: 'Encourage your friends to vote by adding a sticker to your Facebook profile picture.',
+      title: 'Anime a sus amigos a votar al añadir una etiqueta a su foto de perfil de Facebook.',
       message: '',
     },
     'electionIsIn3days':{
-      title: 'Election Day is in three days!',
+      title: '¡Faltan tres días para el día de las elecciones!',
       message: '',
     },
     'electionIsTomorrow':{
-      title: 'The election is tomorrow!',
+      title: '¡Mañana son las elecciones!',
       message: '',
     },
     'electionIsToday':{
-      title: 'Happy Election Day! Make sure and vote before the polls close today.',
+      title: '¡Feliz día de las elecciones! Asegúrese y vote hoy antes de que cierren las urnas.',
       message: '',
     },
     moreCandidatesAdded: {
-      'title': 'Candidate added to your list.',
+      'title': 'El candidato se añadió a su lista.',
       'message': 'Note: More candidates added than you will be able to vote for.'
     },
     candidateAdded: {
-      'title': 'Candidate added to your list.',
+      'title': 'El candidato se añadió a su lista.',
       'message': ''
     },
     candidateRemoved: {
-      'title': 'Candidate removed from your list.',
+      'title': 'El candidato se eliminó de su lista.',
       'message': ''
     },
     choiceAdded: {
-      'title': 'Choice added to your list.',
+      'title': 'La opción se añadió a su lista.',
       'message': '',
     },
     updatingChoices: {
