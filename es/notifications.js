@@ -14,11 +14,11 @@ const notificationsTranslation = {
       length: 7000
     },
     'beginContest': {
-      title: 'Keep track of candidates by adding them to your list.',
+      title: 'Dé seguimiento a los candidatos al agregarlos a su lista.',
       message: '',
     },
     'beginMeasure': {
-      title: 'Select \'yes\' or \'no\' to keep track of your measure choices.',
+      title: 'Seleccione \'sí\' o \'no\' para mantener un registro de sus opciones para las iniciativas de ley.',
       message: '',
     },
     'getStartedVotingInfo':{
