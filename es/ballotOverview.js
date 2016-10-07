@@ -125,8 +125,8 @@ const ballotOverviewTranslation = {
     read_less: 'Leer menos',
     ballot_no_address: "Aquí encontrará lo que contiene la boleta electoral.", // Translate
     choose_candidates: "Candidatos", // Translate
-    list_of_candidates: 'See a list',
-    list_of_measures: 'See a list',
+    list_of_candidates: 'Ver una lista',
+    list_of_measures: 'Ver una lista',
     start_with_candidates: 'Ir a la primera contienda',
     start_with_measures: 'Ir a la primera iniciativa de ley',
     candidates_intro_prefix: "Obtenga información detallada sobre los ", // Translate
