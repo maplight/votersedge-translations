@@ -170,10 +170,10 @@ const measureTranslation = {
       evg: {   // Translation already provided by LWCV
         label: 'Guía Fácil para el Votante', // If translated, it exists already
         way_it_is_now: 'Cómo está ahora', // Translation exists
-        what_if_passes: 'Lo que haría la Prop. 50 si se aprueba', // Translation exists
+        what_if_passes: '¿Qué pasa si se aprueba?', // Translation exists
         budget_effect: 'Efectos en el presupuesto estatal', // Translation exists
-        people_for_say: 'Quienes apoyan la Prop 50 dicen', // Translation exists
-        people_against_say: 'Quienes están contra la Prop 50 dicen', // Translation exists
+        people_for_say: 'La gente a favor dice', // Translation exists
+        people_against_say: 'La gente en contra dice', // Translation exists
         question: 'La pregunta', // Translation exists
         situation: 'La situación', // Translation exists
         proposal: 'La propuesta', // Translation exists
