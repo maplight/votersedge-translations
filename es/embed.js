@@ -26,6 +26,8 @@ const embedTranslation = {
     cardDisclaimerFunder: '',
     vertical: 'Vertical',
     horizontal: 'Horizontal',
+    linkToDESlabelCandidate: 'Get downloadable cards and embeddable content for this candidate.',
+    linkToDESlabelMeasure: 'Get downloadable cards and embeddable content for this measure.',
   }
 };
 
