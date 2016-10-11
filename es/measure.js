@@ -82,8 +82,8 @@ const measureTranslation = {
           ballots_counted: ' boletas electorales serán contadas.',
           yes_votes: 'votos si',
           no_votes: 'votos no',
-          pass: 'Passed',
-          fail: 'Failed',
+          pass: 'Se aprueba',
+          fail: 'No se aprueba',
           tooltip_result: {
             message: '',
             label: 'distritos activos.',
@@ -116,8 +116,8 @@ const measureTranslation = {
             label: 'electores registrados votaron.',
           },
           measure: {
-            passed: 'Passed',
-            failed: 'Failed',
+            passed: 'Se aprueba',
+            failed: 'No se aprueba',
           },
         },
       },
