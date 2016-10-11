@@ -116,8 +116,8 @@ const measureTranslation = {
             label: 'electores registrados votaron.',
           },
           measure: {
-            passed: 'Passed',
-            failed: 'Failed',
+            passed: 'Se aprueba',
+            failed: 'No se aprueba',
           },
         },
       },
