@@ -319,6 +319,9 @@ const measureTranslation = {
     supportLabel: '¿Quién apoya esta propuesta y por qué?', // Translate
     costLabel: '¿Cuánto cuesta?', // Translate
     infoLabel: '¿Cómo puedo obtener más información?', // Translate
+    ballotVotingInfo: "On your actual ballot, you can vote 'yes' or 'no' on this measure.",
+    addChoice: 'Add choice to my list.',
+    screenReaderInstructions: "Use tabs to select your choice. Use return to create a choice. You can access your list by navigating to 'My List'.",
 
   }
 };

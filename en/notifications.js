@@ -101,6 +101,10 @@ const notificationsTranslation = {
       'title': 'Choice added to your list.',
       'message': '',
     },
+    choiceRemoved: {
+      'title': 'Choice removed to your list.',
+      'message': '',
+    },
     updatingChoices: {
       title: 'Updating your choices.',
       message: 'Last updated',
