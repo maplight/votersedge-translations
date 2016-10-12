@@ -147,8 +147,8 @@ const ballotOverviewTranslation = {
     other_elections_search_label: 'Otras elecciones',
     other_elections_search_link_labels: {
       address: 'Encuentre otras elecciones para esta dirección.',
-      area: 'Find other elections for this area.',
-      zip:'Find other elections for this zip code.',
+      area: 'Encuentre otras elecciones para esta área.',
+      zip:'Encuentre otras elecciones para este código postal.',
     },
     choices_progress_percentage_prefix: 'Lleva el',
     choices_progress_percentage_suffix: 'de su boleta electoral.',
@@ -156,17 +156,17 @@ const ballotOverviewTranslation = {
     choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
-    pollingLocationLookupToolLink: "Check your polling location with your county elections office.", // Translate
+    pollingLocationLookupToolLink: "Verifique la ubicación de su lugar de votación con la oficina electoral de su condado.", // Translate
     noPollingLocationLookupToolLink: "There is no polling location look up available from your county elections office.", // Translate
     contactCountyElectionsOffice: 'Contact county elections office',
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
     noPollingLocationMessage: 'No hay información disponible sobre la ubicación del lugar de votación.',
-    noPollingLocationMessageZipMessage: 'No polling location information is available on a zip code search.',
-    noPollingLocationMessageZipSearch: 'Try searching for your street address.',
-    noPollingLocationMessageCountyMessage: 'No polling location information is available on a county search.',
-    noPollingLocationMessageCountySearch: 'Try searching for your street address.',
+    noPollingLocationMessageZipMessage: 'No hay información disponible sobre la ubicación del lugar de votación en una búsqueda por código postal.',
+    noPollingLocationMessageZipSearch: 'Intente buscar por la calle de su dirección.',
+    noPollingLocationMessageCountyMessage: 'No hay información disponible sobre la ubicación del lugar de votación en una búsqueda por condado.',
+    noPollingLocationMessageCountySearch: 'Intente buscar por la calle de su dirección.',
     noPollingLocationMessageStateMessage: 'No polling location information is available.',
-    noPollingLocationMessageStateSearch: 'Try searching for your street address.',
+    noPollingLocationMessageStateSearch: 'Intente buscar por la calle de su dirección.',
     noPollingLocationMessageVotingInfo: 'Voter’s Edge could not match your address to a polling location. Check below to search for your polling location through your county elections office.',
     noPollingLocationMessageResults: {
       active: 'No hay información disponible sobre la ubicación del lugar de votación.',
