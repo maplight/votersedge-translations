@@ -165,7 +165,7 @@ const ballotOverviewTranslation = {
     noPollingLocationMessageZipSearch: 'Intente buscar por la calle de su dirección.',
     noPollingLocationMessageCountyMessage: 'No hay información disponible sobre la ubicación del lugar de votación en una búsqueda por condado.',
     noPollingLocationMessageCountySearch: 'Intente buscar por la calle de su dirección.',
-    noPollingLocationMessageStateMessage: 'No polling location information is available.',
+    noPollingLocationMessageStateMessage: 'No hay información disponible sobre la ubicación del lugar de votación.',
     noPollingLocationMessageStateSearch: 'Intente buscar por la calle de su dirección.',
     noPollingLocationMessageVotingInfo: 'Voter’s Edge could not match your address to a polling location. Check below to search for your polling location through your county elections office.',
     noPollingLocationMessageResults: {
