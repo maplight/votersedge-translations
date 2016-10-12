@@ -106,12 +106,12 @@ const notificationsTranslation = {
       'message': '',
     },
     updatingChoices: {
-      title: 'Updating your choices.',
-      message: 'Last updated',
+      title: 'Actualice sus opciones.',
+      message: 'Última actualización',
     },
     ballotAlreadyExists: {
-      title: 'Loading your ballot',
-      message: 'Last updated',
+      title: 'Cargue su boleta electoral',
+      message: 'Última actualización',
     },
   }
 };
