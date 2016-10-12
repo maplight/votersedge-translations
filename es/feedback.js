@@ -38,8 +38,13 @@ const feedbackTranslation = {
   },
   select_state: 'Elija un estado...',
   select_election_area: 'Elija un área elecciones...',
-  response: 'Gracias por sus comentarios.  Nos pondremos en contacto con usted para dar seguimiento en caso de ser necesario.'
-
+  response: 'Gracias por sus comentarios.  Nos pondremos en contacto con usted para dar seguimiento en caso de ser necesario.',
+  contactFormUrls: {
+    root: 'https://docs.google.com/a/maplight.org/forms/d/e/1FAIpQLScLeAjExwgLeNRX_5FeXJiXcGrdcvW2OT3SrqyIbhMAjPILCw/viewform',
+    ca: 'https://docs.google.com/a/maplight.org/forms/d/e/1FAIpQLSfcpQx1O-r5R3NGgw__kbp1BbRHuTzbNMnGxdkBSuZ-sjARTw/viewform',
+    ny: 'https://docs.google.com/a/maplight.org/forms/d/e/1FAIpQLSec6aR1TFm69FSP56filFihv3GRq8nxggtflhCxo2o2t6ZDXg/viewform',
+    il: 'https://docs.google.com/a/maplight.org/forms/d/e/1FAIpQLSeGb2AmU-dJcLdFDEOISxdkGSJ8Tv1BYaujnXXVF25shmx6OQ/viewform',
+  }
 };
 
 export default feedbackTranslation;
