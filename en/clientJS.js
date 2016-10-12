@@ -8,7 +8,7 @@ const clientJS  = {
   message: {
     manyCandidates: {
       title: 'Lots of candidates are running in this race.',
-      message: 'Use the ‘Compare Candidates’ feature to more easily review them.'
+      message: "Use 'Compare Candidates' to review them more easily.",
     }
   }
 };
