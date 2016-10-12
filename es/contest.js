@@ -11,15 +11,15 @@ const contestTranslation = {
     candidates_label: "¿Quién se está postulando?", // Translate
     candidates_random_label_results: {
       ca: {
-        active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"/ca/page/how-we-get-our-data#candidate-data\" target=\"blank\">Learn more.</a>", // Translate
+        active: "Se ordena a los candidatos de forma aleatoria según la cantidad de información que proporcionaron. <a href=\"/ca/page/how-we-get-our-data#candidate-data\" target=\"blank\">Obtenga más información.</a>", // Translate
         complete: 'Candidates are sorted in order of election results.',
       },
       il: {
-        active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"/il/page/how-we-get-our-data#candidate-data\" target=\"blank\">Learn more.</a>", // Translate
+        active: "Se ordena a los candidatos de forma aleatoria según la cantidad de información que proporcionaron. <a href=\"/il/page/how-we-get-our-data#candidate-data\" target=\"blank\">Obtenga más información.</a>", // Translate
         complete: 'Candidates are sorted in order of election results.',
       },
       ny: {
-        active: "Candidates are randomly ordered based on how much information they have supplied. <a href=\"/ny/page/how-we-get-our-data#candidate-data\" target=\"blank\">Learn more.</a>", // Translate
+        active: "Se ordena a los candidatos de forma aleatoria según la cantidad de información que proporcionaron. <a href=\"/ny/page/how-we-get-our-data#candidate-data\" target=\"blank\">Obtenga más información.</a>", // Translate
         complete: 'Candidates are sorted in order of election results.',
       },
     },
