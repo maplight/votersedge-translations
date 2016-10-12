@@ -180,14 +180,14 @@ const measureTranslation = {
         fiscal_effect: 'Efectos fiscales', // Translation exists
         supporters_say: 'Sus partidarios dicen', // Translation exists
         opponents_say: 'Sus oponentes dicen', // Translation exists
-        sourceLabel: 'Summary for new and busy voters',
+        sourceLabel: 'Resumen para los electores nuevos y ocupados',
       },
       pros_cons: {  // Translation already provided by LWVC
         label: 'Pros y Contras', // If translated, it exists already
         summary: 'Resumen',  // Translation exists
         background: 'Antecedentes',  // Translation exists
         financial_effect: 'Efectos fiscales',  // Translation exists
-        sourceLabel: 'Unbiased explanation with arguments for and against',
+        sourceLabel: 'Explicación objetiva con argumentos a favor y en contra',
       },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Información básica sobre la iniciativa de ley',
@@ -209,7 +209,7 @@ const measureTranslation = {
         funding: '¿Quién contribuye con el dinero?', // Translate
         more_info: 'Más información', // Translate
         message_content: 'Additional info',
-        sourceLabel: 'Official information about this measure',
+        sourceLabel: 'Información oficial sobre esta iniciativa',
       },
       intro: {
         details: 'Here is some helpful information about this ballot measure from trusted sources.',
