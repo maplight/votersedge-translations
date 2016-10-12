@@ -9,7 +9,8 @@ const widgetTranslation = {
   zipcode: 'Zip*',
   submit: 'Go',
   privacy: 'Privacy Policy',
-  embed: 'Embed this widget'
+  embed: 'Embed this widget',
+  wide: 'wide',
 };
 
 export default widgetTranslation;
