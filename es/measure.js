@@ -212,28 +212,28 @@ const measureTranslation = {
         sourceLabel: 'Información oficial sobre esta iniciativa',
       },
       intro: {
-        details: 'Here is some helpful information about this ballot measure from trusted sources.',
+        details: 'A continuación se proporciona información útil acerca de esta iniciativa de ley en la boleta electoral obtenida de fuentes confiables.',
       },
     },
     embedCard: {
       topContributors: {
-        label:  'Top Contributors',
-        yes: 'FOR',
-        no: 'AGAINST',
+        label:  'Mayores contribuyentes',
+        yes: 'A favor',
+        no: 'En contra',
         total_raised: 'total raised',
         total_raised_short: 'raised',
         multiple_contributors: 'Multiple contributors',
       },
       vote_means: {
         label: 'vote means',
-        yes: 'YES',
-        no: 'NO',
+        yes: 'Si',
+        no: 'No',
       }
     },
     fundingTranslation: {
       accordionLabels: {
-        contributions: 'Contributions',
-        moreInfoAboutContributions: 'More information about contributions',
+        contributions: 'Contribuciones',
+        moreInfoAboutContributions: 'Más información acerca de las contribuciones',
       },
       sourceLabel: {
         "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
