@@ -9,7 +9,7 @@ const widgetTranslation = {
   zipcode: 'Código Postal*',
   submit: 'Buscar',
   privacy: 'Politica de Privacidad',
-  embed: 'Inserta este widget',
+  embed: 'Integrar este widget',
   wide: 'de ancho',
 };
 
