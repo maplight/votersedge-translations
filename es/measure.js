@@ -245,7 +245,7 @@ const measureTranslation = {
       },
       totalMoneyRaisedLabel: "Dinero total recaudado", 
       totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
-      whoGaveMostMoneyTitle: "Who gave the most money?",
+      whoGaveMostMoneyTitle: "¿Quién dio más dinero?",
       whoGaveMostMoneyLabel: {
         "Federal": 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
         "State": {
@@ -292,7 +292,7 @@ const measureTranslation = {
           }
         },
         byType: {
-          label: 'By Type:',
+          label: 'Por tipo:',
           organizationsLabel: 'De organizaciones',
           individualsLabel: 'De individuos',
           tooltip: {
