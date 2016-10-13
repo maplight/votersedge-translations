@@ -113,6 +113,7 @@ const ballotOverviewTranslation = {
     choose_voting_info_label: "Obtenga información sobre <strong>cuándo, dónde y cómo votar</strong>", // Translate
     choices: "Mi lista", // Translate
     choices_get_ballot: '¿Desea mantener un registro de sus opciones de boleta electoral y hacer una lista para llevarla a las urnas?',
+    choices_go_to_my_list: 'Ir a mi lista',
     choices_learn_more: 'Obtenga más información',
     choices_get_started: 'comience',
     choices_get_started_separator: 'o',

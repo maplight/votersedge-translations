@@ -151,6 +151,7 @@ const ballotOverviewTranslation = {
     choices_get_started_separator: 'or',
     choices_progress_percentage_prefix: 'You are',
     choices_completed_label: 'Completed',
+    choices_go_to_my_list: 'Go to my list',
     choices_progress_percentage_suffix: 'of the way through your ballot.',
     choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
     noPollingLocationLabel: 'Polling Location & Hours', // Translate
