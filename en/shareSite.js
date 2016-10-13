@@ -4,6 +4,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // This appears on all pages near the footer area and also on candidate, contest and measure pages.
 
 const shareSiteTranslation = {
+
   twitterMessages: {
     root: 'Using @VotersEdge to get ready to vote! [!SPECIALHASHTAG]',
     ca: 'Using @VotersEdge to get ready to vote! #California [!SPECIALHASHTAG]',
@@ -100,6 +101,7 @@ const shareSiteTranslation = {
   },
   share_to_label: 'Please share this site to help others research their voting choices.', // Translate
   email_label: 'Send to Email', // Translate
+  share_to_email: 'Send choices & link to email',
   // email_message: 'You might like', // Translate
   copy_link_label: 'Copy a link', // Translate
   copy_link_instructions: 'Get a link to this page', // Translate

@@ -2,6 +2,9 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const measureTranslation = {
   measure: {
+    no_data_available: 'No data currently available',
+    bar_graph_label: 'Bar graph showing total amount relative to total amount for this entire campaign.',
+    no_information_available: 'No information available',
     information_provided_by: 'Information provided by',
     from: 'From',
     measureContestTitle: 'Ballot Measures',
