@@ -106,12 +106,12 @@ const notificationsTranslation = {
       'message': '',
     },
     updatingChoices: {
-      title: 'Updating your list.',
-      message: 'Last updated',
+      title: 'Actualice su lista.',
+      message: 'Última actualización',
     },
     ballotAlreadyExists: {
-      title: 'Loading your list.',
-      message: 'Last updated',
+      title: 'Cargue su lista.',
+      message: 'Última actualización',
     },
     replaceListWithURLChoices: {
       title: 'Loading a new list.',

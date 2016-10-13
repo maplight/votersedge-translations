@@ -5,7 +5,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 // QA: http://qa.votersedge.org
 
 const landingPageTranslation = {
-  sponsors_label: "Brought to you by", // Translate
+  sponsors_label: "Presentado por", // Translate
   intro: "Encuentre elecciones en estos estados.", // Translate
   features_label: "Qué puede hacer en Voter’s Edge", // Translate
   features: [

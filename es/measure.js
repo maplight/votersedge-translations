@@ -180,14 +180,14 @@ const measureTranslation = {
         fiscal_effect: 'Efectos fiscales', // Translation exists
         supporters_say: 'Sus partidarios dicen', // Translation exists
         opponents_say: 'Sus oponentes dicen', // Translation exists
-        sourceLabel: 'Summary for new and busy voters',
+        sourceLabel: 'Resumen para los electores nuevos y ocupados',
       },
       pros_cons: {  // Translation already provided by LWVC
         label: 'Pros y Contras', // If translated, it exists already
         summary: 'Resumen',  // Translation exists
         background: 'Antecedentes',  // Translation exists
         financial_effect: 'Efectos fiscales',  // Translation exists
-        sourceLabel: 'Unbiased explanation with arguments for and against',
+        sourceLabel: 'Explicación objetiva con argumentos a favor y en contra',
       },
       basics: { // Translation already provided by Secretary of State except where noted
         label: 'Información básica sobre la iniciativa de ley',
@@ -209,31 +209,31 @@ const measureTranslation = {
         funding: '¿Quién contribuye con el dinero?', // Translate
         more_info: 'Más información', // Translate
         message_content: 'Additional info',
-        sourceLabel: 'Official information about this measure',
+        sourceLabel: 'Información oficial sobre esta iniciativa',
       },
       intro: {
-        details: 'Here is some helpful information about this ballot measure from trusted sources.',
+        details: 'A continuación se proporciona información útil acerca de esta iniciativa de ley en la boleta electoral obtenida de fuentes confiables.',
       },
     },
     embedCard: {
       topContributors: {
-        label:  'Top Contributors',
-        yes: 'FOR',
-        no: 'AGAINST',
+        label:  'Mayores contribuyentes',
+        yes: 'A favor',
+        no: 'En contra',
         total_raised: 'total raised',
         total_raised_short: 'raised',
         multiple_contributors: 'Multiple contributors',
       },
       vote_means: {
         label: 'vote means',
-        yes: 'YES',
-        no: 'NO',
+        yes: 'Si',
+        no: 'No',
       }
     },
     fundingTranslation: {
       accordionLabels: {
-        contributions: 'Contributions',
-        moreInfoAboutContributions: 'More information about contributions',
+        contributions: 'Contribuciones',
+        moreInfoAboutContributions: 'Más información acerca de las contribuciones',
       },
       sourceLabel: {
         "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
@@ -247,11 +247,11 @@ const measureTranslation = {
       totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
       whoGaveMostMoneyTitle: "Who gave the most money?",
       whoGaveMostMoneyLabel: {
-        "Federal": 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+        "Federal": 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
         "State": {
-          ca: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
-          il: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
-          ny: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+          ca: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
+          il: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
+          ny: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
         }
       },
       whoGaveMostMoneyTooltip: {
@@ -319,7 +319,7 @@ const measureTranslation = {
     supportLabel: '¿Quién apoya esta propuesta y por qué?', // Translate
     costLabel: '¿Cuánto cuesta?', // Translate
     infoLabel: '¿Cómo puedo obtener más información?', // Translate
-    ballotVotingInfo: "On your actual ballot, you can vote 'yes' or 'no' on this measure.",
+    ballotVotingInfo: "En su boleta electoral real, puede votar 'sí' o 'no' por esta iniciativa.",
     addChoice: 'Add choice to my list.',
     screenReaderInstructions: "Use tabs to select your choice. Use return to create a choice. You can access your list by navigating to 'My List'.",
 
