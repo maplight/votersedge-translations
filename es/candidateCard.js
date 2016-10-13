@@ -2,7 +2,6 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the content associated with a candidate.
 const candidateCardTranslation = {
-  choiceCandidateAdded: 'Agregar un candidato a mi lista',
   no_photo_submitted: 'No photo provided.', //Translate
   no_info_submitted: 'No information provided.', //Translate
   encourage_candidate: 'Are you this candidate?', //Translate
@@ -130,7 +129,7 @@ const candidateCardTranslation = {
     moreInfoAboutContributions: 'Más información acerca de contribuciones',
     pieCharts: {
       byState: {
-        label: 'By State:',
+        label: 'Por estado:',
         tooltip: {
           "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
           "State": {
@@ -142,7 +141,7 @@ const candidateCardTranslation = {
         accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
       },
       bySize: {
-        label: 'By Size:',
+        label: 'Por tamaño:',
         largeContributionsLabel: 'Contribuciones grandes',
         smallContributionsLabel: 'Contribuciones pequeñas',
         tooltip: {
@@ -156,7 +155,7 @@ const candidateCardTranslation = {
         }
       },
       byType: {
-        label: 'By Type:',
+        label: 'Por tipo:',
         organizationsLabel: 'De organizaciones',
         individualsLabel: 'De individuos',
         tooltip: {
