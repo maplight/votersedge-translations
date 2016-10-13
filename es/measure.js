@@ -247,11 +247,11 @@ const measureTranslation = {
       totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
       whoGaveMostMoneyTitle: "Who gave the most money?",
       whoGaveMostMoneyLabel: {
-        "Federal": 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+        "Federal": 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
         "State": {
-          ca: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
-          il: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
-          ny: 'Below are the top 10 contributors that gave money to committees supporting or opposing the ballot measures.',
+          ca: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
+          il: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
+          ny: 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
         }
       },
       whoGaveMostMoneyTooltip: {
