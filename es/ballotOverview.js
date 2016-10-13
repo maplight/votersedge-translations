@@ -27,34 +27,6 @@ const ballotOverviewTranslation = {
         page_title_description: 'Candidate & Ballot Measure Voter Guide',
         card_title: '',
         card_title_description: 'Get the facts before you vote.',
-        // twitter_templates: {
-        //   default: {
-        //     landingPage: 'Get the facts before you vote. ',
-        //     ballotOverview: 'Get the facts before you vote. ',
-        //     ballotOverviewAlt: 'Get the facts before you vote. ',
-        //     votingInfo: 'Get the facts before you vote. ',
-        //   },
-        //   il: {
-        //     landingPage: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-        //     ballotOverview: 'Ready for the Illinois Primary Election on March 15th? I accessed my ballot with ',
-        //     ballotOverviewAlt: 'The Illinois Primary Election is March 15th. Get the facts before you vote ',
-        //     votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
-        //   },
-        //   ca: {
-        //     landingPage: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-        //     ballotOverview: 'Ready for California Elections? I accessed my ballot with ',
-        //     ballotOverviewAlt: 'Get the facts before you vote ',
-        //     votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
-        //   },
-        //   ny: {
-        //     landingPage: 'Nonpartisan election guide. Find your ballot with key information on candidates and measures.',
-        //     ballotOverview: 'Ready for New York Elections? I accessed my ballot with ',
-        //     ballotOverviewAlt: 'Get the facts before you vote ',
-        //     votingInfo: 'Need info on voter registration, polling locations, election dates, and more? ',
-        //   }
-        // },
-        // facebook: '',
-        // email: '',
       },
       contest: {
         page_title: 'Ballot',

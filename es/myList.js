@@ -142,7 +142,6 @@ const myListTranslation = {
     ],
    // Translate
   choices_explanation:
-
       `
       <p>         Debido a que frecuentemente las boletas electorales son largas y complicadas, Voter's Edge le brinda una herramienta para ayudarle a dar seguimiento a sus opciones.         <a href="#" data-toggle="modal" data-target="#myListInstructions"> Obtenga más información.         </a>       </p>
       <div class="modal fade" id="myListInstructions" tabIndex="-1" role="dialog" aria-labelledby="myListInstructionsLabel" aria-hidden="true">
@@ -171,8 +170,6 @@ const myListTranslation = {
           </div>
         </div>
       </div>
-
-
 `,
 
 };

@@ -87,11 +87,6 @@ const footerTranslation = {
       link: "contact-us", // No translation
       status: "published", // No translation
     },
-    // {
-    //   label: "Questions",
-    //   link: "page/support-questions",
-    //   status: "published",
-    // },
     {
       label: "Contribuya", // Translate
       link: "https://donatenow.networkforgood.org/votersedge?code=votersedge", // No translation

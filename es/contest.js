@@ -146,10 +146,6 @@ const contestTranslation = {
         'suffix': 'candidatos totales.'
       }
     },
-    // voteForPrompt: {
-    //   single: `Puede votar por ${office.contestType.vote_for_count} candidato.`, // Translate just the text
-    //   multiple: `Puede votar por ${office.contestType.vote_for_count} candidatos.` // Translate just the text
-    // }
 };
 
 export default contestTranslation;

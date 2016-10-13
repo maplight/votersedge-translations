@@ -1,7 +1,6 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const searchTranslation  = {
-  // pageTitle: 'Elija una boleta electoral para una elección', // Translate // New
   pageTitle: 'Voter Guide - Candidate & Ballot Information',
   intro: "Encuentre información detallada sobre lo que incluye su boleta electoral.", // Translate
   path: '/search', // No translation
@@ -68,8 +67,6 @@ const searchTranslation  = {
       recent_message_2: 'También encontramos estas elecciones pasadas:', // Translate
       recent_message_no_upcoming_1: 'Based on your search, we were able to find information on this past election. Check back soon for upcoming election information or select the ballot you would like to see.', // Translate
       recent_message_no_upcoming_2: 'Based on your search, we were able to find information on only past elections. Check back soon for upcoming election information or select the ballot you would like to see.', // Translate
-//      recent_message_no_upcoming_1: 'Aquí está la elección más reciente para ', // Translate
-//      recent_message_no_upcoming_2: 'Aquí están algunas elecciones recientes para ', // Translate
       choose_ballot: 'Elija qué boleta electoral desea consultar.', // Translate
       election_archive: '¿Busca una elección anterior? Consulte los ', // Translate
       election_archive_label: 'archivos.', // Translate
