@@ -94,7 +94,7 @@ const candidateCardTranslation = {
   },
   fundingTranslation: {
     accordionLabels: {
-      contributions: 'Contributions',
+      contributions: 'Contribuciones',
       moreInfoAboutContributions: 'More information about contributions',
     },
     sourceLabel: {
