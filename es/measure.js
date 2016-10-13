@@ -320,7 +320,7 @@ const measureTranslation = {
     costLabel: '¿Cuánto cuesta?', // Translate
     infoLabel: '¿Cómo puedo obtener más información?', // Translate
     ballotVotingInfo: "En su boleta electoral real, puede votar 'sí' o 'no' por esta iniciativa.",
-    addChoice: 'Add choice to my list.',
+    addChoice: 'Agregar una opción a mi lista.',
     screenReaderInstructions: "Use tabs to select your choice. Use return to create a choice. You can access your list by navigating to 'My List'.",
 
   }

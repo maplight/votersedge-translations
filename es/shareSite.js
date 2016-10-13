@@ -100,6 +100,7 @@ const shareSiteTranslation = {
   },
   share_to_label: 'Comparta este sitio para ayudar a otros a investigar sus opciones para las votaciones.', // Translate
   email_label: 'Enviar por correo electrónico', // Translate
+  share_to_email: 'Send choices & link to email',
   // email_message: 'Le podría gustar', // Translate
   copy_link_label: 'Copiar un enlace', // Translate
   copy_link_instructions: 'Obtener un enlace para esta página', // Translate
