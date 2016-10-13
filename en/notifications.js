@@ -106,14 +106,29 @@ const notificationsTranslation = {
       'message': '',
     },
     updatingChoices: {
-      title: 'Updating your choices.',
+      title: 'Updating your list.',
       message: 'Last updated',
     },
     ballotAlreadyExists: {
-      title: 'Loading your ballot',
+      title: 'Loading your list.',
       message: 'Last updated',
     },
-  }
+    replaceListWithURLChoices: {
+      title: 'Loading a new list.',
+      message: 'Current list last updated',
+      replaceBallotPrompt: 'You already have a list with choices, would you like to replace it with this new list?<div class="local-remote-ballot"><a class="replace-ballot" tabindex="0">Yes</a><a class="skip-replace-ballot" tabIndex="0">No</a></div>',
+    },
+    deleteAllBallotChoices: {
+      title: 'Delete all your ballot choices?',
+      message: '',
+      yes: 'Yes',
+      no: 'No',
+    },
+    ballotChoicesRemoved: {
+      title: 'Your ballot choices have been removed.',
+      message: ''
+    }
+  },
 };
 
 export default notificationsTranslation;
