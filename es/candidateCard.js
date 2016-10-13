@@ -56,7 +56,7 @@ const candidateCardTranslation = {
     answer_label: 'Respuesta de', //Translate
     profession: 'Profesión:', //Translate
     official_statement: 'Declaración oficial',
-    who_funds_candidate: 'Who gave money to this candidate?', //Translate
+    who_funds_candidate: '¿Quién proporcionó dinero a este candidato?', //Translate
     who_supports_candidate: '¿Quién apoya a este candidato?', //Translate
     candidate_contact_info: 'Información de contacto del candidato', //Translate
     experienceLabels: {
@@ -82,7 +82,7 @@ const candidateCardTranslation = {
     },
     sourceLabels: {
       officialStatement: 'Researched by Voter’s Edge',
-      funding: 'Analysis by Maplight',
+      funding: 'Análisis realizado por Maplight',
       judicial: 'Researched by Voter’s Edge',
     },
   },
