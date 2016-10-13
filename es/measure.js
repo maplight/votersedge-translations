@@ -2,9 +2,6 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const measureTranslation = {
   measure: {
-    no_data_available: 'No data currently disponible',
-    bar_graph_label: 'Bar graph showing total amount relative to total amount for this entire campaign.',
-    no_information_available: 'No hay información disponible',
     information_provided_by: 'Fuente:',
     from: 'Fuente:',
     measureContestTitle: 'Ballot Measures',
@@ -239,14 +236,14 @@ const measureTranslation = {
         moreInfoAboutContributions: 'Más información acerca de las contribuciones',
       },
       sourceLabel: {
-        "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
+        "Federal": 'Fuente: Análisis de datos de la Comisión Federal Electoral de MapLight.',
         "State": {
-          ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
-          il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
-          ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
-        }
+        ca: 'Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight.', 
+        il: 'Fuente: Análisis de datos de la Secretaría del Estado de Illinois de MapLight.',
+        ny: 'Fuente: Análisis de datos de la Secretaría del Estado de New York de MapLight.',
+      }
       },
-      totalMoneyRaisedLabel: "Total money raised", //Translate
+      totalMoneyRaisedLabel: "Dinero total recaudado", 
       totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
       whoGaveMostMoneyTitle: "Who gave the most money?",
       whoGaveMostMoneyLabel: {
@@ -265,11 +262,11 @@ const measureTranslation = {
           ny: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
         }
       },
-      whoGaveMostMoneyOrganizations: 'Organizations',
-      whoGaveMostMoneyIndividuals: 'Individuals',
+      whoGaveMostMoneyOrganizations: 'Organizaciones',
+      whoGaveMostMoneyIndividuals: 'Individuos',
       pieCharts: {
         byState: {
-          label: 'By State:',
+          label: 'Por estado:',
           tooltip: {
             "Federal": 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
             "State": {
@@ -281,23 +278,23 @@ const measureTranslation = {
           accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
         },
         bySize: {
-          label: 'By Size:',
-          largeContributionsLabel: 'Large contributions',
-          smallContributionsLabel: 'Small contributions',
+          label: 'Por tamaño:',
+          largeContributionsLabel: 'Contribuciones grandes',
+          smallContributionsLabel: 'Contribuciones pequeñas',
           tooltip: {
-            "Federal": 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-            "State": {
-              ca: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-              ny: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-              il: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-            },
-            accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.' // Translate
+          "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
+          "State": {
+            ca: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
+            ny: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', 
+            il: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
+          },
+            accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.'
           }
         },
         byType: {
           label: 'By Type:',
-          organizationsLabel: 'From organizations',
-          individualsLabel: 'From individuals',
+          organizationsLabel: 'De organizaciones',
+          individualsLabel: 'De individuos',
           tooltip: {
             "Federal": 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
             "State": {
@@ -323,7 +320,7 @@ const measureTranslation = {
     costLabel: '¿Cuánto cuesta?', // Translate
     infoLabel: '¿Cómo puedo obtener más información?', // Translate
     ballotVotingInfo: "En su boleta electoral real, puede votar 'sí' o 'no' por esta iniciativa.",
-    addChoice: 'Agregar una opción a mi lista.',
+    addChoice: 'Add choice to my list.',
     screenReaderInstructions: "Use tabs to select your choice. Use return to create a choice. You can access your list by navigating to 'My List'.",
 
   }
