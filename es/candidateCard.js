@@ -95,7 +95,7 @@ const candidateCardTranslation = {
   fundingTranslation: {
     accordionLabels: {
       contributions: 'Contribuciones',
-      moreInfoAboutContributions: 'More information about contributions',
+      moreInfoAboutContributions: 'Más información acerca de contribuciones',
     },
     sourceLabel: {
       "Federal": 'Fuente: Análisis de datos de la Comisión Federal Electoral de MapLight.', // Translate
@@ -124,9 +124,9 @@ const candidateCardTranslation = {
         ny: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
       }
     },
-    whoGaveMostMoneyOrganizations: 'Organizations',
-    whoGaveMostMoneyIndividuals: 'Individuals',
-    moreInfoAboutContributions: 'More information about contributions',
+    whoGaveMostMoneyOrganizations: 'Organizaciones',
+    whoGaveMostMoneyIndividuals: 'Individuos',
+    moreInfoAboutContributions: 'Más información acerca de contribuciones',
     pieCharts: {
       byState: {
         label: 'By State:',
