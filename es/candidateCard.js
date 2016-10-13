@@ -33,7 +33,7 @@ const candidateCardTranslation = {
     candidate_no_info_encourage: 'Ponerse en contacto con ellos para fomentar la participación.', //Translate
     researched_data: 'Investigó por Voter’s Edge.',
   },
-  question_source_label: 'Questions from',
+  question_source_label: 'Preguntas de',
   screenreader: {
     accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
   },
@@ -99,22 +99,22 @@ const candidateCardTranslation = {
       moreInfoAboutContributions: 'More information about contributions',
     },
     sourceLabel: {
-      "Federal": 'Source: MapLight analysis of data from the Federal Election Commission.', // Translate
+      "Federal": 'Fuente: Análisis de datos de la Comisión Federal Electoral de MapLight.', // Translate
       "State": {
-        ca: 'Source: MapLight analysis of data from the California Secretary of State.', // Translate text but not names
-        il: 'Source: MapLight analysis of data from the Illinois Secretary of State.', // Translate text but not names
-        ny: 'Source: MapLight analysis of data from the New York Secretary of State.', // Translate text but not names
+        ca: 'Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight.', // Translate text but not names
+        il: 'Fuente: Análisis de datos de la Secretaría del Estado de Illinois de MapLight.', // Translate text but not names
+        ny: 'Fuente: Análisis de datos de la Secretaría del Estado de New York de MapLight.', // Translate text but not names
       }
     },
     totalMoneyRaisedLabel: "Dinero total recaudado", //Translate
     totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, candidates’ principal campaign committees for the given office within this election cycle. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.',
-    whoGaveMostMoneyTitle: "Who gave the most money?",
+    whoGaveMostMoneyTitle: "¿Quién dio más dinero??",
     whoGaveMostMoneyLabel: {
-      "Federal": 'Below are the top contributors that gave money to support the candidate(s).',
+      "Federal": 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s).',
       "State": {
-        ca: 'Below are the top contributors that gave money to support the candidate(s).',
-        il: 'Below are the top contributors that gave money to support the candidate(s).',
-        ny: 'Below are the top contributors that gave money to support the candidate(s).',
+        ca: 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s).',
+        il: 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s).',
+        ny: 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s).',
       }
     },
     whoGaveMostMoneyTooltip: {
@@ -143,22 +143,22 @@ const candidateCardTranslation = {
       },
       bySize: {
         label: 'By Size:',
-        largeContributionsLabel: 'Large contributions',
-        smallContributionsLabel: 'Small contributions',
+        largeContributionsLabel: 'Contribuciones grandes',
+        smallContributionsLabel: 'Contribuciones pequeñas',
         tooltip: {
-          "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+          "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
           "State": {
-            ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-            ny: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',  // currently n/a ?
-            il: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.', // currently n/a ?
+            ca: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
+            ny: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',  // currently n/a ?
+            il: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', // currently n/a ?
           },
-          accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.' // Translate
+          accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a contribuciones grandes y pequeñas.' // Translate
         }
       },
       byType: {
         label: 'By Type:',
-        organizationsLabel: 'From organizations',
-        individualsLabel: 'From individuals',
+        organizationsLabel: 'De organizaciones',
+        individualsLabel: 'De individuos',
         tooltip: {
           "Federal": 'Large contributions (over $200) can be made by organizations through their political action committees (PACs) or by individuals.',
           "State": {
@@ -167,7 +167,7 @@ const candidateCardTranslation = {
             il: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.', // currently n/a ?
           }
         },
-        accessible_label: 'A pie chart containing color-coded sections corresponding to contributions from organizations and individuals.' // Translate
+        accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a contribuciones de organizaciones y de individuos.' // Translate
       },
     }
   }
