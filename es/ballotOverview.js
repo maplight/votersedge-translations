@@ -399,7 +399,7 @@ const ballotOverviewTranslation = {
         },
         {
           iconFileName: '', // No translation
-          tooltip: '¡Nueva función! Seguimos probando esta función; háganos saber su opinión.', // Translate
+          tooltip: '', // Translate
           label: 'Mi Lista', // Translate
           link: 'choices', // 'choices'  // No translation
           section: 'choices', // No translation
