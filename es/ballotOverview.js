@@ -126,7 +126,7 @@ const ballotOverviewTranslation = {
     choices_progress_percentage_prefix: 'Lleva el',
     choices_progress_percentage_suffix: 'de su boleta electoral.',
     choices_completed_label: 'completado',
-    choices_label: "<p>Review the candidates and measures on your ballot, mark your choices, and then send your list to your email or printer, or copy the link to your phone.</p>", // Translate
+    choices_label: "<p>Revise los candidatos y las iniciativas de ley en la boleta, marque sus selecciones y luego envíe la lista a su correo electrónico o impresora, o copie el enlace en su teléfono.</p>", // Translate
     noPollingLocationLabel: "Ubicación del lugar de votación y horario", // Translate
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
     pollingLocationLookupToolLink: "Verifique la ubicación de su lugar de votación con la oficina electoral de su condado.", // Translate
