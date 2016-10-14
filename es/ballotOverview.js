@@ -131,7 +131,7 @@ const ballotOverviewTranslation = {
     noPollingLocationLookup: "<p><strong>¿Desea buscar su lugar de votación?</strong></p> <p></p>", // Translate
     pollingLocationLookupToolLink: "Verifique la ubicación de su lugar de votación con la oficina electoral de su condado.", // Translate
     noPollingLocationLookupToolLink: "There is no polling location look up available from your county elections office.", // Translate
-    contactCountyElectionsOffice: 'Contact county elections office',
+    contactCountyElectionsOffice: 'Póngase en contacto con la oficina electoral del condado',
     pollingLocationLabel: "La ubicación de su lugar de votación y horario", // Translate
     noPollingLocationMessage: 'No hay información disponible sobre la ubicación del lugar de votación.',
     noPollingLocationMessageZipMessage: 'No hay información disponible sobre la ubicación del lugar de votación en una búsqueda por código postal.',
