@@ -138,6 +138,9 @@ const shareSiteTranslation = {
     email: 'Send to email', // Translate
     copy_link: 'Copy a link', // Translate
   },
+  screenreader: {
+    get_link_to_share: 'Get a link to share',
+  },
   icon_labels: {
     facebook: 'Facebook',
     twitter: 'Twitter',
