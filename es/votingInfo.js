@@ -17,7 +17,7 @@ const votingInfoTranslation = {
       il: null,
       ny: null
     },
-    share_ballot_label: 'Share This Page',
+    share_ballot_label: 'Comparte esta página',
 };
 
 export default votingInfoTranslation;
