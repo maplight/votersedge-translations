@@ -5,7 +5,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const headerTranslation = {
   translation_message: '¡La traducción viene muy pronto!',
-  to_top: 'Go to top',
+  to_top: 'Ir al principio',
   donate_button: {
     label: 'Contribuya',
     icon: 'fa-gift',
