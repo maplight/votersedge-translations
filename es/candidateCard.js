@@ -133,11 +133,11 @@ const candidateCardTranslation = {
       byState: {
         label: 'Por estado:',
         tooltip: {
-          "Federal": 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+          "Federal": 'Esta gráfica muestra los estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
           "State": {
-            ca: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
-            ny: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
-            il: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+            ca: 'Esta gráfica muestra los estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+            ny: 'Esta gráfica muestra los estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+            il: 'Esta gráfica muestra los estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
           }
         },
         accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
