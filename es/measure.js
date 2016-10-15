@@ -33,7 +33,7 @@ const measureTranslation = {
     screenreader: {
       accordion: 'To learn more about measures, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
     },
-    measure_not_found: 'Could not find that measure.',
+    measure_not_found: 'No se pudo encontrar esa iniciativa de ley.',
     sourceLabel: 'Fuente: ', // Translate
     endorsements_label: {
       organization: 'Organización', // Translate
@@ -59,8 +59,8 @@ const measureTranslation = {
       back: "Atrás",
       last: "Última contienda",
       overview: "Resumen",
-      choices: 'Go to My List',
-      contest: 'Next: Go to Candidates'
+      choices: 'Ir a Mi Lista',
+      contest: 'Siguente: Ir al candidatos'
     },
      election_results_analysis: {
       election_status_complete: {
@@ -134,19 +134,19 @@ const measureTranslation = {
     // Easy Voter Guide in Spanish: http://www.easyvoterguide.org/wp-content/uploads/2010/09/EVG-Nov14-Sp-final.pdf
     contestLabels: {
       contest_links: {
-        label: 'Additional Resources',
+        label: 'Recursos addicionales',
       },
       news: {
-        label: 'News'
+        label: 'Noticias'
       },
       video: {
         label: 'Videos'
       },
       events: {
-        label: 'Events',
+        label: 'Eventos',
       },
       additional_info: {
-        label: 'Additional Info',
+        label: 'Más información',
       }
     },
     accordionLabels: {
@@ -244,7 +244,7 @@ const measureTranslation = {
       }
       },
       totalMoneyRaisedLabel: "Dinero total recaudado", 
-      totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, committees formed primarily to support or oppose the given ballot measure within this election cycle.',
+      totalMoneyRaisedTooltip: 'Estos montos reflejan el dinero proporcionado a, e informado por, los comités formados principalmente para apoyar u oponerse a la iniciativa de ley en la boleta en cuestión en este ciclo de elecciones.',
       whoGaveMostMoneyTitle: "¿Quién dio más dinero?",
       whoGaveMostMoneyLabel: {
         "Federal": 'A continuación, están los primeros 10 contribuyentes que dieron más dinero a los comités que apoyan o se oponen a la(s) iniciativa(s) de ley.',
@@ -255,11 +255,11 @@ const measureTranslation = {
         }
       },
       whoGaveMostMoneyTooltip: {
-        "Federal": 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+        "Federal": 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
         "State": {
-          ca: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
-          il: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
-          ny: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+          ca: 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
+          il: 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
+          ny: 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
         }
       },
       whoGaveMostMoneyOrganizations: 'Organizaciones',
@@ -268,11 +268,11 @@ const measureTranslation = {
         byState: {
           label: 'Por estado:',
           tooltip: {
-            "Federal": 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+            "Federal": 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este iniciativa de ley. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
             "State": {
-              ca: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-              ny: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-              il: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              ca: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este iniciativa de ley. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+              ny: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este iniciativa de ley. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+              il: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este iniciativa de ley. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
             }
           },
           accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
@@ -296,18 +296,18 @@ const measureTranslation = {
           organizationsLabel: 'De organizaciones',
           individualsLabel: 'De individuos',
           tooltip: {
-            "Federal": 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+            "Federal": 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
             "State": {
-              ca: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
-              ny: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
-              il: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
+              ca: 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
+              ny: 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
+              il: 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
             }
           },
           accessible_label: 'A pie chart containing color-coded sections corresponding to contributions from organizations and individuals.' // Translate
         },
       }
     },
-    contest_message_additional_info: 'Please see Additional Info to learn more.',
+    contest_message_additional_info: 'Las contribuciones grandes (más de $200) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
     sectionTitle: "Iniciativas de ley", // Translate
     measureDescriptionLabel: "Acerca de esta iniciativa de ley", // Translate
     my_choices: "¿Apoya esta propuesta?", // Translate
