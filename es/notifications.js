@@ -8,13 +8,13 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const notificationsTranslation = {
   notifications: {
     'getStartedActiveUser': {
-      title: '¿Quiere mantener <a href="[!CHOICEPAGEURL]">un registro</a> de sus opciones para la boleta electoral?',
+      title: '¿Quiere mantener un registro de sus opciones para la boleta electoral?',
       message: 'Use \'Mi lista\'.',
       delay: 1000,
       length: 7000
     },
     'beginContest': {
-      title: 'Dé seguimiento a los candidatos al agregarlos a <a href="[!CHOICEPAGEURL]">su lista.</a>',
+      title: 'Dé seguimiento a los candidatos al agregarlos a su lista.',
       message: '',
     },
     'beginMeasure': {
@@ -26,7 +26,7 @@ const notificationsTranslation = {
       message: ''
     },
     'createList': {
-      title: 'Seleccione una contienda para empezar a añadir opciones a <a href="[!CHOICEPAGEURL]">la lista.</a>',
+      title: 'Seleccione una contienda para empezar a añadir opciones a la lista.',
       message: '',
     },
     'firstChoiceMade': {
@@ -43,11 +43,11 @@ const notificationsTranslation = {
     },
     'contestsCompletedDone': {
       title: 'Tomó una decisión para todas las contiendas de candidatos en su lista.',
-      message: 'Now you can move on to <a href="[!CHOICEPAGEURL]">\'My List.\'</a>',
+      message: 'Now you can move on to \'My List.\'',
     },
     'contestViewsCompleted': {
       title: 'Ya consultó todas las contiendas en su boleta electoral.',
-      message: 'Parece que no tomó decisiones para todas las contiendas. Ir a <a href="[!CHOICEPAGEURL]">\'Mi lista\'</a> para ver en cuáles no ha tomado decisiones.',
+      message: 'Parece que no tomó decisiones para todas las contiendas. Ir a \'Mi lista\' para ver en cuáles no ha tomado decisiones.',
     },
     'measuresChoicesCompleted':{
       title: 'Tomó una decisión para todas las iniciativas de ley en su lista. ',
@@ -55,19 +55,19 @@ const notificationsTranslation = {
     },
     'measureViewsCompleted': {
       title: 'Ya consultó todas las iniciativas de ley en su boleta electoral.',
-      message: 'Parece que no tomó decisiones para todas las iniciativas de ley. Ir a <a href="[!CHOICEPAGEURL]">\'Mi lista\'</a> para ver en cuáles no ha tomado decisiones.',
+      message: 'Parece que no tomó decisiones para todas las iniciativas de ley. Ir a \'Mi lista\' para ver en cuáles no ha tomado decisiones.',
     },
     'measuresCompletedDone':{
       title: 'Tomó una decisión para todas las iniciativas de ley en su lista.',
-      message: 'Now you can move on to <a href="[!CHOICEPAGEURL]">\'My List.\'</a>',
+      message: 'Now you can move on to \'My List.\'',
     },
     'choicesHalfwayCompleted':{
       title: 'Está a la mitad de su lista.',
-      message: 'Continúe o copie un enlace para guardar <a href="[!CHOICEPAGEURL]" target="_blank">su lista</a> y terminar después.',
+      message: 'Continúe o copie un enlace para guardar su lista y terminar después.',
     },
     'allContestsCompleted':{
       title: '¡Felicidades!',
-      message: '<a href="[!CHOICEPAGEURL]">Su lista</a> está completa. Para consultarla después, imprímala o envíese un enlace.'
+      message: 'Su lista está completa. Para consultarla después, imprímala o envíese un enlace.'
     },
     'shareFacebookOverlay':{
       title: 'Anime a sus amigos a votar al añadir una etiqueta a su foto de perfil de Facebook.',
@@ -86,7 +86,7 @@ const notificationsTranslation = {
       message: '',
     },
     moreCandidatesAdded: {
-      'title': 'El candidato se añadió a <a href="[!CHOICEPAGEURL]">su lista.</a>',
+      'title': 'El candidato se añadió a su lista.',
       'message': 'Nota: Más candidatos añadidos para este cargo por los que podrá votar.'
     },
     candidateAdded: {
@@ -127,14 +127,7 @@ const notificationsTranslation = {
     ballotChoicesRemoved: {
       title: 'Your ballot choices have been removed.',
       message: ''
-    },
-    welcomeContentPage: {
-      title: '¡Bienvenido!',
-      message: '¡Visite la página principal para acceder a su boleta electoral personalizada o vaya a la perspectiva general para ver más candidatos e iniciativas de ley para esta boleta!',
-      length: 6000,
-      delay: 10,
-      // position: 'center',
-    },
+    }
   }
 };
 

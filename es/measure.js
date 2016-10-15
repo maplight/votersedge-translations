@@ -206,7 +206,7 @@ const measureTranslation = {
         read_proposed_legislation: 'Leer la legislación propuesta', // Translate
         what_is_proposal: '¿Qué es esta propuesta?', // Translate
         endorsements: '¿Quién está a favor y en contra de esta iniciativa de ley?', // Translate
-        funding: '¿Quién contribuyó?', // Translate
+        funding: '¿Quién proporcionó dinero?', // Translate
         more_info: 'Más información', // Translate
         message_content: 'Additional info',
         sourceLabel: 'Información oficial sobre esta iniciativa',
