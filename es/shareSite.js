@@ -138,7 +138,7 @@ const shareSiteTranslation = {
     copy_link: 'Copiar un enlace', // Translate
   },
   screenreader: {
-    get_link_to_share: 'Get a link to share',
+    get_link_to_share: 'Obtener un enlace para compartir',
   },
   icon_labels: {
     facebook: 'Facebook',
