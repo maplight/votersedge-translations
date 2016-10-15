@@ -11,7 +11,7 @@ const notificationsTranslation = {
       title: '¿Quiere mantener un registro de sus opciones para la boleta electoral?',
       message: 'Use \'Mi lista\'.',
       delay: 1000,
-      length: 7000
+      length: 4000
     },
     'beginContest': {
       title: 'Dé seguimiento a los candidatos al agregarlos a su lista.',
@@ -127,7 +127,15 @@ const notificationsTranslation = {
     ballotChoicesRemoved: {
       title: 'Your ballot choices have been removed.',
       message: ''
-    }
+    },
+    welcomeContentPage: {
+      title: '¡Bienvenido!',
+      message: '¡Visite la página principal para acceder a su boleta electoral personalizada o vaya a la perspectiva general para ver más candidatos e iniciativas de ley para esta boleta!',
+      length: 4000,
+      delay: 10,
+      // position: 'center',
+    },
+
   }
 };
 

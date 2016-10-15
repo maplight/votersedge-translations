@@ -11,7 +11,7 @@ const notificationsTranslation = {
       title: 'Want to keep track of your ballot choices?',
       message: ' Use \'My List.\'',
       delay: 1000,
-      length: 7000
+      length: 4000
     },
     'beginContest': {
       title: 'Keep track of candidates by adding them to your list.',
@@ -127,7 +127,14 @@ const notificationsTranslation = {
     ballotChoicesRemoved: {
       title: 'Your ballot choices have been removed.',
       message: ''
-    }
+    },
+     welcomeContentPage: {
+        title: 'Welcome!',
+        message: 'Visit the homepage to access your personalized ballot or go to the overview to see more candidates and measures for this ballot!',
+        length: 4000,
+        delay: 10,
+        // position: 'center',
+      },
   },
 };
 

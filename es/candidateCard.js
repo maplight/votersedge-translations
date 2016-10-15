@@ -14,7 +14,7 @@ const candidateCardTranslation = {
     label_no_social: '¿Conoce al candidato? Cuéntele sobre Voter’s Edge',
     label_thank_you: 'Agradezca al candidato por compartir su información en Voter’s Edge.',
     tweet: {
-      label: 'Tweet @ este candidato',
+      label: 'Twittear @ este candidato',
       participatingTweet: '.[!CANDIDATEHANDLE] Your @VotersEdge profile helped me learn about your candidacy. Thank you!',
       notParticipatingTweet: '.[!CANDIDATEHANDLE] I’m preparing to vote and would like to see more info on your @VotersEdge profile!'
     },
