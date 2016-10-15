@@ -131,9 +131,9 @@ const candidateCardTranslation = {
       byState: {
         label: 'Por estado:',
         tooltip: {
-          "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+          "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $200. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
           "State": {
-            ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+            ca: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
             ny: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
             il: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
           }
