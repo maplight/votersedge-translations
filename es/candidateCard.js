@@ -2,15 +2,15 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the content associated with a candidate.
 const candidateCardTranslation = {
-  no_photo_submitted: 'No photo provided.', //Translate
-  no_info_submitted: 'No information provided.', //Translate
-  encourage_candidate: 'Are you this candidate?', //Translate
+  no_photo_submitted: 'No se proporcionó fotografía.', //Translate
+  no_info_submitted: 'No se proporcionó información.', //Translate
+  encourage_candidate: '¿Usted es el candidato?', //Translate
   encourage_candidate_link: 'http://join.votersedge.org', //Translate
-  encourage_candidate_action: 'Add more info.', //Translate
+  encourage_candidate_action: 'Agregue más información', //Translate
   message_candidate: {
-    label: 'Encourage candidate to share their information on Voter’s Edge.',
-    label_no_social: 'Know this candidate? Tell them about Voter’s Edge.',
-    label_thank_you: 'Thank candidate for sharing their information on Voter’s Edge.',
+    label: 'Anime al candidato a compartir su información en Voter’s Edge.',
+    label_no_social: '¿Conoce al candidato? Cuéntele sobre Voter’s Edge',
+    label_thank_you: 'Agradezca al candidato por compartir su información en Voter’s Edge.',
     tweet: {
       label: 'Tweet @ this candidate',
       participatingTweet: '.[!CANDIDATEHANDLE] Your @VotersEdge profile helped me learn about your candidacy. Thank you!',
@@ -34,7 +34,7 @@ const candidateCardTranslation = {
   },
   question_source_label: 'Preguntas de',
   screenreader: {
-    accordion: 'For more in-depth information on this candidate, follow the links for each tab in this section. For most screenreaders, you can hit Return or Enter to enter a tab and read the content within.'
+    accordion: 'Para obtener más información a fondo sobre este candidato, siga los enlaces de cada pestaña en esta sección. En la mayoría de los lectores de pantalla, puede presionar Regresar o Ingresar para entrar a una pestaña y leer el contenido.'
   },
   candidate_website_label: 'Visite el sitio web del candidato', //Translate
   accordionLabels: {
@@ -81,16 +81,16 @@ const candidateCardTranslation = {
       elected_official: 'Funcionarios electos', //Translate
     },
     sourceLabels: {
-      officialStatement: 'Researched by Voter’s Edge',
+      officialStatement: 'Investigó por Voter’s Edge',
       funding: 'Análisis realizado por Maplight',
-      judicial: 'Researched by Voter’s Edge',
+      judicial: 'Investigó por Voter’s Edge',
     },
   },
   embedCard: {
-    endorsementsLabel: 'Endorsements',
-    top3PrioritiesLabel: 'Top 3 Priorities',
-    fundingLabel: 'Top 3 Donors',
-    noEndorsements: 'No endorsement information available',
+    endorsementsLabel: 'Respaldos',
+    top3PrioritiesLabel: 'Las 3 prioridades principales',
+    fundingLabel: 'Los 3 donadores principales',
+    noEndorsements: 'No hay información disponible sobre respaldos',
   },
   fundingTranslation: {
     accordionLabels: {
@@ -106,7 +106,7 @@ const candidateCardTranslation = {
       }
     },
     totalMoneyRaisedLabel: "Dinero total recaudado", //Translate
-    totalMoneyRaisedTooltip: 'These amounts reflect the money given to, and reported by, candidates’ principal campaign committees for the given office within this election cycle. This does not include money given to other types of committees, such as Super PACs that support or oppose the candidate.',
+    totalMoneyRaisedTooltip: 'Estas cantidades reflejan el dinero proporcionado a, y reportado por, los comités principales de campaña de los candidatos para el puesto específico en este ciclo de elecciones. Esto no incluye el dinero proporcionado a otros tipos de comités, como los supercomités de acción política (Political Action Committee, PAC) que apoyan al candidato o que se oponen a él.',
     whoGaveMostMoneyTitle: "¿Quién dio más dinero??",
     whoGaveMostMoneyLabel: {
       "Federal": 'A continuación, le presentamos los mayores contribuyentes que dieron dinero para apoyar al (a los) candidato(s).',
@@ -117,11 +117,11 @@ const candidateCardTranslation = {
       }
     },
     whoGaveMostMoneyTooltip: {
-      "Federal": 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+      "Federal": 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
       "State": {
-        ca: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
-        il: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
-        ny: 'We have combined contributions from employees of an organization with contributions directly from the organization’s PAC.',
+        ca: 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
+        il: 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
+        ny: 'Hemos combinado las contribuciones hechas por los empleados de una organización con las contribuciones hechas directamente por el PAC de la organización.',
       }
     },
     whoGaveMostMoneyOrganizations: 'Organizaciones',
@@ -134,8 +134,8 @@ const candidateCardTranslation = {
           "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
           "State": {
             ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-            ny: 'This graph shows the top four states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-            il: 'This graph shows the top four states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+            ny: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
+            il: 'Esta gráfica muestra los cuatro estados principales de donde provinieron los fondos que se contribuyeron a este candidato. La categoría con el texto "otros" representa el monto total del financiamiento que se contribuyó en otras partes de los Estados Unidos.',
           }
         },
         accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
@@ -159,11 +159,11 @@ const candidateCardTranslation = {
         organizationsLabel: 'De organizaciones',
         individualsLabel: 'De individuos',
         tooltip: {
-          "Federal": 'Large contributions (over $200) can be made by organizations through their political action committees (PACs) or by individuals.',
+          "Federal": 'Las contribuciones grandes (más de $200) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
           "State": {
-            ca: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',
-            ny: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.',  // currently n/a ?
-            il: 'Large contributions (over $100) can be made by organizations through their political action committees (PACs) or by individuals.', // currently n/a ?
+            ca: 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',
+            ny: 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.',  // currently n/a ?
+            il: 'Las contribuciones grandes (más de $100) pueden hacerse por organizaciones mediante sus comités de acción política (PAC) o por individuos.', // currently n/a ?
           }
         },
         accessible_label: 'Gráfica circular con secciones clasificadas por color que corresponden a contribuciones de organizaciones y de individuos.' // Translate
