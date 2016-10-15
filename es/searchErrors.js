@@ -10,12 +10,12 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const searchErrorsTranslation = {
     pageTitle: "Encontrar una boleta electoral", // Translate
     try_new_search:  "Intente una nueva búsqueda.", // Translate
-    zip_code_entered: 'The zip code you entered ',
-    multiple_counties: 'is in more than one county. Please select a county from the list below.',
+    zip_code_entered: 'Este código postal ',
+    multiple_counties: 'es en más de uno condado. Seleccione su condado en la lista siguiente.',
     newSearchMessage: "Elija una de estas otras direcciones o ", // Translate
     unable_to_find: "No pudimos encontrar su dirección específica.", // Translate
     enter_new: "No pudimos encontrar su dirección específica.", // Translate
-    no_zipcode_entered: "We were unable to find your specific address because a <strong>zip code</strong> is required. Please try again with a zip code.", // Translate
+    no_zipcode_entered: "No pudimos encontrar su dirección específica porque se requiere un <strong>código postal</strong>. Por favor, inténtelo de nuevo con un código postal.", // Translate
     for_zipcode: "código postal ", // Translate
     your_search: "Usted buscó:", // Translate
     search_prompt: "Intente con una de estas direcciones", // Translate
