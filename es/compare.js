@@ -1,18 +1,18 @@
 import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const compare  = {
-  intro: 'Choose the candidates you would like to compare.',
-  show_all: 'Show all candidates',
-  show_all_page: 'Show all',
+  intro: 'Elija a los candidatos que le gustaría comparar.',
+  show_all: 'Mostrar todos los candidatos',
+  show_all_page: 'Mostrar todos',
   hide: '',
   show: '',
-  hide_all: 'Hide all candidates',
-  modal_title: 'Compare Candidates',
-  compare_button: 'Compare Candidates',
-  done: 'I’m done choosing candidates',
+  hide_all: 'Ocultar todos los candidatos',
+  modal_title: 'Comparar candidatos',
+  compare_button: 'Comparar candidatos',
+  done: 'Ya terminé de elegir candidatos',
   messages: {
-    showing_all: 'You are currently comparing all candidates.',
-    selecting: 'Select “I’m done” to compare.',
-    showing_none: 'Add some candidates. When you are finished, select “I’m done” to compare.',
+    showing_all: 'Actualmente está comparando a todos los candidatos.',
+    selecting: 'Seleccione “Terminé” para hacer la comparación.',
+    showing_none: 'Agregue algunos candidatos. Cuando termine, seleccione “Terminé” para hacer la comparación.',
   }
 };
 export default compare;
