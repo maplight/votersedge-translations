@@ -348,17 +348,17 @@ const ballotOverviewTranslation = {
       },
     },
     ballot_extra_result_explanation_address: {
-      ca: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data#address-search">Learn More</a>',
-      il: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data#address-search">Learn More</a>',
-      ny: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data#address-search">Learn More</a>',
+      ca: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real. <br /><a href="/ca/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
+      il: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real.. <br /><a href="/ca/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
+      ny: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real. <br /><a href="/ca/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
       default: ''
     },
   },
   ballotNavigation: {
-      menu_label: 'Menu',
-      menu_label_hide: 'Hide Menu',
-      toggle_navigation: 'Toggle navigation',
-      open_dropdown_label: 'Open drop down menu',
+      menu_label: 'Menú',
+      menu_label_hide: 'Ocultar el menú',
+      toggle_navigation: 'Cambiar modo de navegación',
+      open_dropdown_label: 'Abrir el menú desplegable',
       links: [
         {
           iconFileName: 'fa fa-chevron-circle-left',
