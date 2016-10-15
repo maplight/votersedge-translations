@@ -40,9 +40,9 @@ const contestTranslation = {
       back: "Atrás",
       last: "Última contienda",
       overview: "Resumen",
-      choices: 'To My List',
-      measure: 'Go to Measures',
-      contest: 'Go to Races',
+      choices: 'Ir a Mi Lista',
+      measure: 'Ir a los candidatos',
+      contest: 'Ir a las contiendas',
     },
     accordionLabels: {
       candidates: "¿Quién se está postulando?", // Translate
