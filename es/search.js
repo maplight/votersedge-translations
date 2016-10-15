@@ -5,7 +5,7 @@ const searchTranslation  = {
   intro: "Encuentre información detallada sobre lo que incluye su boleta electoral.", // Translate
   path: '/search', // No translation
   zipPrompt: "Ingrese su <strong>código postal</strong>.*", // Translate
-  zipErrorMessage: "Please enter a valid zip code. Example: 94103 or 12002-1432.",
+  zipErrorMessage: "Por favor ingrese un código postal válido. Por ejemplo: 94103 or 12002-1432.",
   streetAddressPrompt: "Y su <strong>dirección</strong> <span class=\"muted\"> (para tener acceso a su boleta electoral completa)</span>.", // Translate just text, not HTML
   addressPromptReason: "Es necesario para decirle exactamente qué habrá en su boleta electoral y para ubicar su lugar de votación.", // Translate
   searchButtonLabel: "Encontrar mi boleta electoral", // Translate
@@ -65,8 +65,8 @@ const searchTranslation  = {
       recent_message_default: 'También encontramos estas elecciones pasadas:', // Translate
       recent_message_1: 'También encontramos esta elección pasada:', // Translate
       recent_message_2: 'También encontramos estas elecciones pasadas:', // Translate
-      recent_message_no_upcoming_1: 'Based on your search, we were able to find information on this past election. Check back soon for upcoming election information or select the ballot you would like to see.', // Translate
-      recent_message_no_upcoming_2: 'Based on your search, we were able to find information on only past elections. Check back soon for upcoming election information or select the ballot you would like to see.', // Translate
+      recent_message_no_upcoming_1: 'Según tus criterios de búsqueda, pudimos encontrar esta elección pasada. Vuelva a visitar esta página pronto para obtener información sobre las próximas elecciónes o seleccione la boleta que quiere ver.', // Translate
+      recent_message_no_upcoming_2: 'Según tus criterios de búsqueda, pudimos encontrar esta elección pasada. Vuelva a visitar esta página pronto para obtener información sobre las próximas elecciónes o seleccione la boleta que quiere ver.', // Translate
       choose_ballot: 'Elija qué boleta electoral desea consultar.', // Translate
       election_archive: '¿Busca una elección anterior? Consulte los ', // Translate
       election_archive_label: 'archivos.', // Translate
