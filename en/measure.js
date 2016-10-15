@@ -286,11 +286,11 @@ const measureTranslation = {
             largeContributionsLabel: 'Large contributions',
             smallContributionsLabel: 'Small contributions',
             tooltip: {
-              "Federal": 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+              "Federal": 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
               "State": {
-                ca: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-                ny: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
-                il: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+                ca: 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                ny: 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                il: 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
               },
               accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.' // Translate
             }
