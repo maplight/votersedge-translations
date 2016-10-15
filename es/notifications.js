@@ -119,7 +119,7 @@ const notificationsTranslation = {
       replaceBallotPrompt: 'Ya tiene una lista de selecciones. ¿Desea reemplazarla con esta lista nueva?<div class="local-remote-ballot"><a class="replace-ballot" tabindex="0">Yes</a><a class="skip-replace-ballot" tabIndex="0">No</a></div>',
     },
     deleteAllBallotChoices: {
-      title: 'Delete all your ballot choices?',
+      title: '¿Borrar todas sus opciones?',
       message: '',
       yes: 'Yes',
       no: 'No',
