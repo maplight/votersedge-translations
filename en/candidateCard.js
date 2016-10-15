@@ -147,6 +147,7 @@ const candidateCardTranslation = {
         largeContributionsLabel: 'Large contributions',
         smallContributionsLabel: 'Small contributions',
         tooltip: {
+
           "Federal": 'Campaign committees are not required to disclose detailed information for contributions under $200. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
           "State": {
             ca: 'Campaign committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',

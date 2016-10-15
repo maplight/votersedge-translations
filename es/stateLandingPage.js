@@ -71,7 +71,7 @@ const stateLandingPageTranslation = {
           icon: 'fa-chevron-circle-right'
         },
     },
-    '2016-11-01': {
+    '2016-11-02': {
         find_ballot: {
           message: 'Use su dirección para obtener una boleta electoral personalizada.',
           icon: 'fa-star'

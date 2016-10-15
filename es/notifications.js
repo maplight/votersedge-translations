@@ -121,7 +121,7 @@ const notificationsTranslation = {
     deleteAllBallotChoices: {
       title: 'Delete all your ballot choices?',
       message: '',
-      yes: 'Yes',
+      yes: 'Sí',
       no: 'No',
     },
     ballotChoicesRemoved: {
