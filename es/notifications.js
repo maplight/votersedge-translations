@@ -114,9 +114,9 @@ const notificationsTranslation = {
       message: 'Última actualización',
     },
     replaceListWithURLChoices: {
-      title: 'Loading a new list.',
-      message: 'Current list last updated',
-      replaceBallotPrompt: 'You already have a list with choices, would you like to replace it with this new list?<div class="local-remote-ballot"><a class="replace-ballot" tabindex="0">Yes</a><a class="skip-replace-ballot" tabIndex="0">No</a></div>',
+      title: 'Cargando una lista nueva.',
+      message: 'Actualización más reciente de la lista actual:',
+      replaceBallotPrompt: 'Ya tiene una lista de selecciones. ¿Desea reemplazarla con esta lista nueva?<div class="local-remote-ballot"><a class="replace-ballot" tabindex="0">Yes</a><a class="skip-replace-ballot" tabIndex="0">No</a></div>',
     },
     deleteAllBallotChoices: {
       title: 'Delete all your ballot choices?',
