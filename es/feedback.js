@@ -7,7 +7,7 @@ const feedbackTranslation = {
   title: 'Contáctenos', // Translate
   surveyLinkLabel: 'Tome Nuestra Encuesta',
   feedback_button_label: "Contáctenos", // Translate
-  feedbackFormLabel: 'If you’re reporting an issue with the Voter’s Edge site, please include as much detail as possible. (Ex. links, address or zip code used)',
+  feedbackFormLabel: 'Si va a reportar un problema con el sitio de Voter’s Edge, incluya tantos detalles como sea posible (por ejemplo, enlaces, dirección o código postal que se usaron).',
   value_label_yes: 'Sí', // Translate
   value_label_no: 'No',  // Translate
   required: '*',
