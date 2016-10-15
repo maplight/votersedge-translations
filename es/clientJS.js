@@ -3,12 +3,12 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 const clientJS  = {
   read_more: 'Leer más',
   read_less: 'Leer menos',
-  show_more: 'Show more',
-  show_less: 'Show less',
+  show_more: 'Mostrar más',
+  show_less: 'Mostrar menos',
   message: {
     manyCandidates: {
-      title: 'Lots of candidates are running in this race.',
-      message: "Use 'Compare Candidates' to review them more easily.",
+      title: 'Hay muchos candidatos postulados en esta contienda.',
+      message: "Use la función 'Comparar candidatos' para analizarlos con mayor facilidad.",
     }
   }
 };
