@@ -8,7 +8,7 @@ const measureTranslation = {
     information_provided_by: 'Information provided by',
     from: 'From',
     measureContestTitle: 'Ballot Measures',
-
+    noChoiceSaved: 'No Choice Saved',
     pageTitle: 'Measure', // Translate
     proposition_abbreviation: "Prop.",
     positions: {

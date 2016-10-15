@@ -2,6 +2,8 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 // Applies to the content associated with a candidate.
 const candidateCardTranslation = {
+  choiceCandidateAdd: 'Agregar un candidato a mi lista',
+  choiceCandidateAdded: 'Candidato añadido a su lista',
   no_photo_submitted: 'No se proporcionó fotografía.', //Translate
   no_info_submitted: 'No se proporcionó información.', //Translate
   encourage_candidate: '¿Usted es el candidato?', //Translate

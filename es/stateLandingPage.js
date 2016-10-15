@@ -59,7 +59,7 @@ const stateLandingPageTranslation = {
             icon: 'fa-star'
           },
         voting_info: {
-          message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-ways-to-vote">Check all the ways you can vote.</a>',
+          message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-ways-to-vote">Mire las maneras en que puede votar.</a>',
           icon: 'fa-chevron-circle-right'
         },
         deadline: {
@@ -90,7 +90,7 @@ const stateLandingPageTranslation = {
           icon: 'fa-star'
         },
         voting_info: {
-          message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-ways-to-vote">Check all the ways you can vote.</a>',
+          message: '<a href="/es/ca/ballot/election/area/42/section/voting-info?id=statewide-42-ca#section-ways-to-vote">Mire las maneras en que puede votar.</a>',
           icon: 'fa-chevron-circle-right'
         },
         voting_info_highlighted: {

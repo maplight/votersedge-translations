@@ -5,6 +5,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const myListTranslation = {
     bookmark_label: 'Agregar a mi lista', // Translate
+    ballotProgressOf: 'de',
     clear_list: '<i class="fa fa-remove"></i><strong>Borrar</strong> la lista.',
     candidate_choice_label: "",
     list_label: "Candidatos, contiendas e iniciativas de ley en mi lista", // Translate
@@ -67,7 +68,7 @@ const myListTranslation = {
         description: "Obtenga esta lista y un enlace para regresar a su lista.",  // Translate
         type: 'facebook'
       },
-      { label: 'Update your profile picture to tell your friends you‘re ready to vote!',
+      { label: '¡Actualice su foto para avisarle a sus amigos que tiene todo listo para votar!',
         icon: 'fa-facebook-square',
         description: "",  // Translate
         type: 'facebook-overlay',

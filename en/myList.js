@@ -5,6 +5,7 @@ import { canUseDOM } from "fbjs/lib/ExecutionEnvironment";
 
 const myListTranslation = {
     bookmark_label: 'Add to my list', // Translate
+    ballotProgressOf: 'of',
     clear_list: '<i class="fa fa-remove"></i><strong>Clear</strong> your list.',
     candidate_choice_label: "",
     list_label: "Candidates, races, and measures on my list", // Translate

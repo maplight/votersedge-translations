@@ -7,6 +7,7 @@ const measureTranslation = {
     measureContestTitle: 'Ballot Measures',
     pageTitle: 'Iniciativa de ley', // Translate
     proposition_abbreviation: "Iniciativa de ley",
+    noChoiceSaved: 'No se han seleccionado opciones',
     positions: {
       yes: {
         label: 'Sí', // Translate
