@@ -209,8 +209,8 @@ const measureTranslation = {
         proposed_legislation: 'Proposed legislation', // Translate
         read_proposed_legislation: 'Read the proposed legislation', // Translate
         what_is_proposal: 'What is this proposal?', // Translate
-        endorsements: 'Who endorses the ballot measure campaigns?', // Translate
-        funding: 'Who gave money to the ballot measure campaigns?', // Translate
+        endorsements: 'Who supports or opposes this measure?', // Translate
+        funding: 'Who gave money?', // Translate
         more_info: 'More information', // Translate
         message_content: 'Additional Info',
         sourceLabel: 'Official information about this measure',

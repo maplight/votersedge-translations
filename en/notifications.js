@@ -9,12 +9,12 @@ const notificationsTranslation = {
   notifications: {
     'getStartedActiveUser': {
       title: 'Want to keep track of your ballot choices?',
-      message: ' Use \'My List.\'',
+      message: ' Use <a href="[!CHOICEPAGEURL]">\'My List\'</a>.',
       delay: 1000,
       length: 7000
     },
     'beginContest': {
-      title: 'Keep track of candidates by adding them to your list.',
+      title: 'Keep track of candidates by adding them to <a href="[!CHOICEPAGEURL]">your list.</a>',
        message: '',
     },
     'beginMeasure': {
@@ -26,7 +26,7 @@ const notificationsTranslation = {
       message: ''
     },
     'createList': {
-      title: 'Select a contest to start adding choices to your list.',
+      title: 'Select a contest to start adding choices to <a href="[!CHOICEPAGEURL]">your list.</a>',
       message: '',
     },
     'firstChoiceMade': {
@@ -43,11 +43,11 @@ const notificationsTranslation = {
     },
     'contestsCompletedDone': {
       title: 'You\'ve made a choice for every candidate race on your list.',
-      message: 'Now you can move on to \'My List.\'',
+      message: 'Now you can move on to <a href="[!CHOICEPAGEURL]">\'My List.\'</a>',
     },
     'contestViewsCompleted': {
       title: 'You\'ve viewed all of the races on your ballot.',
-      message: 'It looks like you didn\'t make choices for all of them. Go to \'My List\' to see which ones don\'t have choices.',
+      message: 'It looks like you didn\'t make choices for all of them. Go to <a href="[!CHOICEPAGEURL]">\'My List\'</a> to see which ones don\'t have choices.',
     },
     'measuresChoicesCompleted':{
       title: 'You\'ve made a choice for every measure on your list. ',
@@ -55,19 +55,19 @@ const notificationsTranslation = {
     },
     'measureViewsCompleted': {
       title: 'You\'ve viewed all of the measures on your ballot.',
-      message: 'It looks like you didn\'t make choices for all of them. Go to \'My List\' to see which ones don\'t have choices.',
+      message: 'It looks like you didn\'t make choices for all of them. Go to <a href="[!CHOICEPAGEURL]">\'My List\'</a> to see which ones don\'t have choices.',
     },
     'measuresCompletedDone':{
       title: 'You\'ve made a choice for every measure on your list.',
-      message: 'Now you can move on to \'My List.\'',
+      message: 'Now you can move on to <a href="[!CHOICEPAGEURL]">\'My List.\'</a>',
     },
     'choicesHalfwayCompleted':{
       title: 'You\'re halfway through your list.',
-      message: 'Keep going, or copy a link to save your list and finish later.',
+      message: 'Keep going, or <a href="[!CHOICEPAGEURL]" target="_blank">copy a link</a> to save your list and finish later.',
     },
     'allContestsCompleted':{
       title: 'Congratulations!',
-      message: 'Your list is complete. To look at it later, print it or send yourself a link.'
+      message: 'Your <a href="[!CHOICEPAGEURL]">list</a> is complete. To look at it later, print it or send yourself a link.'
     },
     'shareFacebookOverlay':{
       title: 'Encourage your friends to vote by adding a sticker to your Facebook profile picture.',
@@ -90,11 +90,11 @@ const notificationsTranslation = {
       'message': 'Note: More candidates added than you will be able to vote for.'
     },
     candidateAdded: {
-      'title': 'Candidate added to your list.',
+      'title': 'Candidate added to <a href="[!CHOICEPAGEURL]">your list</a>.',
       'message': ''
     },
     candidateRemoved: {
-      'title': 'Candidate removed from your list.',
+      'title': 'Candidate removed from <a href="[!CHOICEPAGEURL]">your list.</a>',
       'message': ''
     },
     choiceAdded: {
@@ -127,7 +127,14 @@ const notificationsTranslation = {
     ballotChoicesRemoved: {
       title: 'Your ballot choices have been removed.',
       message: ''
-    }
+    },
+    welcomeContentPage: {
+      title: 'Welcome!',
+      message: 'Visit the homepage to access your personalized ballot or go to the overview to see more candidates and measures for this ballot!',
+      length: 6000,
+      delay: 10,
+      // position: 'center',
+    },
   },
 };
 

@@ -205,8 +205,8 @@ const measureTranslation = {
         proposed_legislation: 'Legislación propuesta', // Translate
         read_proposed_legislation: 'Leer la legislación propuesta', // Translate
         what_is_proposal: '¿Qué es esta propuesta?', // Translate
-        endorsements: '¿Quién respalda las campañas de iniciativas de ley en las boletas?', // Translate
-        funding: '¿Quién contribuye con el dinero?', // Translate
+        endorsements: '¿Quién está a favor y en contra de esta iniciativa de ley?', // Translate
+        funding: '¿Quién contribuyó?', // Translate
         more_info: 'Más información', // Translate
         message_content: 'Additional info',
         sourceLabel: 'Información oficial sobre esta iniciativa',
@@ -238,12 +238,12 @@ const measureTranslation = {
       sourceLabel: {
         "Federal": 'Fuente: Análisis de datos de la Comisión Federal Electoral de MapLight.',
         "State": {
-        ca: 'Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight.', 
+        ca: 'Fuente: Análisis de datos de la Secretaría del Estado de California de MapLight.',
         il: 'Fuente: Análisis de datos de la Secretaría del Estado de Illinois de MapLight.',
         ny: 'Fuente: Análisis de datos de la Secretaría del Estado de New York de MapLight.',
       }
       },
-      totalMoneyRaisedLabel: "Dinero total recaudado", 
+      totalMoneyRaisedLabel: "Dinero total recaudado",
       totalMoneyRaisedTooltip: 'Estos montos reflejan el dinero proporcionado a, e informado por, los comités formados principalmente para apoyar u oponerse a la iniciativa de ley en la boleta en cuestión en este ciclo de elecciones.',
       whoGaveMostMoneyTitle: "¿Quién dio más dinero?",
       whoGaveMostMoneyLabel: {
@@ -285,7 +285,7 @@ const measureTranslation = {
           "Federal": 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
           "State": {
             ca: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
-            ny: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.', 
+            ny: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
             il: 'Los comités de campaña no están obligados a divulgar información detallada de contribuciones menores de $100. Estas pequeñas contribuciones (no detalladas) se divulgan como cantidad global con cada nuevo registro.',
           },
             accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.'

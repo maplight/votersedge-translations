@@ -9,6 +9,8 @@ const clientJS  = {
     manyCandidates: {
       title: 'Hay muchos candidatos postulados en esta contienda.',
       message: "Use la función 'Comparar candidatos' para analizarlos con mayor facilidad.",
+      delay: 1000,
+      length: 7000,
     }
   }
 };

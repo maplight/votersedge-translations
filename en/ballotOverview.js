@@ -423,7 +423,7 @@ const ballotOverviewTranslation = {
         },
         {
           iconFileName: '', // No translation
-          tooltip: 'New feature! We are still testing this feature, please let us know what you think.', // Translate
+          tooltip: '', // Translate
           label: 'My List', // Translate
           link: 'choices', // 'choices'  // No translation
           section: 'choices', // No translation

@@ -9,6 +9,8 @@ const clientJS  = {
     manyCandidates: {
       title: 'Lots of candidates are running in this race.',
       message: "Use 'Compare Candidates' to review them more easily.",
+      delay: 1000,
+      length: 7000,
     }
   }
 };

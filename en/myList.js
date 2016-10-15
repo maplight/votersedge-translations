@@ -67,6 +67,13 @@ const myListTranslation = {
         description: "Get this list as well as a link to get back to your list.",  // Translate
         type: 'facebook'
       },
+      { label: 'Update your profile picture to tell your friends you‘re ready to vote!',
+        icon: 'fa-facebook-square',
+        description: "",  // Translate
+        type: 'facebook-overlay',
+        link: 'https://app.profileoverlays.com/Overlay/voters-edge'
+      },
+
     ],
     email_link_my_list: {
       button_label: 'Email a link',
