@@ -272,11 +272,11 @@ const measureTranslation = {
           byState: {
             label: 'By State:',
             tooltip: {
-              "Federal": 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              "Federal": 'This graph shows the top states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
               "State": {
-                ca: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-                ny: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-                il: 'This graph shows the top four states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                ca: 'This graph shows the top states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                ny: 'This graph shows the top states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                il: 'This graph shows the top states from which funds were contributed to this measure campaign. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
               }
             },
             accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
