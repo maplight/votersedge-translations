@@ -281,16 +281,16 @@ const measureTranslation = {
             },
             accessible_label: 'A pie chart containing color-coded sections corresponding to primary, secondary and other states.' // Translate
           },
-          bySize: {
+         bySize: {
             label: 'By Size:',
             largeContributionsLabel: 'Large contributions',
             smallContributionsLabel: 'Small contributions',
             tooltip: {
-              "Federal": 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+              "Federal": 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
               "State": {
-                ca: 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-                ny: 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
-                il: 'This graph shows the top states from which funds were contributed to this candidate. The "other" category represents the total amount of funding contributed from elsewhere in the United States.',
+                ca: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+                ny: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
+                il: 'Committees are not required to disclose detailed information for contributions under $100. These small ("unitemized") contributions are disclosed as a lump sum with each new filing.',
               },
               accessible_label: 'A pie chart containing color-coded sections corresponding to large and small contributions.' // Translate
             }
