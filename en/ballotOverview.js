@@ -374,8 +374,8 @@ const ballotOverviewTranslation = {
     },
     ballot_extra_result_explanation_address: {
       ca: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data#address-search">Learn More</a>',
-      il: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data#address-search">Learn More</a>',
-      ny: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ca/page/how-we-get-our-data#address-search">Learn More</a>',
+      il: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/il/page/how-we-get-our-data#address-search">Learn More</a>',
+      ny: 'There may be more contests listed here than will appear on your actual ballot. <br /><a href="/ny/page/how-we-get-our-data#address-search">Learn More</a>',
       default: ''
     },
   },

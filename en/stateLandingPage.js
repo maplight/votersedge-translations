@@ -63,7 +63,7 @@ const stateLandingPageTranslation = {
             icon: 'fa-chevron-circle-right'
           },
       },
-      '2016-10-12': {
+      '2016-10-24': {
           find_ballot: {
             message: 'Use your address to get a personalized ballot.',
             icon: 'fa-star'

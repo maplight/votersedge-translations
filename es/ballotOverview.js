@@ -350,8 +350,8 @@ const ballotOverviewTranslation = {
     },
     ballot_extra_result_explanation_address: {
       ca: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real. <br /><a href="/ca/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
-      il: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real.. <br /><a href="/ca/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
-      ny: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real. <br /><a href="/ca/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
+      il: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real.. <br /><a href="/il/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
+      ny: 'Es posible que aquí aparezcan más contiendas de las que habrá en su boleta electoral real. <br /><a href="/ny/es/page/how-we-get-our-data#address-search">Obtenga mas información</a>',
       default: ''
     },
   },

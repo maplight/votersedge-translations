@@ -125,7 +125,7 @@ const notificationsTranslation = {
       no: 'No',
     },
     ballotChoicesRemoved: {
-      title: 'Your ballot choices have been removed.',
+      title: 'Se han eliminado sus opciones para la boleta electoral.',
       message: ''
     },
     welcomeContentPage: {
