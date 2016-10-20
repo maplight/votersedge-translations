@@ -297,7 +297,13 @@ const ballotOverviewTranslation = {
     past_elections_url: '/page/elections-archive', // No translation
     privacy_statement: "Su información es privada, a menos que decida compartirla.", // Translate
     privacy_statement_link: "Política de privacidad.", // Translate
-    privacy_statement_url: '/page/privacy-policy', // No translation
+
+    privacy_statement_url: {
+      root: '/es/page/privacy-policy', // No translation
+      ca:  '/ca/es/page/privacy-policy',
+      ny:  '/ny/es/page/privacy-policy',
+      il:  '/il/es/page/privacy-policy',
+    },
     jurisdictionLabels: {
       Federal: {
         label: "Estados Unidos",  // Translate

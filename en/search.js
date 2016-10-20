@@ -13,7 +13,12 @@ const searchTranslation  = {
   confidentialityStatement: "Address information is confidential.", // Translate
   privacyStatement: "We are nonpartisan, nonprofit, and will not sell your information.", // Translate
   privacyPolicyLinkLabel: "Privacy policy.", // Translate
-  privacyPolicyLink: "/page/privacy-policy", // No translation
+  privacyPolicyLink: {
+    root: '/page/privacy-policy', // No translation
+    ca:  '/ca/page/privacy-policy',
+    ny:  '/ny/page/privacy-policy',
+    il:  '/il/page/privacy-policy',
+  },
   countyLabel: {
     'ca': 'County',
     'il': 'County',

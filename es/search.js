@@ -12,7 +12,12 @@ const searchTranslation  = {
   confidentialityStatement: "La información de su dirección es confidencial.", // Translate
   privacyStatement: "Somos no partidistas, sin fines de lucro y no venderemos su información.", // Translate
   privacyPolicyLinkLabel: "Política de privacidad.", // Translate
-  privacyPolicyLink: "/page/privacy-policy", // No translation
+  privacyPolicyLink: {
+    root: '/es/page/privacy-policy', // No translation
+    ca:  '/ca/es/page/privacy-policy',
+    ny:  '/ny/es/page/privacy-policy',
+    il:  '/il/es/page/privacy-policy',
+  },
   countyLabel: {
     'ca': 'Condado',
     'il': 'Condado',
